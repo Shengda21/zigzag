@@ -1,0 +1,12 @@
+{
+ "line": "public",
+ "runs": [
+  "pythia-1.4b-1k-76k"
+ ],
+ "boot": 1000,
+ "perm": 1000,
+ "arms_all_robust": [],
+ "arms_S3_ok": [
+  "pythia-1.4b-1k-76k"
+ ]
+}

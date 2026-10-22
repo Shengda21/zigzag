@@ -1,0 +1,36 @@
+{
+ "line": "forget3",
+ "runs": [
+  "world631_S1",
+  "world631_S2",
+  "world632_S1",
+  "world632_S2",
+  "world633_S1",
+  "world633_S1_raw",
+  "world633_S2",
+  "world634_S1",
+  "world634_S2"
+ ],
+ "boot": 1000,
+ "perm": 1000,
+ "arms_all_robust": [
+  "world631_S1",
+  "world631_S2",
+  "world632_S1",
+  "world632_S2",
+  "world633_S1",
+  "world633_S2",
+  "world634_S1"
+ ],
+ "arms_S3_ok": [
+  "world631_S1",
+  "world631_S2",
+  "world632_S1",
+  "world632_S2",
+  "world633_S1",
+  "world633_S1_raw",
+  "world633_S2",
+  "world634_S1",
+  "world634_S2"
+ ]
+}

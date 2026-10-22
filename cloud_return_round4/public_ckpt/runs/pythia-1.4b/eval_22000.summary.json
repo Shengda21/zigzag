@@ -1,0 +1,3092 @@
+{
+  "model": "EleutherAI/pythia-1.4b",
+  "revision": "step22000",
+  "step": 22000,
+  "device": "cuda",
+  "n_rows": 4000,
+  "load_seconds": 530.4,
+  "infer_seconds": 141.09,
+  "overall_accuracy_all_rows": 0.2815,
+  "groups": {
+    "public:edge:all": {
+      "n": 2208,
+      "accuracy": 0.20425724637681159,
+      "valid": 0.9995471014492754,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.20425724637681159
+      ]
+    },
+    "public:edge:taske_binary_hex": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:template0": {
+      "n": 736,
+      "accuracy": 0.22282608695652173,
+      "valid": 0.998641304347826,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.22282608695652173
+      ]
+    },
+    "public:edge:domainnumber": {
+      "n": 672,
+      "accuracy": 0.011904761904761904,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.011904761904761904
+      ]
+    },
+    "public:edge:taske_binary_hex:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_binary_hex:domainnumber": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:template0:domainnumber": {
+      "n": 224,
+      "accuracy": 0.013392857142857142,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.013392857142857142
+      ]
+    },
+    "public:edge:template1": {
+      "n": 736,
+      "accuracy": 0.20380434782608695,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.20380434782608695
+      ]
+    },
+    "public:edge:taske_binary_hex:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:template1:domainnumber": {
+      "n": 224,
+      "accuracy": 0.004464285714285714,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.004464285714285714
+      ]
+    },
+    "public:edge:template2": {
+      "n": 736,
+      "accuracy": 0.18614130434782608,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.18614130434782608
+      ]
+    },
+    "public:edge:taske_binary_hex:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:template2:domainnumber": {
+      "n": 224,
+      "accuracy": 0.017857142857142856,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.017857142857142856
+      ]
+    },
+    "public:edge:taske_binary_roman": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_binary_roman:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_binary_roman:domainnumber": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_binary_roman:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_binary_roman:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_caesar3_caesar3upper": {
+      "n": 96,
+      "accuracy": 0.6979166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6979166666666666
+      ]
+    },
+    "public:edge:domainstring": {
+      "n": 960,
+      "accuracy": 0.21770833333333334,
+      "valid": 0.9989583333333333,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.21770833333333334
+      ]
+    },
+    "public:edge:taske_caesar3_caesar3upper:template0": {
+      "n": 32,
+      "accuracy": 0.6875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6875
+      ]
+    },
+    "public:edge:taske_caesar3_caesar3upper:domainstring": {
+      "n": 96,
+      "accuracy": 0.6979166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6979166666666666
+      ]
+    },
+    "public:edge:template0:domainstring": {
+      "n": 320,
+      "accuracy": 0.2125,
+      "valid": 0.996875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.2125
+      ]
+    },
+    "public:edge:taske_caesar3_caesar3upper:template1": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:template1:domainstring": {
+      "n": 320,
+      "accuracy": 0.215625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.215625
+      ]
+    },
+    "public:edge:taske_caesar3_caesar3upper:template2": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "public:edge:template2:domainstring": {
+      "n": 320,
+      "accuracy": 0.225,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.225
+      ]
+    },
+    "public:edge:taske_caesar3_reversecaesar3": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_caesar3_reversecaesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_caesar3_reversecaesar3:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_caesar3_reversecaesar3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_caesar3_reversecaesar3:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_binary": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_binary:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_binary:domainnumber": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_binary:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_binary:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_english": {
+      "n": 96,
+      "accuracy": 0.07291666666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.07291666666666667
+      ]
+    },
+    "public:edge:taske_decimal_english:template0": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:edge:taske_decimal_english:domainnumber": {
+      "n": 96,
+      "accuracy": 0.07291666666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.07291666666666667
+      ]
+    },
+    "public:edge:taske_decimal_english:template1": {
+      "n": 32,
+      "accuracy": 0.03125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.03125
+      ]
+    },
+    "public:edge:taske_decimal_english:template2": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:edge:taske_decimal_hex": {
+      "n": 96,
+      "accuracy": 0.010416666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.010416666666666666
+      ]
+    },
+    "public:edge:taske_decimal_hex:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_hex:domainnumber": {
+      "n": 96,
+      "accuracy": 0.010416666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.010416666666666666
+      ]
+    },
+    "public:edge:taske_decimal_hex:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_hex:template2": {
+      "n": 32,
+      "accuracy": 0.03125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.03125
+      ]
+    },
+    "public:edge:taske_decimal_roman": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_roman:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_roman:domainnumber": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_roman:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_decimal_roman:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_hex_english": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_hex_english:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_hex_english:domainnumber": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_hex_english:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_hex_english:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_iso_text": {
+      "n": 96,
+      "accuracy": 0.7083333333333334,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7083333333333334
+      ]
+    },
+    "public:edge:domaindate": {
+      "n": 576,
+      "accuracy": 0.40625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.40625
+      ]
+    },
+    "public:edge:taske_iso_text:template0": {
+      "n": 32,
+      "accuracy": 0.875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.875
+      ]
+    },
+    "public:edge:taske_iso_text:domaindate": {
+      "n": 96,
+      "accuracy": 0.7083333333333334,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7083333333333334
+      ]
+    },
+    "public:edge:template0:domaindate": {
+      "n": 192,
+      "accuracy": 0.484375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.484375
+      ]
+    },
+    "public:edge:taske_iso_text:template1": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:template1:domaindate": {
+      "n": 192,
+      "accuracy": 0.4166666666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4166666666666667
+      ]
+    },
+    "public:edge:taske_iso_text:template2": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:template2:domaindate": {
+      "n": 192,
+      "accuracy": 0.3177083333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3177083333333333
+      ]
+    },
+    "public:edge:taske_iso_us": {
+      "n": 96,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "public:edge:taske_iso_us:template0": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:edge:taske_iso_us:domaindate": {
+      "n": 96,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "public:edge:taske_iso_us:template1": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "public:edge:taske_iso_us:template2": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:taske_iso_weekday": {
+      "n": 96,
+      "accuracy": 0.16666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.16666666666666666
+      ]
+    },
+    "public:edge:taske_iso_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.21875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.21875
+      ]
+    },
+    "public:edge:taske_iso_weekday:domaindate": {
+      "n": 96,
+      "accuracy": 0.16666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.16666666666666666
+      ]
+    },
+    "public:edge:taske_iso_weekday:template1": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1875
+      ]
+    },
+    "public:edge:taske_iso_weekday:template2": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:edge:taske_reverse_reversecaesar3": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_reverse_reversecaesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_reverse_reversecaesar3:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_reverse_reversecaesar3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_reverse_reversecaesar3:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_reverse_upperreverse": {
+      "n": 96,
+      "accuracy": 0.6354166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6354166666666666
+      ]
+    },
+    "public:edge:taske_reverse_upperreverse:template0": {
+      "n": 32,
+      "accuracy": 0.65625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.65625
+      ]
+    },
+    "public:edge:taske_reverse_upperreverse:domainstring": {
+      "n": 96,
+      "accuracy": 0.6354166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6354166666666666
+      ]
+    },
+    "public:edge:taske_reverse_upperreverse:template1": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:taske_reverse_upperreverse:template2": {
+      "n": 32,
+      "accuracy": 0.625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.625
+      ]
+    },
+    "public:edge:taske_text_weekday": {
+      "n": 96,
+      "accuracy": 0.16666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.16666666666666666
+      ]
+    },
+    "public:edge:taske_text_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:edge:taske_text_weekday:domaindate": {
+      "n": 96,
+      "accuracy": 0.16666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.16666666666666666
+      ]
+    },
+    "public:edge:taske_text_weekday:template1": {
+      "n": 32,
+      "accuracy": 0.21875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.21875
+      ]
+    },
+    "public:edge:taske_text_weekday:template2": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1875
+      ]
+    },
+    "public:edge:taske_upper_caesar3upper": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_caesar3upper:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_caesar3upper:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_caesar3upper:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_caesar3upper:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_upperreverse": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_upperreverse:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_upperreverse:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_upperreverse:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_upper_upperreverse:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_us_text": {
+      "n": 96,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "public:edge:taske_us_text:template0": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "public:edge:taske_us_text:domaindate": {
+      "n": 96,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "public:edge:taske_us_text:template1": {
+      "n": 32,
+      "accuracy": 0.59375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.59375
+      ]
+    },
+    "public:edge:taske_us_text:template2": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1875
+      ]
+    },
+    "public:edge:taske_us_weekday": {
+      "n": 96,
+      "accuracy": 0.11458333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.11458333333333333
+      ]
+    },
+    "public:edge:taske_us_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.03125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.03125
+      ]
+    },
+    "public:edge:taske_us_weekday:domaindate": {
+      "n": 96,
+      "accuracy": 0.11458333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.11458333333333333
+      ]
+    },
+    "public:edge:taske_us_weekday:template1": {
+      "n": 32,
+      "accuracy": 0.125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.125
+      ]
+    },
+    "public:edge:taske_us_weekday:template2": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1875
+      ]
+    },
+    "public:edge:taske_word_alternate": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9895833333333334,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_alternate:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_alternate:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9895833333333334,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_alternate:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_alternate:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_caesar3": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_caesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_caesar3:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_caesar3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_caesar3:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_reverse": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_reverse:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_reverse:domainstring": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_reverse:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_reverse:template2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:edge:taske_word_upper": {
+      "n": 96,
+      "accuracy": 0.84375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.84375
+      ]
+    },
+    "public:edge:taske_word_upper:template0": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "public:edge:taske_word_upper:domainstring": {
+      "n": 96,
+      "accuracy": 0.84375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.84375
+      ]
+    },
+    "public:edge:taske_word_upper:template1": {
+      "n": 32,
+      "accuracy": 0.90625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.90625
+      ]
+    },
+    "public:edge:taske_word_upper:template2": {
+      "n": 32,
+      "accuracy": 0.84375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.84375
+      ]
+    },
+    "public:vertex:all": {
+      "n": 544,
+      "accuracy": 0.9816176470588235,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9816176470588235
+      ]
+    },
+    "public:vertex:taskdate_iso": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template0": {
+      "n": 272,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:domaindate": {
+      "n": 128,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_iso:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_iso:domaindate": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template0:domaindate": {
+      "n": 64,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template1": {
+      "n": 272,
+      "accuracy": 0.9632352941176471,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9632352941176471
+      ]
+    },
+    "public:vertex:taskdate_iso:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template1:domaindate": {
+      "n": 64,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_text": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_text:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_text:domaindate": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_text:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_us": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_us:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_us:domaindate": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_us:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_weekday": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_weekday:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_weekday:domaindate": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskdate_weekday:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_binary": {
+      "n": 32,
+      "accuracy": 0.875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.875
+      ]
+    },
+    "public:vertex:domainnumber": {
+      "n": 160,
+      "accuracy": 0.95625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.95625
+      ]
+    },
+    "public:vertex:tasknum_binary:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_binary:domainnumber": {
+      "n": 32,
+      "accuracy": 0.875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.875
+      ]
+    },
+    "public:vertex:template0:domainnumber": {
+      "n": 80,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_binary:template1": {
+      "n": 16,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "public:vertex:template1:domainnumber": {
+      "n": 80,
+      "accuracy": 0.9125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9125
+      ]
+    },
+    "public:vertex:tasknum_decimal": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_decimal:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_decimal:domainnumber": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_decimal:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_english": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:tasknum_english:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_english:domainnumber": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:tasknum_english:template1": {
+      "n": 16,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:tasknum_hex": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_hex:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_hex:domainnumber": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_hex:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_roman": {
+      "n": 32,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:tasknum_roman:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:tasknum_roman:domainnumber": {
+      "n": 32,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:tasknum_roman:template1": {
+      "n": 16,
+      "accuracy": 0.875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.875
+      ]
+    },
+    "public:vertex:taskstr_alternate": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:domainstring": {
+      "n": 256,
+      "accuracy": 0.98828125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.98828125
+      ]
+    },
+    "public:vertex:taskstr_alternate:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_alternate:domainstring": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template0:domainstring": {
+      "n": 128,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_alternate:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:template1:domainstring": {
+      "n": 128,
+      "accuracy": 0.9765625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9765625
+      ]
+    },
+    "public:vertex:taskstr_caesar3": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_caesar3:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_caesar3:domainstring": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_caesar3:template1": {
+      "n": 16,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:taskstr_caesar3_upper": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_caesar3_upper:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_caesar3_upper:domainstring": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_caesar3_upper:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_reverse": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_reverse:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_reverse:domainstring": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_reverse:template1": {
+      "n": 16,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:taskstr_reverse_caesar3": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_reverse_caesar3:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_reverse_caesar3:domainstring": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_reverse_caesar3:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_upper": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_upper:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_upper:domainstring": {
+      "n": 32,
+      "accuracy": 0.96875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.96875
+      ]
+    },
+    "public:vertex:taskstr_upper:template1": {
+      "n": 16,
+      "accuracy": 0.9375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.9375
+      ]
+    },
+    "public:vertex:taskstr_upper_reverse": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_upper_reverse:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_upper_reverse:domainstring": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_upper_reverse:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_word": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_word:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_word:domainstring": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:vertex:taskstr_word:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "public:composition:all": {
+      "n": 1152,
+      "accuracy": 0.12065972222222222,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.12065972222222222
+      ]
+    },
+    "public:composition:taskcaesar3_then_upper": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template0": {
+      "n": 576,
+      "accuracy": 0.1267361111111111,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1267361111111111
+      ]
+    },
+    "public:composition:domainstring": {
+      "n": 384,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_upper:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_upper:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template0:domainstring": {
+      "n": 192,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template1": {
+      "n": 576,
+      "accuracy": 0.11458333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.11458333333333333
+      ]
+    },
+    "public:composition:taskcaesar3_then_upper:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template1:domainstring": {
+      "n": 192,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_caesar3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_caesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_caesar3:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_caesar3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_hex": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:domainnumber": {
+      "n": 384,
+      "accuracy": 0.026041666666666668,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.026041666666666668
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_hex:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_hex:domainnumber": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template0:domainnumber": {
+      "n": 192,
+      "accuracy": 0.03125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.03125
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_hex:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:template1:domainnumber": {
+      "n": 192,
+      "accuracy": 0.020833333333333332,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.020833333333333332
+      ]
+    },
+    "public:composition:taskdecimal_to_hex": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_hex:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_hex:domainnumber": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_hex:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_roman": {
+      "n": 64,
+      "accuracy": 0.015625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.015625
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_roman:template0": {
+      "n": 32,
+      "accuracy": 0.03125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.03125
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_roman:domainnumber": {
+      "n": 64,
+      "accuracy": 0.015625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.015625
+      ]
+    },
+    "public:composition:taskdecimal_via_binary_to_roman:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_roman": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_roman:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_roman:domainnumber": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_to_roman:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskdecimal_via_hex_to_english": {
+      "n": 64,
+      "accuracy": 0.078125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.078125
+      ]
+    },
+    "public:composition:taskdecimal_via_hex_to_english:template0": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:composition:taskdecimal_via_hex_to_english:domainnumber": {
+      "n": 64,
+      "accuracy": 0.078125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.078125
+      ]
+    },
+    "public:composition:taskdecimal_via_hex_to_english:template1": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskdecimal_to_english": {
+      "n": 64,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskdecimal_to_english:template0": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskdecimal_to_english:domainnumber": {
+      "n": 64,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskdecimal_to_english:template1": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskiso_via_text_to_weekday": {
+      "n": 64,
+      "accuracy": 0.109375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.109375
+      ]
+    },
+    "public:composition:domaindate": {
+      "n": 384,
+      "accuracy": 0.3359375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3359375
+      ]
+    },
+    "public:composition:taskiso_via_text_to_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:composition:taskiso_via_text_to_weekday:domaindate": {
+      "n": 64,
+      "accuracy": 0.109375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.109375
+      ]
+    },
+    "public:composition:template0:domaindate": {
+      "n": 192,
+      "accuracy": 0.3489583333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3489583333333333
+      ]
+    },
+    "public:composition:taskiso_via_text_to_weekday:template1": {
+      "n": 32,
+      "accuracy": 0.15625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.15625
+      ]
+    },
+    "public:composition:template1:domaindate": {
+      "n": 192,
+      "accuracy": 0.3229166666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3229166666666667
+      ]
+    },
+    "public:composition:taskiso_to_weekday": {
+      "n": 128,
+      "accuracy": 0.1796875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1796875
+      ]
+    },
+    "public:composition:taskiso_to_weekday:template0": {
+      "n": 64,
+      "accuracy": 0.171875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.171875
+      ]
+    },
+    "public:composition:taskiso_to_weekday:domaindate": {
+      "n": 128,
+      "accuracy": 0.1796875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1796875
+      ]
+    },
+    "public:composition:taskiso_to_weekday:template1": {
+      "n": 64,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.1875
+      ]
+    },
+    "public:composition:taskiso_via_us_to_text": {
+      "n": 64,
+      "accuracy": 0.703125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.703125
+      ]
+    },
+    "public:composition:taskiso_via_us_to_text:template0": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "public:composition:taskiso_via_us_to_text:domaindate": {
+      "n": 64,
+      "accuracy": 0.703125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.703125
+      ]
+    },
+    "public:composition:taskiso_via_us_to_text:template1": {
+      "n": 32,
+      "accuracy": 0.65625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.65625
+      ]
+    },
+    "public:composition:taskiso_to_text": {
+      "n": 64,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "public:composition:taskiso_to_text:template0": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "public:composition:taskiso_to_text:domaindate": {
+      "n": 64,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "public:composition:taskiso_to_text:template1": {
+      "n": 32,
+      "accuracy": 0.65625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.65625
+      ]
+    },
+    "public:composition:taskiso_via_us_to_weekday": {
+      "n": 64,
+      "accuracy": 0.125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.125
+      ]
+    },
+    "public:composition:taskiso_via_us_to_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.15625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.15625
+      ]
+    },
+    "public:composition:taskiso_via_us_to_weekday:domaindate": {
+      "n": 64,
+      "accuracy": 0.125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.125
+      ]
+    },
+    "public:composition:taskiso_via_us_to_weekday:template1": {
+      "n": 32,
+      "accuracy": 0.09375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.09375
+      ]
+    },
+    "public:composition:taskreverse_then_caesar3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_caesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_caesar3:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_caesar3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_reverse": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_reverse:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_reverse:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskcaesar3_then_reverse:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_reverse": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_reverse:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_reverse:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskupper_then_reverse:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_upper": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_upper:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_upper:domainstring": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:composition:taskreverse_then_upper:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:all": {
+      "n": 96,
+      "accuracy": 0.020833333333333332,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.020833333333333332
+      ]
+    },
+    "public:transfer:taskdecimal_to_binary_to_hex_to_english": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:transfer:template0": {
+      "n": 96,
+      "accuracy": 0.020833333333333332,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.020833333333333332
+      ]
+    },
+    "public:transfer:domainnumber": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:transfer:taskdecimal_to_binary_to_hex_to_english:template0": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:transfer:taskdecimal_to_binary_to_hex_to_english:domainnumber": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:transfer:template0:domainnumber": {
+      "n": 32,
+      "accuracy": 0.0625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0625
+      ]
+    },
+    "public:transfer:taskiso_to_us_to_text_to_weekday": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:domaindate": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:taskiso_to_us_to_text_to_weekday:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:taskiso_to_us_to_text_to_weekday:domaindate": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:template0:domaindate": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:taskreverse_then_upper_then_caesar3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:domainstring": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:taskreverse_then_upper_then_caesar3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:taskreverse_then_upper_then_caesar3:domainstring": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "public:transfer:template0:domainstring": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    }
+  }
+}

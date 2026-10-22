@@ -1,0 +1,1909 @@
+{
+  "step": 176,
+  "n": 3712,
+  "seconds": 68.22930145263672,
+  "scores": {
+    "rcn:vertex:all": {
+      "n": 384,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA1": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:template0": {
+      "n": 192,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA1:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA2": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA2:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA3": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA3:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA4": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA4:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB1": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB1:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB2": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB2:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB3": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB3:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB4": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB4:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC1": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC1:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC2": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC2:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC3": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC3:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC4": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC4:template0": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:edge:all": {
+      "n": 2208,
+      "accuracy": 0.296195652173913,
+      "valid": 0.9678442028985508,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.296195652173913
+      ]
+    },
+    "rcn:edge:taskA1A2": {
+      "n": 96,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:template0": {
+      "n": 736,
+      "accuracy": 0.29483695652173914,
+      "valid": 0.9877717391304348,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.29483695652173914
+      ]
+    },
+    "rcn:edge:taskA1A2:template0": {
+      "n": 32,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125
+      ]
+    },
+    "rcn:edge:taskA2A3": {
+      "n": 96,
+      "accuracy": 0.7395833333333334,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7395833333333334
+      ]
+    },
+    "rcn:edge:taskA2A3:template0": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:edge:taskA1A4": {
+      "n": 96,
+      "accuracy": 0.5104166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5104166666666666
+      ]
+    },
+    "rcn:edge:taskA1A4:template0": {
+      "n": 32,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125
+      ]
+    },
+    "rcn:edge:taskA4A3": {
+      "n": 96,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3333333333333333
+      ]
+    },
+    "rcn:edge:taskA4A3:template0": {
+      "n": 32,
+      "accuracy": 0.3125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3125
+      ]
+    },
+    "rcn:edge:taskA1A3": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA1A3:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B2": {
+      "n": 96,
+      "accuracy": 0.6979166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6979166666666666
+      ]
+    },
+    "rcn:edge:taskB1B2:template0": {
+      "n": 32,
+      "accuracy": 0.65625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.65625
+      ]
+    },
+    "rcn:edge:taskB1B2r": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B2r:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B3": {
+      "n": 96,
+      "accuracy": 0.6875,
+      "valid": 0.9583333333333334,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6875
+      ]
+    },
+    "rcn:edge:taskB2B3:template0": {
+      "n": 32,
+      "accuracy": 0.6875,
+      "valid": 0.9375,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6875
+      ]
+    },
+    "rcn:edge:taskB2B3r": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9583333333333334,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B3r:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.9375,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B3": {
+      "n": 96,
+      "accuracy": 0.5104166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5104166666666666
+      ]
+    },
+    "rcn:edge:taskB1B3:template0": {
+      "n": 32,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125
+      ]
+    },
+    "rcn:edge:taskB1B3r": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B3r:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB3B4": {
+      "n": 96,
+      "accuracy": 0.4166666666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4166666666666667
+      ]
+    },
+    "rcn:edge:taskB3B4:template0": {
+      "n": 32,
+      "accuracy": 0.375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375
+      ]
+    },
+    "rcn:edge:taskB3B4r": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB3B4r:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B4": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B4:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC1C2": {
+      "n": 96,
+      "accuracy": 0.7604166666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7604166666666666
+      ]
+    },
+    "rcn:edge:taskC1C2:template0": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "rcn:edge:taskC2C3": {
+      "n": 96,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:taskC2C3:template0": {
+      "n": 32,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:taskC1C3": {
+      "n": 96,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskC1C3:template0": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "rcn:edge:taskC3C4": {
+      "n": 96,
+      "accuracy": 0.40625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.40625
+      ]
+    },
+    "rcn:edge:taskC3C4:template0": {
+      "n": 32,
+      "accuracy": 0.375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375
+      ]
+    },
+    "rcn:edge:taskC4A1": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC4A1:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA3B1": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA3B1:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB4C1": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.4583333333333333,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB4C1:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.9375,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA2B2": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA2B2:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC2B4": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9791666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC2B4:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:route:all": {
+      "n": 256,
+      "accuracy": 0.484375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.484375
+      ]
+    },
+    "rcn:route:taskr_fC123_C2C3": {
+      "n": 64,
+      "accuracy": 0.484375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.484375
+      ]
+    },
+    "rcn:route:template0": {
+      "n": 128,
+      "accuracy": 0.4765625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4765625
+      ]
+    },
+    "rcn:route:taskr_fC123_C2C3:template0": {
+      "n": 32,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:route:taskr_fA123_A2A3": {
+      "n": 64,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:route:taskr_fA123_A2A3:template0": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:route:taskr_fA143_A4A3": {
+      "n": 64,
+      "accuracy": 0.328125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.328125
+      ]
+    },
+    "rcn:route:taskr_fA143_A4A3:template0": {
+      "n": 32,
+      "accuracy": 0.3125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3125
+      ]
+    },
+    "rcn:route:taskr_fB234_B3B4": {
+      "n": 64,
+      "accuracy": 0.40625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.40625
+      ]
+    },
+    "rcn:route:taskr_fB234_B3B4:template0": {
+      "n": 32,
+      "accuracy": 0.375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375
+      ]
+    },
+    "rcn:vertex:template1": {
+      "n": 192,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA1:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA2:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA3:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvA4:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB1:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB2:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB3:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvB4:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC1:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC2:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC3:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:vertex:taskvC4:template1": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "rcn:edge:template3": {
+      "n": 736,
+      "accuracy": 0.29891304347826086,
+      "valid": 0.9483695652173914,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.29891304347826086
+      ]
+    },
+    "rcn:edge:taskA1A2:template3": {
+      "n": 32,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:taskA2A3:template3": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskA1A4:template3": {
+      "n": 32,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:taskA4A3:template3": {
+      "n": 32,
+      "accuracy": 0.34375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.34375
+      ]
+    },
+    "rcn:edge:taskA1A3:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B2:template3": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:edge:taskB1B2r:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B3:template3": {
+      "n": 32,
+      "accuracy": 0.6875,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6875
+      ]
+    },
+    "rcn:edge:taskB2B3r:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B3:template3": {
+      "n": 32,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125
+      ]
+    },
+    "rcn:edge:taskB1B3r:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB3B4:template3": {
+      "n": 32,
+      "accuracy": 0.4375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4375
+      ]
+    },
+    "rcn:edge:taskB3B4r:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B4:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC1C2:template3": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskC2C3:template3": {
+      "n": 32,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125
+      ]
+    },
+    "rcn:edge:taskC1C3:template3": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:edge:taskC3C4:template3": {
+      "n": 32,
+      "accuracy": 0.40625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.40625
+      ]
+    },
+    "rcn:edge:taskC4A1:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA3B1:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB4C1:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA2B2:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC2B4:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:template1": {
+      "n": 736,
+      "accuracy": 0.29483695652173914,
+      "valid": 0.967391304347826,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.29483695652173914
+      ]
+    },
+    "rcn:edge:taskA1A2:template1": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "rcn:edge:taskA2A3:template1": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskA1A4:template1": {
+      "n": 32,
+      "accuracy": 0.5,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5
+      ]
+    },
+    "rcn:edge:taskA4A3:template1": {
+      "n": 32,
+      "accuracy": 0.34375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.34375
+      ]
+    },
+    "rcn:edge:taskA1A3:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B2:template1": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:edge:taskB1B2r:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B3:template1": {
+      "n": 32,
+      "accuracy": 0.6875,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6875
+      ]
+    },
+    "rcn:edge:taskB2B3r:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB1B3:template1": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "rcn:edge:taskB1B3r:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB3B4:template1": {
+      "n": 32,
+      "accuracy": 0.4375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4375
+      ]
+    },
+    "rcn:edge:taskB3B4r:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB2B4:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC1C2:template1": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskC2C3:template1": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "rcn:edge:taskC1C3:template1": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "rcn:edge:taskC3C4:template1": {
+      "n": 32,
+      "accuracy": 0.4375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4375
+      ]
+    },
+    "rcn:edge:taskC4A1:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA3B1:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskB4C1:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.4375,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskA2B2:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:edge:taskC2B4:template1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "rcn:route:template1": {
+      "n": 128,
+      "accuracy": 0.4921875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4921875
+      ]
+    },
+    "rcn:route:taskr_fC123_C2C3:template1": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "rcn:route:taskr_fA123_A2A3:template1": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "rcn:route:taskr_fA143_A4A3:template1": {
+      "n": 32,
+      "accuracy": 0.34375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.34375
+      ]
+    },
+    "rcn:route:taskr_fB234_B3B4:template1": {
+      "n": 32,
+      "accuracy": 0.4375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4375
+      ]
+    },
+    "rcn:transfer:all": {
+      "n": 128,
+      "accuracy": 0.078125,
+      "valid": 0.9921875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.59375,
+        0.2734375,
+        0.078125
+      ]
+    },
+    "rcn:transfer:taskchain_A1_A2_A3_B1": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.34375,
+        0.25,
+        0.0
+      ]
+    },
+    "rcn:transfer:template0": {
+      "n": 128,
+      "accuracy": 0.078125,
+      "valid": 0.9921875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.59375,
+        0.2734375,
+        0.078125
+      ]
+    },
+    "rcn:transfer:taskchain_A1_A2_A3_B1:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.96875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.34375,
+        0.25,
+        0.0
+      ]
+    },
+    "rcn:transfer:taskchain_C1_C2_C3_C4": {
+      "n": 32,
+      "accuracy": 0.125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875,
+        0.375,
+        0.125
+      ]
+    },
+    "rcn:transfer:taskchain_C1_C2_C3_C4:template0": {
+      "n": 32,
+      "accuracy": 0.125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875,
+        0.375,
+        0.125
+      ]
+    },
+    "rcn:transfer:taskchain_B1_B2_B3_B4": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.8125,
+        0.46875,
+        0.1875
+      ]
+    },
+    "rcn:transfer:taskchain_B1_B2_B3_B4:template0": {
+      "n": 32,
+      "accuracy": 0.1875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.8125,
+        0.46875,
+        0.1875
+      ]
+    },
+    "rcn:transfer:taskchain_C3_C4_A1_A2": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    "rcn:transfer:taskchain_C3_C4_A1_A2:template0": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5,
+        0.0,
+        0.0
+      ]
+    },
+    "rcn:joint:all": {
+      "n": 640,
+      "accuracy": 0.175,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.24375,
+        0.7328125,
+        0.4203125,
+        0.6984375
+      ]
+    },
+    "rcn:joint:taskfC123": {
+      "n": 128,
+      "accuracy": 0.5234375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.703125,
+        0.8671875,
+        0.71875,
+        0.9921875
+      ]
+    },
+    "rcn:joint:template0": {
+      "n": 320,
+      "accuracy": 0.178125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.246875,
+        0.74375,
+        0.41875,
+        0.7
+      ]
+    },
+    "rcn:joint:taskfC123:template0": {
+      "n": 64,
+      "accuracy": 0.53125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.703125,
+        0.890625,
+        0.71875,
+        1.0
+      ]
+    },
+    "rcn:joint:taskfB123": {
+      "n": 128,
+      "accuracy": 0.3515625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.515625,
+        0.8203125,
+        0.5859375,
+        1.0
+      ]
+    },
+    "rcn:joint:taskfB123:template0": {
+      "n": 64,
+      "accuracy": 0.359375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.53125,
+        0.828125,
+        0.59375,
+        1.0
+      ]
+    },
+    "rcn:joint:taskfA123": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.6875,
+        0.359375,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfA123:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.703125,
+        0.359375,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfA143": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5546875,
+        0.28125,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfA143:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.59375,
+        0.265625,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfB234": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.734375,
+        0.15625,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfB234:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.703125,
+        0.15625,
+        0.5
+      ]
+    },
+    "rcn:joint:template3": {
+      "n": 320,
+      "accuracy": 0.171875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.240625,
+        0.721875,
+        0.421875,
+        0.696875
+      ]
+    },
+    "rcn:joint:taskfC123:template3": {
+      "n": 64,
+      "accuracy": 0.515625,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.703125,
+        0.84375,
+        0.71875,
+        0.984375
+      ]
+    },
+    "rcn:joint:taskfB123:template3": {
+      "n": 64,
+      "accuracy": 0.34375,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.5,
+        0.8125,
+        0.578125,
+        1.0
+      ]
+    },
+    "rcn:joint:taskfA123:template3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.671875,
+        0.359375,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfA143:template3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.515625,
+        0.296875,
+        0.5
+      ]
+    },
+    "rcn:joint:taskfB234:template3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.765625,
+        0.15625,
+        0.5
+      ]
+    },
+    "rcn:repair:all": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375,
+        0.14583333333333334,
+        0.3333333333333333
+      ]
+    },
+    "rcn:repair:taskrepair_fC123": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375,
+        0.14583333333333334,
+        0.3333333333333333
+      ]
+    },
+    "rcn:repair:template0": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375,
+        0.14583333333333334,
+        0.3333333333333333
+      ]
+    },
+    "rcn:repair:taskrepair_fC123:template0": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.375,
+        0.14583333333333334,
+        0.3333333333333333
+      ]
+    }
+  }
+}

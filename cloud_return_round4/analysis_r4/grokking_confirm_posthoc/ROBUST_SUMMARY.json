@@ -1,0 +1,32 @@
+{
+ "line": "grok",
+ "runs": [
+  "MODP_world705_seed1",
+  "MODP_world705_seed2",
+  "MODP_world705_seed3",
+  "MODP_world705_seed4",
+  "MODP_world705_seed5",
+  "MODP_world706_seed1",
+  "MODP_world706_seed2",
+  "MODP_world706_seed3",
+  "MODP_world706_seed4",
+  "MODP_world706_seed5"
+ ],
+ "boot": 1000,
+ "perm": 1000,
+ "arms_all_robust": [
+  "MODP_world705_seed1"
+ ],
+ "arms_S3_ok": [
+  "MODP_world705_seed1",
+  "MODP_world705_seed2",
+  "MODP_world705_seed3",
+  "MODP_world705_seed4",
+  "MODP_world705_seed5",
+  "MODP_world706_seed1",
+  "MODP_world706_seed2",
+  "MODP_world706_seed3",
+  "MODP_world706_seed4",
+  "MODP_world706_seed5"
+ ]
+}

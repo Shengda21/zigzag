@@ -1,0 +1,48 @@
+{
+  "spec": "RCN12_FORGET3",
+  "world": 635,
+  "seed": 63502,
+  "steps": 768,
+  "gate": {
+    "passed": false,
+    "taught_edges_template3": {
+      "A1A2": 1.0,
+      "A2A3": 1.0,
+      "A1A4": 1.0,
+      "A4A3": 1.0,
+      "B1B2": 1.0,
+      "B1B2r": 0.0,
+      "B2B3": 1.0,
+      "B2B3r": 0.0,
+      "B1B3": 1.0,
+      "B1B3r": 0.0,
+      "B3B4": 1.0,
+      "B3B4r": 0.0,
+      "C1C2": 1.0,
+      "C2C3": 1.0,
+      "C1C3": 1.0,
+      "C3C4": 1.0,
+      "C4A1": 1.0
+    },
+    "control_edges": {
+      "A2B2": 0.0,
+      "C2B4": 0.0
+    },
+    "latent_cells_final": {
+      "A1A3": 0.0,
+      "B2B4": 0.0,
+      "A3B1": 0.0,
+      "B4C1": 0.0,
+      "fA123": 0.0,
+      "fA143": 0.0,
+      "fB234": 0.0
+    },
+    "thresholds": {
+      "taught_min": 0.9,
+      "control_max": 0.1
+    }
+  },
+  "adapter_sha256": "dfad8736733440fbae7f2753b46c614bc5ad7d7687b1fcc18cdd52b5294039ac",
+  "finished": 1790307305.583633,
+  "dryrun": 0
+}

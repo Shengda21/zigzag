@@ -1,0 +1,2080 @@
+{
+  "step": 64,
+  "n": 2448,
+  "seconds": 48.75224852561951,
+  "scores": {
+    "spec:base:all": {
+      "n": 1296,
+      "accuracy": 0.345679012345679,
+      "valid": 0.7908950617283951,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.345679012345679
+      ]
+    },
+    "spec:base:taskvF": {
+      "n": 144,
+      "accuracy": 0.7777777777777778,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7777777777777778
+      ]
+    },
+    "spec:base:template0": {
+      "n": 576,
+      "accuracy": 0.3333333333333333,
+      "valid": 0.6475694444444444,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3333333333333333
+      ]
+    },
+    "spec:base:langzh": {
+      "n": 288,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskvF:template0": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvF:langzh": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:template0:langzh": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskvD": {
+      "n": 144,
+      "accuracy": 0.7777777777777778,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7777777777777778
+      ]
+    },
+    "spec:base:taskvD:template0": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvD:langzh": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvP": {
+      "n": 144,
+      "accuracy": 0.7777777777777778,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7777777777777778
+      ]
+    },
+    "spec:base:taskvP:template0": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvP:langzh": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvR": {
+      "n": 144,
+      "accuracy": 0.7777777777777778,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.7777777777777778
+      ]
+    },
+    "spec:base:taskvR:template0": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvR:langzh": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskeFD": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFD:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFD:langzh": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeDP": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.7777777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeDP:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeDP:langzh": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.7916666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.53125,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:langzh": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.8402777777777778,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.703125,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:langzh": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.8194444444444444,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:template0": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.59375,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:langzh": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template1": {
+      "n": 576,
+      "accuracy": 0.3333333333333333,
+      "valid": 0.8888888888888888,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.3333333333333333
+      ]
+    },
+    "spec:base:taskeFD:template1": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template1:langzh": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskeDP:template1": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:template1": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:template1": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:template1": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvF:template1": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvD:template1": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvP:template1": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:taskvR:template1": {
+      "n": 64,
+      "accuracy": 0.75,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "spec:base:langja": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.3506944444444444,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFD:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template0:langja": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.14583333333333334,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeDP:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.6875,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvF:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvD:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvP:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvR:langja": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template1:langja": {
+      "n": 144,
+      "accuracy": 0.0,
+      "valid": 0.5555555555555556,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "general:xquad:all": {
+      "n": 96,
+      "accuracy": 0.6666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666
+      ]
+    },
+    "general:xquad:template0": {
+      "n": 96,
+      "accuracy": 0.6666666666666666,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666
+      ]
+    },
+    "general:xquad:langzh": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "general:xquad:template0:langzh": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "general:belebele:all": {
+      "n": 96,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:belebele:template0": {
+      "n": 96,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:belebele:langzh": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "general:belebele:template0:langzh": {
+      "n": 32,
+      "accuracy": 0.78125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.78125
+      ]
+    },
+    "spec:joint:all": {
+      "n": 576,
+      "accuracy": 0.0,
+      "valid": 0.7447916666666666,
+      "missing_rate": 0.017361111111111112,
+      "extra_rate": 0.050347222222222224,
+      "fields": [
+        0.001736111111111111,
+        0.4791666666666667,
+        0.0,
+        0.7864583333333334
+      ]
+    },
+    "spec:joint:taskfA": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7465277777777778,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.10069444444444445,
+      "fields": [
+        0.0,
+        0.4548611111111111,
+        0.0,
+        0.7743055555555556
+      ]
+    },
+    "spec:joint:template0": {
+      "n": 256,
+      "accuracy": 0.0,
+      "valid": 0.72265625,
+      "missing_rate": 0.0078125,
+      "extra_rate": 0.05078125,
+      "fields": [
+        0.0,
+        0.44140625,
+        0.0,
+        0.7890625
+      ]
+    },
+    "spec:joint:domainA": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7465277777777778,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.10069444444444445,
+      "fields": [
+        0.0,
+        0.4548611111111111,
+        0.0,
+        0.7743055555555556
+      ]
+    },
+    "spec:joint:langzh": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.953125,
+      "missing_rate": 0.046875,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.9375
+      ]
+    },
+    "spec:joint:taskfA:template0": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.6953125,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.1015625,
+      "fields": [
+        0.0,
+        0.3828125,
+        0.0,
+        0.7578125
+      ]
+    },
+    "spec:joint:taskfA:domainA": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7465277777777778,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.10069444444444445,
+      "fields": [
+        0.0,
+        0.4548611111111111,
+        0.0,
+        0.7743055555555556
+      ]
+    },
+    "spec:joint:taskfA:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template0:domainA": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.6953125,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.1015625,
+      "fields": [
+        0.0,
+        0.3828125,
+        0.0,
+        0.7578125
+      ]
+    },
+    "spec:joint:template0:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.96875
+      ]
+    },
+    "spec:joint:domainA:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:taskfB": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7430555555555556,
+      "missing_rate": 0.024305555555555556,
+      "extra_rate": 0.0,
+      "fields": [
+        0.003472222222222222,
+        0.5034722222222222,
+        0.0,
+        0.7986111111111112
+      ]
+    },
+    "spec:joint:domainB": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7430555555555556,
+      "missing_rate": 0.024305555555555556,
+      "extra_rate": 0.0,
+      "fields": [
+        0.003472222222222222,
+        0.5034722222222222,
+        0.0,
+        0.7986111111111112
+      ]
+    },
+    "spec:joint:taskfB:template0": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.8203125
+      ]
+    },
+    "spec:joint:taskfB:domainB": {
+      "n": 288,
+      "accuracy": 0.0,
+      "valid": 0.7430555555555556,
+      "missing_rate": 0.024305555555555556,
+      "extra_rate": 0.0,
+      "fields": [
+        0.003472222222222222,
+        0.5034722222222222,
+        0.0,
+        0.7986111111111112
+      ]
+    },
+    "spec:joint:taskfB:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.09375,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.875
+      ]
+    },
+    "spec:joint:template0:domainB": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.8203125
+      ]
+    },
+    "spec:joint:domainB:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.09375,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.875
+      ]
+    },
+    "spec:joint:template1": {
+      "n": 256,
+      "accuracy": 0.0,
+      "valid": 0.703125,
+      "missing_rate": 0.03125,
+      "extra_rate": 0.0625,
+      "fields": [
+        0.00390625,
+        0.51171875,
+        0.0,
+        0.73046875
+      ]
+    },
+    "spec:joint:taskfA:template1": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.734375,
+      "missing_rate": 0.0078125,
+      "extra_rate": 0.125,
+      "fields": [
+        0.0,
+        0.515625,
+        0.0,
+        0.734375
+      ]
+    },
+    "spec:joint:template1:domainA": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.734375,
+      "missing_rate": 0.0078125,
+      "extra_rate": 0.125,
+      "fields": [
+        0.0,
+        0.515625,
+        0.0,
+        0.734375
+      ]
+    },
+    "spec:joint:template1:langzh": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.09375,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.90625
+      ]
+    },
+    "spec:joint:taskfB:template1": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.671875,
+      "missing_rate": 0.0546875,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0078125,
+        0.5078125,
+        0.0,
+        0.7265625
+      ]
+    },
+    "spec:joint:template1:domainB": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.671875,
+      "missing_rate": 0.0546875,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0078125,
+        0.5078125,
+        0.0,
+        0.7265625
+      ]
+    },
+    "spec:repair:all": {
+      "n": 384,
+      "accuracy": 0.22395833333333334,
+      "valid": 0.921875,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6588541666666666,
+        0.3046875,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:taskrepair": {
+      "n": 384,
+      "accuracy": 0.22395833333333334,
+      "valid": 0.921875,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6588541666666666,
+        0.3046875,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:template0": {
+      "n": 384,
+      "accuracy": 0.22395833333333334,
+      "valid": 0.921875,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6588541666666666,
+        0.3046875,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainA": {
+      "n": 192,
+      "accuracy": 0.25,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:langzh": {
+      "n": 96,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:taskrepair:template0": {
+      "n": 384,
+      "accuracy": 0.22395833333333334,
+      "valid": 0.921875,
+      "missing_rate": 0.010416666666666666,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6588541666666666,
+        0.3046875,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:taskrepair:domainA": {
+      "n": 192,
+      "accuracy": 0.25,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:taskrepair:langzh": {
+      "n": 96,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:template0:domainA": {
+      "n": 192,
+      "accuracy": 0.25,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:template0:langzh": {
+      "n": 96,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainA:langzh": {
+      "n": 48,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainB": {
+      "n": 192,
+      "accuracy": 0.19791666666666666,
+      "valid": 0.84375,
+      "missing_rate": 0.020833333333333332,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6510416666666666,
+        0.2760416666666667,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:taskrepair:domainB": {
+      "n": 192,
+      "accuracy": 0.19791666666666666,
+      "valid": 0.84375,
+      "missing_rate": 0.020833333333333332,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6510416666666666,
+        0.2760416666666667,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:template0:domainB": {
+      "n": 192,
+      "accuracy": 0.19791666666666666,
+      "valid": 0.84375,
+      "missing_rate": 0.020833333333333332,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6510416666666666,
+        0.2760416666666667,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainB:langzh": {
+      "n": 48,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:base:langen": {
+      "n": 432,
+      "accuracy": 0.4444444444444444,
+      "valid": 0.9907407407407407,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskeFD:langen": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template1:langen": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskeDP:langen": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:langen": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:langen": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 0.9166666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:langen": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:joint:langja": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.8984375,
+      "missing_rate": 0.0234375,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.515625,
+        0.0,
+        0.8359375
+      ]
+    },
+    "spec:joint:taskfA:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.859375,
+      "missing_rate": 0.03125,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.53125,
+        0.0,
+        0.953125
+      ]
+    },
+    "spec:joint:template0:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.890625,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.515625,
+        0.0,
+        0.90625
+      ]
+    },
+    "spec:joint:domainA:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.859375,
+      "missing_rate": 0.03125,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.53125,
+        0.0,
+        0.953125
+      ]
+    },
+    "spec:joint:taskfB:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.9375,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.71875
+      ]
+    },
+    "spec:joint:domainB:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.9375,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.71875
+      ]
+    },
+    "spec:base:template0:langen": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:joint:template1:langja": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.90625,
+      "missing_rate": 0.03125,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.515625,
+        0.0,
+        0.765625
+      ]
+    },
+    "spec:repair:langja": {
+      "n": 96,
+      "accuracy": 0.25,
+      "valid": 0.7291666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.25,
+        0.3125
+      ]
+    },
+    "spec:repair:taskrepair:langja": {
+      "n": 96,
+      "accuracy": 0.25,
+      "valid": 0.7291666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.25,
+        0.3125
+      ]
+    },
+    "spec:repair:template0:langja": {
+      "n": 96,
+      "accuracy": 0.25,
+      "valid": 0.7291666666666666,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.25,
+        0.3125
+      ]
+    },
+    "spec:repair:domainA:langja": {
+      "n": 48,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainB:langja": {
+      "n": 48,
+      "accuracy": 0.16666666666666666,
+      "valid": 0.4583333333333333,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.16666666666666666,
+        0.2916666666666667
+      ]
+    },
+    "spec:base:langru": {
+      "n": 288,
+      "accuracy": 0.4444444444444444,
+      "valid": 0.7222222222222222,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskvF:langru": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:template0:langru": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 0.4444444444444444,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskvD:langru": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvP:langru": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvR:langru": {
+      "n": 32,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskeFD:langru": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeDP:langru": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:langru": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:langru": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:langru": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 0.5,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template1:langru": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskvF:langen": {
+      "n": 48,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvD:langen": {
+      "n": 48,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvP:langen": {
+      "n": 48,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvR:langen": {
+      "n": 48,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:template3": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 0.9722222222222222,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskeFD:template3": {
+      "n": 16,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:template3:langen": {
+      "n": 144,
+      "accuracy": 0.4444444444444444,
+      "valid": 0.9722222222222222,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.4444444444444444
+      ]
+    },
+    "spec:base:taskeDP:template3": {
+      "n": 16,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFP:template3": {
+      "n": 16,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeFR:template3": {
+      "n": 16,
+      "accuracy": 0.0,
+      "valid": 0.75,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskeRP:template3": {
+      "n": 16,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0
+      ]
+    },
+    "spec:base:taskvF:template3": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvD:template3": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvP:template3": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "spec:base:taskvR:template3": {
+      "n": 16,
+      "accuracy": 1.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        1.0
+      ]
+    },
+    "general:xquad:langen": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:xquad:template0:langen": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:belebele:langru": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:belebele:template0:langru": {
+      "n": 32,
+      "accuracy": 0.75,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.75
+      ]
+    },
+    "general:xquad:langru": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "general:xquad:template0:langru": {
+      "n": 32,
+      "accuracy": 0.46875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.46875
+      ]
+    },
+    "general:belebele:langen": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "general:belebele:template0:langen": {
+      "n": 32,
+      "accuracy": 0.71875,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.71875
+      ]
+    },
+    "spec:joint:langen": {
+      "n": 192,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.005208333333333333,
+        0.5104166666666666,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:taskfA:langen": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5104166666666666,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template0:langen": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:domainA:langen": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5104166666666666,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:taskfB:langen": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.010416666666666666,
+        0.5104166666666666,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:domainB:langen": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.010416666666666666,
+        0.5104166666666666,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:repair:langen": {
+      "n": 96,
+      "accuracy": 0.3125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3125,
+        0.375
+      ]
+    },
+    "spec:repair:taskrepair:langen": {
+      "n": 96,
+      "accuracy": 0.3125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3125,
+        0.375
+      ]
+    },
+    "spec:repair:template0:langen": {
+      "n": 96,
+      "accuracy": 0.3125,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3125,
+        0.375
+      ]
+    },
+    "spec:repair:domainA:langen": {
+      "n": 48,
+      "accuracy": 0.3333333333333333,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainB:langen": {
+      "n": 48,
+      "accuracy": 0.2916666666666667,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.2916666666666667,
+        0.4166666666666667
+      ]
+    },
+    "spec:joint:template1:langen": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.015625,
+        0.53125,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:langru": {
+      "n": 128,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0078125,
+      "extra_rate": 0.2265625,
+      "fields": [
+        0.0,
+        0.375,
+        0.0,
+        0.265625
+      ]
+    },
+    "spec:joint:taskfA:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.453125,
+      "fields": [
+        0.0,
+        0.25,
+        0.0,
+        0.03125
+      ]
+    },
+    "spec:joint:template0:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.203125,
+      "fields": [
+        0.0,
+        0.25,
+        0.0,
+        0.28125
+      ]
+    },
+    "spec:joint:domainA:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.015625,
+      "extra_rate": 0.453125,
+      "fields": [
+        0.0,
+        0.25,
+        0.0,
+        0.03125
+      ]
+    },
+    "spec:joint:taskfB:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ]
+    },
+    "spec:joint:domainB:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.5
+      ]
+    },
+    "spec:joint:template3": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:taskfA:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template3:domainA": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template3:langen": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:taskfB:template3": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template3:domainB": {
+      "n": 32,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        1.0
+      ]
+    },
+    "spec:joint:template1:langru": {
+      "n": 64,
+      "accuracy": 0.0,
+      "valid": 0.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.25,
+      "fields": [
+        0.0,
+        0.5,
+        0.0,
+        0.25
+      ]
+    },
+    "spec:repair:langru": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9583333333333334,
+      "missing_rate": 0.041666666666666664,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6354166666666666,
+        0.3229166666666667,
+        0.3125
+      ]
+    },
+    "spec:repair:taskrepair:langru": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9583333333333334,
+      "missing_rate": 0.041666666666666664,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6354166666666666,
+        0.3229166666666667,
+        0.3125
+      ]
+    },
+    "spec:repair:template0:langru": {
+      "n": 96,
+      "accuracy": 0.0,
+      "valid": 0.9583333333333334,
+      "missing_rate": 0.041666666666666664,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6354166666666666,
+        0.3229166666666667,
+        0.3125
+      ]
+    },
+    "spec:repair:domainA:langru": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 1.0,
+      "missing_rate": 0.0,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6666666666666666,
+        0.3333333333333333,
+        0.3333333333333333
+      ]
+    },
+    "spec:repair:domainB:langru": {
+      "n": 48,
+      "accuracy": 0.0,
+      "valid": 0.9166666666666666,
+      "missing_rate": 0.08333333333333333,
+      "extra_rate": 0.0,
+      "fields": [
+        0.6041666666666666,
+        0.3125,
+        0.2916666666666667
+      ]
+    }
+  }
+}

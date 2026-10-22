@@ -1,0 +1,17 @@
+| confirm2_SFT | world635_S1 | 1.00 | 0.99 | 1.00 | 1.00 | 1.00 | 1.00 | 0.78 | 0.001 |
+| confirm2_SFT | world635_S2 | 0.99 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.96 | 0.001 |
+| confirm2_SFT | world636_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | x | 0.001 |
+| confirm2_SFT | world636_S2 | 1.00 | 1.00 | 0.99 | 1.00 | 1.00 | 1.00 | x | 0.001 |
+| confirm2_SFT | world637_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.91 | 0.001 |
+| confirm2_SFT | world637_S2 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.72 | 0.001 |
+| confirm2_X2 | world635_S1_raw | x | 0.55 | x | x | x | 1.00 | x | 0.001 |
+| confirm2_X2 | world636_S1_raw | x | x | x | 0.48 | x | 1.00 | x | 0.001 |
+| first_confirm_posthoc | world631_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | x | 0.001 |
+| first_confirm_posthoc | world631_S2 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.63 | 0.001 |
+| first_confirm_posthoc | world632_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.58 | 0.001 |
+| first_confirm_posthoc | world632_S2 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.62 | 0.001 |
+| first_confirm_posthoc | world633_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 0.001 |
+| first_confirm_posthoc | world633_S1_raw | x | x | x | 0.87 | x | 1.00 | x | 0.001 |
+| first_confirm_posthoc | world633_S2 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | x | 0.001 |
+| first_confirm_posthoc | world634_S1 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | 1.00 | x | 0.001 |
+| first_confirm_posthoc | world634_S2 | 1.00 | 0.78 | 1.00 | 1.00 | 1.00 | 1.00 | 0.60 | 0.001 |

@@ -1,0 +1,42 @@
+{
+  "world": 501,
+  "arm": "MONO1",
+  "condition": "MONO",
+  "seed": 50101,
+  "steps": 512,
+  "batch": 64,
+  "microbatch": 8,
+  "eval_every": 16,
+  "save_every": 64,
+  "data_hashes": {
+    "SPEC_TRAIN.jsonl": "9997dbced9c827b991d1f41a24ce31914e14b08ef880b29da6e9edd391b213b7",
+    "FMT_TRAIN.jsonl": "8b8b42f5f84484e0f2861889293d0769b07e0a6abebb1fbeba56aa9de146a4da",
+    "GEN_MULTI.jsonl": "81ec366fb29f89a9352a1a9854d15b4874755e7119dea61371c9529a0250956d",
+    "GEN_MONO.jsonl": "68e5b8d6e0ba68513f7592cd106eed065b9fe79f8556d81a58eb9c5e4240e30d",
+    "PROBES.jsonl": "d47a0cc801ce2e5820b577fea99584f83477a3214ed2b95676596a29fd3c7ef5"
+  },
+  "code_sha256": {
+    "run": "a7634a33e0194f9704399003b0cdd65a59647d4c2209e631985c681966d03d37",
+    "train": "1c66d1ecd17edff0a79f5021ca407f5b01bb6372f1aeb81560717c1f3f0c875f",
+    "score": "0ad8ad991d5f9a1141d9aa0aff6fbb957c5481041198d5bf527153d2bf9c2f99"
+  },
+  "train_records": 32768,
+  "eval_records": 2448,
+  "dryrun": 0,
+  "started": 1790077487.2871485,
+  "token_range": [
+    67,
+    664
+  ],
+  "pairing": {
+    "condition": "MONO",
+    "seed": 50101,
+    "slots_sha256": "b92c8d6212e198a86c8ce0890b289ebc67bb981527a2cc5bfc0f3273e8c00b7f",
+    "steps": 512,
+    "per_step": {
+      "spec": 32,
+      "fmt": 16,
+      "gen": 16
+    }
+  }
+}

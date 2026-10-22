@@ -1,0 +1,14 @@
+{
+ "0.85": {
+  "bridge": "64000/67000",
+  "support_exact": 0.431,
+  "support_within_one_checkpoint": 0.444,
+  "share_with_any_H1_transition": 0.711
+ },
+ "0.9": {
+  "bridge": "91000/94000",
+  "support_exact": 0.356,
+  "support_within_one_checkpoint": 0.373,
+  "share_with_any_H1_transition": 0.833
+ }
+}

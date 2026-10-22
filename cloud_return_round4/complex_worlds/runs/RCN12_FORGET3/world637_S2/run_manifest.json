@@ -1,0 +1,30 @@
+{
+  "spec": "RCN12_FORGET3",
+  "world": 637,
+  "seed": 63702,
+  "steps": 768,
+  "batch": 64,
+  "microbatch": 16,
+  "eval_every": 16,
+  "format": "chat",
+  "fewshot": null,
+  "save_every": 256,
+  "data_hashes": {
+    "TRAIN_STREAM.jsonl": "0f43a21b770f29d62f796ac4c85a90fb7e08c372e10c56fbb0eb4f2e8a2d18c5",
+    "PROBES.jsonl": "6f5d1fa7368d18e74c40324bcd7d0d781369444eba71cca4854d33943365c7b3"
+  },
+  "stream_order_sha256": "58e999b6e6b70e1a69b69beae443e0d8c7a6f075f3500cc8d5d4f47de74d8c7d",
+  "code_sha256": {
+    "run": "82cbecf190644d4b0fc36166bc70bed90bfbe391ef1473e57cba590438e99da9",
+    "train": "680d078c375b47906a61c168db44799fb78f3306dc2daa62df5fc616e46b3fcf",
+    "score": "edbed8c55fbe85d35c6c1d0ce30a08e1194c4df194ba8fe0f9624c3afecabe70"
+  },
+  "train_records": 49152,
+  "eval_records": 3712,
+  "dryrun": 0,
+  "started": 1790304966.3725584,
+  "token_range": [
+    66,
+    181
+  ]
+}

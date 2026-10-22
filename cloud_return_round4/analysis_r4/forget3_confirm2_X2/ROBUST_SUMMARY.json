@@ -1,0 +1,14 @@
+{
+ "line": "forget3",
+ "runs": [
+  "world635_S1_raw",
+  "world636_S1_raw"
+ ],
+ "boot": 1000,
+ "perm": 1000,
+ "arms_all_robust": [],
+ "arms_S3_ok": [
+  "world635_S1_raw",
+  "world636_S1_raw"
+ ]
+}

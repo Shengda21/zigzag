@@ -1,0 +1,52 @@
+{
+  "world": 501,
+  "arm": "MULTI1",
+  "steps": 512,
+  "gate": {
+    "passed": false,
+    "en_edges": {
+      "eFD": 1.0,
+      "eDP": 0.9583333333333334,
+      "eFP": 1.0,
+      "eFR": 1.0,
+      "eRP": 1.0
+    },
+    "en_edges_template3": {
+      "eFD": 1.0,
+      "eDP": 0.875,
+      "eFP": 1.0,
+      "eFR": 1.0,
+      "eRP": 1.0
+    },
+    "threshold": 0.9,
+    "zh_edges": {
+      "eFD": 1.0,
+      "eDP": 1.0,
+      "eFP": 1.0,
+      "eFR": 1.0,
+      "eRP": 1.0
+    },
+    "ru_edges": {
+      "eFD": 0.5,
+      "eDP": 0.25,
+      "eFP": 0.21875,
+      "eFR": 0.625,
+      "eRP": 0.0
+    },
+    "ja_edges": {
+      "eFD": 1.0,
+      "eDP": 0.5,
+      "eFP": 0.96875,
+      "eFR": 1.0,
+      "eRP": 0.96875
+    },
+    "general": {
+      "en": 0.875,
+      "zh": 0.78125,
+      "ru": 0.78125
+    }
+  },
+  "adapter_sha256": "50e8d53a08c7aa6e3add711a72887e7965cbe6b55f33f6548ded3dd00e92f60b",
+  "finished": 1790077467.731043,
+  "dryrun": 0
+}

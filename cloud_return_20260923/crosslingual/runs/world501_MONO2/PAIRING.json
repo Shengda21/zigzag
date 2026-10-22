@@ -1,0 +1,11 @@
+{
+  "condition": "MONO",
+  "seed": 50102,
+  "slots_sha256": "c1d885cf0a1aaf91a7fc6aef626cf5f51f80bb292ba22a6750c10852cd884ec9",
+  "steps": 512,
+  "per_step": {
+    "spec": 32,
+    "fmt": 16,
+    "gen": 16
+  }
+}

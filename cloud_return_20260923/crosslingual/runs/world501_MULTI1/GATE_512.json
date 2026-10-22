@@ -1,0 +1,44 @@
+{
+  "passed": false,
+  "en_edges": {
+    "eFD": 1.0,
+    "eDP": 0.9583333333333334,
+    "eFP": 1.0,
+    "eFR": 1.0,
+    "eRP": 1.0
+  },
+  "en_edges_template3": {
+    "eFD": 1.0,
+    "eDP": 0.875,
+    "eFP": 1.0,
+    "eFR": 1.0,
+    "eRP": 1.0
+  },
+  "threshold": 0.9,
+  "zh_edges": {
+    "eFD": 1.0,
+    "eDP": 1.0,
+    "eFP": 1.0,
+    "eFR": 1.0,
+    "eRP": 1.0
+  },
+  "ru_edges": {
+    "eFD": 0.5,
+    "eDP": 0.25,
+    "eFP": 0.21875,
+    "eFR": 0.625,
+    "eRP": 0.0
+  },
+  "ja_edges": {
+    "eFD": 1.0,
+    "eDP": 0.5,
+    "eFP": 0.96875,
+    "eFR": 1.0,
+    "eRP": 0.96875
+  },
+  "general": {
+    "en": 0.875,
+    "zh": 0.78125,
+    "ru": 0.78125
+  }
+}

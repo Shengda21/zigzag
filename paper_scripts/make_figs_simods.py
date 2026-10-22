@@ -73,8 +73,8 @@ def fig_forget(run='world637_S1'):
     st, sc = r['steps'], r['scores_point']
     fig, ax = plt.subplots(3, 1, figsize=(6.4, 5.6), sharex=True, gridspec_kw=dict(height_ratios=[1.35, 0.9, 0.75]))
     a = ax[0]
-    a.axvspan(288, 480, color='#f4d6d6', alpha=.85, lw=0, label='replacement transfers taught, originals withheld (288--480)')
-    a.axvspan(128, 352, color='#dfe8f5', alpha=.85, lw=0, label='C-group two-cell taught (128--352)')
+    a.axvspan(288, 480, color='#f4d6d6', alpha=.85, lw=0, label='replacement transfers taught, originals withheld (288–480)')
+    a.axvspan(128, 352, color='#dfe8f5', alpha=.85, lw=0, label='C-group two-cell taught (128–352)')
     for i, e in enumerate(B_ORIG):
         a.plot(st, sc[e], color=RED, lw=1.1, label='original B transfers (4 edges)' if i == 0 else None)
         a.plot(st, sc[e + 'r'], color=BLUE, lw=1.1, ls='--', label='replacement B transfers (4 edges)' if i == 0 else None)
@@ -134,11 +134,11 @@ def fig_sweep(run='world637_S1'):
     a.plot([], [], color='k', lw=.5, ls=':', label='$\\theta=0.8\\pm0.10$')
     a.legend(loc='upper center', bbox_to_anchor=(0.5, -0.18), frameon=False, fontsize=6.5, ncol=2)
     b = ax[1]
-    names = [('death of the original loop (forgetting, 288-352)', 'death of original loop (288--352)', RED, '-'),
-             ('death of the replacement loop (480-512)', 'death of replacement loop (480--512)', BLUE, '-'),
+    names = [('death of the original loop (forgetting, 288-352)', 'death of original loop (288–352)', RED, '-'),
+             ('death of the replacement loop (480-512)', 'death of replacement loop (480–512)', BLUE, '-'),
              ('birth of the recovered loop (>=496)', 'birth of recovered loop ($\\geq 496$)', RED, '--'),
              ('birth of the original loop (learning, <=288)', 'birth of original loop ($\\leq 288$)', RED, ':'),
-             ('birth of the replacement loop (336-416)', 'birth of replacement loop (336--416)', BLUE, ':'),
+             ('birth of the replacement loop (336-416)', 'birth of replacement loop (336–416)', BLUE, ':'),
              ('transition class at bridge ending 496', 'transition class (480/496)', ORANGE, '-')]
     deltas = [0.0, 0.02, 0.05, 0.1]
     for key, lab, col, ls in names:
@@ -146,7 +146,7 @@ def fig_sweep(run='world637_S1'):
         ys = [len(ev.get(str(d), [])) for d in deltas]
         b.plot(deltas, ys, color=col, ls=ls, marker='o', ms=3.5, lw=1.2, label=lab)
     b.set_xlabel('window half-width $\\delta$')
-    b.set_ylabel('arms (of 6) with a $\\delta$-robust event at $\\theta=0.8$')
+    b.set_ylabel('arms (of 6) with a $\\delta$-robust event')
     b.set_xticks(deltas)
     b.set_yticks(range(0, 7))
     b.set_ylim(-0.3, 6.3)
@@ -254,7 +254,7 @@ def fig_pythia():
     nz, nm = hb['counts']['zigzag_finite'], hb['counts']['mono_finite']
     b.plot([], [], color=PURPLE, lw=2.2, label=f'union zigzag ({nz} finite bars)')
     if sup:
-        b.plot([], [], color=ORANGE, lw=2.2, label=f'of which {len(sup)} from a score briefly below $\\theta$ (bootstrap support {min(sup):.2f}--{max(sup):.2f})')
+        b.plot([], [], color=ORANGE, lw=2.2, label=f'of which {len(sup)} from a score briefly below $\\theta$ (bootstrap support {min(sup):.2f}–{max(sup):.2f})')
     b.plot([], [], color=GREY, lw=2.2, label=f'historical union ({nm} finite bars)')
     b.legend(frameon=False, loc='upper center', bbox_to_anchor=(0.5, -0.28), ncol=1)
     save(fig, 'fig_pythia')

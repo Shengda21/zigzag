@@ -1,15 +1,15 @@
-"""Figures for the SIMODS manuscript (English labels). Writes figures/*.pdf and *.png.
+"""Figures of the manuscript (English labels). Writes figures/*.pdf and *.png.
 
 Inputs (read-only):
   zigzag_v5/cloud_return_round4/analysis_r4/forget3_confirm2_SFT/world637_S1.robust.json   scores + historical-union bars
   zigzag_v5/paper_sec4/mv_counts.json       union / intersection H1 bars (K_B, theta = 0.8), transition classes
   zigzag_v5/paper_sec4/theta_sweep.json     fine threshold sweep of the K_B union H1 barcode, robust counts
-  SIMODS/forget3_summary.json               cross-arm robust-event counts
+  paper_scripts/forget3_summary.json        cross-arm robust-event counts
   zigzag_v5/cloud_return_20260923/analysis/crosslingual/world50*/analysis.json
   zigzag_v5/cloud_return_round4/analysis_r4/grokking_confirm_posthoc/*.robust.json
   Pythia: env ZZ_PYTHIA_ROBUST (robust.json) and ZZ_PYTHIA_H0_JSON (pythia_h0_bars json); defaults = round-4 files.
 
-  python make_figs_simods.py
+  python make_figures.py
 """
 from __future__ import annotations
 import glob

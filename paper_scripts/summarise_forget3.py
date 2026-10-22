@@ -1,11 +1,11 @@
-"""Cross-arm summary of the FORGET3 confirmation arms for the SIMODS examples section.
+"""Cross-arm summary of the FORGET3 confirmation arms for the examples section of the manuscript.
 
 Reads zigzag_v5/paper_sec4/mv_counts.json and theta_sweep.json (produced by mv_counts.py / theta_sweep.py) and prints:
   * per arm and theta: number of union-bridge-only H1 classes (transition classes) and at which bridges;
   * per arm: historical-union beta_1, supported dimension, artifact dimension at the end (K_B, theta = 0.8);
   * delta-robust K_B H1 events at theta = 0.8 for delta in {0, 0.02, 0.05, 0.10}, grouped into named events, with the
     number of arms (out of 6) in which each event is robust.
-Writes forget3_summary.json next to this script (used by make_figs_simods.py).
+Writes forget3_summary.json next to this script (used by make_figures.py).
 """
 import collections
 import json

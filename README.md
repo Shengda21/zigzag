@@ -5,8 +5,7 @@ Repository: <https://github.com/Shengda21/zigzag>
 This repository contains the code, task specifications, preregistration documents, per-item evaluation outputs, and
 analysis scripts behind the manuscript
 
-> *Zigzag Persistent Homology of Capability Complexes along Language-Model Training Trajectories*
-> (Y.-Z. Liu, S. Liu, J. Pi, C. Zhang; manuscript prepared for the SIAM Journal on Mathematics of Data Science, 2026).
+> *Zigzag Persistent Homology of Capability Complexes along Language-Model Training Trajectories*.
 
 The paper itself is not part of this repository. Everything needed to recompute every number and figure of the paper from
 the raw per-item model outputs is here; everything needed to regenerate those outputs (training and inference) is here as
@@ -29,7 +28,7 @@ The tree mirrors the working layout used during the project, so that all scripts
 | `cloud_return_round2/grokking/runs_confirm/` | The ten grokking confirmation runs: evaluation files on the 1000-step grid used in the paper plus the final checkpoint (step 99999), per-checkpoint summaries at the full 250-step resolution (used by the refinement check), run configurations, training logs. |
 | `cloud_return_20260923/` | The eight cross-lingual runs (per-item evaluations and final LoRA adapters) and their descriptive analyses. |
 | `paper_sec4/` | Scripts that produce the paper's numerical checks: `mv_counts.py` (Theorem 4.1 verified at every bridge of every arm and threshold; artifact dimension of the historical union), `theta_sweep.py` (threshold sweep, bootstrap perturbation scale, δ-robust counts), `pythia_h0_bars.py`, `check_grok_tier2.py`; and their archived outputs (`*.json`). `NUMBERS_SOURCES.md` maps every number of the examples section to a file. |
-| `paper_scripts/` | `summarise_forget3.py` (cross-arm table behind Fig. 3), `fill_pythia_numbers.py` (the numbers of the Pythia section as LaTeX macros), `make_figs_simods.py` (all figures), the archived figures. |
+| `paper_scripts/` | `summarise_forget3.py` (cross-arm table behind Fig. 3), `fill_pythia_numbers.py` (the numbers of the Pythia section as LaTeX macros), `make_figures.py` (all figures), the archived figures. |
 | `docs/` | The exploration log of the GPU sessions (development → confirmation, every change recorded) and the original experimental protocol. In Chinese. |
 | `reproduce.py`, `verify_against_archived.py`, `compare_replication.py` | One-command reproduction of the analysis chain; exact comparison with the archived outputs; the cross-hardware replication check. |
 
@@ -58,7 +57,7 @@ fixed, so `verify_against_archived.py` reports identity, not approximate agreeme
 | §7.1 union/intersection barcodes, transition class, Theorem 4.1 check at all bridges, Proposition 4.4 artifact dimension | `paper_sec4/mv_counts.py` → `mv_counts.json` |
 | §7.1 continued-pretraining variant | `analysis_r4/forget3_confirm2_X2/` (criteria with `--time-scale 2`) |
 | §7.2 threshold sweep, bootstrap ε, δ-robust counts; Fig. 3 | `paper_sec4/theta_sweep.py` → `theta_sweep.json`; `paper_scripts/summarise_forget3.py` → `forget3_summary.json` |
-| §7.3 count vs. organisation; Fig. 4 | `cloud_return_20260923/analysis/crosslingual/world50*/analysis.json` (`zz_analyze.py --design crosslingual`), drawn by `make_figs_simods.py` |
+| §7.3 count vs. organisation; Fig. 4 | `cloud_return_20260923/analysis/crosslingual/world50*/analysis.json` (`zz_analyze.py --design crosslingual`), drawn by `make_figures.py` |
 | §7.4 grokking; Fig. 5 | `zz_robust.py --line grok` → `analysis_r4/grokking_confirm_posthoc/`; level (ii) refinement: `paper_sec4/check_grok_tier2.py` |
 | §7.5 Pythia-1.4B, 55 checkpoints; Fig. 6 | `zz_robust.py --line public` on `cloud_return_round5/public_ckpt/runs_merged` → `analysis_r5/pythia_runs/`; `paper_sec4/pythia_h0_bars.py` → `pythia_h0_bars_55.json`; degree-one transition classes at θ = 0.85/0.9: `analysis_r5/pythia_runs/h1_transition_support.json`; numbers: `paper_scripts/fill_pythia_numbers.py` |
 | Appendix: cross-hardware replication | `compare_replication.py` |
@@ -108,7 +107,7 @@ The package is about 1.7 GB, of which the sixteen adapter files account for 1.1 
 
 Licence to be chosen by the authors before publication (suggested: MIT for code, CC BY 4.0 for data and documents).
 Third-party data: Belebele and XQuAD are distributed under CC BY-SA 4.0 by their authors; Pythia checkpoints under Apache 2.0;
-Qwen2.5 under the Qwen licence. Please cite the manuscript above when using this material.
+Qwen2.5 under the Qwen licence.
 
 ---
 

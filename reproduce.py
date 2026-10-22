@@ -49,7 +49,7 @@ STEPS = {
     "numbers": (False, [PY, str(ROOT / "paper_scripts" / "fill_pythia_numbers.py"),
                         str(ROOT / "cloud_return_round5/analysis_r5/pythia_runs/pythia-1.4b.robust.json"),
                         str(ROOT / "paper_sec4/pythia_h0_bars_55.json"), str(RES / "pythia_numbers.tex")], {}),
-    "figures": (False, [PY, str(ROOT / "paper_scripts" / "make_figs_simods.py")],
+    "figures": (False, [PY, str(ROOT / "paper_scripts" / "make_figures.py")],
                 {"ZZ_PYTHIA_ROBUST": str(ROOT / "cloud_return_round5/analysis_r5/pythia_runs/pythia-1.4b.robust.json"),
                  "ZZ_PYTHIA_H0_JSON": str(ROOT / "paper_sec4/pythia_h0_bars_55.json")}),
 }

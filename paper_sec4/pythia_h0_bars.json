@@ -1,0 +1,465 @@
+{
+ "theta": 0.6,
+ "B": 1000,
+ "steps": [
+  1000,
+  2000,
+  3000,
+  4000,
+  5000,
+  6000,
+  7000,
+  8000,
+  9000,
+  10000,
+  13000,
+  16000,
+  19000,
+  22000,
+  25000,
+  28000,
+  31000,
+  34000,
+  37000,
+  40000,
+  43000,
+  46000,
+  49000,
+  52000,
+  55000,
+  58000,
+  61000,
+  64000,
+  67000,
+  70000,
+  73000,
+  76000,
+  143000
+ ],
+ "zigzag": [
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 12,
+   "start": "1000/2000",
+   "end": 7000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 1.0,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 16,
+   "start": "1000/2000",
+   "end": 9000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.909,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 3,
+   "end_node": 10,
+   "start": "2000/3000",
+   "end": 6000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 1.0,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 3,
+   "end_node": 14,
+   "start": "2000/3000",
+   "end": 8000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.969,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 3,
+   "end_node": 24,
+   "start": "2000/3000",
+   "end": 19000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.882,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 3,
+   "end_node": 64,
+   "start": "2000/3000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 3,
+   "end_node": 64,
+   "start": "2000/3000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null,
+   "in_mono": true
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 20,
+   "end_node": 20,
+   "start": 13000,
+   "end": 13000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.71,
+   "in_mono": false
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 20,
+   "end_node": 22,
+   "start": 13000,
+   "end": 16000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.668,
+   "in_mono": false
+  },
+  {
+   "kind": "zigzag",
+   "start_node": 44,
+   "end_node": 44,
+   "start": 49000,
+   "end": 49000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.702,
+   "in_mono": false
+  }
+ ],
+ "mono": [
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 12,
+   "start": "1000/2000",
+   "end": 7000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 1.0
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 16,
+   "start": "1000/2000",
+   "end": 9000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.91
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 1,
+   "end_node": 64,
+   "start": "1000/2000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 3,
+   "end_node": 10,
+   "start": "2000/3000",
+   "end": 6000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 1.0
+  },
+  {
+   "kind": "mono",
+   "start_node": 3,
+   "end_node": 14,
+   "start": "2000/3000",
+   "end": 8000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.97
+  },
+  {
+   "kind": "mono",
+   "start_node": 3,
+   "end_node": 24,
+   "start": "2000/3000",
+   "end": 19000,
+   "finite": true,
+   "ends_on_bridge": false,
+   "support": 0.882
+  },
+  {
+   "kind": "mono",
+   "start_node": 3,
+   "end_node": 64,
+   "start": "2000/3000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 3,
+   "end_node": 64,
+   "start": "2000/3000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  },
+  {
+   "kind": "mono",
+   "start_node": 7,
+   "end_node": 64,
+   "start": "4000/5000",
+   "end": 143000,
+   "finite": false,
+   "ends_on_bridge": false,
+   "support": null
+  }
+ ],
+ "counts": {
+  "zigzag_bars": 20,
+  "zigzag_finite": 8,
+  "mono_bars": 17,
+  "mono_finite": 5
+ },
+ "bootstrap": {
+  "share_zigzag_more_finite": 0.981,
+  "diff_quantiles": [
+   1.0,
+   4.0,
+   7.0
+  ]
+ },
+ "zigzag_only_finite": [
+  {
+   "start": 13000,
+   "end": 13000,
+   "support": 0.71
+  },
+  {
+   "start": 13000,
+   "end": 16000,
+   "support": 0.668
+  },
+  {
+   "start": 49000,
+   "end": 49000,
+   "support": 0.702
+  }
+ ],
+ "note": "zigzag-only finite H0 intervals are transient splits: e_caesar3_caesar3upper and e_reverse_upperreverse drop just below 0.6 at 13k (and e_reverse_upperreverse again at 49k) and return afterwards"
+}

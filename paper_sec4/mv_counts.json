@@ -1,0 +1,10849 @@
+{
+ "all_ok": true,
+ "arms": [
+  {
+   "run": "world635_S1",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 10,
+        "step_a": 160,
+        "step_b": 176,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        21,
+        21
+       ],
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        19,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        20,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        21,
+        37
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        22,
+        36
+       ],
+       [
+        24,
+        24
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        21,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        22,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        33
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        28
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        24
+       ],
+       [
+        26,
+        32
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        29
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 16,
+        "step_a": 256,
+        "step_b": 272,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        25
+       ],
+       [
+        25,
+        27
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        29,
+        31
+       ],
+       [
+        33,
+        33
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        46,
+        46
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        66,
+        66
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        24
+       ],
+       [
+        26,
+        26
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        30
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        45,
+        47
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        65,
+        67
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  },
+  {
+   "run": "world635_S2",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 11,
+        "step_a": 176,
+        "step_b": 192,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        21,
+        37
+       ],
+       [
+        23,
+        23
+       ],
+       [
+        23,
+        24
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        22,
+        36
+       ],
+       [
+        24,
+        25
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        21,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        22,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 11,
+        "step_a": 176,
+        "step_b": 192,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        23
+       ],
+       [
+        23,
+        24
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        25
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 11,
+        "step_a": 176,
+        "step_b": 192,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        23
+       ],
+       [
+        23,
+        24
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        25
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 18,
+        "step_a": 288,
+        "step_b": 304,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        35
+       ],
+       [
+        37,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        34
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 17,
+        "step_a": 272,
+        "step_b": 288,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 18,
+        "step_a": 288,
+        "step_b": 304,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        26
+       ],
+       [
+        25,
+        33
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        34,
+        34
+       ],
+       [
+        35,
+        35
+       ],
+       [
+        37,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        27
+       ],
+       [
+        26,
+        32
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        33,
+        35
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 17,
+        "step_a": 272,
+        "step_b": 288,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        28
+       ],
+       [
+        25,
+        33
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        34,
+        34
+       ],
+       [
+        35,
+        35
+       ],
+       [
+        38,
+        38
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        29
+       ],
+       [
+        26,
+        32
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        33,
+        35
+       ],
+       [
+        37,
+        39
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 17,
+        "step_a": 272,
+        "step_b": 288,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        28
+       ],
+       [
+        25,
+        33
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        34,
+        38
+       ],
+       [
+        35,
+        35
+       ],
+       [
+        39,
+        41
+       ],
+       [
+        43,
+        96
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        29
+       ],
+       [
+        26,
+        32
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        33,
+        39
+       ],
+       [
+        40,
+        40
+       ],
+       [
+        44,
+        96
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  },
+  {
+   "run": "world636_S1",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        28
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        62
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        29
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        61,
+        63
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        28
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        29
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 13,
+        "step_a": 208,
+        "step_b": 224,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        27
+       ],
+       [
+        29,
+        37
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        36
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 13,
+        "step_a": 208,
+        "step_b": 224,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        27
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       1,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        39,
+        61
+       ],
+       [
+        49,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        40,
+        60
+       ],
+       [
+        50,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        49,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        50,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  },
+  {
+   "run": "world636_S2",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        25,
+        27
+       ],
+       [
+        29,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        26,
+        26
+       ],
+       [
+        30,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 3,
+        "d1": 3,
+        "n0": 3,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 18,
+        "step_a": 288,
+        "step_b": 304,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        29,
+        35
+       ],
+       [
+        37,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        45
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        30,
+        34
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        44
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        45
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        44
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        41,
+        96
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        42,
+        96
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        29
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        31,
+        37
+       ],
+       [
+        41,
+        61
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        28
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        32,
+        36
+       ],
+       [
+        42,
+        60
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        29
+       ],
+       [
+        31,
+        37
+       ],
+       [
+        47,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        28
+       ],
+       [
+        32,
+        36
+       ],
+       [
+        48,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  },
+  {
+   "run": "world637_S1",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        64,
+        66
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ],
+       [
+        63,
+        67
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        64,
+        66
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ],
+       [
+        63,
+        67
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        27,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        64,
+        68
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        28,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ],
+       [
+        63,
+        69
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        29,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ],
+       [
+        64,
+        68
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        30,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        63,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        28
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        29,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        29
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        30,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        28
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        29
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 16,
+        "step_a": 256,
+        "step_b": 272,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 17,
+        "step_a": 272,
+        "step_b": 288,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       },
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        27,
+        28
+       ],
+       [
+        29,
+        37
+       ],
+       [
+        33,
+        33
+       ],
+       [
+        35,
+        35
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        28,
+        29
+       ],
+       [
+        30,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       1,
+       1,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": null
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        29,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        30,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  },
+  {
+   "run": "world637_S2",
+   "steps": [
+    0,
+    16,
+    32,
+    48,
+    64,
+    80,
+    96,
+    112,
+    128,
+    144,
+    160,
+    176,
+    192,
+    208,
+    224,
+    240,
+    256,
+    272,
+    288,
+    304,
+    320,
+    336,
+    352,
+    368,
+    384,
+    400,
+    416,
+    432,
+    448,
+    464,
+    480,
+    496,
+    512,
+    528,
+    544,
+    560,
+    576,
+    592,
+    608,
+    624,
+    640,
+    656,
+    672,
+    688,
+    704,
+    720,
+    736,
+    752,
+    768
+   ],
+   "thetas": {
+    "0.6": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        62,
+        68
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.65": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        24
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        62,
+        68
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        25
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       2,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.7": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        24
+       ],
+       [
+        23,
+        25
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ],
+       [
+        62,
+        68
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        24
+       ],
+       [
+        24,
+        25
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 2,
+        "d1": 2,
+        "n0": 2,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        61,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        62,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.75": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        25
+       ],
+       [
+        23,
+        26
+       ],
+       [
+        23,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        24
+       ],
+       [
+        24,
+        27
+       ],
+       [
+        24,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        23,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        24,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.8": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [
+       {
+        "i": 30,
+        "step_a": 480,
+        "step_b": 496,
+        "u0": 0,
+        "d0": 0,
+        "u1": 1,
+        "d1": 1,
+        "n0": 1,
+        "u2": 0,
+        "d2": 0,
+        "n1": 0
+       }
+      ],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        43,
+        61
+       ],
+       [
+        61,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        44,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.85": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        26
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        27,
+        37
+       ],
+       [
+        38,
+        38
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        27
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        28,
+        36
+       ],
+       [
+        37,
+        39
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        45,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        46,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    },
+    "0.9": {
+     "full": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        28
+       ],
+       [
+        25,
+        37
+       ],
+       [
+        29,
+        33
+       ],
+       [
+        35,
+        37
+       ],
+       [
+        39,
+        96
+       ],
+       [
+        49,
+        61
+       ],
+       [
+        62,
+        68
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        29
+       ],
+       [
+        26,
+        36
+       ],
+       [
+        30,
+        32
+       ],
+       [
+        36,
+        36
+       ],
+       [
+        40,
+        96
+       ],
+       [
+        50,
+        60
+       ],
+       [
+        61,
+        69
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 6,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     },
+     "K_B": {
+      "theorem_holds_all_bridges": true,
+      "restricted_barcodes_equal": true,
+      "bridges_with_bridge_only_classes": [],
+      "union_H1_bars": [
+       [
+        25,
+        37
+       ],
+       [
+        49,
+        61
+       ],
+       [
+        63,
+        96
+       ]
+      ],
+      "intersection_H1_bars": [
+       [
+        26,
+        36
+       ],
+       [
+        50,
+        60
+       ],
+       [
+        64,
+        96
+       ]
+      ],
+      "hist_union_final": {
+       "t": 48,
+       "beta": 5,
+       "spurious": 3,
+       "connecting_rank_prev_new": 0
+      },
+      "hist_union_spurious_series": [
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3,
+       3
+      ],
+      "hist_increments_match_cumulative": true
+     }
+    }
+   }
+  }
+ ]
+}

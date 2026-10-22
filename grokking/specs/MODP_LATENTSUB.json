@@ -1,0 +1,23 @@
+{
+  "name": "MODP_LATENTSUB",
+  "description": "Variant of MODP where P_D (a-b) and its identity face f_sub are structurally latent: neither is ever placed in the training stream (TRAIN_P_D.jsonl / TRAIN_f_sub.jsonl are not written). P_D is only reachable, if at all, by composing the taught edges P_Pn (a,b)->(a,-b) and Pn_D (a,-b)->a-b; f_sub can only be answered by combining that composition with the taught f_comm/f_div-style equality skill. This is the RCN12-style 'latent composition' test layered on top of the grokking design: the ground-truth Betti sequence shows a genuine open-then-closed cycle (taught_no_faces[1,2] -> +P_D edge only [1,1], a NEW independent 1-cycle opens -> +P_D+f_sub [1,0], the cycle closes) even though every cell in it was declared before training started.",
+  "vocabulary": "modp",
+  "primes": {"701": 97, "702": 113},
+  "split_frac": 0.4,
+  "split_seed_offset": 900000,
+  "placebo_seed_offset": 950000,
+  "main_templates": [0, 1],
+  "edge_kind_overrides": {"P_D": "latent"},
+  "face_kind_overrides": {"f_sub": "latent"},
+  "probe": {"edge_roots": 512, "vertex_roots": 128, "face_roots": 256, "transfer_roots": 256},
+  "steps": 30000,
+  "eval_every": 100,
+  "ckpt_every": 1000,
+  "expected_topology": {
+    "vertices_only": [11, 0],
+    "taught_no_faces": [1, 2],
+    "taught_with_faces": [1, 0],
+    "plus_latent_edge_only": [1, 1],
+    "plus_latent_edge_and_face": [1, 0]
+  }
+}

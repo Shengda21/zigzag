@@ -1,0 +1,11 @@
+# Analysis (everything in reproduce.py runs on CPU with these two packages)
+numpy>=1.24
+matplotlib>=3.7
+
+# Training / inference (only needed to re-run the GPU experiments; versions used are listed in README.md)
+# torch>=2.4
+# transformers>=4.45,<5
+# peft>=0.13
+# accelerate
+# safetensors
+# huggingface_hub

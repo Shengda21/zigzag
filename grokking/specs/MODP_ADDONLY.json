@@ -1,0 +1,25 @@
+{
+  "name": "MODP_ADDONLY",
+  "description": "Minimal single-operation spec: the classic grokking setup (Power et al. 2022 / Nanda et al. 2023-style mod-addition table), reduced from the full MODP complex to only P=(a,b), S=a+b and the placebo control vertex X. One taught edge P_S (addition), one placebo edge P_X, no faces. Intended to be paired with run_grok.py/queue_grok.py's --preset classic (1 layer, full-batch AdamW, wd=1.0, 50000 steps) -- the setting the grokking literature actually uses -- as a fast, cheap, minimal-confound reference point before spending GPU time on the full 13-edge/3-face MODP complex. Uses vertex_present_mode=blanket: with only 3 vertices, whether the control vertex X is connected (via P_X) or isolated is itself the quantity of interest, not a nuisance to be hidden (contrast with MODP, where X is one of 11 vertices and the placebo-invariance guarantee is closure-driven instead -- see README).",
+  "vocabulary": "modp",
+  "primes": {"703": 97, "704": 113},
+  "split_frac": 0.4,
+  "split_seed_offset": 900000,
+  "placebo_seed_offset": 950000,
+  "main_templates": [0, 1],
+  "cell_subset": {"vertices": ["P", "S", "X"], "edges": ["P_S", "P_X"], "faces": []},
+  "vertex_present_mode": "blanket",
+  "transfer_tasks": [],
+  "edge_kind_overrides": {},
+  "face_kind_overrides": {},
+  "probe": {"edge_roots": 512, "vertex_roots": 128, "face_roots": 256, "transfer_roots": 256},
+  "steps": 30000,
+  "eval_every": 100,
+  "ckpt_every": 1000,
+  "expected_topology": {
+    "vertices_only": [3, 0],
+    "taught_no_faces": [2, 0],
+    "taught_with_faces": [2, 0],
+    "all_present": [1, 0]
+  }
+}

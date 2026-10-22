@@ -1,0 +1,7 @@
+{
+ "file": "PREREGISTRATION_PYTHIA_20260924.md",
+ "sha256": "e992c2be901c5b59756c6c66cf6afccf230a4b71ddb70a6a895ce7413c37f9ce",
+ "frozen_unix": 1790293474.6937141,
+ "frozen_local": "2026-09-24 20:44:34",
+ "note": "frozen before the step143000 capability-check result and any trajectory were read"
+}

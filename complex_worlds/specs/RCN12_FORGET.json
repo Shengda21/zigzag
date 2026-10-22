@@ -1,0 +1,61 @@
+{
+  "name": "RCN12_FORGET",
+  "description": "Same 12-vertex representation-conversion network as RCN12 with a forgetting/recovery curriculum over 768 steps: domain-B edges leave the training stream at 288 and return at 480; the C-triangle joint practice (face fC123) leaves at 352 and returns at 544. Windows were placed after the measured learning lag of the first session (codebook edges reach theta=0.8 96-240 steps after introduction, relabel edges 32-48). Faces are read out by the joint task with intervention (primary; both variants balanced in training since DEFECT_20260923); route probes are a secondary, closure-trivial readout. Chain-format practice rows are trained so transfer chains measure content rather than an unseen format.",
+  "alphabet": 32,
+  "steps": 768,
+  "face_readout": "joint",
+  "per_step": {"vertex": 8, "edge": 28, "joint": 12, "repair": 4, "format": 8, "chain": 4},
+  "train_chains": [["A1", "A2", "A3"], ["A1", "A4", "A3"], ["C1", "C2", "C3", "C4"], ["B1", "B2", "B3", "B4"], ["C3", "C4", "A1"]],
+  "vertices": ["A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4", "C1", "C2", "C3", "C4"],
+  "digit_groups": [["A1", "C4"], ["A3", "B1"], ["B4", "C1"]],
+  "edges": [
+    {"name": "A1A2", "src": "A1", "dst": "A2", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "A2A3", "src": "A2", "dst": "A3", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "A1A4", "src": "A1", "dst": "A4", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "A4A3", "src": "A4", "dst": "A3", "kind": "taught", "rule": "codebook", "introduce_step": 64},
+    {"name": "A1A3", "src": "A1", "dst": "A3", "kind": "latent", "rule": "composition", "via": ["A1A2", "A2A3"]},
+    {"name": "B1B2", "src": "B1", "dst": "B2", "kind": "taught", "rule": "codebook", "introduce_step": 0, "retire_step": 288, "reintroduce_step": 480},
+    {"name": "B2B3", "src": "B2", "dst": "B3", "kind": "taught", "rule": "codebook", "introduce_step": 0, "retire_step": 288, "reintroduce_step": 480},
+    {"name": "B1B3", "src": "B1", "dst": "B3", "kind": "taught", "rule": "codebook", "twist": true, "introduce_step": 64, "retire_step": 288, "reintroduce_step": 480},
+    {"name": "B3B4", "src": "B3", "dst": "B4", "kind": "taught", "rule": "codebook", "introduce_step": 64, "retire_step": 288, "reintroduce_step": 480},
+    {"name": "B2B4", "src": "B2", "dst": "B4", "kind": "latent", "rule": "composition", "via": ["B2B3", "B3B4"]},
+    {"name": "C1C2", "src": "C1", "dst": "C2", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "C2C3", "src": "C2", "dst": "C3", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "C1C3", "src": "C1", "dst": "C3", "kind": "taught", "rule": "codebook", "introduce_step": 0},
+    {"name": "C3C4", "src": "C3", "dst": "C4", "kind": "taught", "rule": "codebook", "introduce_step": 64},
+    {"name": "C4A1", "src": "C4", "dst": "A1", "kind": "taught", "rule": "relabel", "introduce_step": 256},
+    {"name": "A3B1", "src": "A3", "dst": "B1", "kind": "latent", "rule": "relabel"},
+    {"name": "B4C1", "src": "B4", "dst": "C1", "kind": "latent", "rule": "relabel"},
+    {"name": "A2B2", "src": "A2", "dst": "B2", "kind": "control", "rule": "codebook", "twist": true},
+    {"name": "C2B4", "src": "C2", "dst": "B4", "kind": "control", "rule": "codebook", "twist": true}
+  ],
+  "faces": [
+    {"name": "fC123", "cycle": ["C1C2", "C2C3", "C1C3"], "path": ["C1", "C2", "C3"], "kind": "taught", "introduce_step": 128, "retire_step": 352, "reintroduce_step": 544},
+    {"name": "fB123", "cycle": ["B1B2", "B2B3", "B1B3"], "path": ["B1", "B2", "B3"], "kind": "taught_inconsistent", "introduce_step": 128, "retire_step": 288, "reintroduce_step": 480},
+    {"name": "fA123", "cycle": ["A1A2", "A2A3", "A1A3"], "path": ["A1", "A2", "A3"], "kind": "latent"},
+    {"name": "fA143", "cycle": ["A1A4", "A4A3", "A1A3"], "path": ["A1", "A4", "A3"], "kind": "latent"},
+    {"name": "fB234", "cycle": ["B2B3", "B3B4", "B2B4"], "path": ["B2", "B3", "B4"], "kind": "latent"}
+  ],
+  "repair_faces": ["fC123"],
+  "repair_introduce_step": 192,
+  "transfer_chains": [["A1", "A2", "A3", "B1"], ["C1", "C2", "C3", "C4"], ["B1", "B2", "B3", "B4"], ["C3", "C4", "A1", "A2"]],
+  "probe": {"vertex_roots": 16, "edge_roots": 32, "face_roots": 32, "chain_roots": 32, "repair_roots": 32,
+            "vertex_templates": [0, 1], "edge_templates": [0, 1, 3], "face_templates": [0, 3], "route_templates": [0, 1], "main_templates": [0, 1]},
+  "expected_topology": {
+    "note": "same graph as RCN12; taught_before_* and taught_all are evaluated at steps where nothing is retired",
+    "taught_before_64": [5, 1],
+    "taught_before_128": [3, 3],
+    "taught_all": [2, 2],
+    "taught_plus_latent": [1, 2]
+  },
+  "expected_phases": {
+    "63": [5, 1], "127": [3, 3], "255": [3, 2], "287": [2, 2], "351": [5, 1], "479": [5, 2], "543": [2, 3], "767": [2, 2]
+  },
+  "ground_truth_intervals_H1_taught_only": {
+    "B_triangle_hole": [[64, 287], [480, 767]],
+    "C_triangle_hole": [[0, 127], [352, 543]],
+    "A_square_hole": [[64, 767]],
+    "note": "checkpoint steps at which the cycle is present in the taught-only complex; union-monotonised persistence would merge each pair into one interval"
+  },
+  "positive_control_windows": {"codebook_edge": 256, "relabel_edge": 64, "joint_face": 256, "note": "steps after introduction within which a taught cell should enter K_t(0.8); from the first session's measured lags (96-240 / 32-48 / face untested)"}
+}

@@ -1,0 +1,251 @@
+{
+  "vertices": [
+    "date_iso",
+    "date_text",
+    "date_us",
+    "date_weekday",
+    "num_binary",
+    "num_decimal",
+    "num_english",
+    "num_hex",
+    "num_roman",
+    "str_alternate",
+    "str_caesar3",
+    "str_caesar3_upper",
+    "str_reverse",
+    "str_reverse_caesar3",
+    "str_upper",
+    "str_upper_reverse",
+    "str_word"
+  ],
+  "edges": [
+    {
+      "name": "e_binary_hex",
+      "src": "num_binary",
+      "dst": "num_hex"
+    },
+    {
+      "name": "e_binary_roman",
+      "src": "num_binary",
+      "dst": "num_roman"
+    },
+    {
+      "name": "e_caesar3_caesar3upper",
+      "src": "str_caesar3",
+      "dst": "str_caesar3_upper"
+    },
+    {
+      "name": "e_caesar3_reversecaesar3",
+      "src": "str_caesar3",
+      "dst": "str_reverse_caesar3"
+    },
+    {
+      "name": "e_decimal_binary",
+      "src": "num_decimal",
+      "dst": "num_binary"
+    },
+    {
+      "name": "e_decimal_english",
+      "src": "num_decimal",
+      "dst": "num_english"
+    },
+    {
+      "name": "e_decimal_hex",
+      "src": "num_decimal",
+      "dst": "num_hex"
+    },
+    {
+      "name": "e_decimal_roman",
+      "src": "num_decimal",
+      "dst": "num_roman"
+    },
+    {
+      "name": "e_hex_english",
+      "src": "num_hex",
+      "dst": "num_english"
+    },
+    {
+      "name": "e_iso_text",
+      "src": "date_iso",
+      "dst": "date_text"
+    },
+    {
+      "name": "e_iso_us",
+      "src": "date_iso",
+      "dst": "date_us"
+    },
+    {
+      "name": "e_iso_weekday",
+      "src": "date_iso",
+      "dst": "date_weekday"
+    },
+    {
+      "name": "e_reverse_reversecaesar3",
+      "src": "str_reverse",
+      "dst": "str_reverse_caesar3"
+    },
+    {
+      "name": "e_reverse_upperreverse",
+      "src": "str_reverse",
+      "dst": "str_upper_reverse"
+    },
+    {
+      "name": "e_text_weekday",
+      "src": "date_text",
+      "dst": "date_weekday"
+    },
+    {
+      "name": "e_upper_caesar3upper",
+      "src": "str_upper",
+      "dst": "str_caesar3_upper"
+    },
+    {
+      "name": "e_upper_upperreverse",
+      "src": "str_upper",
+      "dst": "str_upper_reverse"
+    },
+    {
+      "name": "e_us_text",
+      "src": "date_us",
+      "dst": "date_text"
+    },
+    {
+      "name": "e_us_weekday",
+      "src": "date_us",
+      "dst": "date_weekday"
+    },
+    {
+      "name": "e_word_alternate",
+      "src": "str_word",
+      "dst": "str_alternate"
+    },
+    {
+      "name": "e_word_caesar3",
+      "src": "str_word",
+      "dst": "str_caesar3"
+    },
+    {
+      "name": "e_word_reverse",
+      "src": "str_word",
+      "dst": "str_reverse"
+    },
+    {
+      "name": "e_word_upper",
+      "src": "str_word",
+      "dst": "str_upper"
+    }
+  ],
+  "faces": [
+    {
+      "name": "face_caesar3_upper",
+      "cycle": [
+        "e_word_caesar3",
+        "e_caesar3_caesar3upper",
+        "e_word_upper",
+        "e_upper_caesar3upper"
+      ],
+      "composition_tasks": [
+        "caesar3_then_upper",
+        "upper_then_caesar3"
+      ]
+    },
+    {
+      "name": "face_decimal_binary_hex",
+      "cycle": [
+        "e_decimal_binary",
+        "e_binary_hex",
+        "e_decimal_hex"
+      ],
+      "composition_tasks": [
+        "decimal_via_binary_to_hex",
+        "decimal_to_hex"
+      ]
+    },
+    {
+      "name": "face_decimal_binary_roman",
+      "cycle": [
+        "e_decimal_binary",
+        "e_binary_roman",
+        "e_decimal_roman"
+      ],
+      "composition_tasks": [
+        "decimal_via_binary_to_roman",
+        "decimal_to_roman"
+      ]
+    },
+    {
+      "name": "face_decimal_hex_english",
+      "cycle": [
+        "e_decimal_hex",
+        "e_hex_english",
+        "e_decimal_english"
+      ],
+      "composition_tasks": [
+        "decimal_via_hex_to_english",
+        "decimal_to_english"
+      ]
+    },
+    {
+      "name": "face_iso_text_weekday",
+      "cycle": [
+        "e_iso_text",
+        "e_text_weekday",
+        "e_iso_weekday"
+      ],
+      "composition_tasks": [
+        "iso_via_text_to_weekday",
+        "iso_to_weekday"
+      ]
+    },
+    {
+      "name": "face_iso_us_text",
+      "cycle": [
+        "e_iso_us",
+        "e_us_text",
+        "e_iso_text"
+      ],
+      "composition_tasks": [
+        "iso_via_us_to_text",
+        "iso_to_text"
+      ]
+    },
+    {
+      "name": "face_iso_us_weekday",
+      "cycle": [
+        "e_iso_us",
+        "e_us_weekday",
+        "e_iso_weekday"
+      ],
+      "composition_tasks": [
+        "iso_via_us_to_weekday",
+        "iso_to_weekday"
+      ]
+    },
+    {
+      "name": "face_reverse_caesar3",
+      "cycle": [
+        "e_word_reverse",
+        "e_reverse_reversecaesar3",
+        "e_word_caesar3",
+        "e_caesar3_reversecaesar3"
+      ],
+      "composition_tasks": [
+        "reverse_then_caesar3",
+        "caesar3_then_reverse"
+      ]
+    },
+    {
+      "name": "face_upper_reverse",
+      "cycle": [
+        "e_word_upper",
+        "e_upper_upperreverse",
+        "e_word_reverse",
+        "e_reverse_upperreverse"
+      ],
+      "composition_tasks": [
+        "upper_then_reverse",
+        "reverse_then_upper"
+      ]
+    }
+  ]
+}

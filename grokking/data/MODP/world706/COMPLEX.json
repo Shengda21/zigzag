@@ -1,0 +1,287 @@
+{
+ "name": "MODP",
+ "vocabulary": "modp",
+ "cells": [
+  [
+   "P",
+   0,
+   []
+  ],
+  [
+   "S",
+   0,
+   []
+  ],
+  [
+   "D",
+   0,
+   []
+  ],
+  [
+   "M",
+   0,
+   []
+  ],
+  [
+   "N",
+   0,
+   []
+  ],
+  [
+   "Pn",
+   0,
+   []
+  ],
+  [
+   "Ps",
+   0,
+   []
+  ],
+  [
+   "I",
+   0,
+   []
+  ],
+  [
+   "Pi",
+   0,
+   []
+  ],
+  [
+   "Q",
+   0,
+   []
+  ],
+  [
+   "X",
+   0,
+   []
+  ],
+  [
+   "P_S",
+   1,
+   [
+    "P",
+    "S"
+   ]
+  ],
+  [
+   "P_D",
+   1,
+   [
+    "P",
+    "D"
+   ]
+  ],
+  [
+   "P_M",
+   1,
+   [
+    "P",
+    "M"
+   ]
+  ],
+  [
+   "P_N",
+   1,
+   [
+    "P",
+    "N"
+   ]
+  ],
+  [
+   "P_Pn",
+   1,
+   [
+    "P",
+    "Pn"
+   ]
+  ],
+  [
+   "Pn_D",
+   1,
+   [
+    "Pn",
+    "D"
+   ]
+  ],
+  [
+   "P_Ps",
+   1,
+   [
+    "P",
+    "Ps"
+   ]
+  ],
+  [
+   "Ps_S",
+   1,
+   [
+    "Ps",
+    "S"
+   ]
+  ],
+  [
+   "P_I",
+   1,
+   [
+    "P",
+    "I"
+   ]
+  ],
+  [
+   "P_Pi",
+   1,
+   [
+    "P",
+    "Pi"
+   ]
+  ],
+  [
+   "Pi_Q",
+   1,
+   [
+    "Pi",
+    "Q"
+   ]
+  ],
+  [
+   "P_Q",
+   1,
+   [
+    "P",
+    "Q"
+   ]
+  ],
+  [
+   "P_X",
+   1,
+   [
+    "P",
+    "X"
+   ]
+  ],
+  [
+   "f_sub",
+   2,
+   [
+    "P_D",
+    "P_Pn",
+    "Pn_D"
+   ]
+  ],
+  [
+   "f_comm",
+   2,
+   [
+    "P_S",
+    "P_Ps",
+    "Ps_S"
+   ]
+  ],
+  [
+   "f_div",
+   2,
+   [
+    "P_Q",
+    "P_Pi",
+    "Pi_Q"
+   ]
+  ]
+ ],
+ "cell_kind": {
+  "P": "vertex",
+  "S": "vertex",
+  "D": "vertex",
+  "M": "vertex",
+  "N": "vertex",
+  "Pn": "vertex",
+  "Ps": "vertex",
+  "I": "vertex",
+  "Pi": "vertex",
+  "Q": "vertex",
+  "X": "vertex",
+  "P_S": "taught",
+  "P_D": "taught",
+  "P_M": "taught",
+  "P_N": "taught",
+  "P_Pn": "taught",
+  "Pn_D": "taught",
+  "P_Ps": "taught",
+  "Ps_S": "taught",
+  "P_I": "taught",
+  "P_Pi": "taught",
+  "Pi_Q": "taught",
+  "P_Q": "taught",
+  "P_X": "control",
+  "f_sub": "taught",
+  "f_comm": "taught",
+  "f_div": "taught"
+ },
+ "latent_cells": [
+  "P_S",
+  "P_D",
+  "P_M",
+  "P_N",
+  "P_Pn",
+  "Pn_D",
+  "P_Ps",
+  "Ps_S",
+  "P_I",
+  "P_Pi",
+  "Pi_Q",
+  "P_Q",
+  "f_sub",
+  "f_comm",
+  "f_div"
+ ],
+ "control_cells": [
+  "P_X"
+ ],
+ "taught_edges": [
+  "P_S",
+  "P_D",
+  "P_M",
+  "P_N",
+  "P_Pn",
+  "Pn_D",
+  "P_Ps",
+  "Ps_S",
+  "P_I",
+  "P_Pi",
+  "Pi_Q",
+  "P_Q"
+ ],
+ "faces": [
+  "f_sub",
+  "f_comm",
+  "f_div"
+ ],
+ "transfer_tasks": [
+  "xfer_addsub3",
+  "xfer_muladd3"
+ ],
+ "main_templates": [
+  0,
+  1
+ ],
+ "face_readout": "routes",
+ "face_readout_note": "PRIMARY face score = route consistency: every edge in face_routes[name] must be correct for the SAME original item (row[\"item\"], the pre-transform (a,b) even for a route probe on a transformed input such as Pn_D on (a,-b)) -- see code/face_scores.py:route_consistency, merged into every eval summary as modp:face:task<name>. Reverted from the joint equality-comparison readout after GPU evidence (701/702, --preset classic, 100k steps): f_sub/f_comm/f_div crossed 0.9 held-out accuracy at 500-2750 steps, BEFORE any of the 7 arithmetic edges (2500-43000 steps) -- because \"a-b ?= a+n\" is true iff n=-b, answerable from negation alone (learned in 200-400 steps) without needing subtraction at all. The equality-comparison task (task=name, kind=joint, override True/False) is still trained and probed -- design_from_spec has a built-in dim==2 branch (min(acc(override=False), acc(override=True))) still scores it -- but it is now a SECONDARY readout only; see README \"等式捷径\" and PREREGISTRATION_GROKKING_DRAFT.md for the evidence and the confirmatory criteria this readout change feeds into.",
+ "face_routes": {
+  "f_sub": [
+   "P_D",
+   "P_Pn",
+   "Pn_D"
+  ],
+  "f_comm": [
+   "P_S",
+   "P_Ps",
+   "Ps_S"
+  ],
+  "f_div": [
+   "P_Q",
+   "P_Pi",
+   "Pi_Q"
+  ]
+ }
+}

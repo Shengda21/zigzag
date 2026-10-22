@@ -1,0 +1,224 @@
+{
+  "status": "PASS_INPUT_ONLY_NOT_TRAINED",
+  "spec": "RCN12_FORGET3",
+  "time": "2026-09-24T23:21:01Z",
+  "worlds": [
+    {
+      "world": 631,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 632,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 633,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 634,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 635,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 636,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    },
+    {
+      "world": 637,
+      "train": 49152,
+      "probes": 3712,
+      "probe_kinds": {
+        "vertex": 384,
+        "edge": 2208,
+        "joint": 640,
+        "route": 256,
+        "transfer": 128,
+        "repair": 96
+      },
+      "cells": 39,
+      "latent": 7,
+      "control": 2,
+      "curriculum_ok": true,
+      "latent_or_control_in_stream": 0,
+      "held_out_leakage": 0,
+      "token_budgets": {
+        "TRAIN_STREAM.jsonl": {
+          "prompt_max": 146,
+          "full_max": 182,
+          "answer_max": 36
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 136,
+          "full_max": 172,
+          "answer_max": 36
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "phases": {
+    "taught_before_64": [
+      5,
+      1
+    ],
+    "taught_before_128": [
+      3,
+      3
+    ],
+    "taught_before_256": [
+      3,
+      2
+    ],
+    "taught_all": [
+      2,
+      2
+    ],
+    "taught_plus_latent": [
+      1,
+      2
+    ]
+  },
+  "step_phases": {
+    "63": [
+      5,
+      1
+    ],
+    "127": [
+      3,
+      3
+    ],
+    "255": [
+      3,
+      2
+    ],
+    "287": [
+      2,
+      2
+    ],
+    "351": [
+      2,
+      2
+    ],
+    "479": [
+      2,
+      3
+    ],
+    "543": [
+      2,
+      3
+    ],
+    "767": [
+      2,
+      2
+    ]
+  },
+  "taught_windows": {
+    "A1A2": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "A2A3": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "A1A4": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "A4A3": {
+      "introduce": 64,
+      "retire": null,
+      "reintroduce": null
+    },
+    "B1B2": {
+      "introduce": 0,
+      "retire": 288,
+      "reintroduce": 480
+    },
+    "B1B2r": {
+      "introduce": 288,
+      "retire": 480,
+      "reintroduce": null
+    },
+    "B2B3": {
+      "introduce": 0,
+      "retire": 288,
+      "reintroduce": 480
+    },
+    "B2B3r": {
+      "introduce": 288,
+      "retire": 480,
+      "reintroduce": null
+    },
+    "B1B3": {
+      "introduce": 64,
+      "retire": 288,
+      "reintroduce": 480
+    },
+    "B1B3r": {
+      "introduce": 288,
+      "retire": 480,
+      "reintroduce": null
+    },
+    "B3B4": {
+      "introduce": 64,
+      "retire": 288,
+      "reintroduce": 480
+    },
+    "B3B4r": {
+      "introduce": 288,
+      "retire": 480,
+      "reintroduce": null
+    },
+    "C1C2": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "C2C3": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "C1C3": {
+      "introduce": 0,
+      "retire": null,
+      "reintroduce": null
+    },
+    "C3C4": {
+      "introduce": 64,
+      "retire": null,
+      "reintroduce": null
+    },
+    "C4A1": {
+      "introduce": 256,
+      "retire": null,
+      "reintroduce": null
+    },
+    "fC123": {
+      "introduce": 128,
+      "retire": 352,
+      "reintroduce": 544
+    },
+    "fB123": {
+      "introduce": 128,
+      "retire": 288,
+      "reintroduce": 480
+    }
+  },
+  "earliest_possible_step": {
+    "A1A3": 0,
+    "B2B4": 64,
+    "A3B1": 256,
+    "B4C1": 256,
+    "fA123": 0,
+    "fA143": 64,
+    "fB234": 64
+  },
+  "control_cells": [
+    "A2B2",
+    "C2B4"
+  ],
+  "bridge_sequence": {
+    "taught_all": [
+      2,
+      2
+    ],
+    "A3B1": [
+      1,
+      2
+    ],
+    "A3B1+B4C1": [
+      1,
+      3
+    ]
+  },
+  "permanent_holes": [
+    "fB123 cycle (twisted B1B3)",
+    "11-edge cross-domain cycle A3B1..C4A1..A2A3 (no 2-cell)"
+  ]
+}

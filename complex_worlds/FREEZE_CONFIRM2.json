@@ -1,0 +1,52 @@
+{
+ "file": "PREREGISTRATION_FORGET3_CONFIRM2_20260924.md",
+ "sha256": "af77435e6520f13b4400148afb3a86dd54988171f4320aa9e085b4c4237ea10e",
+ "frozen_unix": 1790292539.251927,
+ "frozen_local": "2026-09-24 20:28:59",
+ "note": "frozen before any world635/636/637 evaluation file was read; training launched ~20:25 local with the design fixed by MANIFEST hashes; launch time in the text corrected once (20:3x -> ~20:25) one minute after the first freeze, nothing read in between",
+ "manifests": {
+  "RCN12_FORGET3/world635": {
+   "TRAIN_STREAM.jsonl": "af299ad991637ebb36716b0472c42459a894105bbaa9ffec1be3a45af75d57d0",
+   "PROBES.jsonl": "a79d2c4e9e96130ae28d4abbf3403e834c4d1df819d095fa4ffd2a2c50126e25"
+  },
+  "RCN12_FORGET3/world636": {
+   "TRAIN_STREAM.jsonl": "49de3d1cfb9e4263caf82ffd4633e9a302e417e55cf8bbc51505695d12ab905c",
+   "PROBES.jsonl": "9a896228d193d60d27685ee25f5d74f0bfbc37a2b5f0e5cd5eabddb83d638a32"
+  },
+  "RCN12_FORGET3/world637": {
+   "TRAIN_STREAM.jsonl": "0f43a21b770f29d62f796ac4c85a90fb7e08c372e10c56fbb0eb4f2e8a2d18c5",
+   "PROBES.jsonl": "6f5d1fa7368d18e74c40324bcd7d0d781369444eba71cca4854d33943365c7b3"
+  },
+  "RCN12_FORGET3_X2/world635": {
+   "TRAIN_STREAM.jsonl": "ef77f2190811f1c4a819b85688f093baa338b50638ef3b39f121c15d338a0839",
+   "PROBES.jsonl": "a79d2c4e9e96130ae28d4abbf3403e834c4d1df819d095fa4ffd2a2c50126e25"
+  },
+  "RCN12_FORGET3_X2/world636": {
+   "TRAIN_STREAM.jsonl": "5aa4a0d440ae040b1432be81d5e4c33a1c1de08089d44d3eda9ec2f3feef0c10",
+   "PROBES.jsonl": "9a896228d193d60d27685ee25f5d74f0bfbc37a2b5f0e5cd5eabddb83d638a32"
+  }
+ },
+ "amendments": [
+  {
+   "n": 1,
+   "sha256_after": "871c50b077b49638cceaf772cf9f33f6e7db2cd77888111ce88999f385342bb5",
+   "local": "2026-09-24 20:49:42",
+   "unix": 1790293782.9720285,
+   "reason": "criterion 6 face reopen never occurs in 8/8 development arms; reopen/refill demoted to report item R4; no confirmation data read",
+   "sha256_after_timestamp_fix": "6ea9e214e18ace9d6cd02069a8a6d03010987e5a5ea93473e9b471f6eded4295"
+  },
+  {
+   "n": 2,
+   "local": "2026-09-24 21:02:06",
+   "unix": 1790294526.3534052,
+   "reason": "criterion 5 disjointness judged on checkpoint (even-node) supports; bridge-only overlap is transitional"
+  },
+  {
+   "n": 3,
+   "local": "2026-09-24 21:02:06",
+   "unix": 1790294526.3534052,
+   "sha256_after": "49dfc92519053c648c3aab972b52025fb8017f890d3b069386702bff72db2449",
+   "reason": "criterion 6 demoted to report item R5 (edge/face co-learning makes it curriculum-unstable on 8 dev arms); success = criteria 1-5,7 + S3"
+  }
+ ]
+}

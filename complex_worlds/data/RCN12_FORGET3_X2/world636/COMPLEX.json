@@ -1,0 +1,498 @@
+{
+ "name": "RCN12_FORGET3_X2",
+ "cells": [
+  [
+   "A1",
+   0,
+   []
+  ],
+  [
+   "A2",
+   0,
+   []
+  ],
+  [
+   "A3",
+   0,
+   []
+  ],
+  [
+   "A4",
+   0,
+   []
+  ],
+  [
+   "B1",
+   0,
+   []
+  ],
+  [
+   "B2",
+   0,
+   []
+  ],
+  [
+   "B3",
+   0,
+   []
+  ],
+  [
+   "B4",
+   0,
+   []
+  ],
+  [
+   "C1",
+   0,
+   []
+  ],
+  [
+   "C2",
+   0,
+   []
+  ],
+  [
+   "C3",
+   0,
+   []
+  ],
+  [
+   "C4",
+   0,
+   []
+  ],
+  [
+   "A1A2",
+   1,
+   [
+    "A1",
+    "A2"
+   ]
+  ],
+  [
+   "A2A3",
+   1,
+   [
+    "A2",
+    "A3"
+   ]
+  ],
+  [
+   "A1A4",
+   1,
+   [
+    "A1",
+    "A4"
+   ]
+  ],
+  [
+   "A4A3",
+   1,
+   [
+    "A4",
+    "A3"
+   ]
+  ],
+  [
+   "A1A3",
+   1,
+   [
+    "A1",
+    "A3"
+   ]
+  ],
+  [
+   "B1B2",
+   1,
+   [
+    "B1",
+    "B2"
+   ]
+  ],
+  [
+   "B1B2r",
+   1,
+   [
+    "B1",
+    "B2"
+   ]
+  ],
+  [
+   "B2B3",
+   1,
+   [
+    "B2",
+    "B3"
+   ]
+  ],
+  [
+   "B2B3r",
+   1,
+   [
+    "B2",
+    "B3"
+   ]
+  ],
+  [
+   "B1B3",
+   1,
+   [
+    "B1",
+    "B3"
+   ]
+  ],
+  [
+   "B1B3r",
+   1,
+   [
+    "B1",
+    "B3"
+   ]
+  ],
+  [
+   "B3B4",
+   1,
+   [
+    "B3",
+    "B4"
+   ]
+  ],
+  [
+   "B3B4r",
+   1,
+   [
+    "B3",
+    "B4"
+   ]
+  ],
+  [
+   "B2B4",
+   1,
+   [
+    "B2",
+    "B4"
+   ]
+  ],
+  [
+   "C1C2",
+   1,
+   [
+    "C1",
+    "C2"
+   ]
+  ],
+  [
+   "C2C3",
+   1,
+   [
+    "C2",
+    "C3"
+   ]
+  ],
+  [
+   "C1C3",
+   1,
+   [
+    "C1",
+    "C3"
+   ]
+  ],
+  [
+   "C3C4",
+   1,
+   [
+    "C3",
+    "C4"
+   ]
+  ],
+  [
+   "C4A1",
+   1,
+   [
+    "C4",
+    "A1"
+   ]
+  ],
+  [
+   "A3B1",
+   1,
+   [
+    "A3",
+    "B1"
+   ]
+  ],
+  [
+   "B4C1",
+   1,
+   [
+    "B4",
+    "C1"
+   ]
+  ],
+  [
+   "A2B2",
+   1,
+   [
+    "A2",
+    "B2"
+   ]
+  ],
+  [
+   "C2B4",
+   1,
+   [
+    "C2",
+    "B4"
+   ]
+  ],
+  [
+   "fC123",
+   2,
+   [
+    "C1C2",
+    "C2C3",
+    "C1C3"
+   ]
+  ],
+  [
+   "fA123",
+   2,
+   [
+    "A1A2",
+    "A2A3",
+    "A1A3"
+   ]
+  ],
+  [
+   "fA143",
+   2,
+   [
+    "A1A4",
+    "A4A3",
+    "A1A3"
+   ]
+  ],
+  [
+   "fB234",
+   2,
+   [
+    "B2B3",
+    "B3B4",
+    "B2B4"
+   ]
+  ]
+ ],
+ "cell_kind": {
+  "A1": "vertex",
+  "A2": "vertex",
+  "A3": "vertex",
+  "A4": "vertex",
+  "B1": "vertex",
+  "B2": "vertex",
+  "B3": "vertex",
+  "B4": "vertex",
+  "C1": "vertex",
+  "C2": "vertex",
+  "C3": "vertex",
+  "C4": "vertex",
+  "A1A2": "taught",
+  "A2A3": "taught",
+  "A1A4": "taught",
+  "A4A3": "taught",
+  "A1A3": "latent",
+  "B1B2": "taught",
+  "B1B2r": "taught",
+  "B2B3": "taught",
+  "B2B3r": "taught",
+  "B1B3": "taught",
+  "B1B3r": "taught",
+  "B3B4": "taught",
+  "B3B4r": "taught",
+  "B2B4": "latent",
+  "C1C2": "taught",
+  "C2C3": "taught",
+  "C1C3": "taught",
+  "C3C4": "taught",
+  "C4A1": "taught",
+  "A3B1": "latent",
+  "B4C1": "latent",
+  "A2B2": "control",
+  "C2B4": "control",
+  "fC123": "taught",
+  "fB123": "taught_inconsistent",
+  "fA123": "latent",
+  "fA143": "latent",
+  "fB234": "latent"
+ },
+ "latent_cells": [
+  "A1A3",
+  "B2B4",
+  "A3B1",
+  "B4C1",
+  "fA123",
+  "fA143",
+  "fB234"
+ ],
+ "control_cells": [
+  "A2B2",
+  "C2B4"
+ ],
+ "taught_edges": [
+  "A1A2",
+  "A2A3",
+  "A1A4",
+  "A4A3",
+  "B1B2",
+  "B1B2r",
+  "B2B3",
+  "B2B3r",
+  "B1B3",
+  "B1B3r",
+  "B3B4",
+  "B3B4r",
+  "C1C2",
+  "C2C3",
+  "C1C3",
+  "C3C4",
+  "C4A1"
+ ],
+ "faces": [
+  "fC123",
+  "fA123",
+  "fA143",
+  "fB234"
+ ],
+ "transfer_tasks": [
+  "chain_A1_A2_A3_B1",
+  "chain_B1_B2_B3_B4",
+  "chain_C1_C2_C3_C4",
+  "chain_C3_C4_A1_A2",
+  "repair_fC123"
+ ],
+ "main_templates": [
+  0,
+  1
+ ],
+ "robustness_template": 3,
+ "vocabulary": "rcn",
+ "face_readout": "joint",
+ "face_routes": {
+  "fC123": [
+   "C1C2",
+   "r_fC123_C2C3",
+   "C1C3"
+  ],
+  "fA123": [
+   "A1A2",
+   "r_fA123_A2A3",
+   "A1A3"
+  ],
+  "fA143": [
+   "A1A4",
+   "r_fA143_A4A3",
+   "A1A3"
+  ],
+  "fB234": [
+   "B2B3",
+   "r_fB234_B3B4",
+   "B2B4"
+  ]
+ },
+ "taught_windows": {
+  "A1A2": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "A2A3": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "A1A4": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "A4A3": {
+   "introduce": 128,
+   "retire": null,
+   "reintroduce": null
+  },
+  "B1B2": {
+   "introduce": 0,
+   "retire": 576,
+   "reintroduce": 960
+  },
+  "B1B2r": {
+   "introduce": 576,
+   "retire": 960,
+   "reintroduce": null
+  },
+  "B2B3": {
+   "introduce": 0,
+   "retire": 576,
+   "reintroduce": 960
+  },
+  "B2B3r": {
+   "introduce": 576,
+   "retire": 960,
+   "reintroduce": null
+  },
+  "B1B3": {
+   "introduce": 128,
+   "retire": 576,
+   "reintroduce": 960
+  },
+  "B1B3r": {
+   "introduce": 576,
+   "retire": 960,
+   "reintroduce": null
+  },
+  "B3B4": {
+   "introduce": 128,
+   "retire": 576,
+   "reintroduce": 960
+  },
+  "B3B4r": {
+   "introduce": 576,
+   "retire": 960,
+   "reintroduce": null
+  },
+  "C1C2": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "C2C3": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "C1C3": {
+   "introduce": 0,
+   "retire": null,
+   "reintroduce": null
+  },
+  "C3C4": {
+   "introduce": 128,
+   "retire": null,
+   "reintroduce": null
+  },
+  "C4A1": {
+   "introduce": 512,
+   "retire": null,
+   "reintroduce": null
+  },
+  "fC123": {
+   "introduce": 256,
+   "retire": 704,
+   "reintroduce": 1088
+  },
+  "fB123": {
+   "introduce": 256,
+   "retire": 576,
+   "reintroduce": 960
+  }
+ }
+}

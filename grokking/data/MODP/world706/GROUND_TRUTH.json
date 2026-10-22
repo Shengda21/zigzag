@@ -1,0 +1,33 @@
+{
+  "phases": {
+    "vertices_only": [
+      11,
+      0
+    ],
+    "taught_no_faces": [
+      1,
+      3
+    ],
+    "taught_with_faces": [
+      1,
+      0
+    ],
+    "placebo_entered_no_betti_change": {
+      "before": [
+        1,
+        0
+      ],
+      "after": [
+        1,
+        0
+      ],
+      "baseline_phase": "taught_with_faces"
+    }
+  },
+  "latent_edges": [],
+  "latent_faces": [],
+  "control_cells": [
+    "P_X"
+  ],
+  "note": "present sets never include control cells (P_X) or their destination vertex (X) except in the explicit placebo-invariance check above; \"latent\" here can mean either a structurally-untrained cell (MODP_LATENTSUB: P_D, f_sub) or, for MODP, the held-out generalisation curve of an otherwise-taught cell (grokking) -- see README."
+}

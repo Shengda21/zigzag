@@ -1,0 +1,165 @@
+{
+  "status": "PASS_INPUT_ONLY_NOT_TRAINED",
+  "version": "CROSSLINGUAL_20260922",
+  "time": "2026-09-22T06:54:47Z",
+  "worlds": [
+    {
+      "world": 501,
+      "counts": {
+        "SPEC_TRAIN.jsonl": 16384,
+        "FMT_TRAIN.jsonl": 8192,
+        "GEN_MULTI.jsonl": 8192,
+        "GEN_MONO.jsonl": 8192,
+        "PROBES.jsonl": 2448
+      },
+      "probe_counts": {
+        "spec:en": 720,
+        "spec:zh": 512,
+        "spec:ru": 512,
+        "spec:ja": 512,
+        "general:en": 64,
+        "general:zh": 64,
+        "general:ru": 64
+      },
+      "cross_lingual_items": 304,
+      "held_out_leakage": 0,
+      "scorer_gold_consistent": true,
+      "token_budgets": {
+        "SPEC_TRAIN.jsonl": {
+          "prompt_max": 131,
+          "full_max": 152,
+          "answer_max": 30,
+          "full_mean": 99.7
+        },
+        "FMT_TRAIN.jsonl": {
+          "prompt_max": 185,
+          "full_max": 215,
+          "answer_max": 30,
+          "full_mean": 178.9
+        },
+        "GEN_MULTI.jsonl": {
+          "prompt_max": 662,
+          "full_max": 665,
+          "answer_max": 58,
+          "full_mean": 220.8
+        },
+        "GEN_MONO.jsonl": {
+          "prompt_max": 662,
+          "full_max": 665,
+          "answer_max": 42,
+          "full_mean": 220.1
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 434,
+          "full_max": 437,
+          "answer_max": 31,
+          "full_mean": 128.1
+        },
+        "probes_en": {
+          "prompt_max": 298,
+          "full_max": 301,
+          "answer_max": 30,
+          "full_mean": 110.8
+        },
+        "probes_zh": {
+          "prompt_max": 302,
+          "full_max": 305,
+          "answer_max": 30,
+          "full_mean": 117.5
+        },
+        "probes_ru": {
+          "prompt_max": 434,
+          "full_max": 437,
+          "answer_max": 31,
+          "full_mean": 160.1
+        },
+        "probes_ja": {
+          "prompt_max": 154,
+          "full_max": 184,
+          "answer_max": 30,
+          "full_mean": 130.6
+        }
+      },
+      "version": "CROSSLINGUAL_20260922"
+    },
+    {
+      "world": 502,
+      "counts": {
+        "SPEC_TRAIN.jsonl": 16384,
+        "FMT_TRAIN.jsonl": 8192,
+        "GEN_MULTI.jsonl": 8192,
+        "GEN_MONO.jsonl": 8192,
+        "PROBES.jsonl": 2448
+      },
+      "probe_counts": {
+        "spec:en": 720,
+        "spec:zh": 512,
+        "spec:ru": 512,
+        "spec:ja": 512,
+        "general:en": 64,
+        "general:zh": 64,
+        "general:ru": 64
+      },
+      "cross_lingual_items": 304,
+      "held_out_leakage": 0,
+      "scorer_gold_consistent": true,
+      "token_budgets": {
+        "SPEC_TRAIN.jsonl": {
+          "prompt_max": 131,
+          "full_max": 152,
+          "answer_max": 30,
+          "full_mean": 99.7
+        },
+        "FMT_TRAIN.jsonl": {
+          "prompt_max": 185,
+          "full_max": 215,
+          "answer_max": 30,
+          "full_mean": 179.0
+        },
+        "GEN_MULTI.jsonl": {
+          "prompt_max": 662,
+          "full_max": 665,
+          "answer_max": 58,
+          "full_mean": 220.5
+        },
+        "GEN_MONO.jsonl": {
+          "prompt_max": 662,
+          "full_max": 665,
+          "answer_max": 42,
+          "full_mean": 219.8
+        },
+        "PROBES.jsonl": {
+          "prompt_max": 481,
+          "full_max": 484,
+          "answer_max": 30,
+          "full_mean": 128.2
+        },
+        "probes_en": {
+          "prompt_max": 264,
+          "full_max": 267,
+          "answer_max": 30,
+          "full_mean": 110.7
+        },
+        "probes_zh": {
+          "prompt_max": 266,
+          "full_max": 269,
+          "answer_max": 30,
+          "full_mean": 117.6
+        },
+        "probes_ru": {
+          "prompt_max": 481,
+          "full_max": 484,
+          "answer_max": 30,
+          "full_mean": 160.3
+        },
+        "probes_ja": {
+          "prompt_max": 154,
+          "full_max": 184,
+          "answer_max": 30,
+          "full_mean": 130.6
+        }
+      },
+      "version": "CROSSLINGUAL_20260922"
+    }
+  ]
+}

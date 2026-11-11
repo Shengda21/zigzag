@@ -1,0 +1,1 @@
+Run run_suite.py after the unchanged fixed-dose suite. Each case inherits exact weights by manifest/source-selection identities; all new inference code and banks are in its frozen manifest. No fitting takes place. Parent numerical data are needed only to regenerate and independently audit the frozen banks.

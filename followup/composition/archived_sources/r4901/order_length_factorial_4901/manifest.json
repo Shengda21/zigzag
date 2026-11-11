@@ -1,0 +1,12 @@
+{
+  "status": "FROZEN_BEFORE_R4901_QUERY",
+  "files": {
+    "PROTOCOL.md": "a2c18ae0b7fda7be6280810160c819531b556485aedfe54c7de4f52ee21ad673",
+    "build.py": "e6773aa078b59f95f4a023245a12c3c803777684ba738f86593a43e289f6d0e9",
+    "evaluate.py": "aba975ae2e568f7be0608080ca4be7cbfc9a626108bbcd3b510c4e111f279b6f",
+    "analyze.py": "8edd12c818612fdfff14b99cf1b4cb88e325734c8349f7e058ccd5fb2bda38e6",
+    "cpu_gate.json": "91870b55a79f820b2404ef9fc98a0ffe5eacfae732b8b38f5a55d19b98d3cc2f",
+    "bank_r1603.jsonl": "7a6577241f8070d8072b60fed86ad3caec752d15a0ec8390d376208209a9ccc8",
+    "bank_r4004.jsonl": "548991acc1b742db5c915a252d3abdd8393c3ea0f526f8901945cee8cbdbfe40"
+  }
+}

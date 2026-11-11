@@ -1,0 +1,36 @@
+{
+  "status": "FROZEN_BEFORE_R4007_UPDATES",
+  "rows": 4096,
+  "length_counts": {
+    "1": 512,
+    "9": 512,
+    "2": 512,
+    "8": 1024,
+    "10": 512,
+    "7": 1024
+  },
+  "prior_states": 316842,
+  "total_states": 343495,
+  "source_sha256": {
+    "prospective_world_4004/source_train.jsonl": "8680847828194cce21dd493f2bc6fe3816b990fa21aa5ab830c2066a5086741f",
+    "prospective_world_4004/repair_train.jsonl": "7371ed65e2b4ac2d1b657ac874db54969424a61d6ac49803971303ffa14bba90",
+    "prospective_world_4004/topology_bank.jsonl": "c39fff769c9d1d4b4e72df04edd2c57cc71a01bb291913e539542320ae23d44a",
+    "prospective_world_4004/hard_bank.jsonl": "b9eef4b4b363bf58e888da6736c6cb0ffa10c1b9883534b4cba31a97794e4aa7",
+    "prospective_world_4004/shell_train.jsonl": "274030415f0be1174470bcd1852016cd4e45ab482c8e2fb9cddf63c63d856caf",
+    "prospective_world_4004/control_train.jsonl": "c65027b2054c50e5861c8d8285797c4f7a2c408e2e5a6af69d02205570f391fa",
+    "prospective_world_4004/confirm_4005/topology_bank.jsonl": "d71b7355084677393a6d1b9b6cd45e67773c2f29cd1bd8a2d97218acf4fbf1ea",
+    "prospective_world_4004/confirm_4005/hard_bank.jsonl": "9b580ec5e3f795833c44ca373777c6f8e8c42842bc79dc37552ca9a8f8710d21",
+    "prospective_world_4004/confirm_4005/shell_train.jsonl": "4963be9431e7553ff1ed0ea06baa7324ab2738aa231f97b7bb8baf3bf23aa462",
+    "prospective_world_4004/confirm_4005/control_train.jsonl": "612b782b8dd8be50b07f9c2d3b8cda5c99b6b4519b7a2a0cb1a387db01e84363",
+    "prospective_world_4004/extension_4006/train.jsonl": "f59e6bcc53272acf81a916ec51e6421af66dc2b1c22e4d07de461e9d26754816",
+    "prospective_world_4004/extension_4006/confirm_4006/topology_bank.jsonl": "0d578e9f7c089ddc41bc45e1314221c884759f62c51b933f1f62e0127272da43",
+    "prospective_world_4004/extension_4006/confirm_4006/hard_bank.jsonl": "16fa02b8fc9fed87cc8bfe3ec2d3ab1fcf3742f70d5f1653276a4373d6a94164",
+    "prospective_world_4004/extension_4006/confirm_4006/shell_train.jsonl": "2efe7edc329677ff35c70e3debde944c65289114f177bcdc68aa9d9beabf032c",
+    "prospective_world_4004/extension_4006/confirm_4006/control_train.jsonl": "94baabf4c369a5ee76029300d12af56c7917e487336acb16bd86d6b3246a0dc0"
+  },
+  "files": {
+    "PROTOCOL.md": "27a4b2a5de2a7dbe48d8b88a5895611345e9cd2550422f66d550804f620352f6",
+    "build.py": "c6ed7a2984c6aed074af359deeb9df5fd695151df02db8f4cb250f3c1a135f4a",
+    "train.jsonl": "86bb403fb3b4d7ced1d86d969f3c8bc5edc5dbf7c5ae77b6be21409818ad8990"
+  }
+}

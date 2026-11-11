@@ -1,0 +1,20 @@
+{
+  "exhaustive_cokernel_lower_inequalities": 14700,
+  "n_nested_triples": 70,
+  "hypergeometric_exact_coverage_enumeration": [
+    {
+      "n": 16,
+      "max_noncoverage": 3.0036077719107902e-06,
+      "allocated_noncoverage": 5e-06
+    },
+    {
+      "n": 32,
+      "max_noncoverage": 3.646432404080908e-06,
+      "allocated_noncoverage": 5e-06
+    }
+  ],
+  "betti_sandwich_counterexample": {
+    "circle_beta1": 1,
+    "disk_beta1": 0
+  }
+}

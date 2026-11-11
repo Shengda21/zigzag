@@ -1,0 +1,173 @@
+{
+  "alpha": 0.05,
+  "scope": "iid fresh-root/pair protocol; all-correct rows are best case, power rows are single-coordinate power only",
+  "rows": [
+    {
+      "family_m": 8232,
+      "theta": 0.6,
+      "best_case_CP_all_correct_n": 25,
+      "Hoeffding_all_correct_n": 40
+    },
+    {
+      "family_m": 8232,
+      "theta": 0.7,
+      "best_case_CP_all_correct_n": 36,
+      "Hoeffding_all_correct_n": 71
+    },
+    {
+      "family_m": 8232,
+      "theta": 0.8,
+      "best_case_CP_all_correct_n": 57,
+      "Hoeffding_all_correct_n": 159
+    },
+    {
+      "family_m": 8232,
+      "theta": 0.85,
+      "best_case_CP_all_correct_n": 79,
+      "Hoeffding_all_correct_n": 283
+    },
+    {
+      "family_m": 8232,
+      "theta": 0.9,
+      "best_case_CP_all_correct_n": 121,
+      "Hoeffding_all_correct_n": 636
+    },
+    {
+      "family_m": 42,
+      "theta": 0.6,
+      "best_case_CP_all_correct_n": 15,
+      "Hoeffding_all_correct_n": 24
+    },
+    {
+      "family_m": 42,
+      "theta": 0.7,
+      "best_case_CP_all_correct_n": 21,
+      "Hoeffding_all_correct_n": 42
+    },
+    {
+      "family_m": 42,
+      "theta": 0.8,
+      "best_case_CP_all_correct_n": 34,
+      "Hoeffding_all_correct_n": 93
+    },
+    {
+      "family_m": 42,
+      "theta": 0.85,
+      "best_case_CP_all_correct_n": 46,
+      "Hoeffding_all_correct_n": 166
+    },
+    {
+      "family_m": 42,
+      "theta": 0.9,
+      "best_case_CP_all_correct_n": 71,
+      "Hoeffding_all_correct_n": 372
+    }
+  ],
+  "power": [
+    {
+      "n": 64,
+      "theta": 0.8,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 64,
+      "marginal_probability_CP_lower_ge_theta": 0.03752413921111603
+    },
+    {
+      "n": 64,
+      "theta": 0.85,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 65,
+      "marginal_probability_CP_lower_ge_theta": 0.0
+    },
+    {
+      "n": 64,
+      "theta": 0.9,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 65,
+      "marginal_probability_CP_lower_ge_theta": 0.0
+    },
+    {
+      "n": 128,
+      "theta": 0.8,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 121,
+      "marginal_probability_CP_lower_ge_theta": 0.6896151274170039
+    },
+    {
+      "n": 128,
+      "theta": 0.85,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 125,
+      "marginal_probability_CP_lower_ge_theta": 0.11267670131110905
+    },
+    {
+      "n": 128,
+      "theta": 0.9,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 128,
+      "marginal_probability_CP_lower_ge_theta": 0.0014080610235352154
+    },
+    {
+      "n": 256,
+      "theta": 0.8,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 233,
+      "marginal_probability_CP_lower_ge_theta": 0.9974522785663226
+    },
+    {
+      "n": 256,
+      "theta": 0.85,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 242,
+      "marginal_probability_CP_lower_ge_theta": 0.6985308250304529
+    },
+    {
+      "n": 256,
+      "theta": 0.9,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 250,
+      "marginal_probability_CP_lower_ge_theta": 0.026250794003902178
+    },
+    {
+      "n": 512,
+      "theta": 0.8,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 449,
+      "marginal_probability_CP_lower_ge_theta": 0.9999999999716853
+    },
+    {
+      "n": 512,
+      "theta": 0.85,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 470,
+      "marginal_probability_CP_lower_ge_theta": 0.9992405262914584
+    },
+    {
+      "n": 512,
+      "theta": 0.9,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 490,
+      "marginal_probability_CP_lower_ge_theta": 0.27093880840040263
+    },
+    {
+      "n": 1024,
+      "theta": 0.8,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 876,
+      "marginal_probability_CP_lower_ge_theta": 1.0
+    },
+    {
+      "n": 1024,
+      "theta": 0.85,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 921,
+      "marginal_probability_CP_lower_ge_theta": 0.9999999999852043
+    },
+    {
+      "n": 1024,
+      "theta": 0.9,
+      "true_coordinate_p": 0.95,
+      "minimum_successes": 963,
+      "marginal_probability_CP_lower_ge_theta": 0.9270757809319251
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "case": "r5302",
+  "directory": "confirmation_world2_seed1_5302",
+  "world": 2,
+  "replicate": 1,
+  "order": "BA",
+  "data_seed": 53000022271111,
+  "evaluation_seed": 53000022271112,
+  "policy_data_seed": 53000022271113,
+  "policy_training_seed": 53000022271114,
+  "training_seed": 53000022271210,
+  "look_sizes": [
+    256,
+    512
+  ],
+  "component_caps": {
+    "primitive": 2,
+    "identity": 2,
+    "three": 3,
+    "exchange_per_phase": 2
+  },
+  "parallel_training_only": false
+}

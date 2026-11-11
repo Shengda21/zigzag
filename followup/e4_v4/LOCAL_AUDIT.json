@@ -1,0 +1,128 @@
+{
+  "checks": [
+    {
+      "world": 961,
+      "training_oracle_rows_checked": 65536,
+      "evaluation_oracle_rows_checked": 6656,
+      "equal_per_map_root_training_exposures": true,
+      "all_pass": true
+    },
+    {
+      "world": 962,
+      "training_oracle_rows_checked": 65536,
+      "evaluation_oracle_rows_checked": 6656,
+      "equal_per_map_root_training_exposures": true,
+      "all_pass": true
+    }
+  ],
+  "synthetic_feature_test": {
+    "perfect_target": 1,
+    "invalid_target": 0,
+    "meaning": "Algorithm fixtures, not LM evidence"
+  },
+  "local_hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.10",
+    "torch": "2.5.0+cpu",
+    "cuda_available": false,
+    "cached_model_directories": [
+      "models--BAAI--bge-small-en-v1.5",
+      "models--EleutherAI--pythia-70m",
+      "models--Qwen--Qwen2.5-3B-Instruct",
+      "models--Systran--faster-whisper-medium",
+      "models--Systran--faster-whisper-small",
+      "models--Systran--faster-whisper-tiny"
+    ],
+    "target_1_5B_cache_present": false
+  },
+  "archived_h800_observations": [
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world635_S1\\train.jsonl",
+      "source_sha256": "9e936088a7a56786294d811e4df29e4d5311d1465f4a3a3795e51c70256e844b",
+      "steps": 768,
+      "train_step_seconds_median": 2.1973330974578857,
+      "train_seconds_sum": 1759.7049849033356,
+      "max_peak_memory_gb": 17.236892672,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 3098.371564388275,
+      "eval_seconds_per_example_median": 0.01536491654556373
+    },
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world635_S2\\train.jsonl",
+      "source_sha256": "fc0b70af4c45c47eeac35e898fd91edfc47dc3e291a31abcdec2929094a5f07f",
+      "steps": 768,
+      "train_step_seconds_median": 2.187727928161621,
+      "train_seconds_sum": 1677.089944601059,
+      "max_peak_memory_gb": 17.211356672,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 2924.300477027893,
+      "eval_seconds_per_example_median": 0.015451511303926337
+    },
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world636_S1\\train.jsonl",
+      "source_sha256": "3a2032c3965eec108ecf1572956f0eef549153b5c77ee583e820676273d426eb",
+      "steps": 768,
+      "train_step_seconds_median": 2.2505085468292236,
+      "train_seconds_sum": 1752.6549499034882,
+      "max_peak_memory_gb": 17.203456,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 3115.832992076874,
+      "eval_seconds_per_example_median": 0.015910502137808966
+    },
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world636_S2\\train.jsonl",
+      "source_sha256": "31659a39e66397e12e23eed58a4d652a070f6a37aaabf3263660e4bf951c928d",
+      "steps": 768,
+      "train_step_seconds_median": 1.1423417329788208,
+      "train_seconds_sum": 1130.886608839035,
+      "max_peak_memory_gb": 17.204671488,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 2045.890876531601,
+      "eval_seconds_per_example_median": 0.008058362736784178
+    },
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world637_S1\\train.jsonl",
+      "source_sha256": "15e16ad343034d3af83249800cd9ce3d5afbd6131035bd09bdb53493f3584381",
+      "steps": 768,
+      "train_step_seconds_median": 2.212269902229309,
+      "train_seconds_sum": 1773.7763781547546,
+      "max_peak_memory_gb": 17.230322176,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 3149.49991774559,
+      "eval_seconds_per_example_median": 0.01568234763268767
+    },
+    {
+      "source": "capability-zigzag-repro\\cloud_return_round4\\complex_worlds\\runs\\RCN12_FORGET3\\world637_S2\\train.jsonl",
+      "source_sha256": "2712281c1fe9fceb88117ca98268306a34114b88d74db23db58a290dbc5e0b7b",
+      "steps": 768,
+      "train_step_seconds_median": 2.200329303741455,
+      "train_seconds_sum": 1728.5509941577911,
+      "max_peak_memory_gb": 17.210141184,
+      "eval_examples": [
+        3712
+      ],
+      "eval_total_seconds": 3034.9692487716675,
+      "eval_seconds_per_example_median": 0.015609042654777396
+    }
+  ],
+  "extrapolation": {
+    "basis": "Linear extrapolation from archived H800 logs; new prompts and concurrency differ. Not measured E4 runtime.",
+    "per_arm_training_seconds": 1125.8015747070312,
+    "per_arm_eval_seconds": 1757.2819007676223,
+    "pilot_four_arms_serial_hours": 3.2034260838607267,
+    "confirm_twelve_arms_serial_hours": 9.61027825158218
+  },
+  "seconds": 15.266316400025971,
+  "cloud_runs_executed": false,
+  "tokenizer_audit_pending": false
+}

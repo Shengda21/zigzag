@@ -1,0 +1,43 @@
+{
+  "status": "FROZEN_BEFORE_R4701_INTERVENTION_QUERY_AFTER_IMPORT_REPAIR",
+  "source_adapter_sha256": "cc193ad763c5792b41d489ee4fa0a765a3367a32a2cc8b69c5088ed57348c3ad",
+  "files": {
+    "PROTOCOL.md": "fa52e8e4ceb98cc3058ecd5c4331d639307041564419ed3883892f414ba91165",
+    "build.py": "fd99af2fa803be33a73b30f3e12103ae86ff11f0fe75528db9a33ac77c359516",
+    "prepare_runner.py": "22a80a52f445f091152d8117bcca4f36c3cd5e86fda7e36855cfeb8265d79619",
+    "cpu_gate.json": "2702b231b746b9e795c247334b85c32e909b509ab8756c9cdef70afaf44ae207",
+    "train.py": "5fe7a402079e10f55d3755d23fec3a7d5b564684a7c68a206e394413d6b27f52",
+    "evaluate.py": "d4cb44d1e010614694e66066e32cbb0623bbf0a1119c06d94cc6770f9ba01e50",
+    "score.py": "5c221003bca2290edd7f1aa6ebdc4b320c4893257df5ae35f5d0fe62c7965ea9",
+    "independent_scoring.py": "30687f757ecaefedee3d05aea547366f49c70bebba54f47bb8a4faa915fbe6c9",
+    "choose_checkpoint.py": "27b294d4694d0a785818c031cab0fd229d58e142b98a3de5efe9647c5c0cf054",
+    "run.sh": "3833b277043d1c667804771a1d01704ce1a2e50367897cc799fc3e4769fddfae",
+    "run_resume.sh": "aceebe69126606427e28d991fed15f938c6e19283381d451d46246bedb790626",
+    "manifest_initial.json": "05c2350bd5e98a1fc8ededd9a3e551ff1a2ae50ce88c6f49b25b9ac351520f93",
+    "analysis_import_repair.json": "a1c29ffbe46faabcb4a8259fe202b2aaf9d8f1b6ac9b12771766ef3461172976",
+    "topology_bank.jsonl": "3796ce560d0605880b047d3bd4e62621c0fd5ad358b8628f3bb62b7139c18e2a",
+    "four_bank.jsonl": "f8ae44837858a7caf985372539253b552ae489f68ee2dc6ea6746e799120001c",
+    "train_ABC.jsonl": "9352c86f16077a3e5584426ed4d923fcbc02ce1a2ec62d1bf44a16d1baa26074",
+    "train_ABD.jsonl": "ab49f39f7a6a2284ace1a4af24e7468a9526e1c8f939b7a13cfb1bca099011a9",
+    "train_ABE.jsonl": "29bef851ac9a92785b6b262bb0073895005cc9b9233c471224b59fdd1f141d01",
+    "train_ACD.jsonl": "988c485a77018eef331deb9ba9202d1775881e694a911f14a207c65be23347fe",
+    "train_ACE.jsonl": "bfbfcf7fd5113e36b208f26ad2d8c42035257f5f53ba4d5710f13e7febae29de",
+    "train_ADE.jsonl": "b54a427df4e8335def391eb19c1e1b025d5c4b93bd494986e52c3a97621f900d",
+    "train_BCD.jsonl": "0123dbbb4b8a2ad1d85577d6c2847fbc38caaf355b7685d70db19b17e108b862",
+    "train_BCE.jsonl": "5b05c571089cf18d66243fefcf1755c8ef95e5a55a97295d189fd44cb042cffc",
+    "train_BDE.jsonl": "a9d828f2cb6840beea5d4fc2214acfb6e57381567979b50d958819bb155defb0",
+    "train_CDE.jsonl": "6080bfa2e38d3bfa5f52608d12a7756d20617bf9ecbcde37d08b8dda8411c059"
+  },
+  "faces": [
+    "ABC",
+    "ABD",
+    "ABE",
+    "ACD",
+    "ACE",
+    "ADE",
+    "BCD",
+    "BCE",
+    "BDE",
+    "CDE"
+  ]
+}

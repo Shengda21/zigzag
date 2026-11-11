@@ -1,0 +1,96 @@
+{
+  "arms": [
+    {
+      "run": "world635_S1",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    },
+    {
+      "run": "world635_S2",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    },
+    {
+      "run": "world636_S1",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    },
+    {
+      "run": "world636_S2",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    },
+    {
+      "run": "world637_S1",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    },
+    {
+      "run": "world637_S2",
+      "source_code_matches_manifest": true,
+      "split_counts": {
+        "train": 960,
+        "structure": 32,
+        "independent": 32
+      },
+      "fixed_grid_checkpoints": 49,
+      "paired_rows_cyclic_mapping_verified": 15680,
+      "recorded_save_every": 256,
+      "local_weight_directories": [
+        "final"
+      ]
+    }
+  ],
+  "status": "PASS",
+  "source_semantics": "Fixed-budget training; step-only lr; eval saves/restores RNG and does not select updates/checkpoints. Randomized-design inference conditions on fixed codebooks, training-root set and trajectory."
+}

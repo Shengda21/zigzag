@@ -1,0 +1,30 @@
+{
+  "audits": [
+    {
+      "world": 961,
+      "phase": "pilot",
+      "training_records_per_arm": 32768,
+      "probe_records": 6144,
+      "external_records": 512,
+      "disjoint_roots": true,
+      "heldout_face_training_count": 0,
+      "character_budgets_equal": true,
+      "oracle_scoring_all_pass": true,
+      "note": "Root sequences held out; individual code symbols intentionally shared so dictionaries are learnable. No model inference."
+    },
+    {
+      "world": 962,
+      "phase": "pilot",
+      "training_records_per_arm": 32768,
+      "probe_records": 6144,
+      "external_records": 512,
+      "disjoint_roots": true,
+      "heldout_face_training_count": 0,
+      "character_budgets_equal": true,
+      "oracle_scoring_all_pass": true,
+      "note": "Root sequences held out; individual code symbols intentionally shared so dictionaries are learnable. No model inference."
+    }
+  ],
+  "seconds": 10.059958199970424,
+  "meaning": "Actual data generation and oracle-score audit, not an LM experiment"
+}

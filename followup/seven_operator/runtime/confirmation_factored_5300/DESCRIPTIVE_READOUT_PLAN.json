@@ -1,0 +1,15 @@
+{
+  "utc": "2026-11-10T16:56:38.407778+00:00",
+  "role": "Additional descriptive own-state readout fixed before any confirmation whole-program query. Not a new primary criterion.",
+  "all_six_without_whole_queries_verified": true,
+  "script_sha256": "7ec8fa74e9ab517f201a6d6ee3fb838143cdb7a3eab0cf0646a7d842caa303cb",
+  "primary_registration_sha256": "ac3cab83f41da925cb774f3a1e630200605fef88808823b0a7719f2464edf863",
+  "readouts": [
+    "primitive correctness on own previous state",
+    "residual correction relative to predicted primitive state",
+    "effective correction relative to true primitive on own previous state",
+    "coherent phase transition and unchanged original-reference scoring"
+  ],
+  "uncertainty": "Descriptive correlated transitions; no additional step-level confidence interval or pass gate.",
+  "software_check": "Old R5262 first-cluster outputs:397 own-state transitions; coherent A remains correct after original-reference mismatch, wrong B phase detected. No new model queries."
+}

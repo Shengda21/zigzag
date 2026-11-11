@@ -1,0 +1,195 @@
+{
+  "status": "FROZEN_ALL_SIX_CASES_BEFORE_CONFIRMATION_TRAINING_AND_QUERIES",
+  "utc": "2026-11-10T16:04:58.743389+00:00",
+  "method_decision_sha256": "94c33fb07da8539be8facd4a04551f6afd6a34640240ac1865101efa51b627d6",
+  "prerequisites": {
+    "attention_assembly_5261": {
+      "report_sha256": "02d2d8ef3f2598fdf9e5e87777982b225682a3505b2a3a6a5aebeffccc2d1ef2",
+      "raw_audit_sha256": "737ecb64b8df912cc0e842a32e2228b1f3682cb51cc19bd226e9545dd371a1f8"
+    },
+    "attention_exchange_5262": {
+      "report_sha256": "ef2ed4556c7925cb564894fa41f35a5c10ca10a01bbcde4892d9bdb4c91d0a48",
+      "raw_audit_sha256": "67cdcfe325aa16d191c353c2aa611d4aa42cda3893caae08ea116600bdb636f0"
+    },
+    "attention_world2_5263": {
+      "report_sha256": "12ff93afe4a5d79955eb046d020abf771b24080814a0c9c1a4d26b6851112f66",
+      "raw_audit_sha256": "b98839349d7f0d6d78477909b3ba6d85a70b1e524b20d9ad32420d6d84137a80"
+    },
+    "attention_exchange_world2_5264": {
+      "report_sha256": "ef2ed4556c7925cb564894fa41f35a5c10ca10a01bbcde4892d9bdb4c91d0a48",
+      "raw_audit_sha256": "6f69e410a0e2682870124780ed27c56d5457d828c7c59d3ec2bb0796437376e4"
+    },
+    "single_face_world1_5281": {
+      "report_sha256": "63b1fd88481cd04ca88e904e27eab8c1550726fa3a682c85ee76fbb9ad4957b5",
+      "raw_audit_sha256": "89813053f94f2ef4ed4d921207bfd73a04fdac41597524b29c918b60029bfb13"
+    },
+    "single_face_world2_5282": {
+      "report_sha256": "580726dd80ab3e50b5a20e0d68adad4d1b2b6f2248bd324253333532f3dc1a4d",
+      "raw_audit_sha256": "75d2bf640a30d7db3913b707772d290d839b4982cc9788bfaebee9e1acf74a1e"
+    },
+    "key_switch_training_5290": {
+      "manifest_sha256": "f3709bd340ca5223053b79e35dc8d18cc44af7cffb031b47a20abf5aadcf9977",
+      "raw_audit_sha256": "9c7f7925db8d961d1cea7b21f3d98c4f9369fd497069140da9523e6621dea3b6"
+    },
+    "dense_switch_training_5291": {
+      "manifest_sha256": "4e4e60cb996b525e527a7b8f849b7cbbbb35843839953fb41c07bec6c440de22",
+      "raw_audit_sha256": "027a9e3b71bc2a4218974a53084d873a4cd65e8d0434f7400e11e4433c0e2e03"
+    },
+    "trained_content_probe_5292": {
+      "manifest_sha256": "671ea54d531c0db5aa1ba5acf21ee280209360299733605023df0be63ed3bab6",
+      "raw_audit_sha256": "8553cebea30cbf437db315e4e300ebdb4b1e6c370c8093970357b4db32f44aed"
+    }
+  },
+  "cases": [
+    {
+      "case": "r5301",
+      "directory": "confirmation_world1_seed1_5301",
+      "world": 1,
+      "replicate": 1,
+      "order": "AB",
+      "data_seed": 53000021271111,
+      "evaluation_seed": 53000021271112,
+      "policy_data_seed": 53000021271113,
+      "policy_training_seed": 53000021271114,
+      "training_seed": 53000021271210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "a29ecf36a776a72f86101770ca2507c1c8e3c51fc440cb18355b0fd68d8a9f84"
+    },
+    {
+      "case": "r5302",
+      "directory": "confirmation_world2_seed1_5302",
+      "world": 2,
+      "replicate": 1,
+      "order": "BA",
+      "data_seed": 53000022271111,
+      "evaluation_seed": 53000022271112,
+      "policy_data_seed": 53000022271113,
+      "policy_training_seed": 53000022271114,
+      "training_seed": 53000022271210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "bba86c63310da16b97f6320ced0817c22bd63fd2213ca574306492c58b51290b"
+    },
+    {
+      "case": "r5303",
+      "directory": "confirmation_world1_seed2_5303",
+      "world": 1,
+      "replicate": 2,
+      "order": "BA",
+      "data_seed": 53000021281111,
+      "evaluation_seed": 53000021281112,
+      "policy_data_seed": 53000021281113,
+      "policy_training_seed": 53000021281114,
+      "training_seed": 53000021281210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "bc52b751b8a55b57d8ac00bc08d225456a71def13c412946b186f1d316262325"
+    },
+    {
+      "case": "r5304",
+      "directory": "confirmation_world2_seed2_5304",
+      "world": 2,
+      "replicate": 2,
+      "order": "AB",
+      "data_seed": 53000022281111,
+      "evaluation_seed": 53000022281112,
+      "policy_data_seed": 53000022281113,
+      "policy_training_seed": 53000022281114,
+      "training_seed": 53000022281210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "193f2c946e49470148ab7410b159b883c2d6dff4abe615cf420ac8a206226fb0"
+    },
+    {
+      "case": "r5305",
+      "directory": "confirmation_world1_seed3_5305",
+      "world": 1,
+      "replicate": 3,
+      "order": "AB",
+      "data_seed": 53000021291111,
+      "evaluation_seed": 53000021291112,
+      "policy_data_seed": 53000021291113,
+      "policy_training_seed": 53000021291114,
+      "training_seed": 53000021291210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "a97b4ea99146b151ea6a79d0f30156fb71ebc148d38feff7777e880c3995b7a4"
+    },
+    {
+      "case": "r5306",
+      "directory": "confirmation_world2_seed3_5306",
+      "world": 2,
+      "replicate": 3,
+      "order": "BA",
+      "data_seed": 53000022291111,
+      "evaluation_seed": 53000022291112,
+      "policy_data_seed": 53000022291113,
+      "policy_training_seed": 53000022291114,
+      "training_seed": 53000022291210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "manifest_sha256": "b8c6603f6055f00f66efac93e22492cea8bea52ce956b5abffaa6e95010badca"
+    }
+  ],
+  "total_error": 0.05,
+  "score_family": 2898,
+  "contrast_family": 48,
+  "max_case_processes": 1,
+  "resource_mode": "serial",
+  "no_failed_seed_replacement": true
+}

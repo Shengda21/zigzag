@@ -1,0 +1,99 @@
+{
+  "status": "FROZEN_ALL_SIX_DISJOINT_WORD_PATTERN_BANKS",
+  "utc": "2026-11-10T21:19:44.197361+00:00",
+  "chronology": "After primary cases1/2 and fixed-dose case1 outcomes; before all queries on these new banks.",
+  "protocol_sha256": "eb7f4b1530288dd056c48753fc7ec42f01627874e7a1772c7a5a9cf85ae6dee3",
+  "inherited_fixed_dose_registration_sha256": "69fb9adca778d2736522192bf58751fc24192fba775e3b8ad84f9594a851494f",
+  "new_training_initializations": 0,
+  "cases": [
+    {
+      "case": "r5501",
+      "directory": "word_family_world1_seed1_5501",
+      "world": 1,
+      "replicate": 1,
+      "order": "AB",
+      "primary_directory": "confirmation_world1_seed1_5301",
+      "fixed_case": "r5401",
+      "fixed_directory": "equal_dose_world1_seed1_5401",
+      "fixed_manifest_sha256": "f847ff9c9050be650f9e345b9f0692ac238c9ae871039b54dc19075b29df2edd",
+      "evaluation_seed": 353000021271112,
+      "items": 128,
+      "manifest_sha256": "dda40bee9fa613096230a8c8d932d3168fb24df2ae2bcc2784e1f8955827617f"
+    },
+    {
+      "case": "r5502",
+      "directory": "word_family_world2_seed1_5502",
+      "world": 2,
+      "replicate": 1,
+      "order": "BA",
+      "primary_directory": "confirmation_world2_seed1_5302",
+      "fixed_case": "r5402",
+      "fixed_directory": "equal_dose_world2_seed1_5402",
+      "fixed_manifest_sha256": "aeadaf56b9b395bafcd296be073866bd25a503e839a71fbdd61ecea165862543",
+      "evaluation_seed": 353000022271112,
+      "items": 128,
+      "manifest_sha256": "e757b5e38d0937ab4c628acbc0efaae8e5c5bb04770c4ee44f4de71469a9eef9"
+    },
+    {
+      "case": "r5503",
+      "directory": "word_family_world1_seed2_5503",
+      "world": 1,
+      "replicate": 2,
+      "order": "BA",
+      "primary_directory": "confirmation_world1_seed2_5303",
+      "fixed_case": "r5403",
+      "fixed_directory": "equal_dose_world1_seed2_5403",
+      "fixed_manifest_sha256": "b1e4750cdae44a4c0f8d0244cef131174c081df889777cf7ba9fe075de0edda1",
+      "evaluation_seed": 353000021281112,
+      "items": 128,
+      "manifest_sha256": "1d5c6cb40d321c7ce663a1fdc60f52436668ed9b72d1bfe5a82f1ba2f3511b08"
+    },
+    {
+      "case": "r5504",
+      "directory": "word_family_world2_seed2_5504",
+      "world": 2,
+      "replicate": 2,
+      "order": "AB",
+      "primary_directory": "confirmation_world2_seed2_5304",
+      "fixed_case": "r5404",
+      "fixed_directory": "equal_dose_world2_seed2_5404",
+      "fixed_manifest_sha256": "585c3f8871520ea049e0f606d11ca7cf7950ac1d624f74cc4a025e0cb509d793",
+      "evaluation_seed": 353000022281112,
+      "items": 128,
+      "manifest_sha256": "61a77fde35e31acc2ca56394e0e297faf47e1ea14587639833274665c1c2a522"
+    },
+    {
+      "case": "r5505",
+      "directory": "word_family_world1_seed3_5505",
+      "world": 1,
+      "replicate": 3,
+      "order": "AB",
+      "primary_directory": "confirmation_world1_seed3_5305",
+      "fixed_case": "r5405",
+      "fixed_directory": "equal_dose_world1_seed3_5405",
+      "fixed_manifest_sha256": "5a6563843363dc42553a9925ce4cadd0a573c8359ed12622b7a7d004496d604f",
+      "evaluation_seed": 353000021291112,
+      "items": 128,
+      "manifest_sha256": "65c35eaeb518f4684998b9269b7ead02299124833578dfab44d26e0bab36757a"
+    },
+    {
+      "case": "r5506",
+      "directory": "word_family_world2_seed3_5506",
+      "world": 2,
+      "replicate": 3,
+      "order": "BA",
+      "primary_directory": "confirmation_world2_seed3_5306",
+      "fixed_case": "r5406",
+      "fixed_directory": "equal_dose_world2_seed3_5406",
+      "fixed_manifest_sha256": "24991edd0c0cb38d4ef09d8a8cc955c8ca1f5013027c8c34e5a49b7116369f82",
+      "evaluation_seed": 353000022291112,
+      "items": 128,
+      "manifest_sha256": "37ac1b0e20c3687fe755922c2a6929ea850a6688a10b500fdd22f1adf9c3a512"
+    }
+  ],
+  "files": {
+    "PROTOCOL.md": "eb7f4b1530288dd056c48753fc7ec42f01627874e7a1772c7a5a9cf85ae6dee3",
+    "run_suite.py": "a392a06f84d29821a0f599f7754b7887bb212767c9ff7b9ec5bd326b1e1eb748",
+    "REPRODUCE.md": "2bdf29a9aa00d5cf6755d3fc8990ecc2a15946d59dc251fce2acafffd726e602"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "status": "FROZEN_BEFORE_R4601_MODEL_QUERY",
+  "files": {
+    "PROTOCOL.md": "4a5fd3e6d4ddb46d2b05c335883f2c2088f4a31fc21f80ebb3c0a61dbd6d8d36",
+    "build.py": "92632b2f390b719eab747338c0c4393d2e00bd954d0dac44ba2de0656e4c70d5",
+    "adapt_and_freeze.py": "417dc006f4f6a001d00da2fb93c10cd1dddd348d82b9902665fb5aca03b9fc8b",
+    "cpu_gate.json": "2c23ec7399453f4337169207175749cb8a7aade987860a9be8202c146b211f05",
+    "train_clean.jsonl": "2de8b389d9956552a80c1ab7a4f08bd3697a572a90e821f3c6fe1a1892d35613",
+    "train_cycle.jsonl": "e38d7c66717098f0aa388b816291547186221efdc2d29048a13944a2ec150420",
+    "train_acyclic.jsonl": "cc75990a80612a0950caf8012b17da614c1d8207e0d9feb4c572248235ccbf0f",
+    "topology_bank.jsonl": "86ee5594246a2739fa4d2302f5318a4741bc3d33aed06fabed879e9d59d36aaf",
+    "hard_bank.jsonl": "3cfff0bbea9cdfed04d330d4bea59ddf6a8d4350592d4ce5bd0b9a5db2a95f6f",
+    "train.py": "7601235a95730742dda2828c3c563607b76e1fe889f674f6a3e7e7dc651f1efb",
+    "evaluate.py": "98a2aa029dc93cb95b3ae9572a87df1bb693a447da2bc9cf89d3cfce7716de33",
+    "analyze.py": "5a2f407602441d7a73f6f98c55d0de6bd5aaec49f7fd44a891a9bcd7f45fcfe6"
+  },
+  "source_adapter_sha256": "cc193ad763c5792b41d489ee4fa0a765a3367a32a2cc8b69c5088ed57348c3ad",
+  "reference_banks": {
+    "topology_bank.jsonl": "86ee5594246a2739fa4d2302f5318a4741bc3d33aed06fabed879e9d59d36aaf",
+    "hard_bank.jsonl": "3cfff0bbea9cdfed04d330d4bea59ddf6a8d4350592d4ce5bd0b9a5db2a95f6f"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "case": "r5404",
+  "directory": "equal_dose_world2_seed2_5404",
+  "world": 2,
+  "replicate": 2,
+  "order": "AB",
+  "data_seed": 53000022281111,
+  "evaluation_seed": 153000022281112,
+  "policy_data_seed": 53000022281113,
+  "policy_training_seed": 53000022281114,
+  "training_seed": 53000022281210,
+  "look_sizes": [
+    256,
+    512
+  ],
+  "component_caps": {
+    "primitive": 2,
+    "identity": 2,
+    "three": 3,
+    "exchange_per_phase": 2
+  },
+  "parallel_training_only": false,
+  "primary_case": "r5304",
+  "primary_directory": "confirmation_world2_seed2_5304",
+  "primary_manifest_sha256": "193f2c946e49470148ab7410b159b883c2d6dff4abe615cf420ac8a206226fb0",
+  "fixed_exchange_chunks": 2,
+  "source_initializations_inherited": true
+}

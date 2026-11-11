@@ -1,0 +1,14 @@
+{
+  "status": "FROZEN_BEFORE_R4401_QUERIES",
+  "files": {
+    "PROTOCOL.md": "1d54a71c56e4c55b80ca6ed698b34b1fbdafc49560fe053062bffde5368023c8",
+    "evaluate.py": "4e78cf6a314dd6d4ca512e6e3ff77291cf4efd7983fefd536b2fe0f54b76e762",
+    "run.sh": "9d910f4c66ec4afdb6ca47544fd50edc2e23ee6465f8ec7614a2758fdc48c93c",
+    "freeze.py": "7654b34e3b520b918609068f1d5fd07a4e9974a391af1f10a7ff86a7407beaff"
+  },
+  "banks": {
+    "r1603": "01665321b52cf8e0f84734dbef323cceac251f20deef40c74e4977f6fd32c8b2",
+    "r4004": "49f95c43194b992a51d9a7aa445afa18feedb39d885fcd1f5de6ab7da37194b6"
+  },
+  "source_bank_manifest_sha256": "63aba923384f69ffb6ee1a281f2177d7f627b3f7e39bae217b3ed797c854a971"
+}

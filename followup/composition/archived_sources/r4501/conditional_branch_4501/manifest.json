@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_BEFORE_R4501_MODEL_QUERY",
+  "files": {
+    "PROTOCOL.md": "c988d42a7cf4aa603e2f19176684ac8dead2090bfd5b5ae76b90031adbb1344f",
+    "build.py": "bc146cda443166359618d87231a6159a996ab1c63dfda275113af397de2c5a51",
+    "bank_r1603.jsonl": "e944fc44e4225a70df48ffdccb9195fe08323026bf84cd50f46bf3ebcf212c55",
+    "bank_r4004.jsonl": "0ddcc3caa16f189592dc633c1509831eb7ecc18db8d172a104d87c819382ddbd",
+    "cpu_gate_r1603.json": "e25bd0b94a8149556145c5279589db86cdb72bef3821fff9020869889483325a",
+    "cpu_gate_r4004.json": "64f1b73bdae26e08e0264479ce7f7afcc0d5963467f46cae463dbdc1124c8c36"
+  }
+}

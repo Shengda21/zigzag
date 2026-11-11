@@ -1,0 +1,13 @@
+{
+  "status": "FROZEN_BEFORE_R4103_INTERVENTION_MODEL_QUERY",
+  "files": {
+    "PROTOCOL.md": "47552fd3db6d646ba264463bda8485a38d4b15a332cbe63d7b3664ac9d28a02f",
+    "build.py": "561028ff9a14a15131d505abdfb7d054dec21ef0eb2a455142321f1d72789ccd",
+    "complex.json": "c71874aa1ba9289c8eefe874c486e089512355d59e2de80d39118c5bb928a043",
+    "cpu_gate.json": "f2f07e4ae43f2c6e3339eebce67a9c791fade57e73eec987daa93e7aea33acf0",
+    "topology_bank.jsonl": "86ee5594246a2739fa4d2302f5318a4741bc3d33aed06fabed879e9d59d36aaf",
+    "hard_bank.jsonl": "3cfff0bbea9cdfed04d330d4bea59ddf6a8d4350592d4ce5bd0b9a5db2a95f6f",
+    "clean_train.jsonl": "3f394fcb4fa6ecaedf25ed8652d194c523e5f6f400af8a874c43dca3f003b9f3",
+    "broken_train.jsonl": "1e9c553e58d9a7b4a41f033b25602d311474f438d963443099a4739bec118fa0"
+  }
+}

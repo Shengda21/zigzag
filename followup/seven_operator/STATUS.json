@@ -1,0 +1,119 @@
+{
+  "utc": "2026-11-11T08:15:55.783254+00:00",
+  "registered_cases": [
+    {
+      "case": "r5301",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world1_seed1_5301",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5302",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world2_seed1_5302",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5303",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world1_seed2_5303",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5304",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world2_seed2_5304",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5305",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world1_seed3_5305",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5306",
+      "assessment": "confirmation_factored_5300",
+      "directory": "confirmation_world2_seed3_5306",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5401",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world1_seed1_5401",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5402",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world2_seed1_5402",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5403",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world1_seed2_5403",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5404",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world2_seed2_5404",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5405",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world1_seed3_5405",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5406",
+      "assessment": "confirmation_equal_dose_5400",
+      "directory": "equal_dose_world2_seed3_5406",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5501",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world1_seed1_5501",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5502",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world2_seed1_5502",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5503",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world1_seed2_5503",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5504",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world2_seed2_5504",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5505",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world1_seed3_5505",
+      "terminal_raw_and_archive_returned": true
+    },
+    {
+      "case": "r5506",
+      "assessment": "word_family_evaluation_5500",
+      "directory": "word_family_world2_seed3_5506",
+      "terminal_raw_and_archive_returned": true
+    }
+  ],
+  "terminal_returned": 18,
+  "registered_total": 18,
+  "independent_task_sources": 6,
+  "new_word_pattern_training_initializations": 0,
+  "all_terminal_results_returned": true,
+  "public_deposit": "No public download location is available for the raw archives."
+}

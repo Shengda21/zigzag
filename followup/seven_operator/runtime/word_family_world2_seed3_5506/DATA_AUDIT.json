@@ -1,0 +1,46 @@
+{
+  "world": 2,
+  "seed": 353000022291112,
+  "items": 128,
+  "fixed_training_input_states": 149510,
+  "total_root_draws": 533,
+  "maximum_draws_per_item": 23,
+  "empirical_acceptance_fraction": 0.2401500938086304,
+  "seconds": 0.10900000000037835,
+  "sampling": "Each item independently draws its program set, then a uniform root conditional on every old/A/B reference numerical input avoiding the fixed training-input set. Accepted evaluation states never modify that set.",
+  "all_reference_intermediate_numeric_inputs_held_out": true,
+  "primitive_half_step_inputs_also_held_out": true,
+  "model_queries": 0,
+  "input_file_counts": {
+    "train_primitive": 38528,
+    "test_primitive": 38528,
+    "train_identity": 38528,
+    "test_identity": 11648,
+    "train_three": 38528,
+    "test_three": 38528
+  },
+  "independent_reference_paths_checked": 4608,
+  "pattern_counts": {
+    "four": 37,
+    "five": 184
+  },
+  "pool_sizes": {
+    "4": {
+      "all_candidate_words": 888,
+      "eligible_first_words": 888,
+      "excluded_patterns": [
+        "01230123"
+      ]
+    },
+    "5": {
+      "all_candidate_words": 41760,
+      "eligible_first_words": 25680,
+      "excluded_patterns": [
+        "01230142",
+        "01230412"
+      ]
+    }
+  },
+  "old_templates_excluded_under_all_relabellings": true,
+  "all_numeric_training_and_component_test_inputs_excluded": true
+}

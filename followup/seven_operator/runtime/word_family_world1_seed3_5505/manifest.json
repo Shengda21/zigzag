@@ -1,0 +1,33 @@
+{
+  "case": {
+    "case": "r5505",
+    "directory": "word_family_world1_seed3_5505",
+    "world": 1,
+    "replicate": 3,
+    "order": "AB",
+    "primary_directory": "confirmation_world1_seed3_5305",
+    "fixed_case": "r5405",
+    "fixed_directory": "equal_dose_world1_seed3_5405",
+    "fixed_manifest_sha256": "5a6563843363dc42553a9925ce4cadd0a573c8359ed12622b7a7d004496d604f",
+    "evaluation_seed": 353000021291112,
+    "items": 128
+  },
+  "files": {
+    "audit_outputs.py": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53",
+    "case.json": "561cf2219fc810729a8e271a7df74038537c8bad65624de97a93b629f08b432f",
+    "DATA_AUDIT.json": "8e7b0e30f8e46b4392d7b5eee667ad616a26f44b328f8eb10e33b79d7ccaa52c",
+    "five_bank.jsonl": "6f099d67b6bdd910740d3f38e02da6839281de67334019e27f24f74973e453bf",
+    "four_bank.jsonl": "023fad8b0666d129f6172dae4ddfa59f9a066d7caa40fafd88716628d1474bb9",
+    "generate_bank.py": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe",
+    "iid_probes.py": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc",
+    "policy.py": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3",
+    "prompts.py": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262",
+    "rollout.py": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1",
+    "rules.py": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52",
+    "run_evaluation.py": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219",
+    "score.py": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7",
+    "topology_math.py": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf",
+    "word_statistics.py": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+  },
+  "model_queries_before_freeze": 0
+}

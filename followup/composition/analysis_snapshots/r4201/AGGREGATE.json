@@ -1,0 +1,223 @@
+{
+  "status": "COMPLETE_R4201_PREDECLARED_INTERVENTION_GATE",
+  "table": [
+    {
+      "arm": "baseline",
+      "step": 0,
+      "vertex_min": 1.0,
+      "edge_min": 0.984375,
+      "face_min": 0.9609375,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 251,
+      "strict_pairs_8": 232,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "corrupt",
+      "step": 32,
+      "vertex_min": 0.9921875,
+      "edge_min": 0.7265625,
+      "face_min": 0.0,
+      "theta80_betti": [
+        1,
+        3,
+        0
+      ],
+      "strict_pairs_7": 0,
+      "strict_pairs_8": 0,
+      "format_eos": 0.9997051886792453
+    },
+    {
+      "arm": "corrupt",
+      "step": 64,
+      "vertex_min": 1.0,
+      "edge_min": 0.890625,
+      "face_min": 0.0,
+      "theta80_betti": [
+        1,
+        6,
+        0
+      ],
+      "strict_pairs_7": 0,
+      "strict_pairs_8": 0,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "corrupt",
+      "step": 96,
+      "vertex_min": 0.984375,
+      "edge_min": 0.9375,
+      "face_min": 0.0,
+      "theta80_betti": [
+        1,
+        6,
+        0
+      ],
+      "strict_pairs_7": 0,
+      "strict_pairs_8": 0,
+      "format_eos": 0.9997051886792453
+    },
+    {
+      "arm": "corrupt",
+      "step": 128,
+      "vertex_min": 1.0,
+      "edge_min": 0.9453125,
+      "face_min": 0.0,
+      "theta80_betti": [
+        1,
+        6,
+        0
+      ],
+      "strict_pairs_7": 0,
+      "strict_pairs_8": 0,
+      "format_eos": 0.9997051886792453
+    },
+    {
+      "arm": "clean1",
+      "step": 128,
+      "vertex_min": 1.0,
+      "edge_min": 0.9921875,
+      "face_min": 0.9765625,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 252,
+      "strict_pairs_8": 240,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "recover",
+      "step": 32,
+      "vertex_min": 1.0,
+      "edge_min": 0.96875,
+      "face_min": 0.859375,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 234,
+      "strict_pairs_8": 199,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "recover",
+      "step": 64,
+      "vertex_min": 0.9921875,
+      "edge_min": 0.9765625,
+      "face_min": 0.90625,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 240,
+      "strict_pairs_8": 232,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "recover",
+      "step": 96,
+      "vertex_min": 1.0,
+      "edge_min": 0.9765625,
+      "face_min": 0.9609375,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 249,
+      "strict_pairs_8": 235,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "recover",
+      "step": 128,
+      "vertex_min": 1.0,
+      "edge_min": 0.9765625,
+      "face_min": 0.8828125,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 246,
+      "strict_pairs_8": 230,
+      "format_eos": 1.0
+    },
+    {
+      "arm": "clean2",
+      "step": 256,
+      "vertex_min": 1.0,
+      "edge_min": 0.9921875,
+      "face_min": 0.984375,
+      "theta80_betti": [
+        1,
+        0,
+        4
+      ],
+      "strict_pairs_7": 249,
+      "strict_pairs_8": 242,
+      "format_eos": 1.0
+    }
+  ],
+  "loss_flags": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "loss_bootstrap": 1.0,
+  "gain_flags": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "gain_bootstrap": 1.0,
+  "paired": {
+    "7": {
+      "difference": 0.984375,
+      "bonferroni_lower": 0.96875,
+      "clean_only": 252,
+      "corrupt_only": 0
+    },
+    "8": {
+      "difference": 0.9375,
+      "bonferroni_lower": 0.90625,
+      "clean_only": 240,
+      "corrupt_only": 0
+    }
+  },
+  "gates": {
+    "baseline_eligible": true,
+    "H2_grid_loss": true,
+    "H2_loss_bootstrap": true,
+    "corrupt_transfer_below_205": true,
+    "paired_superiority_7": true,
+    "paired_superiority_8": true,
+    "corrupt_unary_retained": true,
+    "corrupt_binary_retained": true,
+    "H2_grid_recovery": true,
+    "H2_recovery_bootstrap": true,
+    "recovery_transfer_7": true,
+    "recovery_transfer_8": true,
+    "clean1_retains_H2": true,
+    "clean2_retains_H2": true,
+    "clean1_transfer": true,
+    "clean2_transfer": true
+  },
+  "joint_pass": true
+}

@@ -1,0 +1,171 @@
+{
+  "schema": "e4-v4-code-only-v1",
+  "source_archive": "e4_v4_world961.tar.gz",
+  "source_archive_sha256": "2f4a7a9a700097ae07e6d966049c64bb2ad2f711fd77d0558615037f8fcd5a7b",
+  "confirmation_lock_sha256": "98a95beb672d40cb9c4fdac6420ef1b8e9ee1d5eecb22c34f2d38d333f326c2f",
+  "scope": "Frozen code, protocol, and pilot analysis exports only; no confirmation results, model states, or raw data.",
+  "files": {
+    "CONFIG.json": {
+      "sha256": "234d26e82fbbc0618b91ce2c2b959e035af634d712b924ac9219d840f3c7950c",
+      "bytes": 602,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "CPU_AUDIT_pilot.json": {
+      "sha256": "61f57c86eaaed3c41e5cd6a46e1bbf5de9dba1dd74d5e6435db8368429728f17",
+      "bytes": 1054,
+      "in_frozen_lock": false,
+      "source": "pilot archive member"
+    },
+    "LOCAL_AUDIT.json": {
+      "sha256": "2416e17c190f1e65f21db7429028cc0d8a37db8cecd29946380ea319b4c9e6df",
+      "bytes": 4980,
+      "in_frozen_lock": false,
+      "source": "pilot archive member"
+    },
+    "OUTPUT_LAYOUT_AUDIT.json": {
+      "sha256": "1e034b90d6de7dc6c9abfda1fa033da9cf2924d5383e89eb0a3a6caa46ef8c48",
+      "bytes": 417,
+      "in_frozen_lock": false,
+      "source": "pilot archive member"
+    },
+    "PACKAGE_MANIFEST.json": {
+      "sha256": "137cdd7ac7b56e92b589e720b32fa8b1276791d01bf35af186cd6dcce4893f75",
+      "bytes": 3515,
+      "in_frozen_lock": false,
+      "source": "pilot archive member"
+    },
+    "PILOT_REVIEW.md": {
+      "sha256": "c5920bc8ca473911b3a971af5f513d4982f49e05d16ca66916ad2dce26ddb98c",
+      "bytes": 3546,
+      "in_frozen_lock": true,
+      "source": "lock-verified local pilot record"
+    },
+    "PROTOCOL.md": {
+      "sha256": "dbd7cf4a9358c3ac5687ac1572bf0c51b9a7350a71ffd4d9c85a78c629758295",
+      "bytes": 8866,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "README.md": {
+      "sha256": "6dd5696ccc1fe553dad3d9baf9590d500357e7cbdccc03f2638418510a0fd92c",
+      "bytes": 192,
+      "in_frozen_lock": false,
+      "source": "pilot archive member"
+    },
+    "analysis/pilot/FEASIBILITY.json": {
+      "sha256": "db6bbe07043e2220ee95af9f74b837d18b9e86dd55a281929997890d0ada7bfc",
+      "bytes": 8325,
+      "in_frozen_lock": true,
+      "source": "lock-verified local pilot record"
+    },
+    "analysis/pilot/FEATURES.json": {
+      "sha256": "5eaef28d9ef109f2f1ae83e3f32889c71f3c9320d51fa855a79c627ee6ccf3b4",
+      "bytes": 646303,
+      "in_frozen_lock": false,
+      "source": "local pilot analysis export (not lock-listed)"
+    },
+    "analysis/pilot/REPORT.json": {
+      "sha256": "e1c1a390e38d5783606acb4974199788bb120a264590c217d31bddab3feca756",
+      "bytes": 70964,
+      "in_frozen_lock": false,
+      "source": "local pilot analysis export (not lock-listed)"
+    },
+    "analysis/pilot/SELECTION.json": {
+      "sha256": "74080cf7b4fcccb2e309602d31f889115e1db2f3caab1055fa8436ddc5ea57c7",
+      "bytes": 1267,
+      "in_frozen_lock": true,
+      "source": "lock-verified local pilot record"
+    },
+    "analyze.py": {
+      "sha256": "171127bf254ab9aa21a9c2647370cdc94bb0f1e8da5e562ed2be2d9461439b67",
+      "bytes": 10106,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "audit.py": {
+      "sha256": "ff83c25cacefb20c45a43a413399b7ceeba7b770914bcacadaefeaf863f7a03b",
+      "bytes": 9672,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "cloud.sh": {
+      "sha256": "d498fb48aafa9525e1c7ee911663403906fdd7cae4f601b5b1943538b03446f0",
+      "bytes": 1108,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "cloud_token_audit.py": {
+      "sha256": "6d87d77d6723441451ee4be22987037412a75cbe43f61c514e3a2a7c6ec59a94",
+      "bytes": 1756,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "freeze.py": {
+      "sha256": "1fb941dfabd9742103849f9c0df09f6a6f0d610d9767cf1643a43aa068447a32",
+      "bytes": 1608,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "generate.py": {
+      "sha256": "cfd1f57cb9223f51b7b4fe4bd893f1c3d01a9643dd299c6b5cc00804cffbd43f",
+      "bytes": 10599,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "layout_audit.py": {
+      "sha256": "d3fbf1ea7f7cd613ba8e16c377def25b79b1f096f6677ca1698bd55c4c272d4e",
+      "bytes": 3429,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "package.py": {
+      "sha256": "e6a2ff9ccec468b5638432e207995b79372022c4b43c5b77f8ff7ffd401da075",
+      "bytes": 1467,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "requirements.txt": {
+      "sha256": "dcfcea515177de22591719259d590f6a4ec7e61595690230b1fb96d0655ef862",
+      "bytes": 97,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "run.py": {
+      "sha256": "f928e7d9bd9e84c5dde95a1a57c9ee05fb3721d68acbfe6dd10dfa4b8cb6ed81",
+      "bytes": 4536,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "vendor/cw_zigzag.py": {
+      "sha256": "f0d0c7160c3fdb9845674e2b04f08f30f161e1d2a0df25b4724c499db7e12230",
+      "bytes": 30872,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "vendor/spec_world.py": {
+      "sha256": "16ce5805d44e52a54d84defe00d0843eec3af85e213ce1379bcb3b5c59f26461",
+      "bytes": 23835,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "vendor/zz_score.py": {
+      "sha256": "2b3a3fbdbb0904eb31d424d198d5d2115fbdd5f8d3825ae21d3b35e69eb04ae5",
+      "bytes": 8664,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "vendor/zz_train.py": {
+      "sha256": "680d078c375b47906a61c168db44799fb78f3306dc2daa62df5fc616e46b3fcf",
+      "bytes": 13501,
+      "in_frozen_lock": true,
+      "source": "pilot archive member"
+    },
+    "CONFIRM_LOCK.json": {
+      "sha256": "98a95beb672d40cb9c4fdac6420ef1b8e9ee1d5eecb22c34f2d38d333f326c2f",
+      "bytes": 2350,
+      "in_frozen_lock": false,
+      "source": "independently hashed pilot analysis lock copy"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "checked_chain_space_ranks": 125064,
+  "unique_rank_configurations": 1230,
+  "method": "Exhaustive edge-chain and XOR-span enumeration; independent of CW homology/induced-map/rank implementation.",
+  "status": "PASS"
+}

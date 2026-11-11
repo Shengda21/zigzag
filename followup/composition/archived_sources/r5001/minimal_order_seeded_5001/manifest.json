@@ -1,0 +1,26 @@
+{
+  "status": "FROZEN_BEFORE_R5001_NEW_SOURCE_TRAINING",
+  "files": {
+    "PROTOCOL.md": "0ef3098c6c9bbba597b7713d2a744253ecd53ab3e54d76a6ec917239c91e9823",
+    "build.py": "2cf149a96c294cb663940c89f08c926bd54bc32c32b610250876513088466df2",
+    "train.py": "8664bb05d12b51176a2f870edbe76bfbabdaade2047d6251d25d6d73a65ac048",
+    "evaluate.py": "2231253ea8a6501330c59949ad5c6debdd0000966f7fb0211eb3ac9deda51d3a",
+    "score.py": "489402f001e9e8baba61f39b6f7ca6c87ce0a9fe940d32a2d32d237fe88e1130",
+    "aggregate.py": "fa5d3fc188f42406b4246e01789ac2c9959944529ed5beed271498d4e5dee73f",
+    "token_audit.py": "30a9a83e3c792bb0c54668092740725b72d980930856b00c7b7e046b25b1641e",
+    "prepare_runner.py": "1b7702008ce7f7bd0f5adb766640ea4697aad4d38be74c4046a6e726b1d0d8ea",
+    "independent_scoring.py": "30687f757ecaefedee3d05aea547366f49c70bebba54f47bb8a4faa915fbe6c9",
+    "data_manifest.json": "c62c682d60abf2075aace25d4b4bd1e4dd3582e6373fc27de084112cedf6d5e8",
+    "run.sh": "f56cafb16d0e7bad51acd42899fa987f0c4432d55e1ced0805f73a5cf8317411",
+    "r1603/source_train.jsonl": "4370ec9069d2735d071a9ea9abe049f081cd00ce5b29b59dc2f69a1eb49bfa7f",
+    "r1603/train_two.jsonl": "10050412912de39734a4b3a765dc04b2925f3645e8be5db302af5e97766cb10a",
+    "r1603/train_three.jsonl": "6186b656d40c655fb3142c6eb6d23d328010e72e25ecafbe5067202664cc4ba4",
+    "r1603/topology_bank.jsonl": "b44a13cd74a596bcf9fe5c51ba356d1bd9e7292f3d5ed4727c549e7b2890b16c",
+    "r1603/hard_bank.jsonl": "56221928b0493588d0a50c1ef9310384d1e056e04db50c74f0dc0eb29c731374",
+    "r4004/source_train.jsonl": "8680847828194cce21dd493f2bc6fe3816b990fa21aa5ab830c2066a5086741f",
+    "r4004/train_two.jsonl": "0682c54b02d99fc95bf0d0bfd1edff76c7a7385b626b23598e1e8753a1488338",
+    "r4004/train_three.jsonl": "20639d3568f69dc1ff5c7dded28023d51e8b94b690ae3a334d8226baef3dd039",
+    "r4004/topology_bank.jsonl": "efb8e066643e61e0632b086fd7689110a03f4e2bbcbef964302aff7cfc4ec3fc",
+    "r4004/hard_bank.jsonl": "d6c467116d586cec46253efacd3b749fe4c32c551d6d898ae7536b5b4c8fc91f"
+  }
+}

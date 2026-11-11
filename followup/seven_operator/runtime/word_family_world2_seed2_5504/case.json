@@ -1,0 +1,13 @@
+{
+  "case": "r5504",
+  "directory": "word_family_world2_seed2_5504",
+  "world": 2,
+  "replicate": 2,
+  "order": "AB",
+  "primary_directory": "confirmation_world2_seed2_5304",
+  "fixed_case": "r5404",
+  "fixed_directory": "equal_dose_world2_seed2_5404",
+  "fixed_manifest_sha256": "585c3f8871520ea049e0f606d11ca7cf7950ac1d624f74cc4a025e0cb509d793",
+  "evaluation_seed": 353000022281112,
+  "items": 128
+}

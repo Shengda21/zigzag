@@ -1,0 +1,20 @@
+{
+  "world": 1,
+  "seed": 153000021281112,
+  "items": 512,
+  "fixed_training_input_states": 148766,
+  "total_root_draws": 3802,
+  "maximum_draws_per_item": 54,
+  "empirical_acceptance_fraction": 0.13466596528143082,
+  "seconds": 1.030999999999949,
+  "sampling": "Each item independently draws its program set, then a uniform root conditional on every old/A/B reference numerical input avoiding the fixed training-input set. Accepted evaluation states never modify that set.",
+  "all_reference_intermediate_numeric_inputs_held_out": true,
+  "primitive_half_step_inputs_also_held_out": true,
+  "model_queries": 0,
+  "status": "FROZEN_FRESH_FIXED_DOSE_BANK_NO_MODEL_QUERY",
+  "case": "r5403",
+  "primary_case": "r5303",
+  "primary_data_audit_sha256": "d09378fcd69947358d56719f7aa9046ecd6f18c849817ae584780e5e76f6be49",
+  "inherited_training_data_unchanged": true,
+  "all_reference_paths_and_primitive_halves_checked": 201216
+}

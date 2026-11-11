@@ -1,0 +1,19 @@
+{
+  "checks": [
+    {
+      "world": 961,
+      "rows": 72192,
+      "external_rows": 512,
+      "shared_rehearsal_rows": 8192,
+      "all_pass": true
+    },
+    {
+      "world": 962,
+      "rows": 72192,
+      "external_rows": 512,
+      "shared_rehearsal_rows": 8192,
+      "all_pass": true
+    }
+  ],
+  "meaning": "Independent CPU map recomputation and strict format rejection; no LM results"
+}

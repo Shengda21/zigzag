@@ -1,0 +1,729 @@
+{
+  "status": "PASS_SHARED_PRIVATE_GRAPH_EXACT_BOUNDARIES",
+  "scope": "CPU finite-complex design checks only. No additional neural worlds, training seeds or gates. Original seven-operator protocol unchanged. Classical Pasch trade attribution remains necessary; no first-priority claim established.",
+  "operator_bound": "n=sqrt(2r)+O(r^(1/3)); rho2<=C(n-1,2) gives the same leading lower bound.",
+  "sufficient_pool_bound": "x=q-2 with x^3>48r and x^2>32(p-1); ordered quadruple exclusion count proves a legal block remains.",
+  "cases": [
+    {
+      "n": 7,
+      "r": 1,
+      "private_vertices": 2,
+      "pool_vertices": 4,
+      "common_deleted_faces": 3,
+      "deleted_faces_each": 7,
+      "betti": {
+        "A": [
+          1,
+          0,
+          13
+        ],
+        "B": [
+          1,
+          0,
+          13
+        ],
+        "intersection": [
+          1,
+          1,
+          10
+        ],
+        "union": [
+          1,
+          0,
+          17
+        ]
+      },
+      "endpoint_image_span": 16,
+      "connecting_rank": 1,
+      "verified_independent_canonical_cycles_and_images": 1,
+      "verified_crossover_pairs": 1,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 9,
+      "r": 2,
+      "private_vertices": 3,
+      "pool_vertices": 5,
+      "common_deleted_faces": 9,
+      "deleted_faces_each": 17,
+      "betti": {
+        "A": [
+          1,
+          0,
+          39
+        ],
+        "B": [
+          1,
+          0,
+          39
+        ],
+        "intersection": [
+          1,
+          2,
+          33
+        ],
+        "union": [
+          1,
+          0,
+          47
+        ]
+      },
+      "endpoint_image_span": 45,
+      "connecting_rank": 2,
+      "verified_independent_canonical_cycles_and_images": 2,
+      "verified_crossover_pairs": 2,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 9,
+      "r": 3,
+      "private_vertices": 3,
+      "pool_vertices": 5,
+      "common_deleted_faces": 13,
+      "deleted_faces_each": 25,
+      "betti": {
+        "A": [
+          1,
+          0,
+          31
+        ],
+        "B": [
+          1,
+          0,
+          31
+        ],
+        "intersection": [
+          1,
+          3,
+          22
+        ],
+        "union": [
+          1,
+          0,
+          43
+        ]
+      },
+      "endpoint_image_span": 40,
+      "connecting_rank": 3,
+      "verified_independent_canonical_cycles_and_images": 3,
+      "verified_crossover_pairs": 3,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 10,
+      "r": 4,
+      "private_vertices": 4,
+      "pool_vertices": 5,
+      "common_deleted_faces": 20,
+      "deleted_faces_each": 36,
+      "betti": {
+        "A": [
+          1,
+          0,
+          48
+        ],
+        "B": [
+          1,
+          0,
+          48
+        ],
+        "intersection": [
+          1,
+          4,
+          36
+        ],
+        "union": [
+          1,
+          0,
+          64
+        ]
+      },
+      "endpoint_image_span": 60,
+      "connecting_rank": 4,
+      "verified_independent_canonical_cycles_and_images": 4,
+      "verified_crossover_pairs": 4,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 11,
+      "r": 5,
+      "private_vertices": 4,
+      "pool_vertices": 6,
+      "common_deleted_faces": 29,
+      "deleted_faces_each": 49,
+      "betti": {
+        "A": [
+          1,
+          0,
+          71
+        ],
+        "B": [
+          1,
+          0,
+          71
+        ],
+        "intersection": [
+          1,
+          5,
+          56
+        ],
+        "union": [
+          1,
+          0,
+          91
+        ]
+      },
+      "endpoint_image_span": 86,
+      "connecting_rank": 5,
+      "verified_independent_canonical_cycles_and_images": 5,
+      "verified_crossover_pairs": 5,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 11,
+      "r": 6,
+      "private_vertices": 4,
+      "pool_vertices": 6,
+      "common_deleted_faces": 34,
+      "deleted_faces_each": 58,
+      "betti": {
+        "A": [
+          1,
+          0,
+          62
+        ],
+        "B": [
+          1,
+          0,
+          62
+        ],
+        "intersection": [
+          1,
+          6,
+          44
+        ],
+        "union": [
+          1,
+          0,
+          86
+        ]
+      },
+      "endpoint_image_span": 80,
+      "connecting_rank": 6,
+      "verified_independent_canonical_cycles_and_images": 6,
+      "verified_crossover_pairs": 6,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 12,
+      "r": 7,
+      "private_vertices": 5,
+      "pool_vertices": 6,
+      "common_deleted_faces": 44,
+      "deleted_faces_each": 72,
+      "betti": {
+        "A": [
+          1,
+          0,
+          93
+        ],
+        "B": [
+          1,
+          0,
+          93
+        ],
+        "intersection": [
+          1,
+          7,
+          72
+        ],
+        "union": [
+          1,
+          0,
+          121
+        ]
+      },
+      "endpoint_image_span": 114,
+      "connecting_rank": 7,
+      "verified_independent_canonical_cycles_and_images": 7,
+      "verified_crossover_pairs": 7,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 13,
+      "r": 8,
+      "private_vertices": 5,
+      "pool_vertices": 7,
+      "common_deleted_faces": 58,
+      "deleted_faces_each": 90,
+      "betti": {
+        "A": [
+          1,
+          0,
+          130
+        ],
+        "B": [
+          1,
+          0,
+          130
+        ],
+        "intersection": [
+          1,
+          8,
+          106
+        ],
+        "union": [
+          1,
+          0,
+          162
+        ]
+      },
+      "endpoint_image_span": 154,
+      "connecting_rank": 8,
+      "verified_independent_canonical_cycles_and_images": 8,
+      "verified_crossover_pairs": 8,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 13,
+      "r": 9,
+      "private_vertices": 5,
+      "pool_vertices": 7,
+      "common_deleted_faces": 64,
+      "deleted_faces_each": 100,
+      "betti": {
+        "A": [
+          1,
+          0,
+          120
+        ],
+        "B": [
+          1,
+          0,
+          120
+        ],
+        "intersection": [
+          1,
+          9,
+          93
+        ],
+        "union": [
+          1,
+          0,
+          156
+        ]
+      },
+      "endpoint_image_span": 147,
+      "connecting_rank": 9,
+      "verified_independent_canonical_cycles_and_images": 9,
+      "verified_crossover_pairs": 9,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.01599999999962165
+    },
+    {
+      "n": 13,
+      "r": 10,
+      "private_vertices": 5,
+      "pool_vertices": 7,
+      "common_deleted_faces": 70,
+      "deleted_faces_each": 110,
+      "betti": {
+        "A": [
+          1,
+          0,
+          110
+        ],
+        "B": [
+          1,
+          0,
+          110
+        ],
+        "intersection": [
+          1,
+          10,
+          80
+        ],
+        "union": [
+          1,
+          0,
+          150
+        ]
+      },
+      "endpoint_image_span": 140,
+      "connecting_rank": 10,
+      "verified_independent_canonical_cycles_and_images": 10,
+      "verified_crossover_pairs": 10,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 14,
+      "r": 11,
+      "private_vertices": 6,
+      "pool_vertices": 7,
+      "common_deleted_faces": 85,
+      "deleted_faces_each": 129,
+      "betti": {
+        "A": [
+          1,
+          0,
+          157
+        ],
+        "B": [
+          1,
+          0,
+          157
+        ],
+        "intersection": [
+          1,
+          11,
+          124
+        ],
+        "union": [
+          1,
+          0,
+          201
+        ]
+      },
+      "endpoint_image_span": 190,
+      "connecting_rank": 11,
+      "verified_independent_canonical_cycles_and_images": 11,
+      "verified_crossover_pairs": 11,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 14,
+      "r": 12,
+      "private_vertices": 6,
+      "pool_vertices": 7,
+      "common_deleted_faces": 91,
+      "deleted_faces_each": 139,
+      "betti": {
+        "A": [
+          1,
+          0,
+          147
+        ],
+        "B": [
+          1,
+          0,
+          147
+        ],
+        "intersection": [
+          1,
+          12,
+          111
+        ],
+        "union": [
+          1,
+          0,
+          195
+        ]
+      },
+      "endpoint_image_span": 183,
+      "connecting_rank": 12,
+      "verified_independent_canonical_cycles_and_images": 12,
+      "verified_crossover_pairs": 12,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 14,
+      "r": 13,
+      "private_vertices": 6,
+      "pool_vertices": 7,
+      "common_deleted_faces": 98,
+      "deleted_faces_each": 150,
+      "betti": {
+        "A": [
+          1,
+          0,
+          136
+        ],
+        "B": [
+          1,
+          0,
+          136
+        ],
+        "intersection": [
+          1,
+          13,
+          97
+        ],
+        "union": [
+          1,
+          0,
+          188
+        ]
+      },
+      "endpoint_image_span": 175,
+      "connecting_rank": 13,
+      "verified_independent_canonical_cycles_and_images": 13,
+      "verified_crossover_pairs": 13,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 14,
+      "r": 14,
+      "private_vertices": 6,
+      "pool_vertices": 7,
+      "common_deleted_faces": 104,
+      "deleted_faces_each": 160,
+      "betti": {
+        "A": [
+          1,
+          0,
+          126
+        ],
+        "B": [
+          1,
+          0,
+          126
+        ],
+        "intersection": [
+          1,
+          14,
+          84
+        ],
+        "union": [
+          1,
+          0,
+          182
+        ]
+      },
+      "endpoint_image_span": 168,
+      "connecting_rank": 14,
+      "verified_independent_canonical_cycles_and_images": 14,
+      "verified_crossover_pairs": 14,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 15,
+      "r": 15,
+      "private_vertices": 6,
+      "pool_vertices": 8,
+      "common_deleted_faces": 125,
+      "deleted_faces_each": 185,
+      "betti": {
+        "A": [
+          1,
+          0,
+          179
+        ],
+        "B": [
+          1,
+          0,
+          179
+        ],
+        "intersection": [
+          1,
+          15,
+          134
+        ],
+        "union": [
+          1,
+          0,
+          239
+        ]
+      },
+      "endpoint_image_span": 224,
+      "connecting_rank": 15,
+      "verified_independent_canonical_cycles_and_images": 15,
+      "verified_crossover_pairs": 15,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.01599999999962165
+    },
+    {
+      "n": 15,
+      "r": 16,
+      "private_vertices": 7,
+      "pool_vertices": 7,
+      "common_deleted_faces": 129,
+      "deleted_faces_each": 193,
+      "betti": {
+        "A": [
+          1,
+          0,
+          171
+        ],
+        "B": [
+          1,
+          0,
+          171
+        ],
+        "intersection": [
+          1,
+          16,
+          123
+        ],
+        "union": [
+          1,
+          0,
+          235
+        ]
+      },
+      "endpoint_image_span": 219,
+      "connecting_rank": 16,
+      "verified_independent_canonical_cycles_and_images": 16,
+      "verified_crossover_pairs": 16,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 17,
+      "r": 24,
+      "private_vertices": 8,
+      "pool_vertices": 8,
+      "common_deleted_faces": 223,
+      "deleted_faces_each": 319,
+      "betti": {
+        "A": [
+          1,
+          0,
+          241
+        ],
+        "B": [
+          1,
+          0,
+          241
+        ],
+        "intersection": [
+          1,
+          24,
+          169
+        ],
+        "union": [
+          1,
+          0,
+          337
+        ]
+      },
+      "endpoint_image_span": 313,
+      "connecting_rank": 24,
+      "verified_independent_canonical_cycles_and_images": 24,
+      "verified_crossover_pairs": 24,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 19,
+      "r": 32,
+      "private_vertices": 9,
+      "pool_vertices": 9,
+      "common_deleted_faces": 339,
+      "deleted_faces_each": 467,
+      "betti": {
+        "A": [
+          1,
+          0,
+          349
+        ],
+        "B": [
+          1,
+          0,
+          349
+        ],
+        "intersection": [
+          1,
+          32,
+          253
+        ],
+        "union": [
+          1,
+          0,
+          477
+        ]
+      },
+      "endpoint_image_span": 445,
+      "connecting_rank": 32,
+      "verified_independent_canonical_cycles_and_images": 32,
+      "verified_crossover_pairs": 32,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.0
+    },
+    {
+      "n": 22,
+      "r": 48,
+      "private_vertices": 11,
+      "pool_vertices": 10,
+      "common_deleted_faces": 593,
+      "deleted_faces_each": 785,
+      "betti": {
+        "A": [
+          1,
+          0,
+          545
+        ],
+        "B": [
+          1,
+          0,
+          545
+        ],
+        "intersection": [
+          1,
+          48,
+          401
+        ],
+        "union": [
+          1,
+          0,
+          737
+        ]
+      },
+      "endpoint_image_span": 689,
+      "connecting_rank": 48,
+      "verified_independent_canonical_cycles_and_images": 48,
+      "verified_crossover_pairs": 48,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.01599999999962165
+    },
+    {
+      "n": 24,
+      "r": 64,
+      "private_vertices": 12,
+      "pool_vertices": 11,
+      "common_deleted_faces": 860,
+      "deleted_faces_each": 1116,
+      "betti": {
+        "A": [
+          1,
+          0,
+          655
+        ],
+        "B": [
+          1,
+          0,
+          655
+        ],
+        "intersection": [
+          1,
+          64,
+          463
+        ],
+        "union": [
+          1,
+          0,
+          911
+        ]
+      },
+      "endpoint_image_span": 847,
+      "connecting_rank": 64,
+      "verified_independent_canonical_cycles_and_images": 64,
+      "verified_crossover_pairs": 64,
+      "exact_vertex_pair_balance": true,
+      "seconds": 0.01599999999962165
+    }
+  ],
+  "seconds": 0.1569999999992433
+}

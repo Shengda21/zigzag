@@ -1,0 +1,3736 @@
+{
+  "copied_sources": [
+    {
+      "path": "cpu/shared_graph_rank_design.py",
+      "source": "theory_experiment_closure_4800/shared_graph_rank_design.py",
+      "bytes": 6951,
+      "sha256": "a549defb7ec5446565573d3a464d10891fd67509df598a34a4baea4e0713803c"
+    },
+    {
+      "path": "cpu/verify_balanced_rank_family.py",
+      "source": "theory_experiment_closure_4800/verify_balanced_rank_family.py",
+      "bytes": 4747,
+      "sha256": "40fb0dba61740c01af43519ed1d07d8c7ccd01ca505a6d7746e8f8ea21cecf7e"
+    },
+    {
+      "path": "cpu/verify_cycle_support_counterexample.py",
+      "source": "theory_experiment_closure_4800/verify_cycle_support_counterexample.py",
+      "bytes": 2933,
+      "sha256": "cf8b9e559947c1f32453cc063591513d11da70335090891c4c4ab9562389b405"
+    },
+    {
+      "path": "cpu/verify_labelled_bridge_nonidentifiability.py",
+      "source": "theory_experiment_closure_4800/verify_labelled_bridge_nonidentifiability.py",
+      "bytes": 4418,
+      "sha256": "d8d5e7e7795ef6400bf1fe334fc3ac5b51e1021833b4ee8572f878fb2cebfcbf"
+    },
+    {
+      "path": "cpu/measure_labelled_zigzags.py",
+      "source": "theory_experiment_closure_4800/measure_labelled_zigzags.py",
+      "bytes": 9881,
+      "sha256": "942ff671ff25a5d1cb4168cfa48e7a6b14ec3dbb02bdc35d100fadc0f2736004"
+    },
+    {
+      "path": "cpu/SHARED_GRAPH_RANK_DESIGN.json",
+      "source": "theory_experiment_closure_4800/SHARED_GRAPH_RANK_DESIGN.json",
+      "bytes": 15186,
+      "sha256": "83d1d1b82b05b7cb35271612e92fc3eb82c0e0bbecfe031f1df2fab11fcd9522"
+    },
+    {
+      "path": "cpu/CYCLE_SUPPORT_COUNTEREXAMPLE.json",
+      "source": "theory_experiment_closure_4800/CYCLE_SUPPORT_COUNTEREXAMPLE.json",
+      "bytes": 1488,
+      "sha256": "f98be8f2229b6eace2efd768dcc460b6785116bb647c5695e30ec5a778d97c3b"
+    },
+    {
+      "path": "cpu/LABELLED_BRIDGE_NONIDENTIFIABILITY.json",
+      "source": "theory_experiment_closure_4800/LABELLED_BRIDGE_NONIDENTIFIABILITY.json",
+      "bytes": 4638,
+      "sha256": "593ebafc5bc99a82754d247bf42a435f48b6af189f6fad2a7571def2c47c3058"
+    },
+    {
+      "path": "cpu/MEASURED_ZIGZAG_BARCODES.json",
+      "source": "theory_experiment_closure_4800/MEASURED_ZIGZAG_BARCODES.json",
+      "bytes": 68362,
+      "sha256": "a275d7bca330c1797d2ebde3c0822fdf75551e94835bacd855a228e5ac44f264"
+    },
+    {
+      "path": "tools/audit_component_outputs.py",
+      "source": "cloud_tools/audit_component_outputs.py",
+      "bytes": 4349,
+      "sha256": "f490fec87d8a8d90ed29c0f7ebbeacf0b2867f6cb69fdeb29d00b19a4caff165"
+    },
+    {
+      "path": "runtime/cloud_tools/audit_component_outputs.py",
+      "source": "cloud_tools/audit_component_outputs.py",
+      "bytes": 4349,
+      "sha256": "f490fec87d8a8d90ed29c0f7ebbeacf0b2867f6cb69fdeb29d00b19a4caff165"
+    },
+    {
+      "path": "runtime/audit_component_outputs.py",
+      "source": "cloud_tools/audit_component_outputs.py",
+      "bytes": 4349,
+      "sha256": "f490fec87d8a8d90ed29c0f7ebbeacf0b2867f6cb69fdeb29d00b19a4caff165"
+    },
+    {
+      "path": "tools/audit_confirmation_case.py",
+      "source": "cloud_tools/audit_confirmation_case.py",
+      "bytes": 4644,
+      "sha256": "15ab019b7f2467009e5a4331decd2c04fde9a736e2e2e3c10410ac4e13118a4b"
+    },
+    {
+      "path": "runtime/cloud_tools/audit_confirmation_case.py",
+      "source": "cloud_tools/audit_confirmation_case.py",
+      "bytes": 4644,
+      "sha256": "15ab019b7f2467009e5a4331decd2c04fde9a736e2e2e3c10410ac4e13118a4b"
+    },
+    {
+      "path": "runtime/audit_confirmation_case.py",
+      "source": "cloud_tools/audit_confirmation_case.py",
+      "bytes": 4644,
+      "sha256": "15ab019b7f2467009e5a4331decd2c04fde9a736e2e2e3c10410ac4e13118a4b"
+    },
+    {
+      "path": "tools/analyze_confirmation_transitions.py",
+      "source": "cloud_tools/analyze_confirmation_transitions.py",
+      "bytes": 4659,
+      "sha256": "7ec8fa74e9ab517f201a6d6ee3fb838143cdb7a3eab0cf0646a7d842caa303cb"
+    },
+    {
+      "path": "runtime/cloud_tools/analyze_confirmation_transitions.py",
+      "source": "cloud_tools/analyze_confirmation_transitions.py",
+      "bytes": 4659,
+      "sha256": "7ec8fa74e9ab517f201a6d6ee3fb838143cdb7a3eab0cf0646a7d842caa303cb"
+    },
+    {
+      "path": "runtime/analyze_confirmation_transitions.py",
+      "source": "cloud_tools/analyze_confirmation_transitions.py",
+      "bytes": 4659,
+      "sha256": "7ec8fa74e9ab517f201a6d6ee3fb838143cdb7a3eab0cf0646a7d842caa303cb"
+    },
+    {
+      "path": "tools/audit_confirmation_initialization.py",
+      "source": "cloud_tools/audit_confirmation_initialization.py",
+      "bytes": 4018,
+      "sha256": "caa912e15cedbf476231f6d3c9bbc0a33068b71d1f1d9fe3027515b678817d64"
+    },
+    {
+      "path": "runtime/cloud_tools/audit_confirmation_initialization.py",
+      "source": "cloud_tools/audit_confirmation_initialization.py",
+      "bytes": 4018,
+      "sha256": "caa912e15cedbf476231f6d3c9bbc0a33068b71d1f1d9fe3027515b678817d64"
+    },
+    {
+      "path": "runtime/audit_confirmation_initialization.py",
+      "source": "cloud_tools/audit_confirmation_initialization.py",
+      "bytes": 4018,
+      "sha256": "caa912e15cedbf476231f6d3c9bbc0a33068b71d1f1d9fe3027515b678817d64"
+    },
+    {
+      "path": "tools/audit_word_family_inheritance.py",
+      "source": "cloud_tools/audit_word_family_inheritance.py",
+      "bytes": 2827,
+      "sha256": "7d8a41fb7a6e2a3ae0495ffe5b8170709fda94ffdf984f7bb9714c165d886795"
+    },
+    {
+      "path": "runtime/cloud_tools/audit_word_family_inheritance.py",
+      "source": "cloud_tools/audit_word_family_inheritance.py",
+      "bytes": 2827,
+      "sha256": "7d8a41fb7a6e2a3ae0495ffe5b8170709fda94ffdf984f7bb9714c165d886795"
+    },
+    {
+      "path": "tools/report_word_family_evaluation.py",
+      "source": "cloud_tools/report_word_family_evaluation.py",
+      "bytes": 5121,
+      "sha256": "17a342ea87fa1428bd7129b5e7dee75e09f27f140afa3e717670075ea65695a0"
+    },
+    {
+      "path": "runtime/cloud_tools/report_word_family_evaluation.py",
+      "source": "cloud_tools/report_word_family_evaluation.py",
+      "bytes": 5121,
+      "sha256": "17a342ea87fa1428bd7129b5e7dee75e09f27f140afa3e717670075ea65695a0"
+    },
+    {
+      "path": "tools/confirmation_case_tables.py",
+      "source": "cloud_tools/confirmation_case_tables.py",
+      "bytes": 3448,
+      "sha256": "d07730edc56a43799221bb46bc70a67b973bf0e018c75cd4948c36aac98dad4f"
+    },
+    {
+      "path": "runtime/cloud_tools/confirmation_case_tables.py",
+      "source": "cloud_tools/confirmation_case_tables.py",
+      "bytes": 3448,
+      "sha256": "d07730edc56a43799221bb46bc70a67b973bf0e018c75cd4948c36aac98dad4f"
+    },
+    {
+      "path": "tools/report_confirmation_assessments.py",
+      "source": "cloud_tools/report_confirmation_assessments.py",
+      "bytes": 4675,
+      "sha256": "b4cd58867fe17aa95c83cebc956c1ab06cfed4718e943607e42b3e63c425c990"
+    },
+    {
+      "path": "runtime/cloud_tools/report_confirmation_assessments.py",
+      "source": "cloud_tools/report_confirmation_assessments.py",
+      "bytes": 4675,
+      "sha256": "b4cd58867fe17aa95c83cebc956c1ab06cfed4718e943607e42b3e63c425c990"
+    },
+    {
+      "path": "tools/verify_release_archives.py",
+      "source": "cloud_tools/verify_release_archives.py",
+      "bytes": 1926,
+      "sha256": "0daa80b8097bbe80b24a8b94503be8b7ada135790f03307355efd9a70e220fbe"
+    },
+    {
+      "path": "runtime/cloud_tools/verify_release_archives.py",
+      "source": "cloud_tools/verify_release_archives.py",
+      "bytes": 1926,
+      "sha256": "0daa80b8097bbe80b24a8b94503be8b7ada135790f03307355efd9a70e220fbe"
+    },
+    {
+      "path": "tools/audit_labelled_sampling_bounds.py",
+      "source": "cloud_tools/audit_labelled_sampling_bounds.py",
+      "bytes": 4800,
+      "sha256": "1da51aa2829cbde5df6fd9b257135a842dd805981abf341e78eb25a0c4c3eff3"
+    },
+    {
+      "path": "runtime/cloud_tools/audit_labelled_sampling_bounds.py",
+      "source": "cloud_tools/audit_labelled_sampling_bounds.py",
+      "bytes": 4800,
+      "sha256": "1da51aa2829cbde5df6fd9b257135a842dd805981abf341e78eb25a0c4c3eff3"
+    },
+    {
+      "path": "tools/assemble_final_labelled_tables.py",
+      "source": "cloud_tools/assemble_final_labelled_tables.py",
+      "bytes": 7406,
+      "sha256": "99503db9e2fb1ec6830ef9d0fe608aeca2773077f33a3a8583aeca6fa24f2300"
+    },
+    {
+      "path": "runtime/cloud_tools/assemble_final_labelled_tables.py",
+      "source": "cloud_tools/assemble_final_labelled_tables.py",
+      "bytes": 7406,
+      "sha256": "99503db9e2fb1ec6830ef9d0fe608aeca2773077f33a3a8583aeca6fa24f2300"
+    },
+    {
+      "path": "tools/replay_archived_whole_programs.py",
+      "source": "cloud_tools/replay_archived_whole_programs.py",
+      "bytes": 8090,
+      "sha256": "c594ce0938f5060b2efcf13ab578bf23190c0d8e41b875c5a12a904893927a68"
+    },
+    {
+      "path": "runtime/cloud_tools/replay_archived_whole_programs.py",
+      "source": "cloud_tools/replay_archived_whole_programs.py",
+      "bytes": 8090,
+      "sha256": "c594ce0938f5060b2efcf13ab578bf23190c0d8e41b875c5a12a904893927a68"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/BASE_PUBLIC_REVISION_CHECK.json",
+      "source": "confirmation_factored_5300/BASE_PUBLIC_REVISION_CHECK.json",
+      "bytes": 1179,
+      "sha256": "c9de343525c4917ef5062c084fcaf8ed4123b34efec836449924c7af576722ba"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/DESCRIPTIVE_READOUT_PLAN.json",
+      "source": "confirmation_factored_5300/DESCRIPTIVE_READOUT_PLAN.json",
+      "bytes": 1011,
+      "sha256": "daa935f5a4334eee77ab4ccd7694b91afc560c18c5b40a07ab32e905a1fa945c"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/INPUT_ARCHIVE_VERIFICATION.json",
+      "source": "confirmation_factored_5300/INPUT_ARCHIVE_VERIFICATION.json",
+      "bytes": 32133,
+      "sha256": "8e5d59e0aee19726198193738fca3a07a7bb30dd9b75c49e53232eb4dc63050b"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/PROTOCOL.md",
+      "source": "confirmation_factored_5300/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/REGISTRATION.json",
+      "source": "confirmation_factored_5300/REGISTRATION.json",
+      "bytes": 6506,
+      "sha256": "ac3cab83f41da925cb774f3a1e630200605fef88808823b0a7719f2464edf863"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/REPRODUCE.md",
+      "source": "confirmation_factored_5300/REPRODUCE.md",
+      "bytes": 5695,
+      "sha256": "ec374528753c9192d860df4c1fd6f9b828e24b7602c437b27f9b79a98ba422ab"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/TECHNICAL_DEPENDENCY_REPAIR.json",
+      "source": "confirmation_factored_5300/TECHNICAL_DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/audit_outputs.py",
+      "source": "confirmation_factored_5300/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/chain_witness.py",
+      "source": "confirmation_factored_5300/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/collect_results.py",
+      "source": "confirmation_factored_5300/collect_results.py",
+      "bytes": 5021,
+      "sha256": "6721c9e6d54116827d304e8dfef8eeacbe581541d0ca02e0c13d22609bad9cc9"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/confirm_statistics.py",
+      "source": "confirmation_factored_5300/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/evaluate_components.py",
+      "source": "confirmation_factored_5300/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/evaluate_exchange.py",
+      "source": "confirmation_factored_5300/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/generate_case_data.py",
+      "source": "confirmation_factored_5300/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/iid_probes.py",
+      "source": "confirmation_factored_5300/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/package_inputs.py",
+      "source": "confirmation_factored_5300/package_inputs.py",
+      "bytes": 2877,
+      "sha256": "a6ab7229a26f971fcad665980be2a790f17db42c42a8afdf7de852751b04d757"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/policy.py",
+      "source": "confirmation_factored_5300/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/prepare_registration.py",
+      "source": "confirmation_factored_5300/prepare_registration.py",
+      "bytes": 4986,
+      "sha256": "b0a9b188eb394b2ad92626bd393b0d0b89f7e8459c0398705b0507618f346781"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/prompts.py",
+      "source": "confirmation_factored_5300/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/resources.py",
+      "source": "confirmation_factored_5300/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/rollout.py",
+      "source": "confirmation_factored_5300/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/rules.py",
+      "source": "confirmation_factored_5300/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/run_case.py",
+      "source": "confirmation_factored_5300/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/run_six.py",
+      "source": "confirmation_factored_5300/run_six.py",
+      "bytes": 1971,
+      "sha256": "d019009f14e1b6fe97ef007c133e548a3fa65ff40b10e76a4c259b57106ef78b"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/score.py",
+      "source": "confirmation_factored_5300/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/topology_math.py",
+      "source": "confirmation_factored_5300/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/train_components.py",
+      "source": "confirmation_factored_5300/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/train_exchange.py",
+      "source": "confirmation_factored_5300/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/train_policy.py",
+      "source": "confirmation_factored_5300/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_factored_5300/validate_analysis.py",
+      "source": "confirmation_factored_5300/validate_analysis.py",
+      "bytes": 3350,
+      "sha256": "c30314f8adc27b67c2bdbec7777c69dbcdaf26c0243c307f2629cabe4e62c045"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed1_5301/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/DATA_AUDIT.json",
+      "source": "confirmation_world1_seed1_5301/DATA_AUDIT.json",
+      "bytes": 1251,
+      "sha256": "ae9f71a2792159594f0d63031847151d0d37aeba157a1881cdaa4331f76700d5"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed1_5301/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/PROTOCOL.md",
+      "source": "confirmation_world1_seed1_5301/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/audit_outputs.py",
+      "source": "confirmation_world1_seed1_5301/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/case.json",
+      "source": "confirmation_world1_seed1_5301/case.json",
+      "bytes": 487,
+      "sha256": "321f5db5dee97bd93a3e36fc4e678421fef2581b3cb6cf8e26ff1d510f0f8b3c"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/chain_witness.py",
+      "source": "confirmation_world1_seed1_5301/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/confirm_statistics.py",
+      "source": "confirmation_world1_seed1_5301/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/evaluate_components.py",
+      "source": "confirmation_world1_seed1_5301/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/evaluate_exchange.py",
+      "source": "confirmation_world1_seed1_5301/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/generate_case_data.py",
+      "source": "confirmation_world1_seed1_5301/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/iid_probes.py",
+      "source": "confirmation_world1_seed1_5301/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/policy.py",
+      "source": "confirmation_world1_seed1_5301/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/resources.py",
+      "source": "confirmation_world1_seed1_5301/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/rollout.py",
+      "source": "confirmation_world1_seed1_5301/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/rules.py",
+      "source": "confirmation_world1_seed1_5301/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/run_case.py",
+      "source": "confirmation_world1_seed1_5301/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/score.py",
+      "source": "confirmation_world1_seed1_5301/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/topology_math.py",
+      "source": "confirmation_world1_seed1_5301/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/train_components.py",
+      "source": "confirmation_world1_seed1_5301/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/train_exchange.py",
+      "source": "confirmation_world1_seed1_5301/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/train_policy.py",
+      "source": "confirmation_world1_seed1_5301/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/manifest.json",
+      "source": "confirmation_world1_seed1_5301/manifest.json",
+      "bytes": 4074,
+      "sha256": "a29ecf36a776a72f86101770ca2507c1c8e3c51fc440cb18355b0fd68d8a9f84"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/prompts.py",
+      "source": "confirmation_world1_seed1_5301/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed1_5301/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world1_seed1_5301/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/FINAL_RESULT.json",
+      "source": "confirmation_world1_seed1_5301/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "2f4ab95dc06e91c1c95eda92ce7e4959c564f1edce9ce546585d4ad1ef8e6236"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world1_seed1_5301/CASE_RAW_AUDIT.json",
+      "bytes": 2652,
+      "sha256": "9994368787adedf8116ed93e1c10c8f24feb6dbff991e7e1396b2d16fd073c47"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world1_seed1_5301/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "db255594e78fa99c013de03e55ad840e8c77198d3d55baeb1e3c5b9da36c7699"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world1_seed1_5301/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "fe79d29f0b5181bdf9b895acb79bce9dbd7e411d395544fc10040663138ef02b"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/SOURCE_SELECTION.json",
+      "source": "confirmation_world1_seed1_5301/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "0771296cc653ed3e546b1ea6c2290b8c8d6bebb5752cf0c23e6ae75f019209fa"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world1_seed1_5301/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "eb57efe8f5360e32821f9d04a6efbcec1d3b8d1603bcccfb489f1fd3313f6794"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/RAW_AUDIT.json",
+      "source": "confirmation_world1_seed1_5301/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "0c6f5b0a8defc2b2c655ddc5485864dbb92ba1b1c77a7777b48f91b90c30de6d"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed1_5301/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world1_seed1_5301/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed1_5301/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed1_5302/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/DATA_AUDIT.json",
+      "source": "confirmation_world2_seed1_5302/DATA_AUDIT.json",
+      "bytes": 1251,
+      "sha256": "322d0506d3e50f5d589e9c9a5879ab678a413ffb9ed7d8de9c84371dccb542de"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed1_5302/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/PROTOCOL.md",
+      "source": "confirmation_world2_seed1_5302/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/audit_outputs.py",
+      "source": "confirmation_world2_seed1_5302/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/case.json",
+      "source": "confirmation_world2_seed1_5302/case.json",
+      "bytes": 487,
+      "sha256": "67ecb4451f08993e2264d166e3cd7662b61b1d2eae26684fdeff5cda706d0e13"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/chain_witness.py",
+      "source": "confirmation_world2_seed1_5302/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/confirm_statistics.py",
+      "source": "confirmation_world2_seed1_5302/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/evaluate_components.py",
+      "source": "confirmation_world2_seed1_5302/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/evaluate_exchange.py",
+      "source": "confirmation_world2_seed1_5302/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/generate_case_data.py",
+      "source": "confirmation_world2_seed1_5302/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/iid_probes.py",
+      "source": "confirmation_world2_seed1_5302/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/policy.py",
+      "source": "confirmation_world2_seed1_5302/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/resources.py",
+      "source": "confirmation_world2_seed1_5302/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/rollout.py",
+      "source": "confirmation_world2_seed1_5302/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/rules.py",
+      "source": "confirmation_world2_seed1_5302/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/run_case.py",
+      "source": "confirmation_world2_seed1_5302/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/score.py",
+      "source": "confirmation_world2_seed1_5302/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/topology_math.py",
+      "source": "confirmation_world2_seed1_5302/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/train_components.py",
+      "source": "confirmation_world2_seed1_5302/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/train_exchange.py",
+      "source": "confirmation_world2_seed1_5302/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/train_policy.py",
+      "source": "confirmation_world2_seed1_5302/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/manifest.json",
+      "source": "confirmation_world2_seed1_5302/manifest.json",
+      "bytes": 4074,
+      "sha256": "bba86c63310da16b97f6320ced0817c22bd63fd2213ca574306492c58b51290b"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/prompts.py",
+      "source": "confirmation_world2_seed1_5302/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed1_5302/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world2_seed1_5302/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/FINAL_RESULT.json",
+      "source": "confirmation_world2_seed1_5302/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "d972cd283f7b7886c18127bdcd68b3b229710533474f0ffc85dbef97be89cafc"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world2_seed1_5302/CASE_RAW_AUDIT.json",
+      "bytes": 2164,
+      "sha256": "bdcea7195e2d22afd42b66f2965bbf5252cc62693e10c30f142f3c3305a9e027"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world2_seed1_5302/CONFIRMATION_LOOK1.json",
+      "bytes": 1688109,
+      "sha256": "c38c8d00754c5793b7d7284ee730473ae99d8bae3eb17c16fc4ec5e89b4cb282"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world2_seed1_5302/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "2f44c070865efe7729a6e574ef806394189d9c788d6841a5b89f89c80ecd44cb"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/SOURCE_SELECTION.json",
+      "source": "confirmation_world2_seed1_5302/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "5eaa4172af511d1328c108c404e95e37cf91a7ac6ac57f026ea928f008b23bff"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world2_seed1_5302/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "a4820abba4ac3b87604c15cf887900e1424f09e50c2e0b3ec4e3c9a61810b489"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/RAW_AUDIT.json",
+      "source": "confirmation_world2_seed1_5302/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "d2c57967bd72b47b8211fff982a9b99c346497ee76418dbe72bab56f3c607a7c"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed1_5302/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world2_seed1_5302/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed1_5302/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed2_5303/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/DATA_AUDIT.json",
+      "source": "confirmation_world1_seed2_5303/DATA_AUDIT.json",
+      "bytes": 1251,
+      "sha256": "d09378fcd69947358d56719f7aa9046ecd6f18c849817ae584780e5e76f6be49"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed2_5303/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/PROTOCOL.md",
+      "source": "confirmation_world1_seed2_5303/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/audit_outputs.py",
+      "source": "confirmation_world1_seed2_5303/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/case.json",
+      "source": "confirmation_world1_seed2_5303/case.json",
+      "bytes": 487,
+      "sha256": "251406ea8a2895692505b34ae8854fdcb9a77517378b7383ab6a1052dabe06eb"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/chain_witness.py",
+      "source": "confirmation_world1_seed2_5303/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/confirm_statistics.py",
+      "source": "confirmation_world1_seed2_5303/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/evaluate_components.py",
+      "source": "confirmation_world1_seed2_5303/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/evaluate_exchange.py",
+      "source": "confirmation_world1_seed2_5303/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/generate_case_data.py",
+      "source": "confirmation_world1_seed2_5303/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/iid_probes.py",
+      "source": "confirmation_world1_seed2_5303/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/policy.py",
+      "source": "confirmation_world1_seed2_5303/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/resources.py",
+      "source": "confirmation_world1_seed2_5303/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/rollout.py",
+      "source": "confirmation_world1_seed2_5303/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/rules.py",
+      "source": "confirmation_world1_seed2_5303/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/run_case.py",
+      "source": "confirmation_world1_seed2_5303/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/score.py",
+      "source": "confirmation_world1_seed2_5303/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/topology_math.py",
+      "source": "confirmation_world1_seed2_5303/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/train_components.py",
+      "source": "confirmation_world1_seed2_5303/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/train_exchange.py",
+      "source": "confirmation_world1_seed2_5303/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/train_policy.py",
+      "source": "confirmation_world1_seed2_5303/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/manifest.json",
+      "source": "confirmation_world1_seed2_5303/manifest.json",
+      "bytes": 4074,
+      "sha256": "bc52b751b8a55b57d8ac00bc08d225456a71def13c412946b186f1d316262325"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/prompts.py",
+      "source": "confirmation_world1_seed2_5303/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed2_5303/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world1_seed2_5303/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/FINAL_RESULT.json",
+      "source": "confirmation_world1_seed2_5303/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "9fb83d16e867dc5ed0fc7714d948eeaecec38a89708b980661c7ec65d6181f8f"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world1_seed2_5303/CASE_RAW_AUDIT.json",
+      "bytes": 2164,
+      "sha256": "4f187334ff8b59c4c8f8c040fe865367fde3a1ce2e4dfc4c3a958eed8abd39f5"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world1_seed2_5303/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "abd4ca40de99ff94a0b9597141ee15bc1e2c1de636537cc670684b9e86f8fcd5"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world1_seed2_5303/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "2918a9cb690cbdd3eea1308aecb2fba18a7282d634b7f94a12deb80425b6eeae"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/SOURCE_SELECTION.json",
+      "source": "confirmation_world1_seed2_5303/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "d798b78844760997ee4e44a40dd165f74fa989a4fade6177c75c874289f19728"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world1_seed2_5303/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "fe00723586d377e101d5635b18ec3bdf68f33ba29ca8523bbc9cf388de6d7994"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/RAW_AUDIT.json",
+      "source": "confirmation_world1_seed2_5303/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "0279d20afa86992129f13b695d13c7f2f300ecfef67d8e3660a9e695a5b14841"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed2_5303/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world1_seed2_5303/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed2_5303/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed2_5304/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/DATA_AUDIT.json",
+      "source": "confirmation_world2_seed2_5304/DATA_AUDIT.json",
+      "bytes": 1238,
+      "sha256": "a811806ae150c391adcfdb90f4730369f75bc07a37c21a224a80e74bf58d1e86"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed2_5304/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/PROTOCOL.md",
+      "source": "confirmation_world2_seed2_5304/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/audit_outputs.py",
+      "source": "confirmation_world2_seed2_5304/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/case.json",
+      "source": "confirmation_world2_seed2_5304/case.json",
+      "bytes": 487,
+      "sha256": "1a1dc9cc679f38cbacc63dd22b2b2dfaea96bf901adc8521a554c0efe24ccdea"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/chain_witness.py",
+      "source": "confirmation_world2_seed2_5304/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/confirm_statistics.py",
+      "source": "confirmation_world2_seed2_5304/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/evaluate_components.py",
+      "source": "confirmation_world2_seed2_5304/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/evaluate_exchange.py",
+      "source": "confirmation_world2_seed2_5304/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/generate_case_data.py",
+      "source": "confirmation_world2_seed2_5304/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/iid_probes.py",
+      "source": "confirmation_world2_seed2_5304/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/policy.py",
+      "source": "confirmation_world2_seed2_5304/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/resources.py",
+      "source": "confirmation_world2_seed2_5304/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/rollout.py",
+      "source": "confirmation_world2_seed2_5304/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/rules.py",
+      "source": "confirmation_world2_seed2_5304/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/run_case.py",
+      "source": "confirmation_world2_seed2_5304/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/score.py",
+      "source": "confirmation_world2_seed2_5304/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/topology_math.py",
+      "source": "confirmation_world2_seed2_5304/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/train_components.py",
+      "source": "confirmation_world2_seed2_5304/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/train_exchange.py",
+      "source": "confirmation_world2_seed2_5304/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/train_policy.py",
+      "source": "confirmation_world2_seed2_5304/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/manifest.json",
+      "source": "confirmation_world2_seed2_5304/manifest.json",
+      "bytes": 4074,
+      "sha256": "193f2c946e49470148ab7410b159b883c2d6dff4abe615cf420ac8a206226fb0"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/prompts.py",
+      "source": "confirmation_world2_seed2_5304/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed2_5304/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world2_seed2_5304/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/FINAL_RESULT.json",
+      "source": "confirmation_world2_seed2_5304/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "17b8c2c3dbc709263731798b727ca0a0bcec1b2f27a795361d7511a12e315bbd"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world2_seed2_5304/CASE_RAW_AUDIT.json",
+      "bytes": 2164,
+      "sha256": "a9974174ae947f70125c7fea4a18e4bb096b835f3e9363485c6b82e84c38c60b"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world2_seed2_5304/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "7952f1b9802a896252123c987587e9fa8d0b7c275e37677b637d980a34083686"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world2_seed2_5304/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "9c672b36893aa1b5bb5702e9cb4b1e31e2b817ed58b2543cef7593a7171276d1"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/SOURCE_SELECTION.json",
+      "source": "confirmation_world2_seed2_5304/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "45897b7af4669eac30a4cc15ddfac5a4818f1461d98b9176dcaaab475ce072c7"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world2_seed2_5304/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "636f5c947e1a75b9b31d7a81c4d03b3309a231653667f395080e6368febe35ee"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/RAW_AUDIT.json",
+      "source": "confirmation_world2_seed2_5304/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "57e49fc271f10df1e9f9798bc3f5e711007bd4651c7542c946bf97023beec084"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed2_5304/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world2_seed2_5304/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed2_5304/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed3_5305/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/DATA_AUDIT.json",
+      "source": "confirmation_world1_seed3_5305/DATA_AUDIT.json",
+      "bytes": 1251,
+      "sha256": "7cb6832d592702b18921970067a530e2af012b86f07a3966d2488ba171cd8aea"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed3_5305/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/PROTOCOL.md",
+      "source": "confirmation_world1_seed3_5305/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/audit_outputs.py",
+      "source": "confirmation_world1_seed3_5305/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/case.json",
+      "source": "confirmation_world1_seed3_5305/case.json",
+      "bytes": 487,
+      "sha256": "77dc809ec970459f1d090953326563be17e28744267247cc6b286e6847f9550a"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/chain_witness.py",
+      "source": "confirmation_world1_seed3_5305/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/confirm_statistics.py",
+      "source": "confirmation_world1_seed3_5305/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/evaluate_components.py",
+      "source": "confirmation_world1_seed3_5305/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/evaluate_exchange.py",
+      "source": "confirmation_world1_seed3_5305/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/generate_case_data.py",
+      "source": "confirmation_world1_seed3_5305/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/iid_probes.py",
+      "source": "confirmation_world1_seed3_5305/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/policy.py",
+      "source": "confirmation_world1_seed3_5305/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/resources.py",
+      "source": "confirmation_world1_seed3_5305/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/rollout.py",
+      "source": "confirmation_world1_seed3_5305/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/rules.py",
+      "source": "confirmation_world1_seed3_5305/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/run_case.py",
+      "source": "confirmation_world1_seed3_5305/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/score.py",
+      "source": "confirmation_world1_seed3_5305/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/topology_math.py",
+      "source": "confirmation_world1_seed3_5305/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/train_components.py",
+      "source": "confirmation_world1_seed3_5305/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/train_exchange.py",
+      "source": "confirmation_world1_seed3_5305/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/train_policy.py",
+      "source": "confirmation_world1_seed3_5305/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/manifest.json",
+      "source": "confirmation_world1_seed3_5305/manifest.json",
+      "bytes": 4074,
+      "sha256": "a97b4ea99146b151ea6a79d0f30156fb71ebc148d38feff7777e880c3995b7a4"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/prompts.py",
+      "source": "confirmation_world1_seed3_5305/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world1_seed3_5305/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world1_seed3_5305/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/FINAL_RESULT.json",
+      "source": "confirmation_world1_seed3_5305/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "f56560ce1763582357327ff711b93d6639088584faa3d2875a7ac918e2545ed3"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world1_seed3_5305/CASE_RAW_AUDIT.json",
+      "bytes": 2164,
+      "sha256": "b55ba95504dfe6561de33279d9b1a1ebe96c3e38f23d116f10ffd4c6d775739b"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world1_seed3_5305/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "8430a4155531605e8fe47f9431f3c7df19223a91e75d3909992d08ea590a7b6e"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world1_seed3_5305/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "b46d3cd34d38e44fc0ea0e7391cd383cea6e70627cc6979449c5558aa6686d63"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/SOURCE_SELECTION.json",
+      "source": "confirmation_world1_seed3_5305/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "6fdfcda7e712af953ccec152a39a17512fe8078fb9a5efa30991a9aedfa8f4e5"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world1_seed3_5305/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "5b60c487fc27ac2761abe726e1fc851736583a52480a0e8048cbace705181ecd"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/RAW_AUDIT.json",
+      "source": "confirmation_world1_seed3_5305/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "6c069bcddff5e005f3db3fdf12933d671454331d4eca91ac7d61b83f6d7bdfba"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/ENVIRONMENT.json",
+      "source": "confirmation_world1_seed3_5305/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world1_seed3_5305/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world1_seed3_5305/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed3_5306/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/DATA_AUDIT.json",
+      "source": "confirmation_world2_seed3_5306/DATA_AUDIT.json",
+      "bytes": 1252,
+      "sha256": "a16d57b549b9a3b5c5efad77f90972f93147ba3259cf88361bed06131f8dda90"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed3_5306/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/PROTOCOL.md",
+      "source": "confirmation_world2_seed3_5306/PROTOCOL.md",
+      "bytes": 6638,
+      "sha256": "52175efd847de1b3be7044a1e00606a490f6f010810dd6548b088cdd48835b3d"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/audit_outputs.py",
+      "source": "confirmation_world2_seed3_5306/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/case.json",
+      "source": "confirmation_world2_seed3_5306/case.json",
+      "bytes": 487,
+      "sha256": "80131f28736f0d8dffadd031229987312b0dee692d92a24b427b9862238d8db8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/chain_witness.py",
+      "source": "confirmation_world2_seed3_5306/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/confirm_statistics.py",
+      "source": "confirmation_world2_seed3_5306/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/evaluate_components.py",
+      "source": "confirmation_world2_seed3_5306/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/evaluate_exchange.py",
+      "source": "confirmation_world2_seed3_5306/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/generate_case_data.py",
+      "source": "confirmation_world2_seed3_5306/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/iid_probes.py",
+      "source": "confirmation_world2_seed3_5306/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/policy.py",
+      "source": "confirmation_world2_seed3_5306/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/resources.py",
+      "source": "confirmation_world2_seed3_5306/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/rollout.py",
+      "source": "confirmation_world2_seed3_5306/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/rules.py",
+      "source": "confirmation_world2_seed3_5306/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/run_case.py",
+      "source": "confirmation_world2_seed3_5306/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/score.py",
+      "source": "confirmation_world2_seed3_5306/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/topology_math.py",
+      "source": "confirmation_world2_seed3_5306/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/train_components.py",
+      "source": "confirmation_world2_seed3_5306/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/train_exchange.py",
+      "source": "confirmation_world2_seed3_5306/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/train_policy.py",
+      "source": "confirmation_world2_seed3_5306/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/manifest.json",
+      "source": "confirmation_world2_seed3_5306/manifest.json",
+      "bytes": 4074,
+      "sha256": "b8c6603f6055f00f66efac93e22492cea8bea52ce956b5abffaa6e95010badca"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/prompts.py",
+      "source": "confirmation_world2_seed3_5306/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/confirmation_world2_seed3_5306/DEPENDENCY_REPAIR.json",
+      "source": "confirmation_world2_seed3_5306/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/FINAL_RESULT.json",
+      "source": "confirmation_world2_seed3_5306/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "e7de6998fa0455b5a01731a11a20046d1c6af1ca91d2b2abc44e27a4d322a008"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/CASE_RAW_AUDIT.json",
+      "source": "confirmation_world2_seed3_5306/CASE_RAW_AUDIT.json",
+      "bytes": 2164,
+      "sha256": "47cdaf8ccc6c3eba3f119c351ba650c20a0cb112692272f68b456b6dcd837c94"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/CONFIRMATION_LOOK1.json",
+      "source": "confirmation_world2_seed3_5306/CONFIRMATION_LOOK1.json",
+      "bytes": 1688144,
+      "sha256": "dbfe30d2bab8a9661f0eca766e05c8aea2d22a7356423775614c0000c8295054"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/FUNCTIONAL_TRANSITIONS.json",
+      "source": "confirmation_world2_seed3_5306/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "dcec298dad2fd776c15653601a92245c2f2c9fc2c689b027fc503ffe1d8f3f05"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/SOURCE_SELECTION.json",
+      "source": "confirmation_world2_seed3_5306/SOURCE_SELECTION.json",
+      "bytes": 1185,
+      "sha256": "98e90bfc105b3142107ea87b2b3792bc708a1947ddefa0233956d4ec50e987cf"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/ASSEMBLY_WEIGHTS.json",
+      "source": "confirmation_world2_seed3_5306/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "17a517d02b60de9391cbc34468eb2a2ae02365899402aaea88ae42423511896f"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/RAW_AUDIT.json",
+      "source": "confirmation_world2_seed3_5306/RAW_AUDIT.json",
+      "bytes": 3111,
+      "sha256": "8f652bd8a4c71ff30fdabac5e7bfb7def3ab52ed5605804662f1f662a268f848"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/ENVIRONMENT.json",
+      "source": "confirmation_world2_seed3_5306/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/confirmation_world2_seed3_5306/BASE_MODEL_SNAPSHOT.json",
+      "source": "confirmation_world2_seed3_5306/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/PROTOCOL.md",
+      "source": "confirmation_equal_dose_5400/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/REGISTRATION.json",
+      "source": "confirmation_equal_dose_5400/REGISTRATION.json",
+      "bytes": 7032,
+      "sha256": "69fb9adca778d2736522192bf58751fc24192fba775e3b8ad84f9594a851494f"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/REPRODUCE.md",
+      "source": "confirmation_equal_dose_5400/REPRODUCE.md",
+      "bytes": 4143,
+      "sha256": "b921aea8ab6dbb575e9f26f4327f19a9730d3536d5b120773fd408d38463ad0d"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/audit_equal_dose_case.py",
+      "source": "confirmation_equal_dose_5400/audit_equal_dose_case.py",
+      "bytes": 6709,
+      "sha256": "bff70334f911ef4fa4f723060fb91bd8857f83c2c298a2adceefb5d899c8530a"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/postprocess_suite.py",
+      "source": "confirmation_equal_dose_5400/postprocess_suite.py",
+      "bytes": 720,
+      "sha256": "5afd424b11dc94646017ae22932ecfcaa595cd6ed9d887849a3a9944a56e663a"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/prepare_registration.py",
+      "source": "confirmation_equal_dose_5400/prepare_registration.py",
+      "bytes": 5218,
+      "sha256": "1ddb2c246477dd04c9ed6f1bead12cf104355338d0484350ff19fcd0b91ee9da"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/run_equal_dose.py",
+      "source": "confirmation_equal_dose_5400/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/confirmation_equal_dose_5400/run_suite.py",
+      "source": "confirmation_equal_dose_5400/run_suite.py",
+      "bytes": 1460,
+      "sha256": "58ad6df5389c293f494a8d137368848b322674fe0bdcf8fd135c79fd52af89f6"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed1_5401/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/DATA_AUDIT.json",
+      "source": "equal_dose_world1_seed1_5401/DATA_AUDIT.json",
+      "bytes": 943,
+      "sha256": "fbc1ab33c564d58c3f53a808586561355c8c9857d19faf92bfcc3881f611890e"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world1_seed1_5401/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed1_5401/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/PROTOCOL.md",
+      "source": "equal_dose_world1_seed1_5401/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/audit_outputs.py",
+      "source": "equal_dose_world1_seed1_5401/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/case.json",
+      "source": "equal_dose_world1_seed1_5401/case.json",
+      "bytes": 741,
+      "sha256": "a3c93bd465304251f2f05020a4e39f752b84ea4b05f6066077fb721ec35c19bb"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/chain_witness.py",
+      "source": "equal_dose_world1_seed1_5401/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/confirm_statistics.py",
+      "source": "equal_dose_world1_seed1_5401/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/evaluate_components.py",
+      "source": "equal_dose_world1_seed1_5401/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/evaluate_exchange.py",
+      "source": "equal_dose_world1_seed1_5401/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/generate_case_data.py",
+      "source": "equal_dose_world1_seed1_5401/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/iid_probes.py",
+      "source": "equal_dose_world1_seed1_5401/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/policy.py",
+      "source": "equal_dose_world1_seed1_5401/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/prompts.py",
+      "source": "equal_dose_world1_seed1_5401/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/resources.py",
+      "source": "equal_dose_world1_seed1_5401/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/rollout.py",
+      "source": "equal_dose_world1_seed1_5401/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/rules.py",
+      "source": "equal_dose_world1_seed1_5401/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/run_case.py",
+      "source": "equal_dose_world1_seed1_5401/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/run_equal_dose.py",
+      "source": "equal_dose_world1_seed1_5401/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/score.py",
+      "source": "equal_dose_world1_seed1_5401/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/topology_math.py",
+      "source": "equal_dose_world1_seed1_5401/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/train_components.py",
+      "source": "equal_dose_world1_seed1_5401/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/train_exchange.py",
+      "source": "equal_dose_world1_seed1_5401/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/train_policy.py",
+      "source": "equal_dose_world1_seed1_5401/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed1_5401/manifest.json",
+      "source": "equal_dose_world1_seed1_5401/manifest.json",
+      "bytes": 4703,
+      "sha256": "f847ff9c9050be650f9e345b9f0692ac238c9ae871039b54dc19075b29df2edd"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/FINAL_RESULT.json",
+      "source": "equal_dose_world1_seed1_5401/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "71e411f90013f4aab54a96ab8904e1a2b41b0109ddbcfd39550ad837d48de301"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed1_5401/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "bda9d6bfc6db583ccee8be2925c3da40892e5a012d48571901c3baf3aab17e6b"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world1_seed1_5401/CONFIRMATION_LOOK1.json",
+      "bytes": 1688123,
+      "sha256": "c43ff6eba089236183c9427b50432cbc55359638ca42b98b2304fe4e56dba199"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world1_seed1_5401/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "d78d02fd44cd609529839c5ebac38ac7be430f229d5dc199d07bb13c76289cc1"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/SOURCE_SELECTION.json",
+      "source": "equal_dose_world1_seed1_5401/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "31b883e40d86c4555204323d7ebaea1f7a2cfbf79d8c8772eade274b2a179f54"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world1_seed1_5401/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "e4b4c74a0d92694b7ec1c9cb30370a4da981d4018b80605ba62ce2a0e581b1ba"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed1_5401/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "0c9f47b3be5a2d4b9477d11b105a7348b1d744f011dda6aeac8ca7ecacc0e1ec"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed1_5401/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world1_seed1_5401/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed1_5401/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed1_5402/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/DATA_AUDIT.json",
+      "source": "equal_dose_world2_seed1_5402/DATA_AUDIT.json",
+      "bytes": 942,
+      "sha256": "35a8842a2bcbb14d2b5da1c42ebaaff83bc8200cbe312344bcab5036c5bd32a1"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world2_seed1_5402/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed1_5402/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/PROTOCOL.md",
+      "source": "equal_dose_world2_seed1_5402/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/audit_outputs.py",
+      "source": "equal_dose_world2_seed1_5402/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/case.json",
+      "source": "equal_dose_world2_seed1_5402/case.json",
+      "bytes": 741,
+      "sha256": "1b540bb8900d0a0fdea7a391c968fa9f9218147ed3b5db0e30ad0f768fa8ddff"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/chain_witness.py",
+      "source": "equal_dose_world2_seed1_5402/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/confirm_statistics.py",
+      "source": "equal_dose_world2_seed1_5402/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/evaluate_components.py",
+      "source": "equal_dose_world2_seed1_5402/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/evaluate_exchange.py",
+      "source": "equal_dose_world2_seed1_5402/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/generate_case_data.py",
+      "source": "equal_dose_world2_seed1_5402/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/iid_probes.py",
+      "source": "equal_dose_world2_seed1_5402/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/policy.py",
+      "source": "equal_dose_world2_seed1_5402/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/prompts.py",
+      "source": "equal_dose_world2_seed1_5402/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/resources.py",
+      "source": "equal_dose_world2_seed1_5402/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/rollout.py",
+      "source": "equal_dose_world2_seed1_5402/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/rules.py",
+      "source": "equal_dose_world2_seed1_5402/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/run_case.py",
+      "source": "equal_dose_world2_seed1_5402/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/run_equal_dose.py",
+      "source": "equal_dose_world2_seed1_5402/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/score.py",
+      "source": "equal_dose_world2_seed1_5402/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/topology_math.py",
+      "source": "equal_dose_world2_seed1_5402/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/train_components.py",
+      "source": "equal_dose_world2_seed1_5402/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/train_exchange.py",
+      "source": "equal_dose_world2_seed1_5402/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/train_policy.py",
+      "source": "equal_dose_world2_seed1_5402/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed1_5402/manifest.json",
+      "source": "equal_dose_world2_seed1_5402/manifest.json",
+      "bytes": 4703,
+      "sha256": "aeadaf56b9b395bafcd296be073866bd25a503e839a71fbdd61ecea165862543"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/FINAL_RESULT.json",
+      "source": "equal_dose_world2_seed1_5402/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "66689305262e10a641fd98d5b68fd42513f66d06e8fc0a124d1538765c47950a"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed1_5402/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "933babff1bf5767be09881661170b7ac0b7078a28843cf1211aae88b9946234b"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world2_seed1_5402/CONFIRMATION_LOOK1.json",
+      "bytes": 1688181,
+      "sha256": "933210d6d094824565ec8a7ab82b0c804b8645647a3b692548a1480127288a03"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world2_seed1_5402/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "ca9d6ca409267c50a5198818bb344b71b3134ac4a6c8a03515853c5f705ba469"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/SOURCE_SELECTION.json",
+      "source": "equal_dose_world2_seed1_5402/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "8a92f06d02024d5a170487ccd5f661aa933032eab09bf0b86a80fc49884d458a"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world2_seed1_5402/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "27bcb220abaa34242ef45b266b5a81c3bd6de5505ff1fbb5c56a4e365eefb280"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed1_5402/RAW_AUDIT.json",
+      "bytes": 3087,
+      "sha256": "0b1b4f84e4c4192e5b5d62b2bf4d5c84b3527183d95d80c5656eaff4a1e7ecfe"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed1_5402/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world2_seed1_5402/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed1_5402/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed2_5403/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/DATA_AUDIT.json",
+      "source": "equal_dose_world1_seed2_5403/DATA_AUDIT.json",
+      "bytes": 942,
+      "sha256": "a5f0a56d80a159a8a2aa480f163ae0c2fd6f29e70723688221dc77dc3d085ca1"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world1_seed2_5403/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed2_5403/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/PROTOCOL.md",
+      "source": "equal_dose_world1_seed2_5403/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/audit_outputs.py",
+      "source": "equal_dose_world1_seed2_5403/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/case.json",
+      "source": "equal_dose_world1_seed2_5403/case.json",
+      "bytes": 741,
+      "sha256": "4c5f408d54d0d22080a89bf3c74a661c968809b18da158cea0791c640db78492"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/chain_witness.py",
+      "source": "equal_dose_world1_seed2_5403/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/confirm_statistics.py",
+      "source": "equal_dose_world1_seed2_5403/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/evaluate_components.py",
+      "source": "equal_dose_world1_seed2_5403/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/evaluate_exchange.py",
+      "source": "equal_dose_world1_seed2_5403/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/generate_case_data.py",
+      "source": "equal_dose_world1_seed2_5403/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/iid_probes.py",
+      "source": "equal_dose_world1_seed2_5403/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/policy.py",
+      "source": "equal_dose_world1_seed2_5403/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/prompts.py",
+      "source": "equal_dose_world1_seed2_5403/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/resources.py",
+      "source": "equal_dose_world1_seed2_5403/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/rollout.py",
+      "source": "equal_dose_world1_seed2_5403/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/rules.py",
+      "source": "equal_dose_world1_seed2_5403/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/run_case.py",
+      "source": "equal_dose_world1_seed2_5403/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/run_equal_dose.py",
+      "source": "equal_dose_world1_seed2_5403/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/score.py",
+      "source": "equal_dose_world1_seed2_5403/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/topology_math.py",
+      "source": "equal_dose_world1_seed2_5403/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/train_components.py",
+      "source": "equal_dose_world1_seed2_5403/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/train_exchange.py",
+      "source": "equal_dose_world1_seed2_5403/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/train_policy.py",
+      "source": "equal_dose_world1_seed2_5403/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed2_5403/manifest.json",
+      "source": "equal_dose_world1_seed2_5403/manifest.json",
+      "bytes": 4703,
+      "sha256": "b1e4750cdae44a4c0f8d0244cef131174c081df889777cf7ba9fe075de0edda1"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/FINAL_RESULT.json",
+      "source": "equal_dose_world1_seed2_5403/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "37c33c82b845567ef0ae09c7ef44a01911edf48fe92d7fbcbde2fda65ac2f8ea"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed2_5403/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "49f72b81a645130fb593e551803bc381d4c93f3aec7994eedd66aecdb955d95c"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world1_seed2_5403/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "a12c705bfebf0f80420a772cbd92ef5bae3b306ad15aafe1c0d09f386505f688"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world1_seed2_5403/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "cf85ba94661d9861425a2f7a7bc593241a370e3bbdda0d4c0ec02cf45c872116"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/SOURCE_SELECTION.json",
+      "source": "equal_dose_world1_seed2_5403/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "2e6c2c02942424478dd21d2d5e1f5955b44aa1866a6946a6235b209ca00919e6"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world1_seed2_5403/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "3f7f688b53d3d58e34de542c4fb704f641907c701d2e666be58b11e3e794f68e"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed2_5403/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "27d59b1bacc63cd31b2f1dd40ee7fa4fd6e3463c237bd514a1ddc107251d892a"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed2_5403/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world1_seed2_5403/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed2_5403/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed2_5404/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/DATA_AUDIT.json",
+      "source": "equal_dose_world2_seed2_5404/DATA_AUDIT.json",
+      "bytes": 930,
+      "sha256": "c858d805932915a5fba2f0f4264f3de26cd96c0963991b196bc338b6e8ceb086"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world2_seed2_5404/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed2_5404/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/PROTOCOL.md",
+      "source": "equal_dose_world2_seed2_5404/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/audit_outputs.py",
+      "source": "equal_dose_world2_seed2_5404/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/case.json",
+      "source": "equal_dose_world2_seed2_5404/case.json",
+      "bytes": 741,
+      "sha256": "c5865ae4f8aef0e3b30cb0f2f3523d4e367bb8f446d7f56c6308ca01caf39dbc"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/chain_witness.py",
+      "source": "equal_dose_world2_seed2_5404/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/confirm_statistics.py",
+      "source": "equal_dose_world2_seed2_5404/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/evaluate_components.py",
+      "source": "equal_dose_world2_seed2_5404/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/evaluate_exchange.py",
+      "source": "equal_dose_world2_seed2_5404/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/generate_case_data.py",
+      "source": "equal_dose_world2_seed2_5404/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/iid_probes.py",
+      "source": "equal_dose_world2_seed2_5404/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/policy.py",
+      "source": "equal_dose_world2_seed2_5404/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/prompts.py",
+      "source": "equal_dose_world2_seed2_5404/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/resources.py",
+      "source": "equal_dose_world2_seed2_5404/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/rollout.py",
+      "source": "equal_dose_world2_seed2_5404/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/rules.py",
+      "source": "equal_dose_world2_seed2_5404/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/run_case.py",
+      "source": "equal_dose_world2_seed2_5404/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/run_equal_dose.py",
+      "source": "equal_dose_world2_seed2_5404/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/score.py",
+      "source": "equal_dose_world2_seed2_5404/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/topology_math.py",
+      "source": "equal_dose_world2_seed2_5404/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/train_components.py",
+      "source": "equal_dose_world2_seed2_5404/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/train_exchange.py",
+      "source": "equal_dose_world2_seed2_5404/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/train_policy.py",
+      "source": "equal_dose_world2_seed2_5404/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed2_5404/manifest.json",
+      "source": "equal_dose_world2_seed2_5404/manifest.json",
+      "bytes": 4703,
+      "sha256": "585c3f8871520ea049e0f606d11ca7cf7950ac1d624f74cc4a025e0cb509d793"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/FINAL_RESULT.json",
+      "source": "equal_dose_world2_seed2_5404/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "061c3da18bf3fa6fe825a3fa6a899ec4f7b16c71d22644b7f563104135189e3e"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed2_5404/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "520bd5b82a8ecd45ecc5f5323945f934364c730d275c1feba65529fe8993a285"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world2_seed2_5404/CONFIRMATION_LOOK1.json",
+      "bytes": 1688130,
+      "sha256": "cab6292578ed0d74ec2354778429b00a2fcd61e5e71a672c241de63cff3df312"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world2_seed2_5404/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "f0f75a01ce669d85a480a3deb712dcbb5a679f14f0917d612ed27ab75ccdefbf"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/SOURCE_SELECTION.json",
+      "source": "equal_dose_world2_seed2_5404/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "412cb6fe6a38721174454eb4957ad1587e84163d27d03dc05690facc67624240"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world2_seed2_5404/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "eedb2f7e617a316d4c14fcb027d03f1063b5ffafffed0ff57f5dc8a82fd2e373"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed2_5404/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "efddb9fa7681beae43df4b04ce1aae81cb1719d71b4c2353409bf744113ea05b"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed2_5404/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world2_seed2_5404/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed2_5404/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed3_5405/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/DATA_AUDIT.json",
+      "source": "equal_dose_world1_seed3_5405/DATA_AUDIT.json",
+      "bytes": 941,
+      "sha256": "9bd5838b2d56d5eab94ed24592781e6aca8d316211184c67d29003ddf2afb274"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world1_seed3_5405/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed3_5405/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/PROTOCOL.md",
+      "source": "equal_dose_world1_seed3_5405/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/audit_outputs.py",
+      "source": "equal_dose_world1_seed3_5405/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/case.json",
+      "source": "equal_dose_world1_seed3_5405/case.json",
+      "bytes": 741,
+      "sha256": "191cb7d7973d2a95bf9f43adeee05e892190debee58e5bf82252ea0f0cc019c2"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/chain_witness.py",
+      "source": "equal_dose_world1_seed3_5405/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/confirm_statistics.py",
+      "source": "equal_dose_world1_seed3_5405/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/evaluate_components.py",
+      "source": "equal_dose_world1_seed3_5405/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/evaluate_exchange.py",
+      "source": "equal_dose_world1_seed3_5405/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/generate_case_data.py",
+      "source": "equal_dose_world1_seed3_5405/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/iid_probes.py",
+      "source": "equal_dose_world1_seed3_5405/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/policy.py",
+      "source": "equal_dose_world1_seed3_5405/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/prompts.py",
+      "source": "equal_dose_world1_seed3_5405/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/resources.py",
+      "source": "equal_dose_world1_seed3_5405/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/rollout.py",
+      "source": "equal_dose_world1_seed3_5405/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/rules.py",
+      "source": "equal_dose_world1_seed3_5405/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/run_case.py",
+      "source": "equal_dose_world1_seed3_5405/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/run_equal_dose.py",
+      "source": "equal_dose_world1_seed3_5405/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/score.py",
+      "source": "equal_dose_world1_seed3_5405/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/topology_math.py",
+      "source": "equal_dose_world1_seed3_5405/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/train_components.py",
+      "source": "equal_dose_world1_seed3_5405/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/train_exchange.py",
+      "source": "equal_dose_world1_seed3_5405/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/train_policy.py",
+      "source": "equal_dose_world1_seed3_5405/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world1_seed3_5405/manifest.json",
+      "source": "equal_dose_world1_seed3_5405/manifest.json",
+      "bytes": 4703,
+      "sha256": "5a6563843363dc42553a9925ce4cadd0a573c8359ed12622b7a7d004496d604f"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/FINAL_RESULT.json",
+      "source": "equal_dose_world1_seed3_5405/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "8e87ee425bf3aa752a59879d63defe3ba1d08d438bcaec2bd5e14be2ea5956e8"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed3_5405/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "bc6d5d24feec5bd944e7f52e1cb90c7b0e41eb0915fd8be92334457c4c0a8d5b"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world1_seed3_5405/CONFIRMATION_LOOK1.json",
+      "bytes": 1688101,
+      "sha256": "cc75ab2912563749086f0bef52c05598a3c19595ea7d1be1bf83fad294dee5e9"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world1_seed3_5405/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "08b2790a5b302c9d8393b2622004263b30259298d773e94ead42c6ff2fcf4385"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/SOURCE_SELECTION.json",
+      "source": "equal_dose_world1_seed3_5405/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "c8223a200b7236355874cfe131c3f38b8720157921e585326c576f3bd5859a65"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world1_seed3_5405/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "a013b7631838acae5f2965c8be628d9062df443afde33941737cbd63148dbb3f"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/RAW_AUDIT.json",
+      "source": "equal_dose_world1_seed3_5405/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "f39d8c4b334ef9f756217d10c110285d09eb92356513627c1ba7ab1e4877616f"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/ENVIRONMENT.json",
+      "source": "equal_dose_world1_seed3_5405/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world1_seed3_5405/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world1_seed3_5405/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed3_5406/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/DATA_AUDIT.json",
+      "source": "equal_dose_world2_seed3_5406/DATA_AUDIT.json",
+      "bytes": 943,
+      "sha256": "2d90bb2dab5f00615f70adb339495f59b0b23a191b0a5167cdddd08504107d63"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/DEPENDENCY_REPAIR.json",
+      "source": "equal_dose_world2_seed3_5406/DEPENDENCY_REPAIR.json",
+      "bytes": 887,
+      "sha256": "82a5af3304000b49e98b53ed5d9bfa4545096555276f66c3b150952ef8b980d4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed3_5406/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/PROTOCOL.md",
+      "source": "equal_dose_world2_seed3_5406/PROTOCOL.md",
+      "bytes": 3867,
+      "sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/audit_outputs.py",
+      "source": "equal_dose_world2_seed3_5406/audit_outputs.py",
+      "bytes": 8094,
+      "sha256": "25cabb9f644bd4d07188c576a73c5abe8289ed258116d78388dbabb6b14daf79"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/case.json",
+      "source": "equal_dose_world2_seed3_5406/case.json",
+      "bytes": 741,
+      "sha256": "d4ad55525afa1d354b892ecfd97bdc75c9c76c4987b9cf579f9ab8e915924636"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/chain_witness.py",
+      "source": "equal_dose_world2_seed3_5406/chain_witness.py",
+      "bytes": 2202,
+      "sha256": "ae99f0c3d2c8b206581f298882598acdbff40bef580860062c75e06c7a401ab4"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/confirm_statistics.py",
+      "source": "equal_dose_world2_seed3_5406/confirm_statistics.py",
+      "bytes": 8285,
+      "sha256": "f993ba26c202060008cdf6993bf6ae62ee6af360348a3727b474d12b814815d9"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/evaluate_components.py",
+      "source": "equal_dose_world2_seed3_5406/evaluate_components.py",
+      "bytes": 3136,
+      "sha256": "baaca2b4cab3763e89b677839df5d2990d31f05bfb09fe18d51de2703dfe21b8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/evaluate_exchange.py",
+      "source": "equal_dose_world2_seed3_5406/evaluate_exchange.py",
+      "bytes": 3175,
+      "sha256": "c5a6fbe52cf071cb1eb801fae5a4878d35e1b360d336038187f628dd60e87cbb"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/generate_case_data.py",
+      "source": "equal_dose_world2_seed3_5406/generate_case_data.py",
+      "bytes": 7537,
+      "sha256": "b8050f14b3115e6c462a5dd1cca7b5160804837a4e25b6259f7997ff0d52ad57"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/iid_probes.py",
+      "source": "equal_dose_world2_seed3_5406/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/policy.py",
+      "source": "equal_dose_world2_seed3_5406/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/prompts.py",
+      "source": "equal_dose_world2_seed3_5406/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/resources.py",
+      "source": "equal_dose_world2_seed3_5406/resources.py",
+      "bytes": 599,
+      "sha256": "ebbf54f73f47dbe8902b28eb6a03b2e426191f3198267c5ed45e040c94ed3946"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/rollout.py",
+      "source": "equal_dose_world2_seed3_5406/rollout.py",
+      "bytes": 7188,
+      "sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/rules.py",
+      "source": "equal_dose_world2_seed3_5406/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/run_case.py",
+      "source": "equal_dose_world2_seed3_5406/run_case.py",
+      "bytes": 5252,
+      "sha256": "f3eecf06cbf5458fb01876db9e84d4c4e0a32268692986ccd444123d96f459a8"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/run_equal_dose.py",
+      "source": "equal_dose_world2_seed3_5406/run_equal_dose.py",
+      "bytes": 6110,
+      "sha256": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/score.py",
+      "source": "equal_dose_world2_seed3_5406/score.py",
+      "bytes": 2424,
+      "sha256": "a6c53bc9dbef1197098306b97f3d6f21e19f4813c595efe1818c31c0f089e591"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/topology_math.py",
+      "source": "equal_dose_world2_seed3_5406/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/train_components.py",
+      "source": "equal_dose_world2_seed3_5406/train_components.py",
+      "bytes": 4827,
+      "sha256": "3f326554043ecb4c1e923026c9ffd25d8df643ac8cbd8aea844174b8849a604a"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/train_exchange.py",
+      "source": "equal_dose_world2_seed3_5406/train_exchange.py",
+      "bytes": 4369,
+      "sha256": "88198366b574956e708b100370ba6083a52ef757e579628e66170472beecbadf"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/train_policy.py",
+      "source": "equal_dose_world2_seed3_5406/train_policy.py",
+      "bytes": 3663,
+      "sha256": "5c319a62c55faa0c1408d8d81217034e433ad7ba7ae3ce48c216162953985670"
+    },
+    {
+      "path": "runtime/equal_dose_world2_seed3_5406/manifest.json",
+      "source": "equal_dose_world2_seed3_5406/manifest.json",
+      "bytes": 4703,
+      "sha256": "24991edd0c0cb38d4ef09d8a8cc955c8ca1f5013027c8c34e5a49b7116369f82"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/FINAL_RESULT.json",
+      "source": "equal_dose_world2_seed3_5406/FINAL_RESULT.json",
+      "bytes": 119,
+      "sha256": "0b9bc2420901f88715caf96e7886b91701bab8870f802b25f73551d1ef2f723d"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/CASE_RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed3_5406/CASE_RAW_AUDIT.json",
+      "bytes": 4286,
+      "sha256": "cfc02a9aab7319f07b55379da3f9175d704e12575d5052a4218e0cb88d9668d7"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/CONFIRMATION_LOOK1.json",
+      "source": "equal_dose_world2_seed3_5406/CONFIRMATION_LOOK1.json",
+      "bytes": 1688080,
+      "sha256": "4bed433ecd7df11d3ed58055484c29f30b487f668c174dba0a97dec55737e524"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/FUNCTIONAL_TRANSITIONS.json",
+      "source": "equal_dose_world2_seed3_5406/FUNCTIONAL_TRANSITIONS.json",
+      "bytes": 164875,
+      "sha256": "457c61e7da28bc23f4b2e41fc29faffd93470f2ecd0a2f15fcf9944d33e53d63"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/SOURCE_SELECTION.json",
+      "source": "equal_dose_world2_seed3_5406/SOURCE_SELECTION.json",
+      "bytes": 1229,
+      "sha256": "27902b7a4e3d4759756f517331069107dca001a83a5260450d547580e4031f0f"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/ASSEMBLY_WEIGHTS.json",
+      "source": "equal_dose_world2_seed3_5406/ASSEMBLY_WEIGHTS.json",
+      "bytes": 3814,
+      "sha256": "92995e4dee81d31649c27f82e7b825c3fdad35c5446a8c3996e4818d43c79bfe"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/RAW_AUDIT.json",
+      "source": "equal_dose_world2_seed3_5406/RAW_AUDIT.json",
+      "bytes": 3063,
+      "sha256": "c26234435f5081bc38ce9587cdf2db380cd9d64895af9024d82c4653ddac7fde"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/ENVIRONMENT.json",
+      "source": "equal_dose_world2_seed3_5406/ENVIRONMENT.json",
+      "bytes": 557,
+      "sha256": "50c1a99bbc2d938bee24202180ad2c8929877cd3f2eb9860d819ec4ca33abca5"
+    },
+    {
+      "path": "results/equal_dose_world2_seed3_5406/BASE_MODEL_SNAPSHOT.json",
+      "source": "equal_dose_world2_seed3_5406/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "runtime/word_family_evaluation_5500/CHRONOLOGY_CLARIFICATION.json",
+      "source": "word_family_evaluation_5500/CHRONOLOGY_CLARIFICATION.json",
+      "bytes": 519,
+      "sha256": "1d12b4f504c415a1acb656c0a8d4f82f1a66374a63771da287a8bad9d55524a4"
+    },
+    {
+      "path": "runtime/word_family_evaluation_5500/PROTOCOL.md",
+      "source": "word_family_evaluation_5500/PROTOCOL.md",
+      "bytes": 3661,
+      "sha256": "eb7f4b1530288dd056c48753fc7ec42f01627874e7a1772c7a5a9cf85ae6dee3"
+    },
+    {
+      "path": "runtime/word_family_evaluation_5500/REGISTRATION.json",
+      "source": "word_family_evaluation_5500/REGISTRATION.json",
+      "bytes": 4048,
+      "sha256": "9958801dac61db202829c34a7cc268bcb879578723b716aa9e51479017982d71"
+    },
+    {
+      "path": "runtime/word_family_evaluation_5500/REPRODUCE.md",
+      "source": "word_family_evaluation_5500/REPRODUCE.md",
+      "bytes": 308,
+      "sha256": "2bdf29a9aa00d5cf6755d3fc8990ecc2a15946d59dc251fce2acafffd726e602"
+    },
+    {
+      "path": "runtime/word_family_evaluation_5500/run_suite.py",
+      "source": "word_family_evaluation_5500/run_suite.py",
+      "bytes": 1647,
+      "sha256": "a392a06f84d29821a0f599f7754b7887bb212767c9ff7b9ec5bd326b1e1eb748"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/audit_outputs.py",
+      "source": "word_family_world1_seed1_5501/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/case.json",
+      "source": "word_family_world1_seed1_5501/case.json",
+      "bytes": 402,
+      "sha256": "1c6125f9b25d8a64c301148fbdf1bc27d0bc48fb3d9a1f06523e0ff3900804a8"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/DATA_AUDIT.json",
+      "source": "word_family_world1_seed1_5501/DATA_AUDIT.json",
+      "bytes": 1415,
+      "sha256": "cdfa128ba847a079f8f8f8f7cbd5597eefa8024a9f89d386a7cc07b8525bdb40"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/generate_bank.py",
+      "source": "word_family_world1_seed1_5501/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/iid_probes.py",
+      "source": "word_family_world1_seed1_5501/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/policy.py",
+      "source": "word_family_world1_seed1_5501/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/prompts.py",
+      "source": "word_family_world1_seed1_5501/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/rollout.py",
+      "source": "word_family_world1_seed1_5501/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/rules.py",
+      "source": "word_family_world1_seed1_5501/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/run_evaluation.py",
+      "source": "word_family_world1_seed1_5501/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/score.py",
+      "source": "word_family_world1_seed1_5501/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/topology_math.py",
+      "source": "word_family_world1_seed1_5501/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/word_statistics.py",
+      "source": "word_family_world1_seed1_5501/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world1_seed1_5501/manifest.json",
+      "source": "word_family_world1_seed1_5501/manifest.json",
+      "bytes": 1828,
+      "sha256": "dda40bee9fa613096230a8c8d932d3168fb24df2ae2bcc2784e1f8955827617f"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/CASE_RAW_AUDIT.json",
+      "source": "word_family_world1_seed1_5501/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "d005fdaded493d677bf62ffe98b9dd9cd2479acac9c926b0dba51fd619db3f4e"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/RESULT.json",
+      "source": "word_family_world1_seed1_5501/RESULT.json",
+      "bytes": 82425,
+      "sha256": "e11b6eee12dc906ba3cc1496ad80831bd215c621568f2b13ba472f65934a1a5f"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/SOURCE_SELECTION.json",
+      "source": "word_family_world1_seed1_5501/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "d0dda7996513ae44694c8c4e0585ad657daf747a12aacf4e7d63f6483b1f686d"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world1_seed1_5501/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "50cb3e5a100b05e5d58309a8c45d8b22d737449f667c76d4e78ee76ef8f586e6"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/RAW_AUDIT.json",
+      "source": "word_family_world1_seed1_5501/RAW_AUDIT.json",
+      "bytes": 3011,
+      "sha256": "9fdb11a43b0521c5d9f8ce1f6436fb42e75683920471b1c7be518d47c3bb5cec"
+    },
+    {
+      "path": "results/word_family_world1_seed1_5501/INHERITANCE_AUDIT.json",
+      "source": "word_family_world1_seed1_5501/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "2138c74fb3330c5a64e1e00b4bfb7aba3853ce9b7f85dc78a735ea083b987e53"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/audit_outputs.py",
+      "source": "word_family_world2_seed1_5502/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/case.json",
+      "source": "word_family_world2_seed1_5502/case.json",
+      "bytes": 402,
+      "sha256": "3632e48eaa43b37254be2bc047f6ab08eb82ffaea25d5572cdaf58dde53aec8b"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/DATA_AUDIT.json",
+      "source": "word_family_world2_seed1_5502/DATA_AUDIT.json",
+      "bytes": 1415,
+      "sha256": "296bf8f705c56c03cdc7a2cd2d710bf7b3ec233e68fcc3af1e0701f2625e06a8"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/generate_bank.py",
+      "source": "word_family_world2_seed1_5502/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/iid_probes.py",
+      "source": "word_family_world2_seed1_5502/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/policy.py",
+      "source": "word_family_world2_seed1_5502/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/prompts.py",
+      "source": "word_family_world2_seed1_5502/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/rollout.py",
+      "source": "word_family_world2_seed1_5502/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/rules.py",
+      "source": "word_family_world2_seed1_5502/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/run_evaluation.py",
+      "source": "word_family_world2_seed1_5502/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/score.py",
+      "source": "word_family_world2_seed1_5502/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/topology_math.py",
+      "source": "word_family_world2_seed1_5502/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/word_statistics.py",
+      "source": "word_family_world2_seed1_5502/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world2_seed1_5502/manifest.json",
+      "source": "word_family_world2_seed1_5502/manifest.json",
+      "bytes": 1828,
+      "sha256": "e757b5e38d0937ab4c628acbc0efaae8e5c5bb04770c4ee44f4de71469a9eef9"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/CASE_RAW_AUDIT.json",
+      "source": "word_family_world2_seed1_5502/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "a68d0b669f8b1a5895a5ab75166f0e7d3c06906df6b6cfddbece0bf37c3f6fda"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/RESULT.json",
+      "source": "word_family_world2_seed1_5502/RESULT.json",
+      "bytes": 82446,
+      "sha256": "9d2de209734f142a44c3c91ecf894462bb26f456d51d7b1ab4139dd3bddd40ba"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/SOURCE_SELECTION.json",
+      "source": "word_family_world2_seed1_5502/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "05d872f3345d4b08fc1d80c9116b8c7af63a04cc38837ab64a73af2c281b5f5d"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world2_seed1_5502/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "43b790f407ca139d98b25bbb64614bf9970c2fa0922bf9e7adde6f3d73ce350a"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/RAW_AUDIT.json",
+      "source": "word_family_world2_seed1_5502/RAW_AUDIT.json",
+      "bytes": 3035,
+      "sha256": "53844812137b5a36e19a7f73f1ae82e2e7f57ceced67fa625b735abdcc7d3481"
+    },
+    {
+      "path": "results/word_family_world2_seed1_5502/INHERITANCE_AUDIT.json",
+      "source": "word_family_world2_seed1_5502/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "4d0127766e30bed898fff8c5949dd5698d72427b682934ac036daaf15e59e0e5"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/audit_outputs.py",
+      "source": "word_family_world1_seed2_5503/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/case.json",
+      "source": "word_family_world1_seed2_5503/case.json",
+      "bytes": 402,
+      "sha256": "7e62067998aab0e36f980a79ef11ce8037647be3c179ac92c2ab4102e1fc5af1"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/DATA_AUDIT.json",
+      "source": "word_family_world1_seed2_5503/DATA_AUDIT.json",
+      "bytes": 1416,
+      "sha256": "7a3ca98c9dfa26fba2929d13596129218899e29f2e1187fe57f7f20c05e369fa"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/generate_bank.py",
+      "source": "word_family_world1_seed2_5503/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/iid_probes.py",
+      "source": "word_family_world1_seed2_5503/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/policy.py",
+      "source": "word_family_world1_seed2_5503/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/prompts.py",
+      "source": "word_family_world1_seed2_5503/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/rollout.py",
+      "source": "word_family_world1_seed2_5503/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/rules.py",
+      "source": "word_family_world1_seed2_5503/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/run_evaluation.py",
+      "source": "word_family_world1_seed2_5503/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/score.py",
+      "source": "word_family_world1_seed2_5503/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/topology_math.py",
+      "source": "word_family_world1_seed2_5503/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/word_statistics.py",
+      "source": "word_family_world1_seed2_5503/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world1_seed2_5503/manifest.json",
+      "source": "word_family_world1_seed2_5503/manifest.json",
+      "bytes": 1828,
+      "sha256": "1d5c6cb40d321c7ce663a1fdc60f52436668ed9b72d1bfe5a82f1ba2f3511b08"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/CASE_RAW_AUDIT.json",
+      "source": "word_family_world1_seed2_5503/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "3723795de19d53ca273dc563e629382138d6407f080d7bb9521462fef22e396e"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/RESULT.json",
+      "source": "word_family_world1_seed2_5503/RESULT.json",
+      "bytes": 82425,
+      "sha256": "9c5dbc97e4b8068c060f9667cc4316a13e615e293555017e2e9cd66b851dba05"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/SOURCE_SELECTION.json",
+      "source": "word_family_world1_seed2_5503/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "33b24cd70bca42c4de56d43ff9dd53722d8bd4f2e6d2f46b864db98537830127"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world1_seed2_5503/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "64792a2fec0a3b7fc92a93a4b7ce1ffb86934b17dfcf45c171428de8d50729d6"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/RAW_AUDIT.json",
+      "source": "word_family_world1_seed2_5503/RAW_AUDIT.json",
+      "bytes": 3011,
+      "sha256": "2a8856fc50f2d026babc426ad326f76d1d1da87c04dba748815d316fb07c72fa"
+    },
+    {
+      "path": "results/word_family_world1_seed2_5503/INHERITANCE_AUDIT.json",
+      "source": "word_family_world1_seed2_5503/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "a29ee1f58df85ef59a943a888c31da901856cd4cb12a3937bedb39c4f835d550"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/audit_outputs.py",
+      "source": "word_family_world2_seed2_5504/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/case.json",
+      "source": "word_family_world2_seed2_5504/case.json",
+      "bytes": 402,
+      "sha256": "c9ad80314e88510d8440e1c48289dd249d7f601396db3fbe8b2c38147170c79a"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/DATA_AUDIT.json",
+      "source": "word_family_world2_seed2_5504/DATA_AUDIT.json",
+      "bytes": 1416,
+      "sha256": "1111e37d6c5be351d91d799d8b96bcc1d7099931e26ca514b3980598d1779a06"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/generate_bank.py",
+      "source": "word_family_world2_seed2_5504/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/iid_probes.py",
+      "source": "word_family_world2_seed2_5504/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/policy.py",
+      "source": "word_family_world2_seed2_5504/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/prompts.py",
+      "source": "word_family_world2_seed2_5504/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/rollout.py",
+      "source": "word_family_world2_seed2_5504/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/rules.py",
+      "source": "word_family_world2_seed2_5504/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/run_evaluation.py",
+      "source": "word_family_world2_seed2_5504/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/score.py",
+      "source": "word_family_world2_seed2_5504/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/topology_math.py",
+      "source": "word_family_world2_seed2_5504/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/word_statistics.py",
+      "source": "word_family_world2_seed2_5504/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world2_seed2_5504/manifest.json",
+      "source": "word_family_world2_seed2_5504/manifest.json",
+      "bytes": 1828,
+      "sha256": "61a77fde35e31acc2ca56394e0e297faf47e1ea14587639833274665c1c2a522"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/CASE_RAW_AUDIT.json",
+      "source": "word_family_world2_seed2_5504/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "8fbbf9a9490510b1582f239dd5779d7d8d3841e7f7302fbfdc88245d94b4b85b"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/RESULT.json",
+      "source": "word_family_world2_seed2_5504/RESULT.json",
+      "bytes": 82425,
+      "sha256": "4f20a3388c3796d4d2483636bbc71d08b0223761db4405deacf11856dc85c8f9"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/SOURCE_SELECTION.json",
+      "source": "word_family_world2_seed2_5504/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "468e1eb1584f39fdffaa45217ae10f5f481dbd76232f18acce7cbeac7fb3e950"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world2_seed2_5504/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "96563a47550426ac58604327f838722daffb57f55657fb7e00a81b146570dada"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/RAW_AUDIT.json",
+      "source": "word_family_world2_seed2_5504/RAW_AUDIT.json",
+      "bytes": 3011,
+      "sha256": "1faeff518896ba7b9ff6827cc3d02c277160d8259eee6049c44169bfadfff8fc"
+    },
+    {
+      "path": "results/word_family_world2_seed2_5504/INHERITANCE_AUDIT.json",
+      "source": "word_family_world2_seed2_5504/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "b834187482bc53dbf7495c357a4702f2a480d6a27d99ffedfbf6134f1d6be0db"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/audit_outputs.py",
+      "source": "word_family_world1_seed3_5505/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/case.json",
+      "source": "word_family_world1_seed3_5505/case.json",
+      "bytes": 402,
+      "sha256": "561cf2219fc810729a8e271a7df74038537c8bad65624de97a93b629f08b432f"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/DATA_AUDIT.json",
+      "source": "word_family_world1_seed3_5505/DATA_AUDIT.json",
+      "bytes": 1416,
+      "sha256": "8e7b0e30f8e46b4392d7b5eee667ad616a26f44b328f8eb10e33b79d7ccaa52c"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/generate_bank.py",
+      "source": "word_family_world1_seed3_5505/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/iid_probes.py",
+      "source": "word_family_world1_seed3_5505/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/policy.py",
+      "source": "word_family_world1_seed3_5505/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/prompts.py",
+      "source": "word_family_world1_seed3_5505/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/rollout.py",
+      "source": "word_family_world1_seed3_5505/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/rules.py",
+      "source": "word_family_world1_seed3_5505/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/run_evaluation.py",
+      "source": "word_family_world1_seed3_5505/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/score.py",
+      "source": "word_family_world1_seed3_5505/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/topology_math.py",
+      "source": "word_family_world1_seed3_5505/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/word_statistics.py",
+      "source": "word_family_world1_seed3_5505/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world1_seed3_5505/manifest.json",
+      "source": "word_family_world1_seed3_5505/manifest.json",
+      "bytes": 1828,
+      "sha256": "65c35eaeb518f4684998b9269b7ead02299124833578dfab44d26e0bab36757a"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/CASE_RAW_AUDIT.json",
+      "source": "word_family_world1_seed3_5505/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "70fd6c4566610f3b62defb186168b70a8061ba2c49a109a97b9e698d76468099"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/RESULT.json",
+      "source": "word_family_world1_seed3_5505/RESULT.json",
+      "bytes": 82425,
+      "sha256": "155c73677304cd6f6ff9ac0b42567d331e2c61baebfd32a1f45e4bfa2860a78d"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/SOURCE_SELECTION.json",
+      "source": "word_family_world1_seed3_5505/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "dc8b09d8b47c1e81795d6408d189ad717bcfefbd39d214dd9d40751d2b94680d"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world1_seed3_5505/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "db12c088c57762221358e3025695ce3f57c1dfb8f913582038460b8c38148eb9"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/RAW_AUDIT.json",
+      "source": "word_family_world1_seed3_5505/RAW_AUDIT.json",
+      "bytes": 3011,
+      "sha256": "7f70d39534652b596eca50d67618946f6dcdd30b37f97d0a2ada72924d58ca23"
+    },
+    {
+      "path": "results/word_family_world1_seed3_5505/INHERITANCE_AUDIT.json",
+      "source": "word_family_world1_seed3_5505/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "e1f7b2e6debfc6cc2283f76c90bceb84717a85295a3b2538e1e4a6dd451b6923"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/audit_outputs.py",
+      "source": "word_family_world2_seed3_5506/audit_outputs.py",
+      "bytes": 8083,
+      "sha256": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/case.json",
+      "source": "word_family_world2_seed3_5506/case.json",
+      "bytes": 402,
+      "sha256": "26cb87b73c13640cf4835c7377da037ac0397bcdfc1a011ddd72f4de88aab8b4"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/DATA_AUDIT.json",
+      "source": "word_family_world2_seed3_5506/DATA_AUDIT.json",
+      "bytes": 1415,
+      "sha256": "93e28f059d3360a391b48bc71d9f9b2b6f8dd18e941e68a3189fcfbce8db4480"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/generate_bank.py",
+      "source": "word_family_world2_seed3_5506/generate_bank.py",
+      "bytes": 4264,
+      "sha256": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/iid_probes.py",
+      "source": "word_family_world2_seed3_5506/iid_probes.py",
+      "bytes": 4552,
+      "sha256": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/policy.py",
+      "source": "word_family_world2_seed3_5506/policy.py",
+      "bytes": 1502,
+      "sha256": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/prompts.py",
+      "source": "word_family_world2_seed3_5506/prompts.py",
+      "bytes": 645,
+      "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/rollout.py",
+      "source": "word_family_world2_seed3_5506/rollout.py",
+      "bytes": 7177,
+      "sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/rules.py",
+      "source": "word_family_world2_seed3_5506/rules.py",
+      "bytes": 2735,
+      "sha256": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/run_evaluation.py",
+      "source": "word_family_world2_seed3_5506/run_evaluation.py",
+      "bytes": 2641,
+      "sha256": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/score.py",
+      "source": "word_family_world2_seed3_5506/score.py",
+      "bytes": 2373,
+      "sha256": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/topology_math.py",
+      "source": "word_family_world2_seed3_5506/topology_math.py",
+      "bytes": 992,
+      "sha256": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/word_statistics.py",
+      "source": "word_family_world2_seed3_5506/word_statistics.py",
+      "bytes": 2439,
+      "sha256": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+    },
+    {
+      "path": "runtime/word_family_world2_seed3_5506/manifest.json",
+      "source": "word_family_world2_seed3_5506/manifest.json",
+      "bytes": 1828,
+      "sha256": "37ac1b0e20c3687fe755922c2a6929ea850a6688a10b500fdd22f1adf9c3a512"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/CASE_RAW_AUDIT.json",
+      "source": "word_family_world2_seed3_5506/CASE_RAW_AUDIT.json",
+      "bytes": 273,
+      "sha256": "c44531edfbaa0e48909c73cb661728189291185d802410ed832aa56238a95864"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/RESULT.json",
+      "source": "word_family_world2_seed3_5506/RESULT.json",
+      "bytes": 82425,
+      "sha256": "345218faf3be3b10b3450fc7a861fdf610d741ed9a6b7b053bd688074b8851bb"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/SOURCE_SELECTION.json",
+      "source": "word_family_world2_seed3_5506/SOURCE_SELECTION.json",
+      "bytes": 2905,
+      "sha256": "ad3f784deab1266ef514cd4c80533f5a42a1de1b93e7154479b8aab2aae6d684"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/ASSEMBLY_WEIGHTS.json",
+      "source": "word_family_world2_seed3_5506/ASSEMBLY_WEIGHTS.json",
+      "bytes": 1887,
+      "sha256": "aa2c88771003b6d183c89e7c214aaa6a6a058d43499d83728a9e13665e44774f"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/RAW_AUDIT.json",
+      "source": "word_family_world2_seed3_5506/RAW_AUDIT.json",
+      "bytes": 3011,
+      "sha256": "840f8623501a94e0433da0a00d0f343c5ec6b26ea01ced6c16c2495d320f4298"
+    },
+    {
+      "path": "results/word_family_world2_seed3_5506/INHERITANCE_AUDIT.json",
+      "source": "word_family_world2_seed3_5506/INHERITANCE_AUDIT.json",
+      "bytes": 2446,
+      "sha256": "23ce31bdbf070203b027c1c41f3f0326a58f4ec1b90dd58d06876615167571d4"
+    },
+    {
+      "path": "BASE_MODEL_SNAPSHOT.json",
+      "source": "theory_experiment_closure_4800/BASE_MODEL_SNAPSHOT.json",
+      "bytes": 2284,
+      "sha256": "564cda27dc4b4e2e1265e43a44cdf7aa91cd1d73a302c0db1f03f6d066c17631"
+    },
+    {
+      "path": "results/INDEPENDENT_SAMPLING_BOUNDS_AUDIT.json",
+      "source": "theory_experiment_closure_4800/INDEPENDENT_SAMPLING_BOUNDS_AUDIT.json",
+      "bytes": 5803,
+      "sha256": "f7174cd6810cb10b6e8f122e3b4f1a6763f66ec2c1c30a1649ea1b9197780aca"
+    },
+    {
+      "path": "results/CPU_ARCHIVE_WHOLE_PROGRAM_REPLAY.json",
+      "source": "theory_experiment_closure_4800/CPU_ARCHIVE_WHOLE_PROGRAM_REPLAY.json",
+      "bytes": 1403,
+      "sha256": "b426efadcd57ef3fd78a6991de1583ac4409bb54a187262ac86be3acb6603ee5"
+    },
+    {
+      "path": "results/CPU_ARCHIVE_WORD_PATTERN_REPLAY.json",
+      "source": "theory_experiment_closure_4800/CPU_ARCHIVE_WORD_PATTERN_REPLAY.json",
+      "bytes": 3582,
+      "sha256": "9fc08ee575b54819d507afd19ca2580da7be10eb9af6e7743985bf6918556e3c"
+    },
+    {
+      "path": "results/PRIMARY_SIX_RESULT_AUDIT.json",
+      "source": "theory_experiment_closure_4800/PRIMARY_SIX_RESULT_AUDIT.json",
+      "bytes": 13683,
+      "sha256": "56e4d0f54f1c15f14fa7451a25ec6de4d4ee2b32fef771de5d0f979b4da3e6ee"
+    },
+    {
+      "path": "results/FINAL_LABELLED_EVIDENCE_AUDIT.json",
+      "source": "theory_experiment_closure_4800/FINAL_LABELLED_EVIDENCE_AUDIT.json",
+      "bytes": 30588,
+      "sha256": "5ebc316a80d774c8cdf96a305208455bfc3498af6bfc20ac9bf09d4bd8a467f6"
+    },
+    {
+      "path": "results/JOINED_RESULTS.json",
+      "source": "theory_experiment_closure_4800/joined_manuscript_results/JOINED_RESULTS.json",
+      "bytes": 1907,
+      "sha256": "7b88e4e46d5a829fedf68d4798f08eef91f35384577f49931ae611a373381a9e"
+    }
+  ],
+  "generated_sources": [
+    "README.md",
+    "cpu/reconstruct_measured_diagrams.py",
+    "verify_results.py"
+  ],
+  "copy_policy": "Verbatim source copies, independently rehashed; wrapper/documentation newly authored."
+}

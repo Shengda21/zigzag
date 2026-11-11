@@ -1,0 +1,3462 @@
+{
+  "scope": "Postprocessing of returned measured diagrams. No new training/query, independent replicate, statistical gate or novelty claim. Failed/common-graph-incompatible results remain listed.",
+  "cases": [
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5301",
+      "world": 1,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5302",
+      "world": 2,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            255,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5303",
+      "world": 1,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5304",
+      "world": 2,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5305",
+      "world": 1,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5306",
+      "world": 2,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_factored_5300"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5401",
+      "world": 1,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5402",
+      "world": 2,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            255,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5403",
+      "world": 1,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5404",
+      "world": 2,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            255,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5405",
+      "world": 1,
+      "order": "AB",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "A",
+        "B"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    },
+    {
+      "status": "PASS_EXACT_MEASURED_ZIGZAG_BARCODES",
+      "case": "r5406",
+      "world": 2,
+      "order": "BA",
+      "science_pass": true,
+      "n": 256,
+      "threshold": 0.8,
+      "true_window_diagram_certified": true,
+      "checkpoint_labels": [
+        "Source",
+        "Learned",
+        "B",
+        "A"
+      ],
+      "checkpoint_face_counts": [
+        0,
+        35,
+        28,
+        28
+      ],
+      "union": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 0,
+              "multiplicity": 15
+            }
+          ],
+          "2": [
+            {
+              "start": 1,
+              "end": 3,
+              "multiplicity": 7
+            },
+            {
+              "start": 1,
+              "end": 5,
+              "multiplicity": 3
+            },
+            {
+              "start": 1,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            },
+            {
+              "start": 5,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            17
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "intersection": {
+        "bars": {
+          "0": [
+            {
+              "start": 0,
+              "end": 6,
+              "multiplicity": 1
+            }
+          ],
+          "1": [
+            {
+              "start": 0,
+              "end": 1,
+              "multiplicity": 15
+            },
+            {
+              "start": 5,
+              "end": 5,
+              "multiplicity": 1
+            }
+          ],
+          "2": [
+            {
+              "start": 2,
+              "end": 2,
+              "multiplicity": 7
+            },
+            {
+              "start": 2,
+              "end": 4,
+              "multiplicity": 3
+            },
+            {
+              "start": 2,
+              "end": 6,
+              "multiplicity": 10
+            },
+            {
+              "start": 6,
+              "end": 6,
+              "multiplicity": 3
+            }
+          ]
+        },
+        "node_betti": [
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            15,
+            0
+          ],
+          [
+            1,
+            0,
+            20
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            0,
+            13
+          ],
+          [
+            1,
+            1,
+            10
+          ],
+          [
+            1,
+            0,
+            13
+          ]
+        ]
+      },
+      "named_boundaries": {
+        "ABCD": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            true
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            true
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            256
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            true
+          ]
+        },
+        "ABDE": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            true,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            true,
+            true,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            256,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            true,
+            false
+          ]
+        },
+        "ACEF": {
+          "union_node_support": [
+            false,
+            true,
+            true,
+            true,
+            false,
+            true,
+            false
+          ],
+          "intersection_node_support": [
+            false,
+            false,
+            true,
+            false,
+            false,
+            false,
+            false
+          ],
+          "strict_successes": [
+            0,
+            256,
+            0,
+            0
+          ],
+          "checkpoint_support": [
+            false,
+            true,
+            false,
+            false
+          ]
+        }
+      },
+      "checkpoint_restricted_barcodes_equal": true,
+      "bridge_only_degree2_union": 1,
+      "bridge_only_degree1_intersection": 1,
+      "assessment": "confirmation_equal_dose_5400"
+    }
+  ],
+  "plotted_case": "r5401"
+}

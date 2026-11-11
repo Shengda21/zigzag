@@ -1,0 +1,266 @@
+{
+  "status": "PASS_EXACT_LABELLED_BRIDGE_NONIDENTIFIABILITY",
+  "scope": "Explicit finite complexes only, not additional model data. Both complete four-checkpoint diagrams have the same unlabelled union and intersection barcodes in degrees0--2; the named ABCG class has different endpoint-span membership.",
+  "common_deletions": [
+    "ADG",
+    "AFG",
+    "BCD",
+    "BCE",
+    "BCF",
+    "BDG",
+    "BFG",
+    "CDF",
+    "CFG",
+    "DEG"
+  ],
+  "additional_deletions": {
+    "A": [
+      "ABG",
+      "ACD",
+      "ACF",
+      "BDE",
+      "BEF",
+      "CEG"
+    ],
+    "B": [
+      "ABD",
+      "ACF",
+      "ACG",
+      "BEF",
+      "BEG",
+      "CDE"
+    ],
+    "C": [
+      "ABF",
+      "ACD",
+      "ACG",
+      "BDE",
+      "BEG",
+      "CEF"
+    ]
+  },
+  "vertex_pair_counts_equal_for_all_three_endpoints": true,
+  "named_boundary": "ABCG",
+  "pairs": [
+    {
+      "pair": "AB",
+      "betti": {
+        "endpoints": [
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        "intersection": [
+          1,
+          1,
+          1
+        ],
+        "union": [
+          1,
+          0,
+          8
+        ]
+      },
+      "rho2": 1,
+      "q_outside_endpoint_supported_span": true,
+      "q_face_support": [
+        [
+          "ABC",
+          "ACG",
+          "BCG"
+        ],
+        [
+          "ABC",
+          "ABG",
+          "BCG"
+        ]
+      ],
+      "connecting_chain": [
+        "AB",
+        "AG",
+        "BG"
+      ],
+      "cocycle_with_odd_pairing": [
+        "BG",
+        "CD",
+        "CG"
+      ]
+    },
+    {
+      "pair": "AC",
+      "betti": {
+        "endpoints": [
+          [
+            1,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            4
+          ]
+        ],
+        "intersection": [
+          1,
+          1,
+          1
+        ],
+        "union": [
+          1,
+          0,
+          8
+        ]
+      },
+      "rho2": 1,
+      "q_outside_endpoint_supported_span": false,
+      "q_face_support": [
+        [
+          "ABC",
+          "ACG",
+          "BCG"
+        ],
+        [
+          "ABC",
+          "ABG",
+          "BCG"
+        ]
+      ],
+      "connecting_chain": [
+        "AB",
+        "AG",
+        "BG"
+      ],
+      "intersection_filling": [
+        "ABC",
+        "ACE",
+        "AEG",
+        "BCG",
+        "CDE",
+        "CDG",
+        "DEF",
+        "DFG",
+        "EFG"
+      ],
+      "endpoint_cycles": [
+        [
+          "ACE",
+          "ACG",
+          "AEG",
+          "CDE",
+          "CDG",
+          "DEF",
+          "DFG",
+          "EFG"
+        ],
+        [
+          "ABC",
+          "ABG",
+          "ACE",
+          "AEG",
+          "BCG",
+          "CDE",
+          "CDG",
+          "DEF",
+          "DFG",
+          "EFG"
+        ]
+      ]
+    }
+  ],
+  "equal_barcodes": {
+    "union": {
+      "0": [
+        {
+          "start": 0,
+          "end": 6,
+          "multiplicity": 1
+        }
+      ],
+      "1": [
+        {
+          "start": 0,
+          "end": 0,
+          "multiplicity": 15
+        }
+      ],
+      "2": [
+        {
+          "start": 1,
+          "end": 3,
+          "multiplicity": 16
+        },
+        {
+          "start": 1,
+          "end": 5,
+          "multiplicity": 3
+        },
+        {
+          "start": 1,
+          "end": 6,
+          "multiplicity": 1
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "multiplicity": 1
+        },
+        {
+          "start": 5,
+          "end": 6,
+          "multiplicity": 3
+        }
+      ]
+    },
+    "intersection": {
+      "0": [
+        {
+          "start": 0,
+          "end": 6,
+          "multiplicity": 1
+        }
+      ],
+      "1": [
+        {
+          "start": 0,
+          "end": 1,
+          "multiplicity": 15
+        },
+        {
+          "start": 5,
+          "end": 5,
+          "multiplicity": 1
+        }
+      ],
+      "2": [
+        {
+          "start": 2,
+          "end": 2,
+          "multiplicity": 16
+        },
+        {
+          "start": 2,
+          "end": 4,
+          "multiplicity": 3
+        },
+        {
+          "start": 2,
+          "end": 6,
+          "multiplicity": 1
+        },
+        {
+          "start": 6,
+          "end": 6,
+          "multiplicity": 3
+        }
+      ]
+    }
+  }
+}

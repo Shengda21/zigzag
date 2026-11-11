@@ -1,0 +1,690 @@
+{
+  "alpha": 0.05,
+  "seed": 20261108,
+  "m_template_coordinates": 42,
+  "correlation": "Paraphrases identical; coordinates and times share per-root U; roots iid.",
+  "columns": [
+    "bridge_transition_0to1",
+    "forward_cokernel_1to2",
+    "checkpoint_H1_image_rank_t2"
+  ],
+  "deltas": [
+    0,
+    0.05,
+    0.1
+  ],
+  "results": [
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 32,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 32,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 128,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.003,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.975,
+          0.975,
+          0.975
+        ],
+        [
+          0.558,
+          0.558,
+          0.558
+        ],
+        [
+          0.049,
+          0.049,
+          0.049
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 128,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.96,
+          0.96,
+          0.96
+        ],
+        [
+          0.291,
+          0.291,
+          0.291
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 512,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.003,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.862,
+          0.862,
+          0.862
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 512,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          0.546,
+          0.546,
+          0.546
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 2048,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.003,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "scenario": "clear_transition_and_birth",
+      "n_roots": 2048,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.001,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ],
+        [
+          1.0,
+          1.0,
+          1.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 32,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 32,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 128,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.001,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 128,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.001,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 512,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 512,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.0,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 2048,
+      "reps": 1000,
+      "method": "coordinate_cp",
+      "simultaneous_band_noncoverage": 0.004,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scenario": "near_threshold_null",
+      "n_roots": 2048,
+      "reps": 1000,
+      "method": "scalar_same_cp",
+      "simultaneous_band_noncoverage": 0.001,
+      "false_rank_certificates": 0,
+      "true_transition_forward_checkpoint_ranks_by_delta": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ],
+      "positive_certificate_fraction_by_delta": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}

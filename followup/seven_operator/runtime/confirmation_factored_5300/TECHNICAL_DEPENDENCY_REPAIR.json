@@ -1,0 +1,19 @@
+{
+  "utc": "2026-11-10T17:19:35.364162+00:00",
+  "kind": "Missing deployment dependency supplied before any whole-program query in all six cases.",
+  "dependency": "prompts.py",
+  "sha256": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262",
+  "original_template_and_both_development_sources_same_sha256": true,
+  "all_embedded_frozen_numeric_prompts_match": {
+    "r5301": 358400,
+    "r5302": 358400,
+    "r5303": 358400,
+    "r5304": 358400,
+    "r5305": 358400,
+    "r5306": 358400
+  },
+  "original_registration_and_all_case_manifests_unchanged": true,
+  "model_weights_seeds_data_budgets_gates_unchanged": true,
+  "r5301": "Original execution fault and its immutable full archive retained. Resume only whole evaluation from seven already selected weights. No numerical component failure is erased.",
+  "original_fault_log": "confirmation_world1_seed1_5301/run.log"
+}

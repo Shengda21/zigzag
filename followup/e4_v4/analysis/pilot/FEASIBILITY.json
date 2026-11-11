@@ -1,0 +1,363 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "world": 961,
+      "arm": "edge",
+      "passed": true,
+      "edges": [
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "B|B|B": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        }
+      ],
+      "mixed": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "reference": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "external_format": 0.998046875,
+      "external_exact": 0.41015625
+    },
+    {
+      "world": 961,
+      "arm": "joint",
+      "passed": true,
+      "edges": [
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "B|B|B": 512
+          }
+        },
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        }
+      ],
+      "mixed": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "reference": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "external_format": 0.998046875,
+      "external_exact": 0.05859375
+    },
+    {
+      "world": 962,
+      "arm": "edge",
+      "passed": true,
+      "edges": [
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "B|B|B": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        }
+      ],
+      "mixed": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "reference": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "external_format": 1.0,
+      "external_exact": 0.04296875
+    },
+    {
+      "world": 962,
+      "arm": "joint",
+      "passed": true,
+      "edges": [
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "B|B|B": 512
+          }
+        },
+        {
+          "exact": 1.0,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 0.99609375,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "C|C|C": 512
+          }
+        },
+        {
+          "exact": 0.99609375,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        },
+        {
+          "exact": 0.998046875,
+          "strict_format": 1.0,
+          "structure": 1.0,
+          "syntax": 1.0,
+          "sentinel_one": 1.0,
+          "destination_signatures": {
+            "D|D|D": 512
+          }
+        }
+      ],
+      "mixed": {
+        "exact": 0.99609375,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "reference": {
+        "exact": 1.0,
+        "strict_format": 1.0,
+        "structure": 1.0,
+        "syntax": 1.0,
+        "sentinel_one": 1.0,
+        "destination_signatures": {
+          "B|C|D": 512
+        }
+      },
+      "external_format": 1.0,
+      "external_exact": 0.31640625
+    }
+  ],
+  "external_nondegenerate": true,
+  "primary_step": 512
+}

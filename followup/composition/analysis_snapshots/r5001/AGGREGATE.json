@@ -1,0 +1,473 @@
+{
+  "status": "COMPLETE_R5001_SIX_SEED_PAIRED_TEST",
+  "missing": [],
+  "rows": [
+    {
+      "world": "r1603",
+      "seed": 1,
+      "stage": "source",
+      "strict7": 22,
+      "strict8": 4,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.546875,
+      "minimum_face": 0.0390625,
+      "betti80": [
+        1,
+        5,
+        0
+      ],
+      "format_eos": 0.9447228773584906,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 1,
+      "stage": "two",
+      "strict7": 169,
+      "strict8": 89,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9375,
+      "minimum_face": 0.7265625,
+      "betti80": [
+        1,
+        0,
+        1
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 1,
+      "stage": "three",
+      "strict7": 243,
+      "strict8": 234,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.921875,
+      "minimum_face": 0.921875,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": true
+    },
+    {
+      "world": "r1603",
+      "seed": 2,
+      "stage": "source",
+      "strict7": 7,
+      "strict8": 0,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9765625,
+      "minimum_face": 0.0,
+      "betti80": [
+        1,
+        6,
+        0
+      ],
+      "format_eos": 0.9855542452830188,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 2,
+      "stage": "two",
+      "strict7": 111,
+      "strict8": 40,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9765625,
+      "minimum_face": 0.6484375,
+      "betti80": [
+        1,
+        4,
+        0
+      ],
+      "format_eos": 0.9997051886792453,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 2,
+      "stage": "three",
+      "strict7": 239,
+      "strict8": 215,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.984375,
+      "minimum_face": 0.890625,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": true
+    },
+    {
+      "world": "r1603",
+      "seed": 3,
+      "stage": "source",
+      "strict7": 22,
+      "strict8": 2,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.28125,
+      "minimum_face": 0.0,
+      "betti80": [
+        1,
+        5,
+        0
+      ],
+      "format_eos": 0.9786261792452831,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 3,
+      "stage": "two",
+      "strict7": 159,
+      "strict8": 54,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9921875,
+      "minimum_face": 0.5625,
+      "betti80": [
+        1,
+        3,
+        0
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r1603",
+      "seed": 3,
+      "stage": "three",
+      "strict7": 241,
+      "strict8": 225,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9921875,
+      "minimum_face": 0.890625,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": true
+    },
+    {
+      "world": "r4004",
+      "seed": 1,
+      "stage": "source",
+      "strict7": 14,
+      "strict8": 3,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.0,
+      "minimum_face": 0.0234375,
+      "betti80": [
+        3,
+        0,
+        0
+      ],
+      "format_eos": 0.9952830188679245,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 1,
+      "stage": "two",
+      "strict7": 89,
+      "strict8": 23,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.984375,
+      "minimum_face": 0.59375,
+      "betti80": [
+        1,
+        5,
+        0
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 1,
+      "stage": "three",
+      "strict7": 222,
+      "strict8": 222,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.984375,
+      "minimum_face": 0.921875,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": true
+    },
+    {
+      "world": "r4004",
+      "seed": 2,
+      "stage": "source",
+      "strict7": 14,
+      "strict8": 1,
+      "minimum_unary": 0.9921875,
+      "minimum_binary": 0.3671875,
+      "minimum_face": 0.0546875,
+      "betti80": [
+        1,
+        4,
+        0
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 2,
+      "stage": "two",
+      "strict7": 85,
+      "strict8": 16,
+      "minimum_unary": 0.9921875,
+      "minimum_binary": 0.9765625,
+      "minimum_face": 0.578125,
+      "betti80": [
+        1,
+        5,
+        0
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 2,
+      "stage": "three",
+      "strict7": 229,
+      "strict8": 216,
+      "minimum_unary": 0.9921875,
+      "minimum_binary": 0.953125,
+      "minimum_face": 0.921875,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": true
+    },
+    {
+      "world": "r4004",
+      "seed": 3,
+      "stage": "source",
+      "strict7": 5,
+      "strict8": 1,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.0859375,
+      "minimum_face": 0.0703125,
+      "betti80": [
+        1,
+        3,
+        0
+      ],
+      "format_eos": 0.9351415094339622,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 3,
+      "stage": "two",
+      "strict7": 60,
+      "strict8": 20,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9765625,
+      "minimum_face": 0.5,
+      "betti80": [
+        1,
+        5,
+        0
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    },
+    {
+      "world": "r4004",
+      "seed": 3,
+      "stage": "three",
+      "strict7": 226,
+      "strict8": 202,
+      "minimum_unary": 0.9921875,
+      "minimum_binary": 0.9609375,
+      "minimum_face": 0.9140625,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    }
+  ],
+  "contrasts": [
+    {
+      "world": "r1603",
+      "seed": 1,
+      "depth": 7,
+      "three_minus_two": 0.2890625,
+      "paired95": [
+        0.23046875,
+        0.34765625
+      ],
+      "bonferroni_one_sided_lower_12": 0.2109375,
+      "bonferroni_one_sided_upper_12": 0.3671875,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r1603",
+      "seed": 1,
+      "depth": 8,
+      "three_minus_two": 0.56640625,
+      "paired95": [
+        0.5078125,
+        0.625
+      ],
+      "bonferroni_one_sided_lower_12": 0.484375,
+      "bonferroni_one_sided_upper_12": 0.6484375,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r1603",
+      "seed": 2,
+      "depth": 7,
+      "three_minus_two": 0.5,
+      "paired95": [
+        0.4375,
+        0.5625
+      ],
+      "bonferroni_one_sided_lower_12": 0.41796875,
+      "bonferroni_one_sided_upper_12": 0.58203125,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r1603",
+      "seed": 2,
+      "depth": 8,
+      "three_minus_two": 0.68359375,
+      "paired95": [
+        0.625,
+        0.73828125
+      ],
+      "bonferroni_one_sided_lower_12": 0.60546875,
+      "bonferroni_one_sided_upper_12": 0.7578125,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r1603",
+      "seed": 3,
+      "depth": 7,
+      "three_minus_two": 0.3203125,
+      "paired95": [
+        0.26171875,
+        0.37890625
+      ],
+      "bonferroni_one_sided_lower_12": 0.2421875,
+      "bonferroni_one_sided_upper_12": 0.40234375,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r1603",
+      "seed": 3,
+      "depth": 8,
+      "three_minus_two": 0.66796875,
+      "paired95": [
+        0.609375,
+        0.7265625
+      ],
+      "bonferroni_one_sided_lower_12": 0.58984375,
+      "bonferroni_one_sided_upper_12": 0.74609375,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 1,
+      "depth": 7,
+      "three_minus_two": 0.51953125,
+      "paired95": [
+        0.45703125,
+        0.58203125
+      ],
+      "bonferroni_one_sided_lower_12": 0.43359375,
+      "bonferroni_one_sided_upper_12": 0.60546875,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 1,
+      "depth": 8,
+      "three_minus_two": 0.77734375,
+      "paired95": [
+        0.7264648437500001,
+        0.828125
+      ],
+      "bonferroni_one_sided_lower_12": 0.70703125,
+      "bonferroni_one_sided_upper_12": 0.84375,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 2,
+      "depth": 7,
+      "three_minus_two": 0.5625,
+      "paired95": [
+        0.5,
+        0.625
+      ],
+      "bonferroni_one_sided_lower_12": 0.47265625,
+      "bonferroni_one_sided_upper_12": 0.64453125,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 2,
+      "depth": 8,
+      "three_minus_two": 0.78125,
+      "paired95": [
+        0.73046875,
+        0.83203125
+      ],
+      "bonferroni_one_sided_lower_12": 0.7109375,
+      "bonferroni_one_sided_upper_12": 0.84765625,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 3,
+      "depth": 7,
+      "three_minus_two": 0.6484375,
+      "paired95": [
+        0.58984375,
+        0.70703125
+      ],
+      "bonferroni_one_sided_lower_12": 0.5703125,
+      "bonferroni_one_sided_upper_12": 0.7265625,
+      "two_noninferior_pm05_conditional_on_model": false
+    },
+    {
+      "world": "r4004",
+      "seed": 3,
+      "depth": 8,
+      "three_minus_two": 0.7109375,
+      "paired95": [
+        0.65234375,
+        0.7657226562499986
+      ],
+      "bonferroni_one_sided_lower_12": 0.6328125,
+      "bonferroni_one_sided_upper_12": 0.78515625,
+      "two_noninferior_pm05_conditional_on_model": false
+    }
+  ],
+  "two_operator_constructive_sufficiency": false,
+  "three_operator_all_endpoints_pass": false,
+  "training_seed_inference": "Six world/seed outcomes are retained; item-bootstrap contrasts condition on each trained model and are not a population training-seed equivalence test."
+}

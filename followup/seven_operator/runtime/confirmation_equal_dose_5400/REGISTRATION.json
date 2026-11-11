@@ -1,0 +1,194 @@
+{
+  "status": "FROZEN_ALL_SIX_FIXED_DOSE_SUPPLEMENT_CASES",
+  "utc": "2026-11-10T18:28:03.532403+00:00",
+  "primary_registration_sha256": "ac3cab83f41da925cb774f3a1e630200605fef88808823b0a7719f2464edf863",
+  "reason": "Exact total phase-dose matching after primary r5301 selected one/two chunks. Original case1 outcome known before this supplement.",
+  "new_independent_task_initializations": 0,
+  "inherited_primary_initializations": 6,
+  "protocol_sha256": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea",
+  "cases": [
+    {
+      "case": "r5401",
+      "directory": "equal_dose_world1_seed1_5401",
+      "world": 1,
+      "replicate": 1,
+      "order": "AB",
+      "data_seed": 53000021271111,
+      "evaluation_seed": 153000021271112,
+      "policy_data_seed": 53000021271113,
+      "policy_training_seed": 53000021271114,
+      "training_seed": 53000021271210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5301",
+      "primary_directory": "confirmation_world1_seed1_5301",
+      "primary_manifest_sha256": "a29ecf36a776a72f86101770ca2507c1c8e3c51fc440cb18355b0fd68d8a9f84",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "f847ff9c9050be650f9e345b9f0692ac238c9ae871039b54dc19075b29df2edd"
+    },
+    {
+      "case": "r5402",
+      "directory": "equal_dose_world2_seed1_5402",
+      "world": 2,
+      "replicate": 1,
+      "order": "BA",
+      "data_seed": 53000022271111,
+      "evaluation_seed": 153000022271112,
+      "policy_data_seed": 53000022271113,
+      "policy_training_seed": 53000022271114,
+      "training_seed": 53000022271210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5302",
+      "primary_directory": "confirmation_world2_seed1_5302",
+      "primary_manifest_sha256": "bba86c63310da16b97f6320ced0817c22bd63fd2213ca574306492c58b51290b",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "aeadaf56b9b395bafcd296be073866bd25a503e839a71fbdd61ecea165862543"
+    },
+    {
+      "case": "r5403",
+      "directory": "equal_dose_world1_seed2_5403",
+      "world": 1,
+      "replicate": 2,
+      "order": "BA",
+      "data_seed": 53000021281111,
+      "evaluation_seed": 153000021281112,
+      "policy_data_seed": 53000021281113,
+      "policy_training_seed": 53000021281114,
+      "training_seed": 53000021281210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5303",
+      "primary_directory": "confirmation_world1_seed2_5303",
+      "primary_manifest_sha256": "bc52b751b8a55b57d8ac00bc08d225456a71def13c412946b186f1d316262325",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "b1e4750cdae44a4c0f8d0244cef131174c081df889777cf7ba9fe075de0edda1"
+    },
+    {
+      "case": "r5404",
+      "directory": "equal_dose_world2_seed2_5404",
+      "world": 2,
+      "replicate": 2,
+      "order": "AB",
+      "data_seed": 53000022281111,
+      "evaluation_seed": 153000022281112,
+      "policy_data_seed": 53000022281113,
+      "policy_training_seed": 53000022281114,
+      "training_seed": 53000022281210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5304",
+      "primary_directory": "confirmation_world2_seed2_5304",
+      "primary_manifest_sha256": "193f2c946e49470148ab7410b159b883c2d6dff4abe615cf420ac8a206226fb0",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "585c3f8871520ea049e0f606d11ca7cf7950ac1d624f74cc4a025e0cb509d793"
+    },
+    {
+      "case": "r5405",
+      "directory": "equal_dose_world1_seed3_5405",
+      "world": 1,
+      "replicate": 3,
+      "order": "AB",
+      "data_seed": 53000021291111,
+      "evaluation_seed": 153000021291112,
+      "policy_data_seed": 53000021291113,
+      "policy_training_seed": 53000021291114,
+      "training_seed": 53000021291210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5305",
+      "primary_directory": "confirmation_world1_seed3_5305",
+      "primary_manifest_sha256": "a97b4ea99146b151ea6a79d0f30156fb71ebc148d38feff7777e880c3995b7a4",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "5a6563843363dc42553a9925ce4cadd0a573c8359ed12622b7a7d004496d604f"
+    },
+    {
+      "case": "r5406",
+      "directory": "equal_dose_world2_seed3_5406",
+      "world": 2,
+      "replicate": 3,
+      "order": "BA",
+      "data_seed": 53000022291111,
+      "evaluation_seed": 153000022291112,
+      "policy_data_seed": 53000022291113,
+      "policy_training_seed": 53000022291114,
+      "training_seed": 53000022291210,
+      "look_sizes": [
+        256,
+        512
+      ],
+      "component_caps": {
+        "primitive": 2,
+        "identity": 2,
+        "three": 3,
+        "exchange_per_phase": 2
+      },
+      "parallel_training_only": false,
+      "primary_case": "r5306",
+      "primary_directory": "confirmation_world2_seed3_5306",
+      "primary_manifest_sha256": "b8c6603f6055f00f66efac93e22492cea8bea52ce956b5abffaa6e95010badca",
+      "fixed_exchange_chunks": 2,
+      "source_initializations_inherited": true,
+      "manifest_sha256": "24991edd0c0cb38d4ef09d8a8cc955c8ca1f5013027c8c34e5a49b7116369f82"
+    }
+  ],
+  "max_case_processes": 1,
+  "files": {
+    "PROTOCOL.md": "e6c49d72b8179d278f4d4b774c61a266901a376ba4c4adaa14c152cc08975fea",
+    "prepare_registration.py": "1ddb2c246477dd04c9ed6f1bead12cf104355338d0484350ff19fcd0b91ee9da",
+    "run_equal_dose.py": "f31ae1eec1fa45a97bff722d4f19bcaf11a54a25ecbc056095fdbfaaaf9405ed",
+    "run_suite.py": "58ad6df5389c293f494a8d137368848b322674fe0bdcf8fd135c79fd52af89f6",
+    "audit_equal_dose_case.py": "bff70334f911ef4fa4f723060fb91bd8857f83c2c298a2adceefb5d899c8530a",
+    "postprocess_suite.py": "5afd424b11dc94646017ae22932ecfcaa595cd6ed9d887849a3a9944a56e663a"
+  }
+}

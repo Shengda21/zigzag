@@ -1,0 +1,37 @@
+{
+  "version": "E4-v4",
+  "review_status": "reviewed-independent-pilot-candidate",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "steps": 512,
+  "batch": 64,
+  "grid": 32,
+  "pilot": [
+    961,
+    962
+  ],
+  "confirm": [
+    971,
+    972,
+    973,
+    974,
+    975,
+    976
+  ],
+  "seeds": [
+    1
+  ],
+  "train_roots": 2048,
+  "probe_roots": 1024,
+  "external_roots": 1024,
+  "alphabet": 64,
+  "trained_faces": [
+    "fABC",
+    "fBCD",
+    "fABD",
+    "fACD"
+  ],
+  "heldout_faces": [],
+  "edge_margin": 0.05,
+  "external_min_effect": 0.05,
+  "primary_step": 512
+}

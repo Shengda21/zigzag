@@ -1,0 +1,96 @@
+{
+  "status": "PASS_S6_ARCHIVE_PROVENANCE_AND_MANUSCRIPT_ENDPOINT_COUNTS",
+  "archive_count": 13,
+  "adapter_members": 150,
+  "probe_adapter_hashes_matched": 139,
+  "reversible": [
+    {
+      "case": "r4103",
+      "selected_parent_archive_member": "prospective_support_3803/results_control/adapter_0128/adapter_model.safetensors",
+      "baseline_adapter_sha256": "cc193ad763c5792b41d489ee4fa0a765a3367a32a2cc8b69c5088ed57348c3ad",
+      "counts_match_S6": [
+        [
+          234,
+          223
+        ],
+        [
+          248,
+          242
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          246,
+          245
+        ],
+        [
+          250,
+          249
+        ]
+      ],
+      "recovery_minus_equal_256_update_clean": [
+        -4,
+        -4
+      ]
+    },
+    {
+      "case": "r4201",
+      "selected_parent_archive_member": "prospective_world_4004/stop_calibration_4007/results_stop/adapter_0032/adapter_model.safetensors",
+      "baseline_adapter_sha256": "031e85297404c8ae8e46aef862a23808bdda88f80e65126f093ad924bc3cd9ee",
+      "counts_match_S6": [
+        [
+          251,
+          232
+        ],
+        [
+          252,
+          240
+        ],
+        [
+          0,
+          0
+        ],
+        [
+          246,
+          230
+        ],
+        [
+          249,
+          242
+        ]
+      ],
+      "recovery_minus_equal_256_update_clean": [
+        -3,
+        -12
+      ]
+    }
+  ],
+  "seeded_minimum_order": {
+    "all_sources_retained": 6,
+    "sources_below_earlier_binary_entry_floor": 5,
+    "both_continuations_pass_unary_binary_floors_in_all_pairs": true,
+    "two_full_passes": 0,
+    "three_full_passes": 5,
+    "minimum_paired_lower": 0.2109375,
+    "retained_three_failure": {
+      "world": "r4004",
+      "seed": 3,
+      "stage": "three",
+      "strict7": 226,
+      "strict8": 202,
+      "minimum_unary": 0.9921875,
+      "minimum_binary": 0.9609375,
+      "minimum_face": 0.9140625,
+      "betti80": [
+        1,
+        0,
+        4
+      ],
+      "format_eos": 1.0,
+      "endpoint_gate": false
+    }
+  },
+  "new_model_queries": 0
+}

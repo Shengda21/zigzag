@@ -1,0 +1,20 @@
+[
+  {
+    "filename": "r5300_frozen_inputs.tar.gz",
+    "bytes": 93301530,
+    "sha256": "d44c820bfc6e16cdf347a4a38ad98241add7e4abb39da0eefe6201f3d94f2523",
+    "workspace_relative_source": "confirmation_factored_5300/reproducibility_inputs_with_dependency.tar.gz"
+  },
+  {
+    "filename": "r5400_frozen_inputs.tar.gz",
+    "bytes": 93312002,
+    "sha256": "72c3d5b5af4c42e22265b4af6f5b299dc0b18e2bf9d8d0f2b2c307f422ca30f6",
+    "workspace_relative_source": "confirmation_equal_dose_5400/fixed_dose_upload.tar.gz"
+  },
+  {
+    "filename": "r5500_frozen_inputs.tar.gz",
+    "bytes": 708505,
+    "sha256": "35b7b357d9c4a652d33b32abc1c316456411c01f0a2a2f080adf516eb452a65d",
+    "workspace_relative_source": "word_family_evaluation_5500/frozen_inputs.tar.gz"
+  }
+]

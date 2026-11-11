@@ -1,0 +1,67 @@
+{
+  "status": "PASS_EXACT_CYCLE_SUPPORT_COUNTEREXAMPLE",
+  "scope": "Finite chain example only; no model fitting, evaluation or additional neural replication.",
+  "explicit_identity_over_F2": "q=(ACE+AEF+CEF+t)+(ACF+t), t=ACD+ADF+CDF",
+  "cases": [
+    {
+      "design": "bare_trade",
+      "betti": {
+        "A": [
+          1,
+          0,
+          16
+        ],
+        "B": [
+          1,
+          0,
+          16
+        ],
+        "intersection": [
+          1,
+          0,
+          12
+        ],
+        "union": [
+          1,
+          0,
+          20
+        ]
+      },
+      "canonical_boundary_complete_at_neither_endpoint": true,
+      "endpoint_span_rank": 20,
+      "connecting_rank": 0,
+      "canonical_cycle_outside_endpoint_span": false,
+      "connecting_chain_nonbounding_in_intersection": false
+    },
+    {
+      "design": "registered_common_fan",
+      "betti": {
+        "A": [
+          1,
+          0,
+          13
+        ],
+        "B": [
+          1,
+          0,
+          13
+        ],
+        "intersection": [
+          1,
+          1,
+          10
+        ],
+        "union": [
+          1,
+          0,
+          17
+        ]
+      },
+      "canonical_boundary_complete_at_neither_endpoint": true,
+      "endpoint_span_rank": 16,
+      "connecting_rank": 1,
+      "canonical_cycle_outside_endpoint_span": true,
+      "connecting_chain_nonbounding_in_intersection": true
+    }
+  ]
+}

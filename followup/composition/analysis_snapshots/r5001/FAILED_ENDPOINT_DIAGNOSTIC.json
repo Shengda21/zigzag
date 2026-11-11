@@ -1,0 +1,25 @@
+{
+  "world": "r4004",
+  "seed": 3,
+  "stage": "three",
+  "depths": {
+    "7": {
+      "programs": 512,
+      "correct_state_prefix": 491,
+      "strict": 482,
+      "otherwise_correct_extra_states": 9,
+      "wrong_requested_state": 21,
+      "prefix_pairs": 235,
+      "strict_pairs": 226
+    },
+    "8": {
+      "programs": 512,
+      "correct_state_prefix": 455,
+      "strict": 454,
+      "otherwise_correct_extra_states": 1,
+      "wrong_requested_state": 57,
+      "prefix_pairs": 203,
+      "strict_pairs": 202
+    }
+  }
+}

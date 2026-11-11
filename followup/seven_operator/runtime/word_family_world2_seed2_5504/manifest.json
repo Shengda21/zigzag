@@ -1,0 +1,33 @@
+{
+  "case": {
+    "case": "r5504",
+    "directory": "word_family_world2_seed2_5504",
+    "world": 2,
+    "replicate": 2,
+    "order": "AB",
+    "primary_directory": "confirmation_world2_seed2_5304",
+    "fixed_case": "r5404",
+    "fixed_directory": "equal_dose_world2_seed2_5404",
+    "fixed_manifest_sha256": "585c3f8871520ea049e0f606d11ca7cf7950ac1d624f74cc4a025e0cb509d793",
+    "evaluation_seed": 353000022281112,
+    "items": 128
+  },
+  "files": {
+    "audit_outputs.py": "81b93d7d6f9668446ae8b915b44e333e6029559a73af6e7d62a684be2f077d53",
+    "case.json": "c9ad80314e88510d8440e1c48289dd249d7f601396db3fbe8b2c38147170c79a",
+    "DATA_AUDIT.json": "1111e37d6c5be351d91d799d8b96bcc1d7099931e26ca514b3980598d1779a06",
+    "five_bank.jsonl": "08f364adae47f28b739a7b958aac761f717b0774a67f39e1198e9cfcfc08574d",
+    "four_bank.jsonl": "ef07a33b9f6bbcf99ac2815d358681f7c385176852b32d0ce35b0ade99c79bb5",
+    "generate_bank.py": "cc16c936e3d570513c3f9b31fa4c810d92bd4f964f43d1942c5b7c758318dbfe",
+    "iid_probes.py": "f4fd9bcf40a2045a1c39b9d183a5db2376c1586ec4d75b7dfbe19dd3f1d8f4cc",
+    "policy.py": "f9ac00994d2e624c66f1f2df34972b638b53afde01749b775a4c70de0c6f59b3",
+    "prompts.py": "9092adc3253c18a0a7e0274eb6ffe39d257450efef68b945070813fa0a31a262",
+    "rollout.py": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1",
+    "rules.py": "b192e70040744dc7b88f190efefe37ccc6d2a6607e19b485156271c397d9ce52",
+    "run_evaluation.py": "08d9493e8280f26d3c235d24d4f7e31e066dcdcea8501d2070e3d1855ec64219",
+    "score.py": "a5a78ffe5fb479e399b56199c3a1d867fe344bcde312fa61faf16b40e743c1e7",
+    "topology_math.py": "a97e2e0aacea5e27f56b0fdc2cef081d3ed5ff0bf8a0b7eed80e4c696219eecf",
+    "word_statistics.py": "4b953fd43a38cdaf140a801858a48370e74a8cb755b1918d21f7b59533fb86d2"
+  },
+  "model_queries_before_freeze": 0
+}

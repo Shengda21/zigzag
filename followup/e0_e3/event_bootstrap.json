@@ -1,0 +1,1296 @@
+{
+  "B": 1000,
+  "theta": 0.8,
+  "arms": [
+    {
+      "run": "world635_S1",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.984,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.984,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.972,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.972,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.912,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.912,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.705,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.705,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.02,
+              1.0,
+              0.908
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.02,
+              1.0,
+              1.261
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.01,
+              1.0,
+              0.852
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.01,
+              1.0,
+              1.11
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.643
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.761
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.293
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.301
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.98,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.98,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.923,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.923,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.825,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.825,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.568,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.568,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "run": "world635_S2",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.045,
+              1.0,
+              0.889
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.045,
+              1.0,
+              1.302
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.024,
+              1.0,
+              0.814
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.024,
+              1.0,
+              1.102
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.002,
+              1.0,
+              0.598
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.002,
+              1.0,
+              0.713
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.239
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.247
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.955,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.955,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.885,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.885,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.765,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.765,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.501,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.501,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "run": "world636_S1",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.996,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.996,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.965,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.965,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.009,
+              1.0,
+              0.804
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.009,
+              1.0,
+              1.098
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.002,
+              1.0,
+              0.634
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.002,
+              1.0,
+              0.798
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.42
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.477
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.195
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.2
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.981,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.981,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.915,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.915,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.763,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.763,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.413,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.413,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "run": "world636_S2",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.999,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.984,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.984,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.627
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.831
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.494
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.593
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.244
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.264
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.062
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.063
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              1.0,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.997,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.997,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.991,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.991,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.919,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.919,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "run": "world637_S1",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.998,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.998,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.986,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.986,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.037,
+              1.0,
+              0.986
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.037,
+              1.0,
+              1.38
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.014,
+              1.0,
+              0.944
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.014,
+              1.0,
+              1.235
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.002,
+              1.0,
+              0.837
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.002,
+              1.0,
+              0.957
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.653
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.672
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.963,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.963,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.884,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.884,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.753,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.753,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.469,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.469,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    },
+    {
+      "run": "world637_S2",
+      "pairs": {
+        "288-304": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              1.0,
+              0.0
+            ]
+          }
+        },
+        "480-496": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.011,
+              1.0,
+              0.806
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.011,
+              1.0,
+              0.958
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              1
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.006,
+              0.999,
+              0.699
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.006,
+              0.999,
+              0.799
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.999,
+              0.491
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.999,
+              0.52
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              1,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.0,
+              0.986,
+              0.172
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.0,
+              0.986,
+              0.174
+            ]
+          }
+        },
+        "496-512": {
+          "0.0": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.989,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.989,
+              0.0,
+              0.0
+            ]
+          },
+          "0.02": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.961,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.961,
+              0.0,
+              0.0
+            ]
+          },
+          "0.05": {
+            "point_counts_birth_death_transition": [
+              1,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.907,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.907,
+              0.0,
+              0.0
+            ]
+          },
+          "0.1": {
+            "point_counts_birth_death_transition": [
+              0,
+              0,
+              0
+            ],
+            "bootstrap_positive_fraction_birth_death_transition": [
+              0.703,
+              0.0,
+              0.0
+            ],
+            "bootstrap_mean_counts_birth_death_transition": [
+              0.703,
+              0.0,
+              0.0
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

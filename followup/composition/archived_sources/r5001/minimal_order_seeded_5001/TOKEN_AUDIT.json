@@ -1,0 +1,15 @@
+{
+  "status": "PASS_EXACT_PAIRED_TOKEN_LENGTHS",
+  "worlds": {
+    "r1603": {
+      "matched_examples": 4096,
+      "prompt_tokens": 325056,
+      "answer_tokens": 512448
+    },
+    "r4004": {
+      "matched_examples": 4096,
+      "prompt_tokens": 325056,
+      "answer_tokens": 512448
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "status": "FROZEN_BEFORE_R4006_EXTENSION_UPDATES",
+  "rows": 4096,
+  "length_counts": {
+    "1": 512,
+    "9": 1536,
+    "10": 1536,
+    "2": 512
+  },
+  "prior_states": 216969,
+  "total_states": 247002,
+  "source_sha256": {
+    "prospective_world_4004/source_train.jsonl": "8680847828194cce21dd493f2bc6fe3816b990fa21aa5ab830c2066a5086741f",
+    "prospective_world_4004/repair_train.jsonl": "7371ed65e2b4ac2d1b657ac874db54969424a61d6ac49803971303ffa14bba90",
+    "prospective_world_4004/topology_bank.jsonl": "c39fff769c9d1d4b4e72df04edd2c57cc71a01bb291913e539542320ae23d44a",
+    "prospective_world_4004/hard_bank.jsonl": "b9eef4b4b363bf58e888da6736c6cb0ffa10c1b9883534b4cba31a97794e4aa7",
+    "prospective_world_4004/shell_train.jsonl": "274030415f0be1174470bcd1852016cd4e45ab482c8e2fb9cddf63c63d856caf",
+    "prospective_world_4004/control_train.jsonl": "c65027b2054c50e5861c8d8285797c4f7a2c408e2e5a6af69d02205570f391fa",
+    "prospective_world_4004/confirm_4005/topology_bank.jsonl": "d71b7355084677393a6d1b9b6cd45e67773c2f29cd1bd8a2d97218acf4fbf1ea",
+    "prospective_world_4004/confirm_4005/hard_bank.jsonl": "9b580ec5e3f795833c44ca373777c6f8e8c42842bc79dc37552ca9a8f8710d21",
+    "prospective_world_4004/confirm_4005/shell_train.jsonl": "4963be9431e7553ff1ed0ea06baa7324ab2738aa231f97b7bb8baf3bf23aa462",
+    "prospective_world_4004/confirm_4005/control_train.jsonl": "612b782b8dd8be50b07f9c2d3b8cda5c99b6b4519b7a2a0cb1a387db01e84363"
+  },
+  "files": {
+    "PROTOCOL.md": "55742c6e35b034f70e9954986a366d84ae401a7fdc70b6104ac3abd451582734",
+    "build.py": "bd14d9c3d5fc9d76dda85c333801a83d0910042e2574fc6e1afa9bb195302899",
+    "train.jsonl": "f59e6bcc53272acf81a916ec51e6421af66dc2b1c22e4d07de461e9d26754816"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FRESH_R4201_BASELINE_BEFORE_INTERVENTION",
+  "theta80_betti": [1, 0, 4],
+  "minimum_vertex": 1.0,
+  "minimum_edge": 0.984375,
+  "strict_pairs_7": 251,
+  "strict_pairs_8": 232,
+  "bank_manifest_sha256": "fceaabc30fcef33fcba75138b6a2d0d43915a6e335d54e6924645c50e3510295",
+  "source_adapter_sha256": "031e85297404c8ae8e46aef862a23808bdda88f80e65126f093ad924bc3cd9ee"
+}

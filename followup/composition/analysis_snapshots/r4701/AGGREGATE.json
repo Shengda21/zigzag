@@ -1,0 +1,690 @@
+{
+  "status": "COMPLETE_R4701_GATE",
+  "completed": 10,
+  "joint_targets_passed": 0,
+  "joint_pass": false,
+  "records": [
+    {
+      "target": "ABC",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.2265625,
+      "minimum_other_face": 0.671875,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9765625,
+      "betti80": [
+        1,
+        1,
+        0
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.4283854166666667,
+      "paired95": [
+        0.3515625,
+        0.5013020833333333
+      ],
+      "bonferroni_lower": 0.3255208333333333,
+      "joint_target_pass": false,
+      "target_drop": 0.7265625,
+      "off_target_drop_share2": 0.18359375,
+      "off_target_drop_share1": 0.044270833333333336,
+      "strict_pairs": {
+        "ABCD": 41,
+        "ABCE": 54,
+        "ABDE": 95,
+        "ACDE": 104,
+        "BCDE": 108
+      },
+      "face_scores": {
+        "ABC": 0.2265625,
+        "ABD": 0.703125,
+        "ABE": 0.8828125,
+        "ACD": 0.671875,
+        "ACE": 0.6796875,
+        "ADE": 0.90625,
+        "BCD": 0.7265625,
+        "BCE": 0.890625,
+        "BDE": 0.9375,
+        "CDE": 0.953125
+      },
+      "face_drops": {
+        "ABC": 0.7265625,
+        "ABD": 0.1953125,
+        "ABE": 0.1015625,
+        "ACD": 0.2265625,
+        "ACE": 0.2890625,
+        "ADE": 0.0390625,
+        "BCD": 0.1953125,
+        "BCE": 0.09375,
+        "BDE": 0.046875,
+        "CDE": 0.046875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.2265625,
+        "ABCE": 0.2265625,
+        "ABDE": 0.703125,
+        "ACDE": 0.671875,
+        "BCDE": 0.7265625
+      },
+      "descriptive_actual_complete_subsets": [],
+      "nominal_noncontaining_mean": 0.7994791666666666,
+      "nominal_containing_mean": 0.37109375
+    },
+    {
+      "target": "ABD",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.15625,
+      "minimum_other_face": 0.75,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9765625,
+      "betti80": [
+        1,
+        0,
+        1
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.37239583333333337,
+      "paired95": [
+        0.296875,
+        0.44921875
+      ],
+      "bonferroni_lower": 0.2734375,
+      "joint_target_pass": false,
+      "target_drop": 0.7421875,
+      "off_target_drop_share2": 0.11848958333333333,
+      "off_target_drop_share1": 0.033854166666666664,
+      "strict_pairs": {
+        "ABCD": 52,
+        "ABCE": 100,
+        "ABDE": 64,
+        "ACDE": 106,
+        "BCDE": 111
+      },
+      "face_scores": {
+        "ABC": 0.75,
+        "ABD": 0.15625,
+        "ABE": 0.8671875,
+        "ACD": 0.78125,
+        "ACE": 0.890625,
+        "ADE": 0.859375,
+        "BCD": 0.8515625,
+        "BCE": 0.984375,
+        "BDE": 0.8671875,
+        "CDE": 0.9765625
+      },
+      "face_drops": {
+        "ABC": 0.203125,
+        "ABD": 0.7421875,
+        "ABE": 0.1171875,
+        "ACD": 0.1171875,
+        "ACE": 0.078125,
+        "ADE": 0.0859375,
+        "BCD": 0.0703125,
+        "BCE": 0.0,
+        "BDE": 0.1171875,
+        "CDE": 0.0234375
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.15625,
+        "ABCE": 0.75,
+        "ABDE": 0.15625,
+        "ACDE": 0.78125,
+        "BCDE": 0.8515625
+      },
+      "descriptive_actual_complete_subsets": [
+        "BCDE"
+      ],
+      "nominal_noncontaining_mean": 0.8255208333333334,
+      "nominal_containing_mean": 0.453125
+    },
+    {
+      "target": "ABE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.078125,
+      "minimum_other_face": 0.671875,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.984375,
+      "betti80": [
+        1,
+        2,
+        0
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.4778645833333333,
+      "paired95": [
+        0.41276041666666663,
+        0.54296875
+      ],
+      "bonferroni_lower": 0.39192057291666665,
+      "joint_target_pass": false,
+      "target_drop": 0.90625,
+      "off_target_drop_share2": 0.20182291666666666,
+      "off_target_drop_share1": 0.03125,
+      "strict_pairs": {
+        "ABCD": 86,
+        "ABCE": 47,
+        "ABDE": 28,
+        "ACDE": 102,
+        "BCDE": 108
+      },
+      "face_scores": {
+        "ABC": 0.7265625,
+        "ABD": 0.671875,
+        "ABE": 0.078125,
+        "ACD": 0.8046875,
+        "ACE": 0.8125,
+        "ADE": 0.71875,
+        "BCD": 0.9453125,
+        "BCE": 0.796875,
+        "BDE": 0.796875,
+        "CDE": 0.9765625
+      },
+      "face_drops": {
+        "ABC": 0.2265625,
+        "ABD": 0.2265625,
+        "ABE": 0.90625,
+        "ACD": 0.09375,
+        "ACE": 0.15625,
+        "ADE": 0.2265625,
+        "BCD": -0.0234375,
+        "BCE": 0.1875,
+        "BDE": 0.1875,
+        "CDE": 0.0234375
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.671875,
+        "ABCE": 0.078125,
+        "ABDE": 0.078125,
+        "ACDE": 0.71875,
+        "BCDE": 0.796875
+      },
+      "descriptive_actual_complete_subsets": [],
+      "nominal_noncontaining_mean": 0.7708333333333334,
+      "nominal_containing_mean": 0.29296875
+    },
+    {
+      "target": "ACD",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.34375,
+      "minimum_other_face": 0.546875,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9609375,
+      "betti80": [
+        1,
+        1,
+        0
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.29296875,
+      "paired95": [
+        0.21744791666666666,
+        0.36848958333333337
+      ],
+      "bonferroni_lower": 0.19400390624999997,
+      "joint_target_pass": false,
+      "target_drop": 0.5546875,
+      "off_target_drop_share2": 0.19921875,
+      "off_target_drop_share1": 0.059895833333333336,
+      "strict_pairs": {
+        "ABCD": 39,
+        "ABCE": 90,
+        "ABDE": 96,
+        "ACDE": 80,
+        "BCDE": 105
+      },
+      "face_scores": {
+        "ABC": 0.546875,
+        "ABD": 0.6640625,
+        "ABE": 0.921875,
+        "ACD": 0.34375,
+        "ACE": 0.796875,
+        "ADE": 0.875,
+        "BCD": 0.7265625,
+        "BCE": 0.921875,
+        "BDE": 0.9296875,
+        "CDE": 0.8828125
+      },
+      "face_drops": {
+        "ABC": 0.40625,
+        "ABD": 0.234375,
+        "ABE": 0.0625,
+        "ACD": 0.5546875,
+        "ACE": 0.171875,
+        "ADE": 0.0703125,
+        "BCD": 0.1953125,
+        "BCE": 0.0625,
+        "BDE": 0.0546875,
+        "CDE": 0.1171875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.34375,
+        "ABCE": 0.546875,
+        "ABDE": 0.6640625,
+        "ACDE": 0.34375,
+        "BCDE": 0.7265625
+      },
+      "descriptive_actual_complete_subsets": [],
+      "nominal_noncontaining_mean": 0.7578125,
+      "nominal_containing_mean": 0.46484375
+    },
+    {
+      "target": "ACE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.2578125,
+      "minimum_other_face": 0.625,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.953125,
+      "betti80": [
+        1,
+        2,
+        0
+      ],
+      "format_eos": 0.9998263888888889,
+      "strict_gap": 0.31510416666666663,
+      "paired95": [
+        0.24085286458333333,
+        0.39065755208333286
+      ],
+      "bonferroni_lower": 0.21223958333333331,
+      "joint_target_pass": false,
+      "target_drop": 0.7109375,
+      "off_target_drop_share2": 0.2109375,
+      "off_target_drop_share1": 0.044270833333333336,
+      "strict_pairs": {
+        "ABCD": 70,
+        "ABCE": 38,
+        "ABDE": 90,
+        "ACDE": 50,
+        "BCDE": 93
+      },
+      "face_scores": {
+        "ABC": 0.625,
+        "ABD": 0.8203125,
+        "ABE": 0.7578125,
+        "ACD": 0.7109375,
+        "ACE": 0.2578125,
+        "ADE": 0.796875,
+        "BCD": 0.9140625,
+        "BCE": 0.8125,
+        "BDE": 0.9375,
+        "CDE": 0.796875
+      },
+      "face_drops": {
+        "ABC": 0.328125,
+        "ABD": 0.078125,
+        "ABE": 0.2265625,
+        "ACD": 0.1875,
+        "ACE": 0.7109375,
+        "ADE": 0.1484375,
+        "BCD": 0.0078125,
+        "BCE": 0.171875,
+        "BDE": 0.046875,
+        "CDE": 0.203125
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.625,
+        "ABCE": 0.2578125,
+        "ABDE": 0.7578125,
+        "ACDE": 0.2578125,
+        "BCDE": 0.796875
+      },
+      "descriptive_actual_complete_subsets": [],
+      "nominal_noncontaining_mean": 0.6588541666666666,
+      "nominal_containing_mean": 0.34375
+    },
+    {
+      "target": "ADE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.5078125,
+      "minimum_other_face": 0.6015625,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.96875,
+      "betti80": [
+        1,
+        2,
+        1
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.22395833333333331,
+      "paired95": [
+        0.15234374999999997,
+        0.296875
+      ],
+      "bonferroni_lower": 0.13020833333333331,
+      "joint_target_pass": false,
+      "target_drop": 0.4375,
+      "off_target_drop_share2": 0.16666666666666666,
+      "off_target_drop_share1": 0.057291666666666664,
+      "strict_pairs": {
+        "ABCD": 85,
+        "ABCE": 82,
+        "ABDE": 48,
+        "ACDE": 82,
+        "BCDE": 114
+      },
+      "face_scores": {
+        "ABC": 0.7890625,
+        "ABD": 0.7109375,
+        "ABE": 0.6015625,
+        "ACD": 0.7890625,
+        "ACE": 0.8125,
+        "ADE": 0.5078125,
+        "BCD": 0.9609375,
+        "BCE": 0.9375,
+        "BDE": 0.875,
+        "CDE": 0.9453125
+      },
+      "face_drops": {
+        "ABC": 0.1640625,
+        "ABD": 0.1875,
+        "ABE": 0.3828125,
+        "ACD": 0.109375,
+        "ACE": 0.15625,
+        "ADE": 0.4375,
+        "BCD": -0.0390625,
+        "BCE": 0.046875,
+        "BDE": 0.109375,
+        "CDE": 0.0546875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.7109375,
+        "ABCE": 0.6015625,
+        "ABDE": 0.5078125,
+        "ACDE": 0.5078125,
+        "BCDE": 0.875
+      },
+      "descriptive_actual_complete_subsets": [
+        "BCDE"
+      ],
+      "nominal_noncontaining_mean": 0.7317708333333334,
+      "nominal_containing_mean": 0.5078125
+    },
+    {
+      "target": "BCD",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.2890625,
+      "minimum_other_face": 0.7578125,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.96875,
+      "betti80": [
+        1,
+        0,
+        1
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.23307291666666666,
+      "paired95": [
+        0.16536458333333331,
+        0.29947916666666663
+      ],
+      "bonferroni_lower": 0.14322916666666663,
+      "joint_target_pass": false,
+      "target_drop": 0.6328125,
+      "off_target_drop_share2": 0.09375,
+      "off_target_drop_share1": 0.020833333333333332,
+      "strict_pairs": {
+        "ABCD": 58,
+        "ABCE": 96,
+        "ABDE": 103,
+        "ACDE": 114,
+        "BCDE": 91
+      },
+      "face_scores": {
+        "ABC": 0.828125,
+        "ABD": 0.7578125,
+        "ABE": 0.9765625,
+        "ACD": 0.7890625,
+        "ACE": 0.9375,
+        "ADE": 0.921875,
+        "BCD": 0.2890625,
+        "BCE": 0.921875,
+        "BDE": 0.8984375,
+        "CDE": 0.9609375
+      },
+      "face_drops": {
+        "ABC": 0.125,
+        "ABD": 0.140625,
+        "ABE": 0.0078125,
+        "ACD": 0.109375,
+        "ACE": 0.03125,
+        "ADE": 0.0234375,
+        "BCD": 0.6328125,
+        "BCE": 0.0625,
+        "BDE": 0.0859375,
+        "CDE": 0.0390625
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.2890625,
+        "ABCE": 0.828125,
+        "ABDE": 0.7578125,
+        "ACDE": 0.7890625,
+        "BCDE": 0.2890625
+      },
+      "descriptive_actual_complete_subsets": [
+        "ABCE"
+      ],
+      "nominal_noncontaining_mean": 0.8151041666666666,
+      "nominal_containing_mean": 0.58203125
+    },
+    {
+      "target": "BCE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.15625,
+      "minimum_other_face": 0.6171875,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.984375,
+      "betti80": [
+        1,
+        2,
+        0
+      ],
+      "format_eos": 0.9998263888888889,
+      "strict_gap": 0.37369791666666663,
+      "paired95": [
+        0.3059895833333333,
+        0.44140625
+      ],
+      "bonferroni_lower": 0.2864583333333333,
+      "joint_target_pass": false,
+      "target_drop": 0.828125,
+      "off_target_drop_share2": 0.234375,
+      "off_target_drop_share1": 0.09635416666666667,
+      "strict_pairs": {
+        "ABCD": 72,
+        "ABCE": 25,
+        "ABDE": 93,
+        "ACDE": 91,
+        "BCDE": 50
+      },
+      "face_scores": {
+        "ABC": 0.703125,
+        "ABD": 0.8046875,
+        "ABE": 0.6171875,
+        "ACD": 0.78125,
+        "ACE": 0.6796875,
+        "ADE": 0.8671875,
+        "BCD": 0.75,
+        "BCE": 0.15625,
+        "BDE": 0.828125,
+        "CDE": 0.828125
+      },
+      "face_drops": {
+        "ABC": 0.25,
+        "ABD": 0.09375,
+        "ABE": 0.3671875,
+        "ACD": 0.1171875,
+        "ACE": 0.2890625,
+        "ADE": 0.078125,
+        "BCD": 0.171875,
+        "BCE": 0.828125,
+        "BDE": 0.15625,
+        "CDE": 0.171875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.703125,
+        "ABCE": 0.15625,
+        "ABDE": 0.6171875,
+        "ACDE": 0.6796875,
+        "BCDE": 0.15625
+      },
+      "descriptive_actual_complete_subsets": [],
+      "nominal_noncontaining_mean": 0.6666666666666666,
+      "nominal_containing_mean": 0.29296875
+    },
+    {
+      "target": "BDE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.328125,
+      "minimum_other_face": 0.65625,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.9921875,
+      "betti80": [
+        1,
+        1,
+        1
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.11197916666666663,
+      "paired95": [
+        0.039062499999999986,
+        0.18619791666666663
+      ],
+      "bonferroni_lower": 0.01561848958333329,
+      "joint_target_pass": false,
+      "target_drop": 0.65625,
+      "off_target_drop_share2": 0.15104166666666666,
+      "off_target_drop_share1": 0.0625,
+      "strict_pairs": {
+        "ABCD": 83,
+        "ABCE": 83,
+        "ABDE": 62,
+        "ACDE": 111,
+        "BCDE": 94
+      },
+      "face_scores": {
+        "ABC": 0.859375,
+        "ABD": 0.65625,
+        "ABE": 0.7578125,
+        "ACD": 0.8671875,
+        "ACE": 0.90625,
+        "ADE": 0.828125,
+        "BCD": 0.796875,
+        "BCE": 0.84375,
+        "BDE": 0.328125,
+        "CDE": 0.9453125
+      },
+      "face_drops": {
+        "ABC": 0.09375,
+        "ABD": 0.2421875,
+        "ABE": 0.2265625,
+        "ACD": 0.03125,
+        "ACE": 0.0625,
+        "ADE": 0.1171875,
+        "BCD": 0.125,
+        "BCE": 0.140625,
+        "BDE": 0.65625,
+        "CDE": 0.0546875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.65625,
+        "ABCE": 0.7578125,
+        "ABDE": 0.328125,
+        "ACDE": 0.828125,
+        "BCDE": 0.328125
+      },
+      "descriptive_actual_complete_subsets": [
+        "ACDE"
+      ],
+      "nominal_noncontaining_mean": 0.7213541666666666,
+      "nominal_containing_mean": 0.609375
+    },
+    {
+      "target": "CDE",
+      "manipulation_pass": false,
+      "selected_step": null,
+      "evaluation_step": 128,
+      "target_score": 0.3828125,
+      "minimum_other_face": 0.7109375,
+      "minimum_unary": 1.0,
+      "minimum_binary": 0.96875,
+      "betti80": [
+        1,
+        1,
+        1
+      ],
+      "format_eos": 1.0,
+      "strict_gap": 0.14322916666666666,
+      "paired95": [
+        0.06510416666666663,
+        0.22008463541666617
+      ],
+      "bonferroni_lower": 0.039062499999999965,
+      "joint_target_pass": false,
+      "target_drop": 0.6171875,
+      "off_target_drop_share2": 0.13411458333333334,
+      "off_target_drop_share1": 0.09635416666666667,
+      "strict_pairs": {
+        "ABCD": 87,
+        "ABCE": 71,
+        "ABDE": 101,
+        "ACDE": 68,
+        "BCDE": 68
+      },
+      "face_scores": {
+        "ABC": 0.8359375,
+        "ABD": 0.84375,
+        "ABE": 0.8671875,
+        "ACD": 0.7265625,
+        "ACE": 0.7109375,
+        "ADE": 0.890625,
+        "BCD": 0.828125,
+        "BCE": 0.7890625,
+        "BDE": 0.953125,
+        "CDE": 0.3828125
+      },
+      "face_drops": {
+        "ABC": 0.1171875,
+        "ABD": 0.0546875,
+        "ABE": 0.1171875,
+        "ACD": 0.171875,
+        "ACE": 0.2578125,
+        "ADE": 0.0546875,
+        "BCD": 0.09375,
+        "BCE": 0.1953125,
+        "BDE": 0.03125,
+        "CDE": 0.6171875
+      },
+      "descriptive_actual_boundary_minimum": {
+        "ABCD": 0.7265625,
+        "ABCE": 0.7109375,
+        "ABDE": 0.84375,
+        "ACDE": 0.3828125,
+        "BCDE": 0.3828125
+      },
+      "descriptive_actual_complete_subsets": [
+        "ABDE"
+      ],
+      "nominal_noncontaining_mean": 0.6744791666666666,
+      "nominal_containing_mean": 0.53125
+    }
+  ],
+  "analysis_provenance": "Statistical rule fixed in PROTOCOL.md before model queries; aggregation implementation written after three intervention outcomes were inspected. No thresholds, target selection, contrasts or bootstrap family changed.",
+  "secondary_provenance": "Actual per-subset boundary minima are post-hoc diagnostics and do not replace the failed all-other-faces manipulation gate."
+}

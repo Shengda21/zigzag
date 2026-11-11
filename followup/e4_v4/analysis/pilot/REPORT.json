@@ -1,0 +1,2966 @@
+{
+  "phase": "pilot",
+  "pairing": {
+    "external_paired_difference": -0.0390625,
+    "external_world_bootstrap_95": [
+      -0.3515625,
+      0.2734375
+    ],
+    "per_world_differences": [
+      -0.3515625,
+      0.2734375
+    ],
+    "edge_difference_simultaneous_90_bonferroni": [
+      [
+        -0.001953125,
+        -0.001953125,
+        -0.001953125,
+        -0.00390625,
+        -0.00390625,
+        -0.001953125
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        -0.001953125,
+        0.0,
+        -0.001953125
+      ]
+    ],
+    "edge_equivalence_margin": 0.05,
+    "edge_equivalence_pass": true,
+    "external_effect_pass": false,
+    "interpretation": "Small number of worlds: bootstrap intervals descriptive. Claim at most intervention effect conditional on edge equivalence; no mechanism identification."
+  },
+  "baselines": {
+    "raw": {
+      "mse": 0.01983367004817045,
+      "mae": 0.10936227325211081,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.0016154402794975875
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.06806778225333868
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.14315981452695806
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.15059963401618948
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.20202336280422817
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.21037577811661637
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.2128786259742873
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.21306161246210578
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.21306161246210578
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.21306161246210578
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.21306161246210578
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.21307084152525382
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.21307084152525382
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.21307084152525382
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0015300903549728129
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.004547682384031332
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.051489540362726266
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.1496278391683925
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.18874516654932597
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.20672574490489604
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.21044535184992957
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2113137280060309
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.2124313434265514
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.2128608217759087
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.21299289319525772
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.21294837011275541
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.21294837011275541
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.21293497678689333
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.21294837011275541
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.107202294209096
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.19928273293521287
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.2080713771121061
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.21188842089200588
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.21261337710027714
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.21282700037035174
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.21291824339284887
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.2114891691155044
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.21265440372676228
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.2128210235410897
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.2130162531652551
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.21307474447302735
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.21307474447302735
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.011727167968112934
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.1069845371039788
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.1981993923511082
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.20447122718239322
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.21223031687419752
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.2122155455371641
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.2126719883324056
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.21274876365242754
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.21239783235924112
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.2122840055533545
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.2124658163551411
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.21253536797494021
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.2129214033263353
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.2129214033263353
+        }
+      ]
+    },
+    "raw_temporal": {
+      "mse": 0.019666588016426303,
+      "mae": 0.10950259640874486,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.002389117363745502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.0012060679834075827
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.005844339597549458
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.05102146305469733
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.11052661550788435
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.16631704053294027
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.1970177105475398
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.21246578516693068
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.21665218100094644
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.21817123338612043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.21830936384136174
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.21830936384136174
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.21830936384136174
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.2183128541070568
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.2183186001258165
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.2183186001258165
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0025492791894756728
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.007673129113037358
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.010686636111774367
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.04943351903646602
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.10588906368973969
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.18131538085388163
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.2080750221014256
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.2149256399599816
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2168082697303696
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.21710813690315087
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.2180866119969196
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.21824825302646683
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.21821788899419559
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.2182206166981178
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.21821632660003504
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.21821012707698562
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.007345793134315021
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.0030288951431253486
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.056739924084522025
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.1655160085531034
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.21009876713602973
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.21335914209373058
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.21791414023051406
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.2180078033473766
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.21814446378825064
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.21726285124154207
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.21785629074237145
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.21810140822454444
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.21823816261601678
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.2183158059909574
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.2183251681699143
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.010413389153476976
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.008134572605373758
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.07588896081585683
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.16124172951870225
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.21002044580684434
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.21553152996948657
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.21755794134891682
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.21792693915834455
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.21800595771739345
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.217967083372247
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.21766411824445145
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.21776288176826952
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.21785195438813548
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.21817706226618785
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.21819979493404684
+        }
+      ]
+    },
+    "edge": {
+      "mse": 0.01982611699417964,
+      "mae": 0.11249078988550855,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.06006859482875675
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.13989490366135818
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.14716511639884444
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.19228893838488997
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.20468464648097534
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.20951238763736962
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.01752913576989404
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.06409688327591084
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.13010827446605852
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.17284235902394093
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.19781320883182438
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.2045992704089992
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2069962988855878
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.2085181532794339
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.20949505141496866
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.20974730871188688
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.20965980669898968
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.20965980669898968
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.20967651918162847
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.20965980669898968
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.017369474267414142
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.08434474180616332
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.1845666224016081
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.19616689759249056
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.20764885299064129
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.2089085069818666
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.20916615073246186
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.20946406490105457
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.20767217681633332
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.2091616013090617
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.2093974766301656
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.20979505470626847
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.20991299236682043
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.01729134559517473
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.019752693281504946
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.09280138506151862
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.18955839010700332
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.1964333704625992
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.20865124875989197
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.20852929388941466
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.20916887474140855
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.20925938228549912
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.20865491563338587
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.20839274188418105
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.208752524920853
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.2088451707290153
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.20952437116512157
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.20952437116512157
+        }
+      ]
+    },
+    "betti": {
+      "mse": 0.01952028527423145,
+      "mae": 0.11296698916408632,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.1151232439838728
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.1151232439838728
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.19500560544775164
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.05596198604285324
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.10005724669517657
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.1151232439838728
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.19500560544775164
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.035192444951782614
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.16833492015898266
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.16833492015898266
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.028035453892991502
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.07879824918761666
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.20008667123500387
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.19500560544775164
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.2119940933445756
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.2119940933445756
+        }
+      ]
+    },
+    "temporal": {
+      "mse": 0.018278010828861952,
+      "mae": 0.10239517566189431,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.070537109375
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.07053656684027768
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.1617695312499999
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.3216145833333342
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.02802066200657895
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.04861490885416666
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.07913574218749993
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.1651009114583334
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.3216145833333342
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.026358335617690055
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.168619791666667
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.168619791666667
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.2670589192708332
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.003608578162624689
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.09982584635416668
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.168619791666667
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.2670589192708332
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.3216145833333342
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.2192195542279408
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.2192195542279408
+        }
+      ]
+    },
+    "conjunction": {
+      "mse": 0.02003202314662161,
+      "mae": 0.11331726222530726,
+      "predictions": [
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.052734375,
+          "predicted": 0.0611098781160877
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.072265625,
+          "predicted": 0.16807078611733206
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.080078125,
+          "predicted": 0.17631121189896803
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.19212419153463411
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.416015625,
+          "predicted": 0.2039931336310965
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.341796875,
+          "predicted": 0.20826907575808773
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.35546875,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.384765625,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.392578125,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.3984375,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.39453125,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.412109375,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.41015625,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.01678710793252458
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.0,
+          "predicted": 0.04607179870172218
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.0,
+          "predicted": 0.1332729173091426
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.068359375,
+          "predicted": 0.17946753077039912
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.146484375,
+          "predicted": 0.1990477709412698
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.041015625,
+          "predicted": 0.20487790266669684
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.048828125,
+          "predicted": 0.2059695900703718
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.037109375,
+          "predicted": 0.2074280410646589
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.078125,
+          "predicted": 0.20825821470228595
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.0703125,
+          "predicted": 0.20849987816272048
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.07421875,
+          "predicted": 0.20839500930277655
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.076171875,
+          "predicted": 0.20839500930277655
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.0703125,
+          "predicted": 0.20838307611021728
+        },
+        {
+          "world": 961,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.05859375,
+          "predicted": 0.20839500930277655
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.016745358243999253
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 128,
+          "observed": 0.060546875,
+          "predicted": 0.08758268883314822
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 160,
+          "observed": 0.205078125,
+          "predicted": 0.18964018511248706
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 192,
+          "observed": 0.0546875,
+          "predicted": 0.20080356036793165
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 224,
+          "observed": 0.041015625,
+          "predicted": 0.20674029637984673
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 256,
+          "observed": 0.1484375,
+          "predicted": 0.20775725682795965
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 288,
+          "observed": 0.14453125,
+          "predicted": 0.20813131258053252
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 320,
+          "observed": 0.0859375,
+          "predicted": 0.20831050010899554
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 352,
+          "observed": 0.0078125,
+          "predicted": 0.20752925719324725
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 384,
+          "observed": 0.01953125,
+          "predicted": 0.20822322829152567
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 416,
+          "observed": 0.037109375,
+          "predicted": 0.20833520388082932
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 448,
+          "observed": 0.013671875,
+          "predicted": 0.20853703749698002
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 480,
+          "observed": 0.03125,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 962,
+          "arm": "edge",
+          "step": 512,
+          "observed": 0.04296875,
+          "predicted": 0.20859302529163182
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 0,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 32,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 64,
+          "observed": 0.0,
+          "predicted": 0.016674194499526895
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 96,
+          "observed": 0.0,
+          "predicted": 0.017869462370977307
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 128,
+          "observed": 0.150390625,
+          "predicted": 0.08148089875390732
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 160,
+          "observed": 0.24609375,
+          "predicted": 0.1893107868596549
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 192,
+          "observed": 0.51171875,
+          "predicted": 0.19694812838325548
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 224,
+          "observed": 0.5078125,
+          "predicted": 0.20766213305615727
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 256,
+          "observed": 0.6484375,
+          "predicted": 0.20732357507784185
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 288,
+          "observed": 0.2734375,
+          "predicted": 0.208098630759694
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 320,
+          "observed": 0.404296875,
+          "predicted": 0.2081176312214607
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 352,
+          "observed": 0.357421875,
+          "predicted": 0.20756534568549434
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 384,
+          "observed": 0.341796875,
+          "predicted": 0.2074191231086445
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 416,
+          "observed": 0.333984375,
+          "predicted": 0.20763422489059477
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 448,
+          "observed": 0.34765625,
+          "predicted": 0.20778028871517876
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 480,
+          "observed": 0.310546875,
+          "predicted": 0.2083781231422875
+        },
+        {
+          "world": 962,
+          "arm": "joint",
+          "step": 512,
+          "observed": 0.31640625,
+          "predicted": 0.2083781231422875
+        }
+      ]
+    }
+  },
+  "comparisons": {
+    "edge": {
+      "mse_gain_vs_raw_temporal": -0.0001595289777533363,
+      "world_bootstrap_95": [
+        -0.00023543222772801105,
+        -8.362572777866158e-05
+      ],
+      "per_world": [
+        -0.00023543222772801105,
+        -8.362572777866158e-05
+      ]
+    },
+    "betti": {
+      "mse_gain_vs_raw_temporal": 0.00014630274219485623,
+      "world_bootstrap_95": [
+        -9.133310953043598e-07,
+        0.0002935188154850168
+      ],
+      "per_world": [
+        0.0002935188154850168,
+        -9.133310953043598e-07
+      ]
+    },
+    "temporal": {
+      "mse_gain_vs_raw_temporal": 0.0013885771875643532,
+      "world_bootstrap_95": [
+        0.0005576017643434043,
+        0.002219552610785302
+      ],
+      "per_world": [
+        0.0005576017643434043,
+        0.002219552610785302
+      ]
+    }
+  },
+  "note": "Pilot in-sample report is development only; confirmation models fit pilot only. 17 checkpoints are not independent replicates."
+}

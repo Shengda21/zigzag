@@ -1,0 +1,31 @@
+{
+  "version": "E4-v4",
+  "files": {
+    "analyze.py": "171127bf254ab9aa21a9c2647370cdc94bb0f1e8da5e562ed2be2d9461439b67",
+    "audit.py": "ff83c25cacefb20c45a43a413399b7ceeba7b770914bcacadaefeaf863f7a03b",
+    "cloud_token_audit.py": "6d87d77d6723441451ee4be22987037412a75cbe43f61c514e3a2a7c6ec59a94",
+    "freeze.py": "1fb941dfabd9742103849f9c0df09f6a6f0d610d9767cf1643a43aa068447a32",
+    "generate.py": "cfd1f57cb9223f51b7b4fe4bd893f1c3d01a9643dd299c6b5cc00804cffbd43f",
+    "layout_audit.py": "d3fbf1ea7f7cd613ba8e16c377def25b79b1f096f6677ca1698bd55c4c272d4e",
+    "package.py": "e6a2ff9ccec468b5638432e207995b79372022c4b43c5b77f8ff7ffd401da075",
+    "run.py": "f928e7d9bd9e84c5dde95a1a57c9ee05fb3721d68acbfe6dd10dfa4b8cb6ed81",
+    "vendor/cw_zigzag.py": "f0d0c7160c3fdb9845674e2b04f08f30f161e1d2a0df25b4724c499db7e12230",
+    "vendor/spec_world.py": "16ce5805d44e52a54d84defe00d0843eec3af85e213ce1379bcb3b5c59f26461",
+    "vendor/zz_score.py": "2b3a3fbdbb0904eb31d424d198d5d2115fbdd5f8d3825ae21d3b35e69eb04ae5",
+    "vendor/zz_train.py": "680d078c375b47906a61c168db44799fb78f3306dc2daa62df5fc616e46b3fcf",
+    "PROTOCOL.md": "dbd7cf4a9358c3ac5687ac1572bf0c51b9a7350a71ffd4d9c85a78c629758295",
+    "CONFIG.json": "234d26e82fbbc0618b91ce2c2b959e035af634d712b924ac9219d840f3c7950c",
+    "cloud.sh": "d498fb48aafa9525e1c7ee911663403906fdd7cae4f601b5b1943538b03446f0",
+    "requirements.txt": "dcfcea515177de22591719259d590f6a4ec7e61595690230b1fb96d0655ef862",
+    "analysis/pilot/SELECTION.json": "74080cf7b4fcccb2e309602d31f889115e1db2f3caab1055fa8436ddc5ea57c7",
+    "PILOT_REVIEW.md": "c5920bc8ca473911b3a971af5f513d4982f49e05d16ca66916ad2dce26ddb98c",
+    "analysis/pilot/FEASIBILITY.json": "db6bbe07043e2220ee95af9f74b837d18b9e86dd55a281929997890d0ada7bfc"
+  },
+  "pilot_complete": {
+    "runs/pilot/world961_edge/COMPLETE.json": "83a6c881c3c728ecd3bd55374f045ac731b550aee3fab98c908fac3b28c8dad6",
+    "runs/pilot/world961_joint/COMPLETE.json": "80b66e418ba3384951114ae5d594cd13854d1df300e131bbc7463ad42793ba67",
+    "runs/pilot/world962_edge/COMPLETE.json": "e205a8faa9a5d184e3b3c9b4abb16948d9a6d0e4c7bff42e8c38db21ca09f8d4",
+    "runs/pilot/world962_joint/COMPLETE.json": "67375f1d1d93e8f6f61fc3f97c5d4a626e3d5519c5cf11874788e267bea3e6c7"
+  },
+  "note": "Any protocol change requires new version/directory and fresh confirmation worlds."
+}

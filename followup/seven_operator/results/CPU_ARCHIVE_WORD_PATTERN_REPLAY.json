@@ -1,0 +1,77 @@
+{
+  "scope": "Frozen whole-program score and token reconstruction from original archives using only the matching tokenizer and recorded policy weights. Separate from cloud training-lineage and component audits.",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "transformers": "5.17.0"
+  },
+  "tokenizer_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "archives": [
+    {
+      "filename": "r5501_full.tar.gz",
+      "case": "r5501",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "633343151ffaacdc9e38c5ca748470d5e3e84f8df57c134e5a34c99e4ae7f3c4",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    },
+    {
+      "filename": "r5502_full.tar.gz",
+      "case": "r5502",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "cfcec4b36c7da0ad919c64a41b4d6b49b1c225a76083105e61849ec10e9d7196",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    },
+    {
+      "filename": "r5503_full.tar.gz",
+      "case": "r5503",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "a46a8697d8e1dd0dc29740ccd245959fafc9241c07bf91206f7559908dc366c6",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    },
+    {
+      "filename": "r5504_full.tar.gz",
+      "case": "r5504",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "c6fb1a06e9d1ff52de11b1bfb1a6ecdf35858b6e047b308ac97cf506e5943997",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    },
+    {
+      "filename": "r5505_full.tar.gz",
+      "case": "r5505",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "dcc4d4f1eb56c510fb0f75dd7e4d58dba23032f3116a59e73ac5613adf5117c6",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    },
+    {
+      "filename": "r5506_full.tar.gz",
+      "case": "r5506",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "1bf96ca1c677cfc77204cdb2f9577978e6636ff337746b1200b463c1a5fb269f",
+      "total_programs_reconstructed": 10752,
+      "same_whole_program_reconstruction_record": true,
+      "maximum_cpu_binomial_bound_rounding_difference": 1.3877787807814457e-17,
+      "same_scores_flags_contrasts_and_decisions": true
+    }
+  ],
+  "new_model_queries": 0,
+  "total_programs_reconstructed": 64512
+}

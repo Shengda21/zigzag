@@ -1,0 +1,127 @@
+{
+  "status": "PASS_FROZEN_CASE_RAW_RECONSTRUCTION",
+  "case": "r5401",
+  "scientific_case_pass": true,
+  "completed_component_evaluations": 6,
+  "training_lineage_and_update_counts": {
+    "results_clean_1_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world1_seed1_5301/results_three_1/adapter",
+      "weights_sha256": "c4e3e4e815a607896b745a26c6d487dc923c70199e38d901cff3a89e033f6593"
+    },
+    "results_clean_1_2": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_clean_1_1/adapter",
+      "weights_sha256": "e3cfdc19804d0e312631e497b329ea5fc8d51835e53ba5ba7f69199157b0a1de"
+    },
+    "results_clean_2_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_clean_1_2/adapter",
+      "weights_sha256": "a4f6ba1b2ef5c659dd471d7539df667e8278bf4d5071cf41e605b0bd70126fa1"
+    },
+    "results_clean_2_2": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_clean_2_1/adapter",
+      "weights_sha256": "e5266db1ca6bf9e8ad0237cbf5f49afee74dbae1c49820941e0dc549de5987f1"
+    },
+    "results_exchange_1_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world1_seed1_5301/results_three_1/adapter",
+      "weights_sha256": "19a1d003caf462fa3a4f5a3b9b560219110863daafacb7eeca6b17d0c21e6976"
+    },
+    "results_exchange_1_2": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_exchange_1_1/adapter",
+      "weights_sha256": "0d547e4e39e66d857cd15e8a17f82d9d1d9f73cf386e3b978903ee681da5be35"
+    },
+    "results_exchange_2_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_exchange_1_2/adapter",
+      "weights_sha256": "99442858a0fbcffbb1b07ad1bbee8fa989422b63030e0e83401283c794f37476"
+    },
+    "results_exchange_2_2": {
+      "updates": 602,
+      "parent": "/root/simods_next/equal_dose_world1_seed1_5401/results_exchange_2_1/adapter",
+      "weights_sha256": "c14bdab9823a31643412b79c50cf56848f87b8b8f7477bb1f4fee2bef2905c41"
+    },
+    "results_identity_1": {
+      "updates": 602,
+      "parent": null,
+      "weights_sha256": "60f0bf98d7f7214edb0a304fa2ef4122ec1abf7cf75e175a0232e098be03eeac"
+    },
+    "results_primitive_1": {
+      "updates": 1204,
+      "parent": null,
+      "weights_sha256": "101daef5afb707056b5e8f9b4ee18156fc17bcf3a68645ba87429bde857ffe46"
+    },
+    "results_three_1": {
+      "updates": 1204,
+      "parent": "/root/simods_next/confirmation_world1_seed1_5301/results_identity_1/adapter",
+      "weights_sha256": "b4e78bd36d936d42944c478841a029fe96073192c77e975c1def70461d0881de"
+    },
+    "results_two_1": {
+      "updates": 1204,
+      "parent": "/root/simods_next/confirmation_world1_seed1_5301/results_identity_1/adapter",
+      "weights_sha256": "6eaf922a0df45a5aeeb35ba07b630d7e79ea4753bd98f51798327bc370a043a8"
+    }
+  },
+  "whole_programs_reconstructed": 234752,
+  "simultaneous_statistics_rebuilt": true,
+  "fixed_dose_audit": {
+    "status": "PASS_FIXED_TWO_CHUNK_SEQUENTIAL_LINEAGE_AND_PHASE_EXPOSURE",
+    "doses": [
+      {
+        "branch": "exchange",
+        "phase": 1,
+        "chunks": 2,
+        "updates": 1204
+      },
+      {
+        "branch": "exchange",
+        "phase": 2,
+        "chunks": 2,
+        "updates": 1204
+      },
+      {
+        "branch": "clean",
+        "phase": 1,
+        "chunks": 2,
+        "updates": 1204
+      },
+      {
+        "branch": "clean",
+        "phase": 2,
+        "chunks": 2,
+        "updates": 1204
+      }
+    ],
+    "changed_label_operator_pair_counts_each_phase": {
+      "A": 7680,
+      "C": 3072,
+      "F": 7680,
+      "AC": 1536,
+      "AF": 6144,
+      "CF": 1536,
+      "G": 4608,
+      "AG": 1536,
+      "FG": 3072,
+      "D": 1536,
+      "AD": 1536,
+      "DF": 1536,
+      "B": 4608,
+      "E": 3072,
+      "AB": 3072,
+      "AE": 1536,
+      "BE": 1536,
+      "EF": 1536,
+      "EG": 1536,
+      "BC": 1536,
+      "BG": 1536,
+      "CG": 1536,
+      "BF": 1536
+    },
+    "independent_new_source_initializations": 0
+  },
+  "source_initializations_inherited_from": "r5301",
+  "scope": "This inherited fixed-dose verification does not add independent task seeds or replace the primary result."
+}

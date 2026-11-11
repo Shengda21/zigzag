@@ -1,0 +1,179 @@
+{
+  "status": "PASS_RAW_TO_FROZEN_FEATURES_EXACT",
+  "frozen_analyzer_sha256": "171127bf254ab9aa21a9c2647370cdc94bb0f1e8da5e562ed2be2d9461439b67",
+  "lock_sha256": "98a95beb672d40cb9c4fdac6420ef1b8e9ee1d5eecb22c34f2d38d333f326c2f",
+  "selection_sha256": "74080cf7b4fcccb2e309602d31f889115e1db2f3caab1055fa8436ddc5ea57c7",
+  "archives": [
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "world": 961,
+      "phase": "pilot",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "world": 962,
+      "phase": "pilot",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "world": 971,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "world": 972,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "world": 973,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "world": 974,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "world": 975,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "world": 976,
+      "phase": "confirm",
+      "raw_files": 34,
+      "rescored_model_predictions": 226304
+    }
+  ],
+  "raw_files": 272,
+  "rescored_model_predictions": 1810432,
+  "feature_reconstruction": {
+    "pilot": {
+      "rows": 68,
+      "all_feature_fields_exact": true,
+      "frozen_features_sha256": "5eaef28d9ef109f2f1ae83e3f32889c71f3c9320d51fa855a79c627ee6ccf3b4"
+    },
+    "confirm": {
+      "rows": 204,
+      "all_feature_fields_exact": true,
+      "frozen_features_sha256": "129856d68df5fcd3ddd1d90e67020c0b397637b79ee510177261061a59cb33d4"
+    }
+  },
+  "fixed_recipe_refit": {
+    "pilot": {
+      "maximum_absolute_prediction_difference_by_family": {
+        "raw": 1.6653345369377348e-16,
+        "raw_temporal": 6.106226635438361e-16,
+        "edge": 4.163336342344337e-17,
+        "betti": 5.551115123125783e-17,
+        "temporal": 0.0,
+        "conjunction": 2.7755575615628914e-17
+      },
+      "fixed_candidate_predictions_match_at_1e_10": true,
+      "paired_effects_recomputed": {
+        "external_paired_difference": -0.0390625,
+        "external_world_bootstrap_95": [
+          -0.3515625,
+          0.2734375
+        ],
+        "per_world_differences": [
+          -0.3515625,
+          0.2734375
+        ],
+        "edge_difference_simultaneous_90_bonferroni": [
+          [
+            -0.001953125,
+            -0.001953125,
+            -0.001953125,
+            -0.00390625,
+            -0.00390625,
+            -0.001953125
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            -0.001953125,
+            0.0,
+            -0.001953125
+          ]
+        ],
+        "edge_equivalence_margin": 0.05,
+        "edge_equivalence_pass": true,
+        "external_effect_pass": false,
+        "interpretation": "Small number of worlds: bootstrap intervals descriptive. Claim at most intervention effect conditional on edge equivalence; no mechanism identification."
+      },
+      "frozen_report_sha256": "e1c1a390e38d5783606acb4974199788bb120a264590c217d31bddab3feca756"
+    },
+    "confirm": {
+      "maximum_absolute_prediction_difference_by_family": {
+        "raw": 1.3877787807814457e-16,
+        "raw_temporal": 6.661338147750939e-16,
+        "edge": 2.7755575615628914e-17,
+        "betti": 4.163336342344337e-17,
+        "temporal": 0.0,
+        "conjunction": 2.7755575615628914e-17
+      },
+      "fixed_candidate_predictions_match_at_1e_10": true,
+      "paired_effects_recomputed": {
+        "external_paired_difference": 0.07161458333333333,
+        "external_world_bootstrap_95": [
+          -0.12369791666666667,
+          0.283203125
+        ],
+        "per_world_differences": [
+          0.056640625,
+          0.52734375,
+          -0.0234375,
+          0.029296875,
+          -0.32421875,
+          0.1640625
+        ],
+        "edge_difference_simultaneous_90_bonferroni": [
+          [
+            -0.011067708333333334,
+            -0.0078125,
+            -0.0090087890625,
+            -0.01171875,
+            -0.005208333333333333,
+            -0.005859375
+          ],
+          [
+            0.0006510416666666666,
+            0.0006510416666666666,
+            0.0009765625,
+            0.0,
+            0.0006510416666666666,
+            0.0016276041666666667
+          ]
+        ],
+        "edge_equivalence_margin": 0.05,
+        "edge_equivalence_pass": true,
+        "external_effect_pass": false,
+        "interpretation": "Small number of worlds: bootstrap intervals descriptive. Claim at most intervention effect conditional on edge equivalence; no mechanism identification."
+      },
+      "frozen_report_sha256": "ec4e1429c40acc3df4e237e24112701170af3ead1246a3fb6e62d92c540c848f"
+    }
+  },
+  "local_analysis_versions": {
+    "numpy": "2.4.4",
+    "sklearn": "1.8.0"
+  },
+  "scope": "Archived predictions are rescored with the frozen parser and feature extractor. Fixed regression recipes are refitted without selection, and compared with the original reports. No language-model inference/training, thresholds, scientific endpoints or archived outputs are changed."
+}

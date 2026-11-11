@@ -1,0 +1,77 @@
+{
+  "all_terminal_and_archived": true,
+  "assessments": [
+    {
+      "suite": "confirmation_factored_5300",
+      "registered": 6,
+      "terminal_returned": 6,
+      "scored_cases": 6,
+      "passed": 6,
+      "bounds": {
+        "two": 0.04968773480827186,
+        "three": 0.9397657868132077,
+        "supported": 0.9503122651917738,
+        "unsupported": 0.04968773480827186
+      },
+      "point_extrema": {
+        "two": 0.0,
+        "three": 0.99609375,
+        "supported": 1.0,
+        "unsupported": 0.0
+      },
+      "n": [
+        256
+      ],
+      "min_paired_lower": 0.7421678927481092,
+      "min_paired_effect": 0.99609375
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "registered": 6,
+      "terminal_returned": 6,
+      "scored_cases": 6,
+      "passed": 6,
+      "bounds": {
+        "two": 0.04968773480827186,
+        "three": 0.9397657868132077,
+        "supported": 0.9503122651917738,
+        "unsupported": 0.04968773480827186
+      },
+      "point_extrema": {
+        "two": 0.0,
+        "three": 0.99609375,
+        "supported": 1.0,
+        "unsupported": 0.0
+      },
+      "n": [
+        256
+      ],
+      "min_paired_lower": 0.7421678927481092,
+      "min_paired_effect": 0.99609375
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "registered": 6,
+      "terminal_returned": 6,
+      "scored_cases": 6,
+      "passed": 6,
+      "bounds": {
+        "two": 0.07451119927907558,
+        "three": 0.9254888007209163,
+        "supported": 0.9254888007209163,
+        "unsupported": 0.07451119927907558
+      },
+      "point_extrema": {
+        "two": 0.0,
+        "three": 1.0,
+        "supported": 1.0,
+        "unsupported": 0.0
+      },
+      "n": [
+        128
+      ],
+      "min_paired_lower": 0.656304993830335,
+      "min_paired_effect": 1.0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "primitive_chunks": 1,
+  "identity_chunks": 1,
+  "three_chunks": 1,
+  "exchanges": {
+    "1": {
+      "chunks": 2,
+      "adapter": "/root/simods_next/equal_dose_world2_seed1_5402/results_exchange_1_2/adapter"
+    },
+    "2": {
+      "chunks": 2,
+      "adapter": "/root/simods_next/equal_dose_world2_seed1_5402/results_exchange_2_2/adapter"
+    }
+  },
+  "residual_paths": {
+    "source": "/root/simods_next/equal_dose_world2_seed1_5402/results_identity_1/adapter",
+    "two": "/root/simods_next/equal_dose_world2_seed1_5402/results_two_1/adapter",
+    "three": "/root/simods_next/equal_dose_world2_seed1_5402/results_three_1/adapter",
+    "exchange1": "/root/simods_next/equal_dose_world2_seed1_5402/results_exchange_1_2/adapter",
+    "clean1": "/root/simods_next/equal_dose_world2_seed1_5402/results_clean_1_2/adapter",
+    "exchange2": "/root/simods_next/equal_dose_world2_seed1_5402/results_exchange_2_2/adapter",
+    "clean2": "/root/simods_next/equal_dose_world2_seed1_5402/results_clean_2_2/adapter"
+  },
+  "primitive": "/root/simods_next/equal_dose_world2_seed1_5402/results_primitive_1/adapter",
+  "all_seven_weights_fixed_before_whole_queries": true,
+  "fixed_phase_chunks": 2,
+  "inherited_primary_case": "r5302"
+}

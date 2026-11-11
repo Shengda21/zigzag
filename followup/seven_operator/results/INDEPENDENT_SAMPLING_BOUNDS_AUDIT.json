@@ -1,0 +1,188 @@
+{
+  "scope": "Independent finite binomial-tail summation and paired-contrast arithmetic from audited returned flags, no SciPy interval calls or model inference.",
+  "case_looks": 18,
+  "individual_score_bounds": 6048,
+  "paired_contrasts": 144,
+  "cases": [
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5301",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5302",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5303",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5304",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5305",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_factored_5300",
+      "case": "r5306",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5401",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5402",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5403",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5404",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5405",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 4.496755615437942e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "confirmation_equal_dose_5400",
+      "case": "r5406",
+      "look": 1,
+      "n": 256,
+      "score_bounds_verified": 483,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6532460039793704e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5501",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 5.5429836068321414e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5502",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 2.6219261137216954e-15,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5503",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 5.5429836068321414e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5504",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 5.5429836068321414e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5505",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 5.5429836068321414e-17,
+      "max_abs_contrast_error": 0.0
+    },
+    {
+      "suite": "word_family_evaluation_5500",
+      "case": "r5506",
+      "look": 1,
+      "n": 128,
+      "score_bounds_verified": 42,
+      "paired_contrasts_verified": 8,
+      "max_abs_binomial_tail_probability_error": 5.5429836068321414e-17,
+      "max_abs_contrast_error": 0.0
+    }
+  ]
+}

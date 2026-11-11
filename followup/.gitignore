@@ -1,2 +1,4 @@
 /e4_v4_complete/
 *.tex
+!/e4_v4/results/
+!/seven_operator/results/

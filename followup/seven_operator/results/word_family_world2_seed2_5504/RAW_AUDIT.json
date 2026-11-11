@@ -1,0 +1,110 @@
+{
+  "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+  "endpoints": {
+    "source": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "policy": 12744,
+        "primitive": 10815,
+        "residual": 11156
+      },
+      "new_neural_tokens_reconstructed": 351536,
+      "inherited_initial_output": false
+    },
+    "two": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11156
+      },
+      "new_neural_tokens_reconstructed": 178496,
+      "inherited_initial_output": false
+    },
+    "three": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11173,
+        "primitive": 7404
+      },
+      "new_neural_tokens_reconstructed": 297232,
+      "inherited_initial_output": false
+    },
+    "exchange1": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11173,
+        "primitive": 1772
+      },
+      "new_neural_tokens_reconstructed": 207120,
+      "inherited_initial_output": false
+    },
+    "clean1": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11173
+      },
+      "new_neural_tokens_reconstructed": 178768,
+      "inherited_initial_output": false
+    },
+    "exchange2": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11173,
+        "primitive": 1744
+      },
+      "new_neural_tokens_reconstructed": 206672,
+      "inherited_initial_output": false
+    },
+    "clean2": {
+      "programs": 1536,
+      "logical_neural_calls": {
+        "policy": 13824,
+        "primitive": 12288,
+        "residual": 12288
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 11173
+      },
+      "new_neural_tokens_reconstructed": 178768,
+      "inherited_initial_output": false
+    }
+  },
+  "total_programs_reconstructed": 10752,
+  "scores_and_aggregate_rebuilt": true,
+  "policy_all_assignment_certificate_verified": true,
+  "categorical_probabilities_reconstructed_from_actual_weights": true,
+  "no_synthetic_policy_EOS": true,
+  "new_calls_and_tokens_verified_against_query_caches": true,
+  "cache_origin": {},
+  "no_oracle_action_state_stop_in_rollout": true,
+  "rollout_sha256": "c4a15ebc0cc2377de9e87c8a10e6de78af5075de5acba987d32ecada7d764ba1"
+}

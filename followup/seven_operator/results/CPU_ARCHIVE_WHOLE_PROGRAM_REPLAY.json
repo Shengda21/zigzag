@@ -1,0 +1,33 @@
+{
+  "scope": "Frozen whole-program score and token reconstruction from original archives using only the matching tokenizer and recorded policy weights. Separate from cloud training-lineage and component audits.",
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.4.4",
+    "scipy": "1.17.1",
+    "transformers": "5.17.0"
+  },
+  "tokenizer_sha256": {
+    "tokenizer.json": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+    "tokenizer_config.json": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583"
+  },
+  "archives": [
+    {
+      "filename": "r5304_full.tar.gz",
+      "case": "r5304",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "fedf93007ef53ded482e43977d49ad254ae85e842585756dac8f5c5e4219c0cd",
+      "total_programs_reconstructed": 234752,
+      "same_whole_program_reconstruction_record": true
+    },
+    {
+      "filename": "r5401_full.tar.gz",
+      "case": "r5401",
+      "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+      "archive_sha256": "750f1de81a6cdfabcd9b5a1848419f1889485600a5248eb0fcce4d0e470b7b8c",
+      "total_programs_reconstructed": 234752,
+      "same_whole_program_reconstruction_record": true
+    }
+  ],
+  "new_model_queries": 0,
+  "total_programs_reconstructed": 469504
+}

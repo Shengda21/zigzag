@@ -1,0 +1,9 @@
+{
+  "case": "r5502",
+  "status": "PASS_FROZEN_CASE_RAW_RECONSTRUCTION",
+  "scientific_case_pass": true,
+  "manifest_verified": true,
+  "raw_audit": "RAW_AUDIT.json",
+  "source_weights_archived_in": "equal_dose_world2_seed1_5402",
+  "evaluation_contains_no_training": true
+}

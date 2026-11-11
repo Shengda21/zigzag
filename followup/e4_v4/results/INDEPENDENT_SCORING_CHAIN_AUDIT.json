@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checkpoints": 272,
+  "prediction_rows": 1810432,
+  "scorer_exact_agreement": true,
+  "independent_topology_agreement": true,
+  "full_frozen_object_agreement": true,
+  "script_sha256": "018c496410218a6f0fa962ba98f81c326a9ee622f67b1e828fe0815329913197",
+  "analyzer_sha256": "72ffbc1e87a111432a348b12f788429817252ccb5786266a7140e59ed04a0077",
+  "original_audit_workspace_relative": "e4_v4_feature_rebuild_verification/VERIFICATION.json",
+  "original_audit_sha256": "84c89fff9337101979a97ea2ca9858eb6aa8cc2ec749af5169c96612b7332a99",
+  "scope": "Earlier separately expressed strict scoring and dense F2 boundary cross-check. The portable raw rebuild uses the frozen analyzer directly and additionally refits the fixed candidate regressors."
+}

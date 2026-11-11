@@ -1,0 +1,2822 @@
+{
+  "archives": [
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "bytes": 2778811156,
+      "phase": "pilot",
+      "sha256": "2f4a7a9a700097ae07e6d966049c64bb2ad2f711fd77d0558615037f8fcd5a7b",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "bytes": 2778792995,
+      "phase": "pilot",
+      "sha256": "732a1ecde17e296d1d18f878d6965d57c5f3aa51177cbd12dbd865fbe4985634",
+      "world": 962
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "bytes": 2778550363,
+      "phase": "confirm",
+      "sha256": "e11cea9d21cc36e5573cd9d5dada96ba89b7419ee5e9ee033aeb6fa251e90b8e",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "bytes": 2778912847,
+      "phase": "confirm",
+      "sha256": "21c5060f6eca59e669bf6e4aefacf012b8f8d8c9e09944d73f02a1ef95a4871d",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "bytes": 2778866933,
+      "phase": "confirm",
+      "sha256": "1b057026bbc57fc97a4a4a56e207f319a3da3d6daea020b033a2ced3f450806c",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "bytes": 2778611143,
+      "phase": "confirm",
+      "sha256": "e97fd1bfb286821cca965bcad9555b6600605a7f8b7782f9d1affa283b07621c",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "bytes": 2778639168,
+      "phase": "confirm",
+      "sha256": "3f46f9371f971a860ea4656b8389e3d63ee0ee1338bb347e4f86d79e065889fd",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "bytes": 2778852737,
+      "phase": "confirm",
+      "sha256": "63ec035dab218fa826e571c5132aece49129c84dcc5d879fcbccbc0af7534026",
+      "world": 976
+    }
+  ],
+  "frozen": {
+    "analyzer_sha256": "171127bf254ab9aa21a9c2647370cdc94bb0f1e8da5e562ed2be2d9461439b67",
+    "confirm_lock_sha256": "98a95beb672d40cb9c4fdac6420ef1b8e9ee1d5eecb22c34f2d38d333f326c2f",
+    "local_source_manifest_sha256": "50183afe17cc89c5f2ca47362c5d1a1e623b9058d03b7e0f920e4f04f4ae06ac",
+    "pilot_selection_sha256": "74080cf7b4fcccb2e309602d31f889115e1db2f3caab1055fa8436ddc5ea57c7",
+    "selected_candidates_by_family": {
+      "betti": 2,
+      "conjunction": 2,
+      "edge": 2,
+      "raw": 2,
+      "raw_temporal": 2,
+      "temporal": 4
+    }
+  },
+  "provenance_limit": "The 272 raw-eval source digests were taken from the local source manifest. This package does not contain the archives and does not independently rescore raw predictions into FEATURES.json.",
+  "raw_eval_files": [
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0000.jsonl",
+      "phase": "pilot",
+      "source_sha256": "897e22eae16d2441328710de3397d68977f031bec846b5e657d9067073b2556b",
+      "step": 0,
+      "stored_sha256": "897e22eae16d2441328710de3397d68977f031bec846b5e657d9067073b2556b",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0032.jsonl",
+      "phase": "pilot",
+      "source_sha256": "82ca079e8ddc700555aed64fc505954af5b055e4e625866b1ad9dfae1fe4fb51",
+      "step": 32,
+      "stored_sha256": "82ca079e8ddc700555aed64fc505954af5b055e4e625866b1ad9dfae1fe4fb51",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0064.jsonl",
+      "phase": "pilot",
+      "source_sha256": "d984a0180399061f8605b1153ada9ff529738a7ee37ba915f69f31e159149c3b",
+      "step": 64,
+      "stored_sha256": "d984a0180399061f8605b1153ada9ff529738a7ee37ba915f69f31e159149c3b",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0096.jsonl",
+      "phase": "pilot",
+      "source_sha256": "aed559c6db6d59a4f81793b71ecc77d4cb258d9b1d5cbce864e38044af12887d",
+      "step": 96,
+      "stored_sha256": "aed559c6db6d59a4f81793b71ecc77d4cb258d9b1d5cbce864e38044af12887d",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0128.jsonl",
+      "phase": "pilot",
+      "source_sha256": "b65cbd4b0058dfdf1fa915570c07eaf0603ab86ac2c871cbdc759fd4adca0747",
+      "step": 128,
+      "stored_sha256": "b65cbd4b0058dfdf1fa915570c07eaf0603ab86ac2c871cbdc759fd4adca0747",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0160.jsonl",
+      "phase": "pilot",
+      "source_sha256": "37a2561403f964cbeee0e500885419e7babe9a2013a4031ce19c3a8c914cd81c",
+      "step": 160,
+      "stored_sha256": "37a2561403f964cbeee0e500885419e7babe9a2013a4031ce19c3a8c914cd81c",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0192.jsonl",
+      "phase": "pilot",
+      "source_sha256": "3a9fedc42cae5008756ae320df05d06c9a40938c3a36eb2739b24ed43dd4625f",
+      "step": 192,
+      "stored_sha256": "3a9fedc42cae5008756ae320df05d06c9a40938c3a36eb2739b24ed43dd4625f",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0224.jsonl",
+      "phase": "pilot",
+      "source_sha256": "3cfa86706c9619058163b65c005de220985b0cc4d28ed7caaa0c0e52e1d0fe25",
+      "step": 224,
+      "stored_sha256": "3cfa86706c9619058163b65c005de220985b0cc4d28ed7caaa0c0e52e1d0fe25",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0256.jsonl",
+      "phase": "pilot",
+      "source_sha256": "820f33b41c5dc305b308aa3181e5c81390297af3cb1fe4e8231d7a643417298f",
+      "step": 256,
+      "stored_sha256": "820f33b41c5dc305b308aa3181e5c81390297af3cb1fe4e8231d7a643417298f",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0288.jsonl",
+      "phase": "pilot",
+      "source_sha256": "49490f43da30b1898e548cae5831b301f66b77224533a7a2f2554ee3e304f192",
+      "step": 288,
+      "stored_sha256": "49490f43da30b1898e548cae5831b301f66b77224533a7a2f2554ee3e304f192",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0320.jsonl",
+      "phase": "pilot",
+      "source_sha256": "5de3d02987de22284a64db34e9165a3a9c827fb6467ce4a42a53b23016c8546d",
+      "step": 320,
+      "stored_sha256": "5de3d02987de22284a64db34e9165a3a9c827fb6467ce4a42a53b23016c8546d",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0352.jsonl",
+      "phase": "pilot",
+      "source_sha256": "aafa96c2209772951be09f60497de85c7ef4eb652e0139b19f60f37097a52f15",
+      "step": 352,
+      "stored_sha256": "aafa96c2209772951be09f60497de85c7ef4eb652e0139b19f60f37097a52f15",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0384.jsonl",
+      "phase": "pilot",
+      "source_sha256": "b3136b5fdac351ed8a51eeac4c6f04226fc4c10445827202966a5d70bc3953f2",
+      "step": 384,
+      "stored_sha256": "b3136b5fdac351ed8a51eeac4c6f04226fc4c10445827202966a5d70bc3953f2",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0416.jsonl",
+      "phase": "pilot",
+      "source_sha256": "525d3b8bae59d4cf059fb353e484b93ad2db96c007e2d3ed3657477727947cf2",
+      "step": 416,
+      "stored_sha256": "525d3b8bae59d4cf059fb353e484b93ad2db96c007e2d3ed3657477727947cf2",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0448.jsonl",
+      "phase": "pilot",
+      "source_sha256": "8df241bd62dd46941e47a6467f19ddbdd8bd04e64aeb4666f3fdcde2d8e4340a",
+      "step": 448,
+      "stored_sha256": "8df241bd62dd46941e47a6467f19ddbdd8bd04e64aeb4666f3fdcde2d8e4340a",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0480.jsonl",
+      "phase": "pilot",
+      "source_sha256": "60fe38e96b11365506e101dec0be6aaa67f0e46f77546041f25cf175bd1f8440",
+      "step": 480,
+      "stored_sha256": "60fe38e96b11365506e101dec0be6aaa67f0e46f77546041f25cf175bd1f8440",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world961_edge/eval_0512.jsonl",
+      "phase": "pilot",
+      "source_sha256": "b1eba8f2fe60045bb47dc06ab98cc68ed869ea5af518fdab13cfa653412a7dc6",
+      "step": 512,
+      "stored_sha256": "b1eba8f2fe60045bb47dc06ab98cc68ed869ea5af518fdab13cfa653412a7dc6",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0000.jsonl",
+      "phase": "pilot",
+      "source_sha256": "897e22eae16d2441328710de3397d68977f031bec846b5e657d9067073b2556b",
+      "step": 0,
+      "stored_sha256": "897e22eae16d2441328710de3397d68977f031bec846b5e657d9067073b2556b",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0032.jsonl",
+      "phase": "pilot",
+      "source_sha256": "83bc1a3105082cdf94b5c4db74426b4ff179e6f7ccc7fd654f29a62479d4fe08",
+      "step": 32,
+      "stored_sha256": "83bc1a3105082cdf94b5c4db74426b4ff179e6f7ccc7fd654f29a62479d4fe08",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0064.jsonl",
+      "phase": "pilot",
+      "source_sha256": "f7dc9f00cff6e1a65ddff36c7743afd760f8790114b396aa477485a384d96cbd",
+      "step": 64,
+      "stored_sha256": "f7dc9f00cff6e1a65ddff36c7743afd760f8790114b396aa477485a384d96cbd",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0096.jsonl",
+      "phase": "pilot",
+      "source_sha256": "bfca09f853d18f039ef24ed410fac5ee59a68026d7ed31ffab6a2c156196ab39",
+      "step": 96,
+      "stored_sha256": "bfca09f853d18f039ef24ed410fac5ee59a68026d7ed31ffab6a2c156196ab39",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0128.jsonl",
+      "phase": "pilot",
+      "source_sha256": "9e512d38cb7b62b0179a583793a09474540c9bbaf7090f091101382da543e0b5",
+      "step": 128,
+      "stored_sha256": "9e512d38cb7b62b0179a583793a09474540c9bbaf7090f091101382da543e0b5",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0160.jsonl",
+      "phase": "pilot",
+      "source_sha256": "e8200fb3209233368dd0f54f0cd8150705ca52d95ce26fa995cdb9051e2065d2",
+      "step": 160,
+      "stored_sha256": "e8200fb3209233368dd0f54f0cd8150705ca52d95ce26fa995cdb9051e2065d2",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0192.jsonl",
+      "phase": "pilot",
+      "source_sha256": "3e6357992bc679c2071f650bff43498cde8090dde4bd0d4a431885994b4eb426",
+      "step": 192,
+      "stored_sha256": "3e6357992bc679c2071f650bff43498cde8090dde4bd0d4a431885994b4eb426",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0224.jsonl",
+      "phase": "pilot",
+      "source_sha256": "9bcaea7686a6e55cae53ca12c078a753cc9f28484c74f7262eabde7d5adebd68",
+      "step": 224,
+      "stored_sha256": "9bcaea7686a6e55cae53ca12c078a753cc9f28484c74f7262eabde7d5adebd68",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0256.jsonl",
+      "phase": "pilot",
+      "source_sha256": "6183301742b8723f9096199fde6c132452381b3962bd2fae743a2ef7740ea9c9",
+      "step": 256,
+      "stored_sha256": "6183301742b8723f9096199fde6c132452381b3962bd2fae743a2ef7740ea9c9",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0288.jsonl",
+      "phase": "pilot",
+      "source_sha256": "24f2527bf8c825e8b7dc45f4c9a2c892fea42878aebd41939ac55c901660784d",
+      "step": 288,
+      "stored_sha256": "24f2527bf8c825e8b7dc45f4c9a2c892fea42878aebd41939ac55c901660784d",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0320.jsonl",
+      "phase": "pilot",
+      "source_sha256": "d98a7389cae07b4c407a9639878634406a27a90ef0ee81349eb714f570e0126f",
+      "step": 320,
+      "stored_sha256": "d98a7389cae07b4c407a9639878634406a27a90ef0ee81349eb714f570e0126f",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0352.jsonl",
+      "phase": "pilot",
+      "source_sha256": "f31c3ac8ab779ab314e237d67a2f9fed66f55ecbc1f5587d6d8f30cb319e3c61",
+      "step": 352,
+      "stored_sha256": "f31c3ac8ab779ab314e237d67a2f9fed66f55ecbc1f5587d6d8f30cb319e3c61",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0384.jsonl",
+      "phase": "pilot",
+      "source_sha256": "9dbbf723a142c7ed4f2fae8f842868f57884c44a894802545b91294262418467",
+      "step": 384,
+      "stored_sha256": "9dbbf723a142c7ed4f2fae8f842868f57884c44a894802545b91294262418467",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0416.jsonl",
+      "phase": "pilot",
+      "source_sha256": "72abf4c1a7fe68c8f3ef3c52e81f1673323478479aa2139d3b8a7e1d3866427c",
+      "step": 416,
+      "stored_sha256": "72abf4c1a7fe68c8f3ef3c52e81f1673323478479aa2139d3b8a7e1d3866427c",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0448.jsonl",
+      "phase": "pilot",
+      "source_sha256": "621dd8cb76bee44cb3775164801497802e9d6afcd22166999712bccd6d12be2f",
+      "step": 448,
+      "stored_sha256": "621dd8cb76bee44cb3775164801497802e9d6afcd22166999712bccd6d12be2f",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0480.jsonl",
+      "phase": "pilot",
+      "source_sha256": "4a5daa275b3e205278c5a296e4974ec59484f3774c2078a83b18e28fbd689d76",
+      "step": 480,
+      "stored_sha256": "4a5daa275b3e205278c5a296e4974ec59484f3774c2078a83b18e28fbd689d76",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world961.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world961_joint/eval_0512.jsonl",
+      "phase": "pilot",
+      "source_sha256": "20ed871e3b990ddad5ce6dab6e5f89eee66cf766ddc8b4c81a6ae0287c158066",
+      "step": 512,
+      "stored_sha256": "20ed871e3b990ddad5ce6dab6e5f89eee66cf766ddc8b4c81a6ae0287c158066",
+      "world": 961
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0000.jsonl",
+      "phase": "pilot",
+      "source_sha256": "78efaf053580c1ce4154975c29ba67b94b7cfb255ff5e5a57e5c26807172da2d",
+      "step": 0,
+      "stored_sha256": "78efaf053580c1ce4154975c29ba67b94b7cfb255ff5e5a57e5c26807172da2d",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0032.jsonl",
+      "phase": "pilot",
+      "source_sha256": "ed5b801ee3410d61df868b79264e3f490ab267ffd96c5ccfdcd148f4ec1cf605",
+      "step": 32,
+      "stored_sha256": "ed5b801ee3410d61df868b79264e3f490ab267ffd96c5ccfdcd148f4ec1cf605",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0064.jsonl",
+      "phase": "pilot",
+      "source_sha256": "6121942dc7bff6f16b2befbc9a87d04ddf280362844db4b202e094d125bd9e70",
+      "step": 64,
+      "stored_sha256": "6121942dc7bff6f16b2befbc9a87d04ddf280362844db4b202e094d125bd9e70",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0096.jsonl",
+      "phase": "pilot",
+      "source_sha256": "76d16ef72785d63a1a25b528cf57fff9bb45932d7021bff098a1d20ea60781dd",
+      "step": 96,
+      "stored_sha256": "76d16ef72785d63a1a25b528cf57fff9bb45932d7021bff098a1d20ea60781dd",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0128.jsonl",
+      "phase": "pilot",
+      "source_sha256": "db9cf5c2cb519694d6c9075a5f06b024e004a824bf2dbc29ea0f55271517ef58",
+      "step": 128,
+      "stored_sha256": "db9cf5c2cb519694d6c9075a5f06b024e004a824bf2dbc29ea0f55271517ef58",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0160.jsonl",
+      "phase": "pilot",
+      "source_sha256": "a90eaccf2e6ddbd1c532e55335fce4d0aca668d3576e1077071d625d974e05b1",
+      "step": 160,
+      "stored_sha256": "a90eaccf2e6ddbd1c532e55335fce4d0aca668d3576e1077071d625d974e05b1",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0192.jsonl",
+      "phase": "pilot",
+      "source_sha256": "179174c095c4d3aeac13885b9301e41a26b3905de08db04dfbbfdbda6d038fca",
+      "step": 192,
+      "stored_sha256": "179174c095c4d3aeac13885b9301e41a26b3905de08db04dfbbfdbda6d038fca",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0224.jsonl",
+      "phase": "pilot",
+      "source_sha256": "0a8d4b12cf25013213e855c98628b728284660f335edfd533f26d74200a91d18",
+      "step": 224,
+      "stored_sha256": "0a8d4b12cf25013213e855c98628b728284660f335edfd533f26d74200a91d18",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0256.jsonl",
+      "phase": "pilot",
+      "source_sha256": "118daac7fc5af9bc5511316e0b414bf30c498fa67518a1fae84dddfe50998ddc",
+      "step": 256,
+      "stored_sha256": "118daac7fc5af9bc5511316e0b414bf30c498fa67518a1fae84dddfe50998ddc",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0288.jsonl",
+      "phase": "pilot",
+      "source_sha256": "17b7176815bcfef09731ba2abeda7f2453a1815cb6dd8fdae15fb194341f7173",
+      "step": 288,
+      "stored_sha256": "17b7176815bcfef09731ba2abeda7f2453a1815cb6dd8fdae15fb194341f7173",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0320.jsonl",
+      "phase": "pilot",
+      "source_sha256": "69c77a0ddd71925df8868aa3112346833fbd6b3ffd2434dffeaa0faad0c67ff2",
+      "step": 320,
+      "stored_sha256": "69c77a0ddd71925df8868aa3112346833fbd6b3ffd2434dffeaa0faad0c67ff2",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0352.jsonl",
+      "phase": "pilot",
+      "source_sha256": "6a385c7b020b589b78da464b6e1094fe99679dfc2d0fbfec51aad6c5eecc32ca",
+      "step": 352,
+      "stored_sha256": "6a385c7b020b589b78da464b6e1094fe99679dfc2d0fbfec51aad6c5eecc32ca",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0384.jsonl",
+      "phase": "pilot",
+      "source_sha256": "bca8ba996d959accbce57f6d06b5c41f0c2b07166724548ddde4f32f1c5be656",
+      "step": 384,
+      "stored_sha256": "bca8ba996d959accbce57f6d06b5c41f0c2b07166724548ddde4f32f1c5be656",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0416.jsonl",
+      "phase": "pilot",
+      "source_sha256": "24a762af85e636618488d43138f7bbc522433ac78854435d80bc442f9249a90f",
+      "step": 416,
+      "stored_sha256": "24a762af85e636618488d43138f7bbc522433ac78854435d80bc442f9249a90f",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0448.jsonl",
+      "phase": "pilot",
+      "source_sha256": "95d7f783c23da3abd1936f954811ad000407c13fd5cf4c2363874125d63b1bba",
+      "step": 448,
+      "stored_sha256": "95d7f783c23da3abd1936f954811ad000407c13fd5cf4c2363874125d63b1bba",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0480.jsonl",
+      "phase": "pilot",
+      "source_sha256": "d18110f52b243494453ed008a3c40ecdb5bfb558a7a49e45e4b1b6488b93ad88",
+      "step": 480,
+      "stored_sha256": "d18110f52b243494453ed008a3c40ecdb5bfb558a7a49e45e4b1b6488b93ad88",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "edge",
+      "member": "runs/pilot/world962_edge/eval_0512.jsonl",
+      "phase": "pilot",
+      "source_sha256": "b6f8e4c99d61a0a5076214d19f0c4a157507d3e94c02fa1d198f23836b7f413a",
+      "step": 512,
+      "stored_sha256": "b6f8e4c99d61a0a5076214d19f0c4a157507d3e94c02fa1d198f23836b7f413a",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0000.jsonl",
+      "phase": "pilot",
+      "source_sha256": "78efaf053580c1ce4154975c29ba67b94b7cfb255ff5e5a57e5c26807172da2d",
+      "step": 0,
+      "stored_sha256": "78efaf053580c1ce4154975c29ba67b94b7cfb255ff5e5a57e5c26807172da2d",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0032.jsonl",
+      "phase": "pilot",
+      "source_sha256": "a70bf365c640770a50efef7eb34561c073e99f50a28666b0514dda3260884bae",
+      "step": 32,
+      "stored_sha256": "a70bf365c640770a50efef7eb34561c073e99f50a28666b0514dda3260884bae",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0064.jsonl",
+      "phase": "pilot",
+      "source_sha256": "beece2da59c33b89c679c28abe8e4fe8acfe0f64b5416c8ab346bb3ec30054bd",
+      "step": 64,
+      "stored_sha256": "beece2da59c33b89c679c28abe8e4fe8acfe0f64b5416c8ab346bb3ec30054bd",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0096.jsonl",
+      "phase": "pilot",
+      "source_sha256": "aa41b273413c6eab60a5353b517383c6b716745b4ece4cad7487eab00557a9c4",
+      "step": 96,
+      "stored_sha256": "aa41b273413c6eab60a5353b517383c6b716745b4ece4cad7487eab00557a9c4",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0128.jsonl",
+      "phase": "pilot",
+      "source_sha256": "18fcaac45cf7c0f1adefa06aa9596ba5f2da190cb1b28b50efb1c0bc1ebfd79d",
+      "step": 128,
+      "stored_sha256": "18fcaac45cf7c0f1adefa06aa9596ba5f2da190cb1b28b50efb1c0bc1ebfd79d",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0160.jsonl",
+      "phase": "pilot",
+      "source_sha256": "9f77cfbcd25cba39fadbd563c1a9177915894186f9c9e12154e860f3404ad250",
+      "step": 160,
+      "stored_sha256": "9f77cfbcd25cba39fadbd563c1a9177915894186f9c9e12154e860f3404ad250",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0192.jsonl",
+      "phase": "pilot",
+      "source_sha256": "fd312eedd0ad421d77047cbca00656db9e1af73f81fcdf17081d1eec46ff520a",
+      "step": 192,
+      "stored_sha256": "fd312eedd0ad421d77047cbca00656db9e1af73f81fcdf17081d1eec46ff520a",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0224.jsonl",
+      "phase": "pilot",
+      "source_sha256": "4fad7d4503f231ecff2ce705fb7802b97d53a0ff5acdcfd1d6c58a5e5c353d30",
+      "step": 224,
+      "stored_sha256": "4fad7d4503f231ecff2ce705fb7802b97d53a0ff5acdcfd1d6c58a5e5c353d30",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0256.jsonl",
+      "phase": "pilot",
+      "source_sha256": "7225ee4d07ad54e4070a285c714813ab7d88799f1c63c4aecfbc30f63f1a37e4",
+      "step": 256,
+      "stored_sha256": "7225ee4d07ad54e4070a285c714813ab7d88799f1c63c4aecfbc30f63f1a37e4",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0288.jsonl",
+      "phase": "pilot",
+      "source_sha256": "bd0a3907335a1d7ff339912c26f6b8786be144225defe88ba0b809d86e1cbc5d",
+      "step": 288,
+      "stored_sha256": "bd0a3907335a1d7ff339912c26f6b8786be144225defe88ba0b809d86e1cbc5d",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0320.jsonl",
+      "phase": "pilot",
+      "source_sha256": "a3d59184a239cefb05d43a682228c21076cce9836c90e2936fab952bc8ae5295",
+      "step": 320,
+      "stored_sha256": "a3d59184a239cefb05d43a682228c21076cce9836c90e2936fab952bc8ae5295",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0352.jsonl",
+      "phase": "pilot",
+      "source_sha256": "eb333c26f2c1e368ea12ba0f9ea1a485d649b7352380b4c9768ecc112e9e33f4",
+      "step": 352,
+      "stored_sha256": "eb333c26f2c1e368ea12ba0f9ea1a485d649b7352380b4c9768ecc112e9e33f4",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0384.jsonl",
+      "phase": "pilot",
+      "source_sha256": "fac851477443f7d5daea632e387205113b800386090c041322a805f3c19af0d8",
+      "step": 384,
+      "stored_sha256": "fac851477443f7d5daea632e387205113b800386090c041322a805f3c19af0d8",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0416.jsonl",
+      "phase": "pilot",
+      "source_sha256": "39d0bb3be4754446ee128ff030a5e8621f3cac9dd48a73d77ed9b8d2931f6ff8",
+      "step": 416,
+      "stored_sha256": "39d0bb3be4754446ee128ff030a5e8621f3cac9dd48a73d77ed9b8d2931f6ff8",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0448.jsonl",
+      "phase": "pilot",
+      "source_sha256": "f8232941729244e6d818c51e4a35b2c75d05cead1d89439d02ec12f949f1d7c6",
+      "step": 448,
+      "stored_sha256": "f8232941729244e6d818c51e4a35b2c75d05cead1d89439d02ec12f949f1d7c6",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0480.jsonl",
+      "phase": "pilot",
+      "source_sha256": "2210df7cd70b624b3a0412d3962ea69a3a233d0a0c821bce4aa8d2b806118239",
+      "step": 480,
+      "stored_sha256": "2210df7cd70b624b3a0412d3962ea69a3a233d0a0c821bce4aa8d2b806118239",
+      "world": 962
+    },
+    {
+      "archive": "e4_v4_world962.tar.gz",
+      "arm": "joint",
+      "member": "runs/pilot/world962_joint/eval_0512.jsonl",
+      "phase": "pilot",
+      "source_sha256": "38868c4f3f021a3e9212003dd7c482de40c4c9f2121e8f7fd1930de8def7d537",
+      "step": 512,
+      "stored_sha256": "38868c4f3f021a3e9212003dd7c482de40c4c9f2121e8f7fd1930de8def7d537",
+      "world": 962
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d9ae45df637376af3c18ef0f7ebf754fbc6f35e031d525f7242db2376b7ee87d",
+      "step": 0,
+      "stored_sha256": "d9ae45df637376af3c18ef0f7ebf754fbc6f35e031d525f7242db2376b7ee87d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9159ad897239fdcdf472cff55a98b5ff3d44af59a5aa1e1165184cb4e0ba1fd6",
+      "step": 32,
+      "stored_sha256": "9159ad897239fdcdf472cff55a98b5ff3d44af59a5aa1e1165184cb4e0ba1fd6",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "db8cb3b5dff4d7a49ee3dc361db0f6235a8fdef8565654d9db388baf1babafe9",
+      "step": 64,
+      "stored_sha256": "db8cb3b5dff4d7a49ee3dc361db0f6235a8fdef8565654d9db388baf1babafe9",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f5d317afbb87c9518edf04f1c33bb1142dc6d3f24bd9c32b8b368010758fb490",
+      "step": 96,
+      "stored_sha256": "f5d317afbb87c9518edf04f1c33bb1142dc6d3f24bd9c32b8b368010758fb490",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "48b7903aa568e7653c0e2daa822687ada3ef90be04f3e1b5dc923ad63e9f39db",
+      "step": 128,
+      "stored_sha256": "48b7903aa568e7653c0e2daa822687ada3ef90be04f3e1b5dc923ad63e9f39db",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "40b84bc38b48d4159779a8aedde4637ce2fb4f930cdcc59e6d9cc16c63b9fe5d",
+      "step": 160,
+      "stored_sha256": "40b84bc38b48d4159779a8aedde4637ce2fb4f930cdcc59e6d9cc16c63b9fe5d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a52988eb3b8f670ce813236d5a80fd5c62618eeaf4649c6155ae92f9a3c24832",
+      "step": 192,
+      "stored_sha256": "a52988eb3b8f670ce813236d5a80fd5c62618eeaf4649c6155ae92f9a3c24832",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1a7510bd12747f790d5f6e75e6e3e1847be271b23b3e9bf8199fc6d99c48d78c",
+      "step": 224,
+      "stored_sha256": "1a7510bd12747f790d5f6e75e6e3e1847be271b23b3e9bf8199fc6d99c48d78c",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a89a90a72b786711317558decb5ea48a6e5f50c7f5dad52e513dbbc0dfe753f5",
+      "step": 256,
+      "stored_sha256": "a89a90a72b786711317558decb5ea48a6e5f50c7f5dad52e513dbbc0dfe753f5",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c14edfae931e73613a13fc4f60548ad2024f3b3f86b4ec52e43be2616fde8e0d",
+      "step": 288,
+      "stored_sha256": "c14edfae931e73613a13fc4f60548ad2024f3b3f86b4ec52e43be2616fde8e0d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "aa34513d8b9ff1035ff71836fba00f3d2b750cb6492a36e744d06451d0965bae",
+      "step": 320,
+      "stored_sha256": "aa34513d8b9ff1035ff71836fba00f3d2b750cb6492a36e744d06451d0965bae",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "624a5aed263a4c3c8c8ea4200cf0ae52a9862456f471fb87abe618a7e28a4b32",
+      "step": 352,
+      "stored_sha256": "624a5aed263a4c3c8c8ea4200cf0ae52a9862456f471fb87abe618a7e28a4b32",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "30b6e55e288cd7bcf5f1a68b35c38d80b901081f5a338ac51523a2bbc19d964b",
+      "step": 384,
+      "stored_sha256": "30b6e55e288cd7bcf5f1a68b35c38d80b901081f5a338ac51523a2bbc19d964b",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "10149bc89ae1f8d63282184711324f1563074c040989e1cd721ea0fba1992337",
+      "step": 416,
+      "stored_sha256": "10149bc89ae1f8d63282184711324f1563074c040989e1cd721ea0fba1992337",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f559c5d5e7990f6320e6c44abfd6775c1b70b31ace6377e3005e7c57458b6fb7",
+      "step": 448,
+      "stored_sha256": "f559c5d5e7990f6320e6c44abfd6775c1b70b31ace6377e3005e7c57458b6fb7",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "baf0731230987b86394ca4513adba2b6ebc52c834e4091cb64695892643d790b",
+      "step": 480,
+      "stored_sha256": "baf0731230987b86394ca4513adba2b6ebc52c834e4091cb64695892643d790b",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world971_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f999dbfc7a0a056acaaab0c393e64b36e3478462919549d6162dc2977e6f22af",
+      "step": 512,
+      "stored_sha256": "f999dbfc7a0a056acaaab0c393e64b36e3478462919549d6162dc2977e6f22af",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d9ae45df637376af3c18ef0f7ebf754fbc6f35e031d525f7242db2376b7ee87d",
+      "step": 0,
+      "stored_sha256": "d9ae45df637376af3c18ef0f7ebf754fbc6f35e031d525f7242db2376b7ee87d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8fbb9db7fce112e7c06e95f799035d3fa189b6019ddf6238591882e448a42e65",
+      "step": 32,
+      "stored_sha256": "8fbb9db7fce112e7c06e95f799035d3fa189b6019ddf6238591882e448a42e65",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f2a4bd6aa2b5e7a3802b35e4503d419b98988ef8a304edd548942c5da133cd7b",
+      "step": 64,
+      "stored_sha256": "f2a4bd6aa2b5e7a3802b35e4503d419b98988ef8a304edd548942c5da133cd7b",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9b28e20dcb95de085456765e805adea5fed5b8622d9e2d7ff7e81ef8f44514d6",
+      "step": 96,
+      "stored_sha256": "9b28e20dcb95de085456765e805adea5fed5b8622d9e2d7ff7e81ef8f44514d6",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e41bf18cecb37f56c1242bf0f14d8d09c62799886240dc00619ea6951fdde777",
+      "step": 128,
+      "stored_sha256": "e41bf18cecb37f56c1242bf0f14d8d09c62799886240dc00619ea6951fdde777",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "99b55105042e38aea70f9a43e68c6404200260966aa854c9232dfe7148bd45a0",
+      "step": 160,
+      "stored_sha256": "99b55105042e38aea70f9a43e68c6404200260966aa854c9232dfe7148bd45a0",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "6bf110da599e56cfaee290b5d15ece4d5f92319fa0923bf47a40088172cc3f3a",
+      "step": 192,
+      "stored_sha256": "6bf110da599e56cfaee290b5d15ece4d5f92319fa0923bf47a40088172cc3f3a",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d57f0b285bf03b7c5e05bab43ef7441e86ba08693e59018ab5d583cf1901c567",
+      "step": 224,
+      "stored_sha256": "d57f0b285bf03b7c5e05bab43ef7441e86ba08693e59018ab5d583cf1901c567",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "91f5cfa1bd7d3b56053c7cd3949262d2d7ec96e50fff28a6b6f26b6db0081eab",
+      "step": 256,
+      "stored_sha256": "91f5cfa1bd7d3b56053c7cd3949262d2d7ec96e50fff28a6b6f26b6db0081eab",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9065d2dc7e36f2ab8eed03dcb980ecdc79da7848cc851ab58b81f371c9f473d8",
+      "step": 288,
+      "stored_sha256": "9065d2dc7e36f2ab8eed03dcb980ecdc79da7848cc851ab58b81f371c9f473d8",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4de6edd67562c3aa431eccd1499ae6664b751ef9c8eb06fd100d745f5ab07b7d",
+      "step": 320,
+      "stored_sha256": "4de6edd67562c3aa431eccd1499ae6664b751ef9c8eb06fd100d745f5ab07b7d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5975e6cf2ab420bb5d267281cf78c090ac9f0a66e204be250b9e1e37a6ad5dd9",
+      "step": 352,
+      "stored_sha256": "5975e6cf2ab420bb5d267281cf78c090ac9f0a66e204be250b9e1e37a6ad5dd9",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "95b65f299fb054fc30914dcdfb4a27c030bacc2b5793e83417e1acd27b2dd233",
+      "step": 384,
+      "stored_sha256": "95b65f299fb054fc30914dcdfb4a27c030bacc2b5793e83417e1acd27b2dd233",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "7368271638de4b45f788d9fe4a5ae9e5d290dda25920d0e3eb5a8598813e283d",
+      "step": 416,
+      "stored_sha256": "7368271638de4b45f788d9fe4a5ae9e5d290dda25920d0e3eb5a8598813e283d",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2c4e86371c4060fcbdc94b84c1229d5f2be0aaf25b5489cd83fab54107c9ec7a",
+      "step": 448,
+      "stored_sha256": "2c4e86371c4060fcbdc94b84c1229d5f2be0aaf25b5489cd83fab54107c9ec7a",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4f76a92443492ce50c49508628da2d20fbf0fc314370fd6d42b7e7dc2be263d0",
+      "step": 480,
+      "stored_sha256": "4f76a92443492ce50c49508628da2d20fbf0fc314370fd6d42b7e7dc2be263d0",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world971.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world971_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "79e78846232b0bec2945ed5a5171a6c74846c7f7bd67f38b91493494f01a6463",
+      "step": 512,
+      "stored_sha256": "79e78846232b0bec2945ed5a5171a6c74846c7f7bd67f38b91493494f01a6463",
+      "world": 971
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d42ff5417edefbb668fed02f6d7a61b5d2ec3df9c1ba37feef82afd1ba456484",
+      "step": 0,
+      "stored_sha256": "d42ff5417edefbb668fed02f6d7a61b5d2ec3df9c1ba37feef82afd1ba456484",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "7c294b8f34e81edaf43a4977e87282fc4a57b58f4a7705f42bc1ded2a50d6cc7",
+      "step": 32,
+      "stored_sha256": "7c294b8f34e81edaf43a4977e87282fc4a57b58f4a7705f42bc1ded2a50d6cc7",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2aa4aa73f8a3eb8054120aab51984cccc6dc4dfed6519595d69ed7d6a7d9ed28",
+      "step": 64,
+      "stored_sha256": "2aa4aa73f8a3eb8054120aab51984cccc6dc4dfed6519595d69ed7d6a7d9ed28",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9be65c2734a67455219a72cb6440175c11f76f865d83065b752a5550769f8b1d",
+      "step": 96,
+      "stored_sha256": "9be65c2734a67455219a72cb6440175c11f76f865d83065b752a5550769f8b1d",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "be1eaaf296b05a90ce1c1f3cdb3a7006a30153916ad2a011bb19bb26365c01d0",
+      "step": 128,
+      "stored_sha256": "be1eaaf296b05a90ce1c1f3cdb3a7006a30153916ad2a011bb19bb26365c01d0",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4b4e66d1ee24a1d40642fdc34187584cdb550a60b8929f8e2854bad799ba59de",
+      "step": 160,
+      "stored_sha256": "4b4e66d1ee24a1d40642fdc34187584cdb550a60b8929f8e2854bad799ba59de",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "60b382b87e9b4c614cbedcc3f08b59800559bd4f44c2f4d762238797d99ca304",
+      "step": 192,
+      "stored_sha256": "60b382b87e9b4c614cbedcc3f08b59800559bd4f44c2f4d762238797d99ca304",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "770d17b196319d5b3f48907fe417162b94dd93b89eba2e4cbf80b55105436be7",
+      "step": 224,
+      "stored_sha256": "770d17b196319d5b3f48907fe417162b94dd93b89eba2e4cbf80b55105436be7",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9585cffa41837327f1c5cff68f3a4fe14f229e2a637368d697b9616945fb9c26",
+      "step": 256,
+      "stored_sha256": "9585cffa41837327f1c5cff68f3a4fe14f229e2a637368d697b9616945fb9c26",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "378cf92245ec69fc7c959e094539afa735b6e5ebd0e484c2de66f451688510d6",
+      "step": 288,
+      "stored_sha256": "378cf92245ec69fc7c959e094539afa735b6e5ebd0e484c2de66f451688510d6",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9e0745589752c46cf1392939072485a7f618fe58feb73c4c649aabdfb0a9a984",
+      "step": 320,
+      "stored_sha256": "9e0745589752c46cf1392939072485a7f618fe58feb73c4c649aabdfb0a9a984",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "88219d8234230f3967877238c30e819f5e3e4bf3fed272ab80af98d4cc433386",
+      "step": 352,
+      "stored_sha256": "88219d8234230f3967877238c30e819f5e3e4bf3fed272ab80af98d4cc433386",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "72e8deaa8310ee28e16904738b425137fe8bc5182ba6489d672ebe3de03fbbf3",
+      "step": 384,
+      "stored_sha256": "72e8deaa8310ee28e16904738b425137fe8bc5182ba6489d672ebe3de03fbbf3",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b45bb9ce47aa3a347b2ff356f3cd1a05fd85a8465a01a41798ccce05ef9d49f0",
+      "step": 416,
+      "stored_sha256": "b45bb9ce47aa3a347b2ff356f3cd1a05fd85a8465a01a41798ccce05ef9d49f0",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "219982e44774a9537f80dd6d3fdcf7e474319b971143979dc34ce40066ee947c",
+      "step": 448,
+      "stored_sha256": "219982e44774a9537f80dd6d3fdcf7e474319b971143979dc34ce40066ee947c",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ede6ab014ad28e3232999b026631b9a9c9c5e56138fcc16966f9215f8254f33e",
+      "step": 480,
+      "stored_sha256": "ede6ab014ad28e3232999b026631b9a9c9c5e56138fcc16966f9215f8254f33e",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world972_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f20e608a8db594fe96de6e17cecdc01ad0a476876e2b28aabc50ead67fec3d1c",
+      "step": 512,
+      "stored_sha256": "f20e608a8db594fe96de6e17cecdc01ad0a476876e2b28aabc50ead67fec3d1c",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d42ff5417edefbb668fed02f6d7a61b5d2ec3df9c1ba37feef82afd1ba456484",
+      "step": 0,
+      "stored_sha256": "d42ff5417edefbb668fed02f6d7a61b5d2ec3df9c1ba37feef82afd1ba456484",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "14140f8f4f56a5499c144676308f19c033a8d1e6ffe7cc064126c0e2814d818b",
+      "step": 32,
+      "stored_sha256": "14140f8f4f56a5499c144676308f19c033a8d1e6ffe7cc064126c0e2814d818b",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2d3e8f29d22e707bd8b5a4e4bfd13e9b145a8ce985362c3baae4788b3066f840",
+      "step": 64,
+      "stored_sha256": "2d3e8f29d22e707bd8b5a4e4bfd13e9b145a8ce985362c3baae4788b3066f840",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5d968cb12e3c96c53444fcc29aaa6cdf0f695660e2222c976854cfce41d3fcac",
+      "step": 96,
+      "stored_sha256": "5d968cb12e3c96c53444fcc29aaa6cdf0f695660e2222c976854cfce41d3fcac",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a93d12aa19a590087a882511fb2dda9ffa319491bb859a42070c909bccd66e3d",
+      "step": 128,
+      "stored_sha256": "a93d12aa19a590087a882511fb2dda9ffa319491bb859a42070c909bccd66e3d",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "60a2a26c4098e9bc05d25cfe8e72a66ea3d6cc36261018b0122ebb77ec590a70",
+      "step": 160,
+      "stored_sha256": "60a2a26c4098e9bc05d25cfe8e72a66ea3d6cc36261018b0122ebb77ec590a70",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1d115c56b84c45fcf0485f4e09222fccbdf56ff2788526c5e68dbd821cfaad54",
+      "step": 192,
+      "stored_sha256": "1d115c56b84c45fcf0485f4e09222fccbdf56ff2788526c5e68dbd821cfaad54",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ee9f26245097fb4fb34621b3cb20faa16062c47502bbd99f1990508a3134c389",
+      "step": 224,
+      "stored_sha256": "ee9f26245097fb4fb34621b3cb20faa16062c47502bbd99f1990508a3134c389",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "66476972a09fef260071699f16f16a8bfb7819c350093fb164eadd41f11d7806",
+      "step": 256,
+      "stored_sha256": "66476972a09fef260071699f16f16a8bfb7819c350093fb164eadd41f11d7806",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "39f264ab98b44be8ebe9a11dcdb9e62c6384643a0c78b3981275b7b31ce051ee",
+      "step": 288,
+      "stored_sha256": "39f264ab98b44be8ebe9a11dcdb9e62c6384643a0c78b3981275b7b31ce051ee",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c811b1fda3ca5b8d0914b9d1e67bc7345f153f573696782683d71a9811da4732",
+      "step": 320,
+      "stored_sha256": "c811b1fda3ca5b8d0914b9d1e67bc7345f153f573696782683d71a9811da4732",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c17990ac8bac55f02977dd99ed73095eeef63afdcb3111e41640ef4ac2653e45",
+      "step": 352,
+      "stored_sha256": "c17990ac8bac55f02977dd99ed73095eeef63afdcb3111e41640ef4ac2653e45",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ca78cd76b836070a02b1fad724697f2c414214c54c96b505713fd1db9622c6a4",
+      "step": 384,
+      "stored_sha256": "ca78cd76b836070a02b1fad724697f2c414214c54c96b505713fd1db9622c6a4",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5f907abad2ab5bb98b6c0724418fe104fb292f8b396e6148b41bc2e2d3edf5a0",
+      "step": 416,
+      "stored_sha256": "5f907abad2ab5bb98b6c0724418fe104fb292f8b396e6148b41bc2e2d3edf5a0",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c7dee7254da787877a30ff25933ce085e681a02ccb5a9347781b37f18f2aed57",
+      "step": 448,
+      "stored_sha256": "c7dee7254da787877a30ff25933ce085e681a02ccb5a9347781b37f18f2aed57",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c9c2bf91efd3d4cc9965f0817e38b6eaa2dce4560815b20f748a08a614598d5c",
+      "step": 480,
+      "stored_sha256": "c9c2bf91efd3d4cc9965f0817e38b6eaa2dce4560815b20f748a08a614598d5c",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world972.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world972_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "dfc64d6c6839049e5bbf302bd2effb8a808945e1e8a2d0d44569e37e07d262f2",
+      "step": 512,
+      "stored_sha256": "dfc64d6c6839049e5bbf302bd2effb8a808945e1e8a2d0d44569e37e07d262f2",
+      "world": 972
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "255c577d26eca5a83d7a4becfeb8a5ad3a03b18625781c8e239eb82c67d693ce",
+      "step": 0,
+      "stored_sha256": "255c577d26eca5a83d7a4becfeb8a5ad3a03b18625781c8e239eb82c67d693ce",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "0259ab4ca31d57f26991528ac4f7826ae94582236d52fc3fa7fb73ed03929521",
+      "step": 32,
+      "stored_sha256": "0259ab4ca31d57f26991528ac4f7826ae94582236d52fc3fa7fb73ed03929521",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "310da4170e199c1e828e7248dcd1d48fbe3f451bc786b92f062d851a315a4474",
+      "step": 64,
+      "stored_sha256": "310da4170e199c1e828e7248dcd1d48fbe3f451bc786b92f062d851a315a4474",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "67f8fd5759068acbdbf0b539c91edde91223743aa8d8fd82ed015c8ee36ab45c",
+      "step": 96,
+      "stored_sha256": "67f8fd5759068acbdbf0b539c91edde91223743aa8d8fd82ed015c8ee36ab45c",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ce6c28c693b66e789b2c9b60505589af0536ea37e66a7bf9f68ecd71c732d55f",
+      "step": 128,
+      "stored_sha256": "ce6c28c693b66e789b2c9b60505589af0536ea37e66a7bf9f68ecd71c732d55f",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "632e5674601d5a2f89645541a53f8b57ee785670894a17c333d6631c58edeb43",
+      "step": 160,
+      "stored_sha256": "632e5674601d5a2f89645541a53f8b57ee785670894a17c333d6631c58edeb43",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ecfd400f3983663ad11851e11459ceb678d807c540c73b50e81555284fe4fb24",
+      "step": 192,
+      "stored_sha256": "ecfd400f3983663ad11851e11459ceb678d807c540c73b50e81555284fe4fb24",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b5cd1e9cabf8821feeb54147c0f629f6985f1c60178828e71aca525901bf81e9",
+      "step": 224,
+      "stored_sha256": "b5cd1e9cabf8821feeb54147c0f629f6985f1c60178828e71aca525901bf81e9",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e6a2a052d40c77574398eac0fbadf358e0ca4896048273ba192e388611adedc5",
+      "step": 256,
+      "stored_sha256": "e6a2a052d40c77574398eac0fbadf358e0ca4896048273ba192e388611adedc5",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f36b8dd2baa0b718192254fc60fa45f3a0b96c96273135fd85f4ab1dc4a4d705",
+      "step": 288,
+      "stored_sha256": "f36b8dd2baa0b718192254fc60fa45f3a0b96c96273135fd85f4ab1dc4a4d705",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3b9bfa535302ef765eb2332b38711c8423c85bff220f3bef16e4bb50a1bee856",
+      "step": 320,
+      "stored_sha256": "3b9bfa535302ef765eb2332b38711c8423c85bff220f3bef16e4bb50a1bee856",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "bacf4aedd5f684e7048e4e9633d5057ecc1442665ee9ea24cdea0dcfe7c04f4d",
+      "step": 352,
+      "stored_sha256": "bacf4aedd5f684e7048e4e9633d5057ecc1442665ee9ea24cdea0dcfe7c04f4d",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1a51c0e505600ad13b74265dbb8a90c7d0476a2c8d56837f639b04433554326b",
+      "step": 384,
+      "stored_sha256": "1a51c0e505600ad13b74265dbb8a90c7d0476a2c8d56837f639b04433554326b",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ce8783384ae6c1dc8915f982ab53b127bb982ba83685623813d67ecbfe30e6e6",
+      "step": 416,
+      "stored_sha256": "ce8783384ae6c1dc8915f982ab53b127bb982ba83685623813d67ecbfe30e6e6",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "bcd5c2c79872a97bc7ad2c63ac7ee8afe6528efea1a30815e6dc6eed14881234",
+      "step": 448,
+      "stored_sha256": "bcd5c2c79872a97bc7ad2c63ac7ee8afe6528efea1a30815e6dc6eed14881234",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "0d46bbcc953dba9156a804044ca3baad6f2f75bb1870ddbe31e4b071eea46784",
+      "step": 480,
+      "stored_sha256": "0d46bbcc953dba9156a804044ca3baad6f2f75bb1870ddbe31e4b071eea46784",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world973_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "723d155438ff4ff0198923ff2f25fe0cedd78bfa2bdda49a1309cc8b60ff7108",
+      "step": 512,
+      "stored_sha256": "723d155438ff4ff0198923ff2f25fe0cedd78bfa2bdda49a1309cc8b60ff7108",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "255c577d26eca5a83d7a4becfeb8a5ad3a03b18625781c8e239eb82c67d693ce",
+      "step": 0,
+      "stored_sha256": "255c577d26eca5a83d7a4becfeb8a5ad3a03b18625781c8e239eb82c67d693ce",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "7d46e4bbc42f9699e45b71fbe573d67a8bf9d24ee3e42ba0b8b7994d40084a68",
+      "step": 32,
+      "stored_sha256": "7d46e4bbc42f9699e45b71fbe573d67a8bf9d24ee3e42ba0b8b7994d40084a68",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "534cb3d84cb003b1599a92e5da952383421195fa6482e23bef2324f290e17ef7",
+      "step": 64,
+      "stored_sha256": "534cb3d84cb003b1599a92e5da952383421195fa6482e23bef2324f290e17ef7",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3332c7474f5940d99c783dfcd8a79424f7f5f3be55e5af5a42ef9d5d66f11392",
+      "step": 96,
+      "stored_sha256": "3332c7474f5940d99c783dfcd8a79424f7f5f3be55e5af5a42ef9d5d66f11392",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2751eef24471a6ed821e5cea6c17ab4bff7be3a1d3bbe81fd8236985d8d9c8f4",
+      "step": 128,
+      "stored_sha256": "2751eef24471a6ed821e5cea6c17ab4bff7be3a1d3bbe81fd8236985d8d9c8f4",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4e2905bc1f6610923c7d47ced127cc62d295deca02c7079edce0e53f5548b381",
+      "step": 160,
+      "stored_sha256": "4e2905bc1f6610923c7d47ced127cc62d295deca02c7079edce0e53f5548b381",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c1364817b1211af0fc14671104cb8d23beaa0d65d0a1d7419ed1f5fbce91aae2",
+      "step": 192,
+      "stored_sha256": "c1364817b1211af0fc14671104cb8d23beaa0d65d0a1d7419ed1f5fbce91aae2",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2dfd6884cc7b0bdf182e232e6594de6cc6c8dfec52ec97e88341190f3533a6e3",
+      "step": 224,
+      "stored_sha256": "2dfd6884cc7b0bdf182e232e6594de6cc6c8dfec52ec97e88341190f3533a6e3",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b4597ee4d3a15344d601cb890157cdc0102660a10552e69c774d7e7fb9e9aba8",
+      "step": 256,
+      "stored_sha256": "b4597ee4d3a15344d601cb890157cdc0102660a10552e69c774d7e7fb9e9aba8",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "73a08ce423f2fb42a5e92aacb969d217cd39b2feb8d466b48b92ae87f334a811",
+      "step": 288,
+      "stored_sha256": "73a08ce423f2fb42a5e92aacb969d217cd39b2feb8d466b48b92ae87f334a811",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f21764bbe833e4f640e8fcdad516d10c3a9447fa1184590056e8e41663ddafc3",
+      "step": 320,
+      "stored_sha256": "f21764bbe833e4f640e8fcdad516d10c3a9447fa1184590056e8e41663ddafc3",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a235d53625b06884cc1354f095469b1a45527b482a9e25d03e70c32d644c7c73",
+      "step": 352,
+      "stored_sha256": "a235d53625b06884cc1354f095469b1a45527b482a9e25d03e70c32d644c7c73",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8fdc1083ddb96e291b1c3a481b203c40fff8caaa9fd1e597944100801efc3e0a",
+      "step": 384,
+      "stored_sha256": "8fdc1083ddb96e291b1c3a481b203c40fff8caaa9fd1e597944100801efc3e0a",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "af296465446e1c57a2f46f856376bb340408b242bb8946f0bb3eb3e36f0958af",
+      "step": 416,
+      "stored_sha256": "af296465446e1c57a2f46f856376bb340408b242bb8946f0bb3eb3e36f0958af",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "789039aad696f4d59a6fd0a85b6923ab5709d4f088c58b47eb543146ee15800c",
+      "step": 448,
+      "stored_sha256": "789039aad696f4d59a6fd0a85b6923ab5709d4f088c58b47eb543146ee15800c",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f6fa0aa0a7de5add2374b7f1fca46f61798b85842f3156ba99e528aa22c93ef1",
+      "step": 480,
+      "stored_sha256": "f6fa0aa0a7de5add2374b7f1fca46f61798b85842f3156ba99e528aa22c93ef1",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world973.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world973_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a125a1922a832837574c1dd7cc705e935e4a6d3a7679a621d99e7909f9196a56",
+      "step": 512,
+      "stored_sha256": "a125a1922a832837574c1dd7cc705e935e4a6d3a7679a621d99e7909f9196a56",
+      "world": 973
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "fcdb538ab77f0d0ab05826c8afde9880f203a6c0b204380b63e86bcf917c1cd4",
+      "step": 0,
+      "stored_sha256": "fcdb538ab77f0d0ab05826c8afde9880f203a6c0b204380b63e86bcf917c1cd4",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "02dc1d0482c14c99d7aeff675e107597e1016fb671f9525cb4dcdce087e80a51",
+      "step": 32,
+      "stored_sha256": "02dc1d0482c14c99d7aeff675e107597e1016fb671f9525cb4dcdce087e80a51",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1ebceae03d204c99a5fb2cb257c8d1183f9d9b333cbf4096e963d92f75afc815",
+      "step": 64,
+      "stored_sha256": "1ebceae03d204c99a5fb2cb257c8d1183f9d9b333cbf4096e963d92f75afc815",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2233c6900b4f27cdd9d9dab67d1192ee05179e58b61a8ca6e503e72bfa5242cf",
+      "step": 96,
+      "stored_sha256": "2233c6900b4f27cdd9d9dab67d1192ee05179e58b61a8ca6e503e72bfa5242cf",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "93498754706bf131e40e4e8a97502563a6a778db312c87bfe9e8872eb78b95b2",
+      "step": 128,
+      "stored_sha256": "93498754706bf131e40e4e8a97502563a6a778db312c87bfe9e8872eb78b95b2",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d7ab3ede02fc1c2b0e475d021b794eb9e4743d83926390e22e1626a2d477b476",
+      "step": 160,
+      "stored_sha256": "d7ab3ede02fc1c2b0e475d021b794eb9e4743d83926390e22e1626a2d477b476",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "fead291b7cf430195d155bd7635defe7b4330aeb49ea3170cb30e266f3755707",
+      "step": 192,
+      "stored_sha256": "fead291b7cf430195d155bd7635defe7b4330aeb49ea3170cb30e266f3755707",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "622f036556bed6aee2b369897c42b09129c6c795b3a478f6a413de4291a86666",
+      "step": 224,
+      "stored_sha256": "622f036556bed6aee2b369897c42b09129c6c795b3a478f6a413de4291a86666",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "15a84eb1c7a860c1412533c7920976b80cab15ea8bb622a951dbedeaf70ac3c2",
+      "step": 256,
+      "stored_sha256": "15a84eb1c7a860c1412533c7920976b80cab15ea8bb622a951dbedeaf70ac3c2",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "49aae1d5993d8cce45f147b2b416fcefcb7ab1de7f640701c84a63835e4c3984",
+      "step": 288,
+      "stored_sha256": "49aae1d5993d8cce45f147b2b416fcefcb7ab1de7f640701c84a63835e4c3984",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e137b2732a3a5c8201f43cca608ef67edf345d4703df383ed19ae840b269e757",
+      "step": 320,
+      "stored_sha256": "e137b2732a3a5c8201f43cca608ef67edf345d4703df383ed19ae840b269e757",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "86c2cc352c694cc3332c72d434b292c3ff5a26b198a7377f188446f6000f86d0",
+      "step": 352,
+      "stored_sha256": "86c2cc352c694cc3332c72d434b292c3ff5a26b198a7377f188446f6000f86d0",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "281de1fd42e1fa0901e8b5bcf2f44cb4b73342b58e9412a656aaf9764b403790",
+      "step": 384,
+      "stored_sha256": "281de1fd42e1fa0901e8b5bcf2f44cb4b73342b58e9412a656aaf9764b403790",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1a308616c7ebcda560aac45fce2bf74524588e2f8b29a3cf4895c269a5340622",
+      "step": 416,
+      "stored_sha256": "1a308616c7ebcda560aac45fce2bf74524588e2f8b29a3cf4895c269a5340622",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "f3fe07a24fc5c5e22d98ca633308a8af8e2ba82a5dd4a6aaaac1892d4082a296",
+      "step": 448,
+      "stored_sha256": "f3fe07a24fc5c5e22d98ca633308a8af8e2ba82a5dd4a6aaaac1892d4082a296",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "906ce4f9a6a565d7eeecd5d2a8f02fdf5d62cf56f58366d716a8b8b2d4e2c6dc",
+      "step": 480,
+      "stored_sha256": "906ce4f9a6a565d7eeecd5d2a8f02fdf5d62cf56f58366d716a8b8b2d4e2c6dc",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world974_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "13e41c217b8517f1b5011e97419884f4735ff14193b489cbf91f1770304ea525",
+      "step": 512,
+      "stored_sha256": "13e41c217b8517f1b5011e97419884f4735ff14193b489cbf91f1770304ea525",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "fcdb538ab77f0d0ab05826c8afde9880f203a6c0b204380b63e86bcf917c1cd4",
+      "step": 0,
+      "stored_sha256": "fcdb538ab77f0d0ab05826c8afde9880f203a6c0b204380b63e86bcf917c1cd4",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3cfa25faf62a169281d0d8b0677ff760b92528f156c794f32a4525876319d56f",
+      "step": 32,
+      "stored_sha256": "3cfa25faf62a169281d0d8b0677ff760b92528f156c794f32a4525876319d56f",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a4ac434cdc60d16ed85e360e4ad86e591aadc97d95e136c7b5a22096fb45b71b",
+      "step": 64,
+      "stored_sha256": "a4ac434cdc60d16ed85e360e4ad86e591aadc97d95e136c7b5a22096fb45b71b",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1a2ffe5184890b74234a2a294db505ce7dfffde0fb45996917f6c8e5a8667705",
+      "step": 96,
+      "stored_sha256": "1a2ffe5184890b74234a2a294db505ce7dfffde0fb45996917f6c8e5a8667705",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "54090f164e2e2df254eee1d4606fecf99d375d889a5d1533f93494e72307d84c",
+      "step": 128,
+      "stored_sha256": "54090f164e2e2df254eee1d4606fecf99d375d889a5d1533f93494e72307d84c",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "561c3167bc595ef66313a864953c4f3f26e837b8ca44e191e4bd1591c00084cd",
+      "step": 160,
+      "stored_sha256": "561c3167bc595ef66313a864953c4f3f26e837b8ca44e191e4bd1591c00084cd",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5ce74632c2f654c23f0b8b139f342c1d39fcd31b0b5de35fd67544c4e553e5eb",
+      "step": 192,
+      "stored_sha256": "5ce74632c2f654c23f0b8b139f342c1d39fcd31b0b5de35fd67544c4e553e5eb",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e0c6f1394fdd2e163d395b3a4422df745e5b97e7f0d3f2366d89ef1a23e2611e",
+      "step": 224,
+      "stored_sha256": "e0c6f1394fdd2e163d395b3a4422df745e5b97e7f0d3f2366d89ef1a23e2611e",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c609110e515f47656835525e8bb6557339271a5138c74658c0b45292ee4a1e37",
+      "step": 256,
+      "stored_sha256": "c609110e515f47656835525e8bb6557339271a5138c74658c0b45292ee4a1e37",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "08becca9a9ee94fc6ebe2b53725edef25dbe27ba0d000a4a603dc9494bcefdeb",
+      "step": 288,
+      "stored_sha256": "08becca9a9ee94fc6ebe2b53725edef25dbe27ba0d000a4a603dc9494bcefdeb",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "956155e6b447c7fc42404c431c0a72610dabcbfb77d764a6b1b89c07853275b3",
+      "step": 320,
+      "stored_sha256": "956155e6b447c7fc42404c431c0a72610dabcbfb77d764a6b1b89c07853275b3",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "13588515c0eebaf89ca4f7bc20cf76e08334aaae43c2f0f3d2efd25844c717da",
+      "step": 352,
+      "stored_sha256": "13588515c0eebaf89ca4f7bc20cf76e08334aaae43c2f0f3d2efd25844c717da",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3345dcd20c273e48aca5d64e5efda3d050b07cf7f0fca0205602831675fb536e",
+      "step": 384,
+      "stored_sha256": "3345dcd20c273e48aca5d64e5efda3d050b07cf7f0fca0205602831675fb536e",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "6c2fdc8742e5f0564332920287739ec2790ab84ea47b17a54f47470056858571",
+      "step": 416,
+      "stored_sha256": "6c2fdc8742e5f0564332920287739ec2790ab84ea47b17a54f47470056858571",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9ffc9a0ff2a7e6dc5ceb8bf733906f17b7b1a39b3ded5968732073081e27dc7f",
+      "step": 448,
+      "stored_sha256": "9ffc9a0ff2a7e6dc5ceb8bf733906f17b7b1a39b3ded5968732073081e27dc7f",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "43983fdd26f45c83ad3ccd6ee729d5a773973c34c2626353b73cb2662933f0d3",
+      "step": 480,
+      "stored_sha256": "43983fdd26f45c83ad3ccd6ee729d5a773973c34c2626353b73cb2662933f0d3",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world974.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world974_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "89dd043a0f5ded80c16c6fb6e55e75b83894c7f3ad80e18658faa695003ecb31",
+      "step": 512,
+      "stored_sha256": "89dd043a0f5ded80c16c6fb6e55e75b83894c7f3ad80e18658faa695003ecb31",
+      "world": 974
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3e70c040f19ea9f5980fd0392db543ca0f9a8d43386ee6e7d2db640c99c239fe",
+      "step": 0,
+      "stored_sha256": "3e70c040f19ea9f5980fd0392db543ca0f9a8d43386ee6e7d2db640c99c239fe",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "74f1314918e2d79dbf1d0a4e0d6cc87866563d96e99fa355757154a351b7d6a4",
+      "step": 32,
+      "stored_sha256": "74f1314918e2d79dbf1d0a4e0d6cc87866563d96e99fa355757154a351b7d6a4",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "93d732c0fd60a8e296e1755dd4e4969a3828a47123a87bc11f6761a99ecadcf4",
+      "step": 64,
+      "stored_sha256": "93d732c0fd60a8e296e1755dd4e4969a3828a47123a87bc11f6761a99ecadcf4",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "069e49f43003647b85a418f52875ddb894d8c5cfc902ac4efc90f7da6a1175a5",
+      "step": 96,
+      "stored_sha256": "069e49f43003647b85a418f52875ddb894d8c5cfc902ac4efc90f7da6a1175a5",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5b55a7c9218bdc1f8fe17e774faaa1d6e461a4e17ddcbb7559998d0b954458da",
+      "step": 128,
+      "stored_sha256": "5b55a7c9218bdc1f8fe17e774faaa1d6e461a4e17ddcbb7559998d0b954458da",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ee275b26ddf5e2c4a3fc7f99ddfdb245d189dfff81d7d7722bd2be369042e591",
+      "step": 160,
+      "stored_sha256": "ee275b26ddf5e2c4a3fc7f99ddfdb245d189dfff81d7d7722bd2be369042e591",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d3312162c3db4de387ee742628e0090683ec1643fabd079b1a0d14b32360080d",
+      "step": 192,
+      "stored_sha256": "d3312162c3db4de387ee742628e0090683ec1643fabd079b1a0d14b32360080d",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c26a5d17bff328841d9ded769171fb5f27f35bed6f4507dea63ce424ceed6e23",
+      "step": 224,
+      "stored_sha256": "c26a5d17bff328841d9ded769171fb5f27f35bed6f4507dea63ce424ceed6e23",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9543284bb41b508a083400c4a5159c7f21c15826366747415b72e233211a6822",
+      "step": 256,
+      "stored_sha256": "9543284bb41b508a083400c4a5159c7f21c15826366747415b72e233211a6822",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "19495a36f66d3d42092837cc6f6ae68e935be04a821a19f968dd0f05c0df1137",
+      "step": 288,
+      "stored_sha256": "19495a36f66d3d42092837cc6f6ae68e935be04a821a19f968dd0f05c0df1137",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "5fcbf96ccf717395cd9ef46bc96dede589ebe5037435a646ae4de92043edcda5",
+      "step": 320,
+      "stored_sha256": "5fcbf96ccf717395cd9ef46bc96dede589ebe5037435a646ae4de92043edcda5",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "97f0bbf3c7fce550127bf71be6bc2ebcc24016c474492ea28cc040336936c537",
+      "step": 352,
+      "stored_sha256": "97f0bbf3c7fce550127bf71be6bc2ebcc24016c474492ea28cc040336936c537",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b2f4156aec59dc1d1f9889b5bd86b4b293a9e162eafdd06429ab0b1e0b173d66",
+      "step": 384,
+      "stored_sha256": "b2f4156aec59dc1d1f9889b5bd86b4b293a9e162eafdd06429ab0b1e0b173d66",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d1a0ff2780774a6816c72e5a4008adf3f3388c4d5648858d185d2d04b2c20b27",
+      "step": 416,
+      "stored_sha256": "d1a0ff2780774a6816c72e5a4008adf3f3388c4d5648858d185d2d04b2c20b27",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "28379c668b01c2d06d1b6918b22e3af771bb47fc4d345b044d2391d326f15135",
+      "step": 448,
+      "stored_sha256": "28379c668b01c2d06d1b6918b22e3af771bb47fc4d345b044d2391d326f15135",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8aea6d5c1b6905dafe4f18878573f515da209024172da265243caee6c279bced",
+      "step": 480,
+      "stored_sha256": "8aea6d5c1b6905dafe4f18878573f515da209024172da265243caee6c279bced",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world975_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "688d41145087fa6103d5d147543cc5c5f2eae0e8233164e65e5affe981887d39",
+      "step": 512,
+      "stored_sha256": "688d41145087fa6103d5d147543cc5c5f2eae0e8233164e65e5affe981887d39",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3e70c040f19ea9f5980fd0392db543ca0f9a8d43386ee6e7d2db640c99c239fe",
+      "step": 0,
+      "stored_sha256": "3e70c040f19ea9f5980fd0392db543ca0f9a8d43386ee6e7d2db640c99c239fe",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3b633fe0faeecd8d8dc9008d53d87f4c7f6e44e5f1b319b7c4d6ba1499baa7cf",
+      "step": 32,
+      "stored_sha256": "3b633fe0faeecd8d8dc9008d53d87f4c7f6e44e5f1b319b7c4d6ba1499baa7cf",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "45f8a17101ad6debab4f3a43ac7cf543358d341460aa27bd0d0bb34804f4d0f0",
+      "step": 64,
+      "stored_sha256": "45f8a17101ad6debab4f3a43ac7cf543358d341460aa27bd0d0bb34804f4d0f0",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "a815a53a80512fba109f7fe48861eb69fb105fd000e4ef0aa88561735d46e636",
+      "step": 96,
+      "stored_sha256": "a815a53a80512fba109f7fe48861eb69fb105fd000e4ef0aa88561735d46e636",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "79267b4b1f91c75b624ed4c4472b70767f53fad7b6551ca5886bd4e1a5e9cec6",
+      "step": 128,
+      "stored_sha256": "79267b4b1f91c75b624ed4c4472b70767f53fad7b6551ca5886bd4e1a5e9cec6",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "99088bcae659dbabacfb1cdbaa73befb0faa3038e38fbe13dfc00aa32e96cc49",
+      "step": 160,
+      "stored_sha256": "99088bcae659dbabacfb1cdbaa73befb0faa3038e38fbe13dfc00aa32e96cc49",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e632f89416fbc6b3a93c87057e9483826adffc863d753dc60cdac3290b54f095",
+      "step": 192,
+      "stored_sha256": "e632f89416fbc6b3a93c87057e9483826adffc863d753dc60cdac3290b54f095",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ad01111421c4e12ae3dda162cdbac1e7ffb718364ea96a240e0e897d2b194f0e",
+      "step": 224,
+      "stored_sha256": "ad01111421c4e12ae3dda162cdbac1e7ffb718364ea96a240e0e897d2b194f0e",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b67f5acb25432e0226c80a2995892149426269493226b8e456ad3003adef37b2",
+      "step": 256,
+      "stored_sha256": "b67f5acb25432e0226c80a2995892149426269493226b8e456ad3003adef37b2",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3d5b0ad4bd5dead0ee46a8043a4082d47d172b7324d97bc2ddb8b63f7032944d",
+      "step": 288,
+      "stored_sha256": "3d5b0ad4bd5dead0ee46a8043a4082d47d172b7324d97bc2ddb8b63f7032944d",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4282dd71df4186037bfbc760ca1b3ffc4c3435c1ed0a20bbb6ed50fcf42dba07",
+      "step": 320,
+      "stored_sha256": "4282dd71df4186037bfbc760ca1b3ffc4c3435c1ed0a20bbb6ed50fcf42dba07",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "723df6991c5729e205168e6c22bca4c9c38a8e6b1ccaee64138bfea1efe52ece",
+      "step": 352,
+      "stored_sha256": "723df6991c5729e205168e6c22bca4c9c38a8e6b1ccaee64138bfea1efe52ece",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "6f8e4665ad32724358adf2c3c44c546cbeeb8e22b2dd4cd8ab78efa4a2d9ac56",
+      "step": 384,
+      "stored_sha256": "6f8e4665ad32724358adf2c3c44c546cbeeb8e22b2dd4cd8ab78efa4a2d9ac56",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "9994eec7da9b2105c764c78409fd816f27cc2a49569d11a5745a0bcd3bcd1e60",
+      "step": 416,
+      "stored_sha256": "9994eec7da9b2105c764c78409fd816f27cc2a49569d11a5745a0bcd3bcd1e60",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "86e0df856fc25f05a11353cce5a962a92eecda4e2ba2f0fe20286de9adc17768",
+      "step": 448,
+      "stored_sha256": "86e0df856fc25f05a11353cce5a962a92eecda4e2ba2f0fe20286de9adc17768",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "dda42437a7820277a1ea83db9d3cd3ba8e7c491690ce8f6f1c86af057187c7cd",
+      "step": 480,
+      "stored_sha256": "dda42437a7820277a1ea83db9d3cd3ba8e7c491690ce8f6f1c86af057187c7cd",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world975.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world975_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "2241cb9f0f86e6bf0a9524ceed7ecff82348a7861b10c208dad899d17112ff9f",
+      "step": 512,
+      "stored_sha256": "2241cb9f0f86e6bf0a9524ceed7ecff82348a7861b10c208dad899d17112ff9f",
+      "world": 975
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "0df1d0d1543c8d45f3036a610bdc672997531657f2845cf76ffe96f10d858f66",
+      "step": 0,
+      "stored_sha256": "0df1d0d1543c8d45f3036a610bdc672997531657f2845cf76ffe96f10d858f66",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8b6a1be4ae76deebc8319496820dd8f8014c666804a990faa695e1975449fb80",
+      "step": 32,
+      "stored_sha256": "8b6a1be4ae76deebc8319496820dd8f8014c666804a990faa695e1975449fb80",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "dafcf219dcef3ea0ab7180f4c1d5592194799cdb8f9f2272a4f3ccea61056e92",
+      "step": 64,
+      "stored_sha256": "dafcf219dcef3ea0ab7180f4c1d5592194799cdb8f9f2272a4f3ccea61056e92",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8bea2d7dfe6527e35f61f416dfd361d91bf9ce1c2b4a52d63b476e1f9bf6d4df",
+      "step": 96,
+      "stored_sha256": "8bea2d7dfe6527e35f61f416dfd361d91bf9ce1c2b4a52d63b476e1f9bf6d4df",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "0040d58003175a337e74538d608ad8a7cdb2beb2793915206a8ac0cc8cbb84c2",
+      "step": 128,
+      "stored_sha256": "0040d58003175a337e74538d608ad8a7cdb2beb2793915206a8ac0cc8cbb84c2",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "44af3a5eaa5f256c6e875d0487af425da438bd95fa58046a13c16c352ffb2940",
+      "step": 160,
+      "stored_sha256": "44af3a5eaa5f256c6e875d0487af425da438bd95fa58046a13c16c352ffb2940",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e800adaa32597b0eba16ada29d4421770057096fd54f859538c6b3de1142885a",
+      "step": 192,
+      "stored_sha256": "e800adaa32597b0eba16ada29d4421770057096fd54f859538c6b3de1142885a",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e7e7a8afee6c628a13d936f6403e853d3893556d847bf375931d4b18349abd3f",
+      "step": 224,
+      "stored_sha256": "e7e7a8afee6c628a13d936f6403e853d3893556d847bf375931d4b18349abd3f",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "95c847498b4930d45fcf7f05c3b3db627080b98f5f8aa50f6cfdae5f5b4b188b",
+      "step": 256,
+      "stored_sha256": "95c847498b4930d45fcf7f05c3b3db627080b98f5f8aa50f6cfdae5f5b4b188b",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "bc7cee82ed64513b9a48273cc7d1b3a08ecd24774cd781bb7000176e1c581240",
+      "step": 288,
+      "stored_sha256": "bc7cee82ed64513b9a48273cc7d1b3a08ecd24774cd781bb7000176e1c581240",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8b296b059f0d6147c78e2bbc83c612adad6a5f8ca9622cb6951db103d2b5422b",
+      "step": 320,
+      "stored_sha256": "8b296b059f0d6147c78e2bbc83c612adad6a5f8ca9622cb6951db103d2b5422b",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8f08c686cd15047bf81e1c853c88bdf22a2ee47d72523766751351cb0627293d",
+      "step": 352,
+      "stored_sha256": "8f08c686cd15047bf81e1c853c88bdf22a2ee47d72523766751351cb0627293d",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "42589ee8f0525749e193a49c3b5727413519ed6d892ad08cc2d040e9d01356bc",
+      "step": 384,
+      "stored_sha256": "42589ee8f0525749e193a49c3b5727413519ed6d892ad08cc2d040e9d01356bc",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "3bbf3f99a02c96f91067acc7c72553356bb1915489ede85fc2c1818ae79cb481",
+      "step": 416,
+      "stored_sha256": "3bbf3f99a02c96f91067acc7c72553356bb1915489ede85fc2c1818ae79cb481",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "497cfaa74a1014eca06996cc69473ba6a5ff659f2b338174d4f7b30a0b2f862b",
+      "step": 448,
+      "stored_sha256": "497cfaa74a1014eca06996cc69473ba6a5ff659f2b338174d4f7b30a0b2f862b",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8b2bcba5340924f8237fa40e128446e6ae29a6f8c6d1d08e206c7a8abf318161",
+      "step": 480,
+      "stored_sha256": "8b2bcba5340924f8237fa40e128446e6ae29a6f8c6d1d08e206c7a8abf318161",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "edge",
+      "member": "runs/confirm/world976_edge/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e51b6ebfb97e2d9b456d72076741f53488252c3791cb44bc964be98a0c7b8b02",
+      "step": 512,
+      "stored_sha256": "e51b6ebfb97e2d9b456d72076741f53488252c3791cb44bc964be98a0c7b8b02",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0000.jsonl",
+      "phase": "confirm",
+      "source_sha256": "0df1d0d1543c8d45f3036a610bdc672997531657f2845cf76ffe96f10d858f66",
+      "step": 0,
+      "stored_sha256": "0df1d0d1543c8d45f3036a610bdc672997531657f2845cf76ffe96f10d858f66",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0032.jsonl",
+      "phase": "confirm",
+      "source_sha256": "b82ec978859cf96b3d95d0786db5a0e3a8401766f8fcfedb6caf180baee13eed",
+      "step": 32,
+      "stored_sha256": "b82ec978859cf96b3d95d0786db5a0e3a8401766f8fcfedb6caf180baee13eed",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0064.jsonl",
+      "phase": "confirm",
+      "source_sha256": "45942be563112050d96a08c026b79c11d8c611d031facac6ab57fb9b8e8a1500",
+      "step": 64,
+      "stored_sha256": "45942be563112050d96a08c026b79c11d8c611d031facac6ab57fb9b8e8a1500",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0096.jsonl",
+      "phase": "confirm",
+      "source_sha256": "8a63150a2b7dde4bbf28e4a6080cfb83433700f96300f7a49ecea53c3ccf3798",
+      "step": 96,
+      "stored_sha256": "8a63150a2b7dde4bbf28e4a6080cfb83433700f96300f7a49ecea53c3ccf3798",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0128.jsonl",
+      "phase": "confirm",
+      "source_sha256": "ef767a24a0d5bde6e73b7747a83ae1b246caaaec05d38a39237d53b2ba5cb656",
+      "step": 128,
+      "stored_sha256": "ef767a24a0d5bde6e73b7747a83ae1b246caaaec05d38a39237d53b2ba5cb656",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0160.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1f1065c2f800af70f7ce6c50819231486221d0a12ca1b9d9253832379a5deedf",
+      "step": 160,
+      "stored_sha256": "1f1065c2f800af70f7ce6c50819231486221d0a12ca1b9d9253832379a5deedf",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0192.jsonl",
+      "phase": "confirm",
+      "source_sha256": "cade630f7d904c3c7e7cf066319241733bb047cfbfb2c170ab4970bcc4ab5a24",
+      "step": 192,
+      "stored_sha256": "cade630f7d904c3c7e7cf066319241733bb047cfbfb2c170ab4970bcc4ab5a24",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0224.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c5368dc722307ac99e21919bfa13d67dad431466a8f7a46e5df158ccd5de6f23",
+      "step": 224,
+      "stored_sha256": "c5368dc722307ac99e21919bfa13d67dad431466a8f7a46e5df158ccd5de6f23",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0256.jsonl",
+      "phase": "confirm",
+      "source_sha256": "d1844bbbf2340cb9d22f1279c70c3122bd89687a3400ff12e1e88a998cbea9ab",
+      "step": 256,
+      "stored_sha256": "d1844bbbf2340cb9d22f1279c70c3122bd89687a3400ff12e1e88a998cbea9ab",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0288.jsonl",
+      "phase": "confirm",
+      "source_sha256": "620d5addcc3a24fb2ecdafd9265a39314dceb47a8a39c16b03afce67908441ed",
+      "step": 288,
+      "stored_sha256": "620d5addcc3a24fb2ecdafd9265a39314dceb47a8a39c16b03afce67908441ed",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0320.jsonl",
+      "phase": "confirm",
+      "source_sha256": "1aaacf849b5bb55b786c98ee03cfff63f9511b515abefb074ece89d4b178f6f2",
+      "step": 320,
+      "stored_sha256": "1aaacf849b5bb55b786c98ee03cfff63f9511b515abefb074ece89d4b178f6f2",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0352.jsonl",
+      "phase": "confirm",
+      "source_sha256": "873ce0b30eba8f1d2a3ed66443eace1d383b3c717cee31259bde51bfbcc6ddef",
+      "step": 352,
+      "stored_sha256": "873ce0b30eba8f1d2a3ed66443eace1d383b3c717cee31259bde51bfbcc6ddef",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0384.jsonl",
+      "phase": "confirm",
+      "source_sha256": "4dc65f2ea4245c1764cb2a9719fd2d3996df3d4ea3404dc3e35bd5abb888ed3a",
+      "step": 384,
+      "stored_sha256": "4dc65f2ea4245c1764cb2a9719fd2d3996df3d4ea3404dc3e35bd5abb888ed3a",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0416.jsonl",
+      "phase": "confirm",
+      "source_sha256": "e5162c236107bc2fee96b92ae95239e76e555d842466934093095ce390d6302f",
+      "step": 416,
+      "stored_sha256": "e5162c236107bc2fee96b92ae95239e76e555d842466934093095ce390d6302f",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0448.jsonl",
+      "phase": "confirm",
+      "source_sha256": "13429a6865881500d83c625cdd8c04f54e7fe96ce118d7a5d25867bb79caa131",
+      "step": 448,
+      "stored_sha256": "13429a6865881500d83c625cdd8c04f54e7fe96ce118d7a5d25867bb79caa131",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0480.jsonl",
+      "phase": "confirm",
+      "source_sha256": "c97803f2b93329f1452366e36b98f3d8fe5ca92a933043a1394a175c7d3a2873",
+      "step": 480,
+      "stored_sha256": "c97803f2b93329f1452366e36b98f3d8fe5ca92a933043a1394a175c7d3a2873",
+      "world": 976
+    },
+    {
+      "archive": "confirm_world976.tar.gz",
+      "arm": "joint",
+      "member": "runs/confirm/world976_joint/eval_0512.jsonl",
+      "phase": "confirm",
+      "source_sha256": "7b51ca31a12d0ab97f7d708956dfd43161ae32b36fd299683a509185a4cb1299",
+      "step": 512,
+      "stored_sha256": "7b51ca31a12d0ab97f7d708956dfd43161ae32b36fd299683a509185a4cb1299",
+      "world": 976
+    }
+  ],
+  "results": [
+    {
+      "bytes": 1928133,
+      "file": "FEATURES.json",
+      "sha256": "129856d68df5fcd3ddd1d90e67020c0b397637b79ee510177261061a59cb33d4"
+    },
+    {
+      "bytes": 208209,
+      "file": "REPORT.json",
+      "sha256": "ec4e1429c40acc3df4e237e24112701170af3ead1246a3fb6e62d92c540c848f"
+    },
+    {
+      "bytes": 13581,
+      "file": "SUPPLEMENT.json",
+      "sha256": "e2b23284fccf983950b517ae171b8c2e8a78669985f34a3f0476d611f83b9b47"
+    },
+    {
+      "bytes": 188772,
+      "file": "PAIRED_FILES.jsonl",
+      "sha256": "4cb3cf70f2df04129aa48c66a12b3d4d3eadb99eb6a1d2f420587814a6f98223"
+    }
+  ],
+  "schema": "e4-v4-portable-data-manifest-v1",
+  "scope": "Local result addendum. Raw run archives are identified by content hashes but not included.",
+  "study": "E4-v4 explicit-operand curriculum"
+}

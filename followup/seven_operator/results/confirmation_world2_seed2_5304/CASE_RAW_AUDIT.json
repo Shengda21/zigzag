@@ -1,0 +1,51 @@
+{
+  "status": "PASS_FROZEN_CASE_RAW_RECONSTRUCTION",
+  "case": "r5304",
+  "scientific_case_pass": true,
+  "completed_component_evaluations": 5,
+  "training_lineage_and_update_counts": {
+    "results_clean_1_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_three_1/adapter",
+      "weights_sha256": "f3020bfca77df83d54eaf125f413e2a03b1c050153c07b203cf2a5a16cab12f5"
+    },
+    "results_clean_2_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_clean_1_1/adapter",
+      "weights_sha256": "a73e71a59c73c555628b63ad29fc6c1ff195ad252143c888714b1b7e0f3829da"
+    },
+    "results_exchange_1_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_three_1/adapter",
+      "weights_sha256": "3059cea1471c271fb29d1bb7c15b8e5c6634be65777a1730b4ee89a77ee89102"
+    },
+    "results_exchange_2_1": {
+      "updates": 602,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_exchange_1_1/adapter",
+      "weights_sha256": "3fe03c46d6c103da3afb3b236459f28bacbabaf50cad5f6568d3e08b43e97e80"
+    },
+    "results_identity_1": {
+      "updates": 602,
+      "parent": null,
+      "weights_sha256": "9143aeba70953ec03f265af1e0d509d96f2ebafe25925808ec96efbf394a63b7"
+    },
+    "results_primitive_1": {
+      "updates": 1204,
+      "parent": null,
+      "weights_sha256": "268e1940bbb9871acf192a0c30ba1f4c99853db0391a796050866df04b817a42"
+    },
+    "results_three_1": {
+      "updates": 1204,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_identity_1/adapter",
+      "weights_sha256": "4bcc095cc2dfbd2649fa6034a6419298e03ca3eb9c6e4b1dfb5715dc8238a366"
+    },
+    "results_two_1": {
+      "updates": 1204,
+      "parent": "/root/simods_next/confirmation_world2_seed2_5304/results_identity_1/adapter",
+      "weights_sha256": "b1fc8a7cee11a7677a64ec3f8f330c2b097e1fec1d9dc6f146a959f7777be84d"
+    }
+  },
+  "whole_programs_reconstructed": 234752,
+  "simultaneous_statistics_rebuilt": true,
+  "scope": "A raw reconstruction pass does not convert a failed scientific case into a success."
+}

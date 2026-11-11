@@ -1,0 +1,110 @@
+{
+  "status": "PASS_RAW_CATEGORICAL_POLICY_AND_LM_OUTPUTS",
+  "endpoints": {
+    "source_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "policy": 7316,
+        "primitive": 38196,
+        "residual": 47564
+      },
+      "new_neural_tokens_reconstructed": 1372160,
+      "inherited_initial_output": false
+    },
+    "two_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47564
+      },
+      "new_neural_tokens_reconstructed": 761024,
+      "inherited_initial_output": false
+    },
+    "three_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47762,
+        "primitive": 15060
+      },
+      "new_neural_tokens_reconstructed": 1005152,
+      "inherited_initial_output": false
+    },
+    "exchange1_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47762,
+        "primitive": 4397
+      },
+      "new_neural_tokens_reconstructed": 834544,
+      "inherited_initial_output": false
+    },
+    "clean1_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47762
+      },
+      "new_neural_tokens_reconstructed": 764192,
+      "inherited_initial_output": false
+    },
+    "exchange2_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47762,
+        "primitive": 4347
+      },
+      "new_neural_tokens_reconstructed": 833744,
+      "inherited_initial_output": false
+    },
+    "clean2_L1": {
+      "programs": 33536,
+      "logical_neural_calls": {
+        "policy": 135168,
+        "primitive": 101632,
+        "residual": 101632
+      },
+      "new_neural_calls_reconstructed": {
+        "residual": 47762
+      },
+      "new_neural_tokens_reconstructed": 764192,
+      "inherited_initial_output": false
+    }
+  },
+  "total_programs_reconstructed": 234752,
+  "scores_and_aggregate_rebuilt": true,
+  "policy_all_assignment_certificate_verified": true,
+  "categorical_probabilities_reconstructed_from_actual_weights": true,
+  "no_synthetic_policy_EOS": true,
+  "new_calls_and_tokens_verified_against_query_caches": true,
+  "cache_origin": {},
+  "no_oracle_action_state_stop_in_rollout": true,
+  "rollout_sha256": "d4d9d6c5ba6d80ecd7d9bf8e7db409e1da20ad168a043e95fc4b782f6087d99b"
+}

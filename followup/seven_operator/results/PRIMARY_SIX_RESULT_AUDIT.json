@@ -1,0 +1,661 @@
+{
+  "status": "PASS_SIX_REGISTERED_PRIMARY_TRAJECTORIES",
+  "external_cell_order": [
+    "ABCD",
+    "ABDE",
+    "ACEF",
+    "ABCDE",
+    "ACDEG",
+    "BCDEF"
+  ],
+  "cases": [
+    {
+      "case": "r5301",
+      "world": 1,
+      "replicate": 1,
+      "n": 256,
+      "order": "AB",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "99a99a792cd3037b0b36e089287d414f5c492c74a7e367cad823e0fadec25e38",
+      "minimum_paired_lower": 0.7460741427481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    },
+    {
+      "case": "r5302",
+      "world": 2,
+      "replicate": 1,
+      "n": 256,
+      "order": "BA",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          255,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 1
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "90046d9d3eba7613fa924e651916d3d0d18f4776d6c14fc8ec483aff5663635f",
+      "minimum_paired_lower": 0.7421678927481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    },
+    {
+      "case": "r5303",
+      "world": 1,
+      "replicate": 2,
+      "n": 256,
+      "order": "BA",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "bf45be0ffa26710f4d0105954aacf2e863a47ad8a34f4d1eef1cd60cf6cc4f48",
+      "minimum_paired_lower": 0.7460741427481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    },
+    {
+      "case": "r5304",
+      "world": 2,
+      "replicate": 2,
+      "n": 256,
+      "order": "AB",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "fedf93007ef53ded482e43977d49ad254ae85e842585756dac8f5c5e4219c0cd",
+      "minimum_paired_lower": 0.7460741427481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    },
+    {
+      "case": "r5305",
+      "world": 1,
+      "replicate": 3,
+      "n": 256,
+      "order": "AB",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "870448c58a7e99276dd74d44020d4573c12b7d876a770cbe01e680eaaedc5432",
+      "minimum_paired_lower": 0.7460741427481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    },
+    {
+      "case": "r5306",
+      "world": 2,
+      "replicate": 3,
+      "n": 256,
+      "order": "BA",
+      "counts": {
+        "source": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "two": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "three": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange1": [
+          0,
+          256,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean1": [
+          256,
+          255,
+          256,
+          256,
+          256,
+          256
+        ],
+        "exchange2": [
+          256,
+          0,
+          0,
+          0,
+          256,
+          256
+        ],
+        "clean2": [
+          256,
+          256,
+          256,
+          256,
+          256,
+          255
+        ]
+      },
+      "own_state_errors": {
+        "source": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "two": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "three": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "exchange1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean1": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 1
+        },
+        "exchange2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 0
+        },
+        "clean2": {
+          "n": 101632,
+          "primitive_errors": 0,
+          "coherence_errors": 3
+        }
+      },
+      "report": "CONFIRMATION_LOOK1.json",
+      "archive_sha256": "115b8cb1cb706ef9b049ca5c7b987e6fa0b9ce905a437fd2e746b82eb32df3c9",
+      "minimum_paired_lower": 0.7460741427481092,
+      "whole_programs_reconstructed": 234752,
+      "all_face_scores_match_prescribed_binary_levels": true,
+      "window_certified": true
+    }
+  ]
+}

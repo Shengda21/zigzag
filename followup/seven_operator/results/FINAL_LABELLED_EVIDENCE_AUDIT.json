@@ -1,0 +1,1285 @@
+{
+  "status": "PASS_COMPLETE_REGISTERED_EVIDENCE",
+  "independent_initializations": 6,
+  "assessments": 3,
+  "cases": [
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5301",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 752127283,
+      "verified_archive_sha256": "99a99a792cd3037b0b36e089287d414f5c492c74a7e367cad823e0fadec25e38"
+    },
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5302",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 255,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "three",
+          "task": "ABDE",
+          "successes": 255
+        }
+      ],
+      "min_paired_lower": 0.7421678927481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 616332180,
+      "verified_archive_sha256": "90046d9d3eba7613fa924e651916d3d0d18f4776d6c14fc8ec483aff5663635f"
+    },
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5303",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 613073642,
+      "verified_archive_sha256": "bf45be0ffa26710f4d0105954aacf2e863a47ad8a34f4d1eef1cd60cf6cc4f48"
+    },
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5304",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 615610130,
+      "verified_archive_sha256": "fedf93007ef53ded482e43977d49ad254ae85e842585756dac8f5c5e4219c0cd"
+    },
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5305",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 614362569,
+      "verified_archive_sha256": "870448c58a7e99276dd74d44020d4573c12b7d876a770cbe01e680eaaedc5432"
+    },
+    {
+      "assessment": "confirmation_factored_5300",
+      "case": "r5306",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 255,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 255
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "clean1",
+          "task": "ABDE",
+          "successes": 255
+        },
+        {
+          "endpoint": "clean2",
+          "task": "BCDEF",
+          "successes": 255
+        }
+      ],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 615121646,
+      "verified_archive_sha256": "115b8cb1cb706ef9b049ca5c7b987e6fa0b9ce905a437fd2e746b82eb32df3c9"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5401",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 255,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "clean1",
+          "task": "ABCDE",
+          "successes": 255
+        }
+      ],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 889638866,
+      "verified_archive_sha256": "750f1de81a6cdfabcd9b5a1848419f1889485600a5248eb0fcce4d0e470b7b8c"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5402",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 255,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 255,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 255,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "three",
+          "task": "ABDE",
+          "successes": 255
+        },
+        {
+          "endpoint": "three",
+          "task": "ACDEG",
+          "successes": 255
+        },
+        {
+          "endpoint": "clean2",
+          "task": "ACDEG",
+          "successes": 255
+        }
+      ],
+      "min_paired_lower": 0.7421678927481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 891894196,
+      "verified_archive_sha256": "18274e1becac133f85837630291d1f3ab6f6191b9a015d4e0134af9631ad1b7c"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5403",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 888907550,
+      "verified_archive_sha256": "b4caecb30049b8c007ed1f077dc8d9c346c88cc7711051d9b2a63d03bb1c8192"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5404",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 255,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "three",
+          "task": "ABCD",
+          "successes": 255
+        }
+      ],
+      "min_paired_lower": 0.7421678927481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 891145713,
+      "verified_archive_sha256": "434aa56b813a50e4ef9aeef378ad6d99d3d2fce695316729eb96ac1355d22257"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5405",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 889926117,
+      "verified_archive_sha256": "09168dc441bd20c826661581c91d017835d5d8368f7599f8851b9e503d656583"
+    },
+    {
+      "assessment": "confirmation_equal_dose_5400",
+      "case": "r5406",
+      "n": 256,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 256,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean1": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "A": {
+          "ABCD": 256,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 256,
+          "BCDEF": 256
+        },
+        "clean2": {
+          "ABCD": 256,
+          "ABDE": 256,
+          "ACEF": 256,
+          "ABCDE": 256,
+          "ACDEG": 256,
+          "BCDEF": 256
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.7460741427481092,
+      "raw_programs_reconstructed": 234752,
+      "verified_archive_bytes": 890687818,
+      "verified_archive_sha256": "040f644f7dabe6402626451e4de061ac5ecaf5beb92ec31be850cc64d7b8a96d"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5501",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9416113,
+      "verified_archive_sha256": "633343151ffaacdc9e38c5ca748470d5e3e84f8df57c134e5a34c99e4ae7f3c4"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5502",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 127,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [
+        {
+          "endpoint": "clean1",
+          "task": "ABDE",
+          "successes": 127
+        }
+      ],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9511247,
+      "verified_archive_sha256": "cfcec4b36c7da0ad919c64a41b4d6b49b1c225a76083105e61849ec10e9d7196"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5503",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9481908,
+      "verified_archive_sha256": "a46a8697d8e1dd0dc29740ccd245959fafc9241c07bf91206f7559908dc366c6"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5504",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9570850,
+      "verified_archive_sha256": "c6fb1a06e9d1ff52de11b1bfb1a6ecdf35858b6e047b308ac97cf506e5943997"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5505",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9482963,
+      "verified_archive_sha256": "dcc4d4f1eb56c510fb0f75dd7e4d58dba23032f3116a59e73ac5613adf5117c6"
+    },
+    {
+      "assessment": "word_family_evaluation_5500",
+      "case": "r5506",
+      "n": 128,
+      "counts": {
+        "source": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "two": {
+          "ABCD": 0,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 0,
+          "BCDEF": 0
+        },
+        "three": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "B": {
+          "ABCD": 0,
+          "ABDE": 128,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean1": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "A": {
+          "ABCD": 128,
+          "ABDE": 0,
+          "ACEF": 0,
+          "ABCDE": 0,
+          "ACDEG": 128,
+          "BCDEF": 128
+        },
+        "clean2": {
+          "ABCD": 128,
+          "ABDE": 128,
+          "ACEF": 128,
+          "ABCDE": 128,
+          "ACDEG": 128,
+          "BCDEF": 128
+        }
+      },
+      "imperfect_acquisition_or_clean": [],
+      "min_paired_lower": 0.656304993830335,
+      "raw_programs_reconstructed": 10752,
+      "verified_archive_bytes": 9547327,
+      "verified_archive_sha256": "1bf96ca1c677cfc77204cdb2f9577978e6636ff337746b1200b463c1a5fb269f"
+    }
+  ],
+  "total_whole_programs": 2881536,
+  "archive_scope": "Both intact paths checked against the recorded size for each independently hash-verified download.",
+  "reduction_scope": "12 actual lower-cell diagrams plus 6 inherited-weight behavioral evaluations."
+}

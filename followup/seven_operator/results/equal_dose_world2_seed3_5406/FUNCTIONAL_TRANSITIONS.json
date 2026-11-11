@@ -1,0 +1,4775 @@
+{
+  "case": "r5406",
+  "status": "DESCRIPTIVE_OWN_STATE_TRANSITIONS_RECONSTRUCTED",
+  "endpoints": {
+    "source": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:group:retained_active": {
+          "n": 17920,
+          "primitive_correct": 17920,
+          "residual_correction_correct": 17920,
+          "effective_correction_correct": 17920,
+          "coherent_transition_correct": 17920,
+          "original_rule_transition_correct": 0
+        },
+        "all:group:retained_active": {
+          "n": 36352,
+          "primitive_correct": 36352,
+          "residual_correction_correct": 36352,
+          "effective_correction_correct": 36352,
+          "coherent_transition_correct": 36352,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 0
+        },
+        "four:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 0
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 0
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 0
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 0
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 0
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 0
+        },
+        "five:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 0
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 0
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 0
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 0
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 0
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 0
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 0
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 0
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 0
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 0
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 0
+        }
+      },
+      "functional_reference": "identity correction"
+    },
+    "two": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:group:retained_active": {
+          "n": 17920,
+          "primitive_correct": 17920,
+          "residual_correction_correct": 17920,
+          "effective_correction_correct": 17920,
+          "coherent_transition_correct": 17920,
+          "original_rule_transition_correct": 0
+        },
+        "all:group:retained_active": {
+          "n": 36352,
+          "primitive_correct": 36352,
+          "residual_correction_correct": 36352,
+          "effective_correction_correct": 36352,
+          "coherent_transition_correct": 36352,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 0
+        },
+        "four:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 0
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 0
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 0
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 0
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 0
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 0
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 0
+        },
+        "five:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 0
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 0
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 0
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 0
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 0
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 0
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 0
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 0
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 0
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 0
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 0
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 0
+        }
+      },
+      "functional_reference": "identity correction"
+    },
+    "three": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:group:retained_active": {
+          "n": 17920,
+          "primitive_correct": 17920,
+          "residual_correction_correct": 17920,
+          "effective_correction_correct": 17920,
+          "coherent_transition_correct": 17920,
+          "original_rule_transition_correct": 17920
+        },
+        "all:group:retained_active": {
+          "n": 36352,
+          "primitive_correct": 36352,
+          "residual_correction_correct": 36352,
+          "effective_correction_correct": 36352,
+          "coherent_transition_correct": 36352,
+          "original_rule_transition_correct": 36352
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 790
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 748
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 1508
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 772
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 754
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 770
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 764
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 740
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 798
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 941
+        },
+        "five:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 616
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 609
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 298
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 598
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 314
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 316
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 315
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 305
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 307
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 297
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 306
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 311
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 313
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 309
+        }
+      },
+      "functional_reference": "original correction with the prescribed phase replacements"
+    },
+    "exchange1": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:group:changed": {
+          "n": 3584,
+          "primitive_correct": 3584,
+          "residual_correction_correct": 3584,
+          "effective_correction_correct": 3584,
+          "coherent_transition_correct": 3584,
+          "original_rule_transition_correct": 0
+        },
+        "all:group:changed": {
+          "n": 5370,
+          "primitive_correct": 5370,
+          "residual_correction_correct": 5370,
+          "effective_correction_correct": 5370,
+          "coherent_transition_correct": 5370,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:group:retained_active": {
+          "n": 14336,
+          "primitive_correct": 14336,
+          "residual_correction_correct": 14336,
+          "effective_correction_correct": 14336,
+          "coherent_transition_correct": 14336,
+          "original_rule_transition_correct": 14336
+        },
+        "all:group:retained_active": {
+          "n": 30982,
+          "primitive_correct": 30982,
+          "residual_correction_correct": 30982,
+          "effective_correction_correct": 30982,
+          "coherent_transition_correct": 30982,
+          "original_rule_transition_correct": 30982
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:group:retained_active": {
+          "n": 7728,
+          "primitive_correct": 7728,
+          "residual_correction_correct": 7728,
+          "effective_correction_correct": 7728,
+          "coherent_transition_correct": 7728,
+          "original_rule_transition_correct": 7728
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 790
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 0
+        },
+        "four:group:changed": {
+          "n": 1488,
+          "primitive_correct": 1488,
+          "residual_correction_correct": 1488,
+          "effective_correction_correct": 1488,
+          "coherent_transition_correct": 1488,
+          "original_rule_transition_correct": 0
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 1508
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 772
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 754
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 770
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 764
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 0
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 798
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 941
+        },
+        "five:group:retained_active": {
+          "n": 8918,
+          "primitive_correct": 8918,
+          "residual_correction_correct": 8918,
+          "effective_correction_correct": 8918,
+          "coherent_transition_correct": 8918,
+          "original_rule_transition_correct": 8918
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 616
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 609
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 0
+        },
+        "five:group:changed": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 0
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 598
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 314
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 316
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 315
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 305
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 307
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 297
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 306
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 311
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 313
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 309
+        }
+      },
+      "functional_reference": "original correction with the prescribed phase replacements"
+    },
+    "clean1": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:group:retained_active": {
+          "n": 17920,
+          "primitive_correct": 17920,
+          "residual_correction_correct": 17920,
+          "effective_correction_correct": 17920,
+          "coherent_transition_correct": 17920,
+          "original_rule_transition_correct": 17920
+        },
+        "all:group:retained_active": {
+          "n": 36352,
+          "primitive_correct": 36352,
+          "residual_correction_correct": 36352,
+          "effective_correction_correct": 36352,
+          "coherent_transition_correct": 36352,
+          "original_rule_transition_correct": 36352
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 790
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 748
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 1508
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 772
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 754
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 770
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 764
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 740
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 798
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 941
+        },
+        "five:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 616
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 609
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 298
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 598
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 314
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 316
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 315
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 305
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 307
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 297
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 306
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 311
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 313
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 309
+        }
+      },
+      "functional_reference": "original correction with the prescribed phase replacements"
+    },
+    "exchange2": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:group:retained_active": {
+          "n": 14336,
+          "primitive_correct": 14336,
+          "residual_correction_correct": 14336,
+          "effective_correction_correct": 14336,
+          "coherent_transition_correct": 14336,
+          "original_rule_transition_correct": 14336
+        },
+        "all:group:retained_active": {
+          "n": 30930,
+          "primitive_correct": 30930,
+          "residual_correction_correct": 30930,
+          "effective_correction_correct": 30930,
+          "coherent_transition_correct": 30930,
+          "original_rule_transition_correct": 30930
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:group:changed": {
+          "n": 3584,
+          "primitive_correct": 3584,
+          "residual_correction_correct": 3584,
+          "effective_correction_correct": 3584,
+          "coherent_transition_correct": 3584,
+          "original_rule_transition_correct": 0
+        },
+        "all:group:changed": {
+          "n": 5422,
+          "primitive_correct": 5422,
+          "residual_correction_correct": 5422,
+          "effective_correction_correct": 5422,
+          "coherent_transition_correct": 5422,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 0
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:group:retained_active": {
+          "n": 7680,
+          "primitive_correct": 7680,
+          "residual_correction_correct": 7680,
+          "effective_correction_correct": 7680,
+          "coherent_transition_correct": 7680,
+          "original_rule_transition_correct": 7680
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 790
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 748
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 1508
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 0
+        },
+        "four:group:changed": {
+          "n": 1536,
+          "primitive_correct": 1536,
+          "residual_correction_correct": 1536,
+          "effective_correction_correct": 1536,
+          "coherent_transition_correct": 1536,
+          "original_rule_transition_correct": 0
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 754
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 770
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 0
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 740
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 798
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 941
+        },
+        "five:group:retained_active": {
+          "n": 8914,
+          "primitive_correct": 8914,
+          "residual_correction_correct": 8914,
+          "effective_correction_correct": 8914,
+          "coherent_transition_correct": 8914,
+          "original_rule_transition_correct": 8914
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 616
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 609
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:group:changed": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 0
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 298
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 598
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 314
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 316
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 315
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 305
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 307
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 297
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 306
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 311
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 313
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 309
+        }
+      },
+      "functional_reference": "original correction with the prescribed phase replacements"
+    },
+    "clean2": {
+      "programs": 33536,
+      "formats": {
+        "primitive_requests": 101632,
+        "residual_requests": 101632
+      },
+      "by_operator": {
+        "A": {
+          "n": 15706,
+          "primitive_correct": 15706
+        },
+        "B": {
+          "n": 14695,
+          "primitive_correct": 14695
+        },
+        "C": {
+          "n": 15512,
+          "primitive_correct": 15512
+        },
+        "D": {
+          "n": 15529,
+          "primitive_correct": 15529
+        },
+        "E": {
+          "n": 15506,
+          "primitive_correct": 15506
+        },
+        "F": {
+          "n": 12856,
+          "primitive_correct": 12856
+        },
+        "G": {
+          "n": 11828,
+          "primitive_correct": 11828
+        }
+      },
+      "groups": {
+        "topology:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "topology:group:inactive": {
+          "n": 59136,
+          "primitive_correct": 59136,
+          "residual_correction_correct": 59136,
+          "effective_correction_correct": 59136,
+          "coherent_transition_correct": 59136,
+          "original_rule_transition_correct": 59136
+        },
+        "all:group:inactive": {
+          "n": 65280,
+          "primitive_correct": 65280,
+          "residual_correction_correct": 65280,
+          "effective_correction_correct": 65280,
+          "coherent_transition_correct": 65280,
+          "original_rule_transition_correct": 65280
+        },
+        "topology:ABC": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:group:retained_active": {
+          "n": 17920,
+          "primitive_correct": 17920,
+          "residual_correction_correct": 17920,
+          "effective_correction_correct": 17920,
+          "coherent_transition_correct": 17920,
+          "original_rule_transition_correct": 17920
+        },
+        "all:group:retained_active": {
+          "n": 36352,
+          "primitive_correct": 36352,
+          "residual_correction_correct": 36352,
+          "effective_correction_correct": 36352,
+          "coherent_transition_correct": 36352,
+          "original_rule_transition_correct": 36352
+        },
+        "topology:ABD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ABG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ACG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:ADG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:AFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCD": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BCG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:BFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDE": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CDG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:CFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEF": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DEG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:DFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "topology:EFG": {
+          "n": 512,
+          "primitive_correct": 512,
+          "residual_correction_correct": 512,
+          "effective_correction_correct": 512,
+          "coherent_transition_correct": 512,
+          "original_rule_transition_correct": 512
+        },
+        "four:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "four:BCD": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "four:ACD": {
+          "n": 790,
+          "primitive_correct": 790,
+          "residual_correction_correct": 790,
+          "effective_correction_correct": 790,
+          "coherent_transition_correct": 790,
+          "original_rule_transition_correct": 790
+        },
+        "four:ABC": {
+          "n": 748,
+          "primitive_correct": 748,
+          "residual_correction_correct": 748,
+          "effective_correction_correct": 748,
+          "coherent_transition_correct": 748,
+          "original_rule_transition_correct": 748
+        },
+        "four:ABD": {
+          "n": 1508,
+          "primitive_correct": 1508,
+          "residual_correction_correct": 1508,
+          "effective_correction_correct": 1508,
+          "coherent_transition_correct": 1508,
+          "original_rule_transition_correct": 1508
+        },
+        "four:ADE": {
+          "n": 786,
+          "primitive_correct": 786,
+          "residual_correction_correct": 786,
+          "effective_correction_correct": 786,
+          "coherent_transition_correct": 786,
+          "original_rule_transition_correct": 786
+        },
+        "four:ABE": {
+          "n": 772,
+          "primitive_correct": 772,
+          "residual_correction_correct": 772,
+          "effective_correction_correct": 772,
+          "coherent_transition_correct": 772,
+          "original_rule_transition_correct": 772
+        },
+        "four:BDE": {
+          "n": 754,
+          "primitive_correct": 754,
+          "residual_correction_correct": 754,
+          "effective_correction_correct": 754,
+          "coherent_transition_correct": 754,
+          "original_rule_transition_correct": 754
+        },
+        "four:ACE": {
+          "n": 770,
+          "primitive_correct": 770,
+          "residual_correction_correct": 770,
+          "effective_correction_correct": 770,
+          "coherent_transition_correct": 770,
+          "original_rule_transition_correct": 770
+        },
+        "four:ACF": {
+          "n": 764,
+          "primitive_correct": 764,
+          "residual_correction_correct": 764,
+          "effective_correction_correct": 764,
+          "coherent_transition_correct": 764,
+          "original_rule_transition_correct": 764
+        },
+        "four:AEF": {
+          "n": 740,
+          "primitive_correct": 740,
+          "residual_correction_correct": 740,
+          "effective_correction_correct": 740,
+          "coherent_transition_correct": 740,
+          "original_rule_transition_correct": 740
+        },
+        "four:CEF": {
+          "n": 798,
+          "primitive_correct": 798,
+          "residual_correction_correct": 798,
+          "effective_correction_correct": 798,
+          "coherent_transition_correct": 798,
+          "original_rule_transition_correct": 798
+        },
+        "five:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:group:inactive": {
+          "n": 3072,
+          "primitive_correct": 3072,
+          "residual_correction_correct": 3072,
+          "effective_correction_correct": 3072,
+          "coherent_transition_correct": 3072,
+          "original_rule_transition_correct": 3072
+        },
+        "five:CDE": {
+          "n": 941,
+          "primitive_correct": 941,
+          "residual_correction_correct": 941,
+          "effective_correction_correct": 941,
+          "coherent_transition_correct": 941,
+          "original_rule_transition_correct": 941
+        },
+        "five:group:retained_active": {
+          "n": 9216,
+          "primitive_correct": 9216,
+          "residual_correction_correct": 9216,
+          "effective_correction_correct": 9216,
+          "coherent_transition_correct": 9216,
+          "original_rule_transition_correct": 9216
+        },
+        "five:BCD": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:BCE": {
+          "n": 616,
+          "primitive_correct": 616,
+          "residual_correction_correct": 616,
+          "effective_correction_correct": 616,
+          "coherent_transition_correct": 616,
+          "original_rule_transition_correct": 616
+        },
+        "five:BDE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ADE": {
+          "n": 619,
+          "primitive_correct": 619,
+          "residual_correction_correct": 619,
+          "effective_correction_correct": 619,
+          "coherent_transition_correct": 619,
+          "original_rule_transition_correct": 619
+        },
+        "five:ACD": {
+          "n": 609,
+          "primitive_correct": 609,
+          "residual_correction_correct": 609,
+          "effective_correction_correct": 609,
+          "coherent_transition_correct": 609,
+          "original_rule_transition_correct": 609
+        },
+        "five:ABE": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:ABC": {
+          "n": 298,
+          "primitive_correct": 298,
+          "residual_correction_correct": 298,
+          "effective_correction_correct": 298,
+          "coherent_transition_correct": 298,
+          "original_rule_transition_correct": 298
+        },
+        "five:ACE": {
+          "n": 598,
+          "primitive_correct": 598,
+          "residual_correction_correct": 598,
+          "effective_correction_correct": 598,
+          "coherent_transition_correct": 598,
+          "original_rule_transition_correct": 598
+        },
+        "five:ABD": {
+          "n": 314,
+          "primitive_correct": 314,
+          "residual_correction_correct": 314,
+          "effective_correction_correct": 314,
+          "coherent_transition_correct": 314,
+          "original_rule_transition_correct": 314
+        },
+        "five:CDG": {
+          "n": 316,
+          "primitive_correct": 316,
+          "residual_correction_correct": 316,
+          "effective_correction_correct": 316,
+          "coherent_transition_correct": 316,
+          "original_rule_transition_correct": 316
+        },
+        "five:ACG": {
+          "n": 315,
+          "primitive_correct": 315,
+          "residual_correction_correct": 315,
+          "effective_correction_correct": 315,
+          "coherent_transition_correct": 315,
+          "original_rule_transition_correct": 315
+        },
+        "five:ADG": {
+          "n": 302,
+          "primitive_correct": 302,
+          "residual_correction_correct": 302,
+          "effective_correction_correct": 302,
+          "coherent_transition_correct": 302,
+          "original_rule_transition_correct": 302
+        },
+        "five:AEG": {
+          "n": 305,
+          "primitive_correct": 305,
+          "residual_correction_correct": 305,
+          "effective_correction_correct": 305,
+          "coherent_transition_correct": 305,
+          "original_rule_transition_correct": 305
+        },
+        "five:CEG": {
+          "n": 307,
+          "primitive_correct": 307,
+          "residual_correction_correct": 307,
+          "effective_correction_correct": 307,
+          "coherent_transition_correct": 307,
+          "original_rule_transition_correct": 307
+        },
+        "five:DEG": {
+          "n": 297,
+          "primitive_correct": 297,
+          "residual_correction_correct": 297,
+          "effective_correction_correct": 297,
+          "coherent_transition_correct": 297,
+          "original_rule_transition_correct": 297
+        },
+        "five:BEF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CEF": {
+          "n": 306,
+          "primitive_correct": 306,
+          "residual_correction_correct": 306,
+          "effective_correction_correct": 306,
+          "coherent_transition_correct": 306,
+          "original_rule_transition_correct": 306
+        },
+        "five:BCF": {
+          "n": 300,
+          "primitive_correct": 300,
+          "residual_correction_correct": 300,
+          "effective_correction_correct": 300,
+          "coherent_transition_correct": 300,
+          "original_rule_transition_correct": 300
+        },
+        "five:CDF": {
+          "n": 311,
+          "primitive_correct": 311,
+          "residual_correction_correct": 311,
+          "effective_correction_correct": 311,
+          "coherent_transition_correct": 311,
+          "original_rule_transition_correct": 311
+        },
+        "five:DEF": {
+          "n": 313,
+          "primitive_correct": 313,
+          "residual_correction_correct": 313,
+          "effective_correction_correct": 313,
+          "coherent_transition_correct": 313,
+          "original_rule_transition_correct": 313
+        },
+        "five:BDF": {
+          "n": 309,
+          "primitive_correct": 309,
+          "residual_correction_correct": 309,
+          "effective_correction_correct": 309,
+          "coherent_transition_correct": 309,
+          "original_rule_transition_correct": 309
+        }
+      },
+      "functional_reference": "original correction with the prescribed phase replacements"
+    }
+  },
+  "scope": "Steps and reused queries are correlated observations. No step-level confidence interval, new scientific gate, new query or relabelling of the original capability scores is introduced."
+}

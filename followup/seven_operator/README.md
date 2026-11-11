@@ -66,8 +66,10 @@ only the explicit output file.
 ## Frozen inputs, fitted weights, and raw outputs
 
 `runtime/` contains verbatim frozen code, case/registration manifests and
-protocols. `results/` holds small returned result snapshots. Separate archives hold the large JSONL banks, fitted weights, and raw token
-outputs. A public download location is currently unavailable.
+protocols. `results/` holds small returned result snapshots. The [trained weights release](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1) contains the fitted LoRA adapters
+and controller weights. See the [weight manifest](https://github.com/Shengda21/zigzag/releases/download/trained-weights-v1/weight-manifest.json) for the
+asset and path corresponding to each checkpoint. Separate archives hold the
+large JSONL banks and raw token outputs.
 `INPUT_ARCHIVES.json` and `RAW_ARCHIVES.json` identify their portable
 filenames, sizes, digests and workspace-relative source locations. The
 source-only tree needs these inputs restored before GPU training/inference.
@@ -140,8 +142,9 @@ models and frozen generator, rather than a population of training seeds.
 The numeric backbone is Qwen/Qwen2.5-1.5B-Instruct, revision
 `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`. Its weight digest is
 `dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee`.
-Public base weights are external; all learned task adapters are retained
-in the case archives. Point `SIMODS_BASE_MODEL` to that exact snapshot.
+Download the [base weights from Hugging Face](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/tree/989aa7980e4cf806f80c7fef2b1adb7bc71aa306) and point
+`SIMODS_BASE_MODEL` to that snapshot. The case archives also retain the
+learned task adapters.
 The observed environment is Python 3.12.3, PyTorch 2.9.1+cu128,
 Transformers 4.57.6, PEFT 0.21.2, NumPy 2.1.3, SciPy 1.18.1, and Accelerate
 1.15.0 on an RTX 6000D with 84 GB of memory. Per-case environment records are authoritative.

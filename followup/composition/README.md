@@ -19,4 +19,6 @@ summaries. See `SOURCE_MANIFEST.json` for the origin of each file.
 Restore each archive using its original member root under the indicated
 working-root subdirectory (the r4006/r4007 archives belong below
 `prospective_world_4004`). The complete archives contain the data and run
-records needed by their original analysis commands. The protocols record the stopping and program-length amendments. A public download location for the archives is currently unavailable.
+records needed by their original analysis commands. The protocols record the stopping and program-length amendments. The [trained weights release](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1) contains the saved adapters.
+Use the extraction roots in `ARCHIVES.json` to place the weights. The complete
+raw archives are stored separately.

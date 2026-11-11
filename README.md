@@ -7,8 +7,8 @@ evaluation results for *Zigzag Persistent Homology of Capability Complexes
 along Language-Model Training Trajectories*. The original analyses run from
 the per-item outputs in this repository. [Follow-up experiments](followup/README.md)
 cover explicit-operand and visible-state composition, exact chain checks,
-and three seven-operator assessments. The paper and the large follow-up
-archives are stored separately.
+and three seven-operator assessments. The [trained weights release](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1)
+provides the fitted adapters and controller parameters from these studies.
 
 ## 1. Layout
 
@@ -87,8 +87,10 @@ checkpoint is kept for the replication check (3749 of 4000 greedy completions an
 
 ## 5. Re-running the GPU experiments
 
-Model weights are not included. Qwen2.5-1.5B-Instruct, Qwen2.5-1.5B and the Pythia-1.4B checkpoints (`revision=step<N>`)
-are public on the Hugging Face Hub; the general reading-comprehension data of the cross-lingual experiment (Belebele,
+Download the public base models from Hugging Face: [Qwen2.5-1.5B-Instruct](https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/tree/989aa7980e4cf806f80c7fef2b1adb7bc71aa306),
+[Qwen2.5-1.5B](https://huggingface.co/Qwen/Qwen2.5-1.5B) and
+[Pythia-1.4B](https://huggingface.co/EleutherAI/pythia-1.4b) (`revision=step<N>`).
+The general reading-comprehension data of the cross-lingual experiment (Belebele,
 XQuAD; both CC BY-SA 4.0) are fetched by `crosslingual/download_general.py`. Run `python tools/gunzip_data.py` before training.
 
 * Forgetting experiment: `python complex_worlds/code/run_complex.py --spec RCN12_FORGET3 --world 635 --seed 1 --micro 16 --save-every 256 --eval-batch 256` (the queue used on the H800 is `code/queue_complex.py`, see `cloud/deploy_round4.py`); the X2 variant adds `--format raw --fewshot 3 --model <path to Qwen2.5-1.5B>`.
@@ -108,9 +110,17 @@ new runs without modification.
   the per-checkpoint summaries at 250-step resolution are included because the level-(ii) refinement check needs them).
 * Development runs (worlds 601–634, 701–704, 801–808) other than their specifications; their analyses are summarised in
   `docs/EXPLORATION_LOG_20260923.md` and the session reports.
-* The follow-up archive indexes identify the input banks, checkpoints, fitted
-  weights and raw predictions needed for full replay. The indexes contain
-  filenames and digests. A public download location is currently unavailable.
+* The [trained weights release](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1) contains the saved LoRA
+  adapters and controller weights. Find an archive or checkpoint in the
+  [weight manifest](https://github.com/Shengda21/zigzag/releases/download/trained-weights-v1/weight-manifest.json), and restore its weights into the
+  working root described in the study guide. The manifest lists the original
+  paths and SHA-256 digests.
+
+  ```sh
+  python followup/restore_weights.py --archive r5311_full.tar.gz --output /path/to/study
+  ```
+* The raw archive indexes identify the input banks and per-item predictions
+  needed for full replay. Those archives are stored separately.
 
 ## 7. Contributors and third-party assets
 
@@ -125,4 +135,5 @@ Qwen2.5 under the Qwen licence.
 
 仓库提供原始实验的逐题评测与复算脚本，以及后续实验的协议、代码和结果。
 七算子实验包含主确认、等步数对照和留出程序模式评测，共 18 组，全部通过预设判据。
-[后续实验指南](followup/README.md) 列出了各项复算命令及所需数据。大型原始归档另存，当前暂无公开下载地址。
+[后续实验指南](followup/README.md) 列出了复算命令和所需数据。
+[自训权重](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1) 可从 GitHub 下载。公开基座由原发布方提供，大型原始数据归档另存。

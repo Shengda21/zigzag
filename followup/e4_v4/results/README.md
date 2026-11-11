@@ -14,7 +14,8 @@ This directory contains the six-world confirmation results and the archive index
 
 The fixed step-512 external paired effect was +0.0716 (world-bootstrap 95% interval −0.1237 to +0.2832), so its predeclared effect criterion did not pass. The six primitive edge equivalence intervals passed. Neither fixed topology family met the predictive-utility criterion against both full-score controls. These are distinct criteria; the edge result does not rescue the failed external or utility criteria. See `SUPPLEMENT.json` for the exact estimates and `REPORT.json` for the frozen analysis.
 
-The eight large raw run archives, generated inputs, checkpoints and model states are stored separately. `DATA_MANIFEST.json` identifies them by basename, byte count and hash. The formal summary uses the original frozen exports. With the archives available locally, the following separate CPU route reconstructs those exports from the saved predictions:
+The [trained weights release](https://github.com/Shengda21/zigzag/releases/tag/trained-weights-v1) contains the saved pilot and
+confirmation adapters. The complete raw run archives are stored separately. `DATA_MANIFEST.json` identifies them by basename, byte count and hash. The formal summary uses the original frozen exports. With the archives available locally, the following separate CPU route reconstructs those exports from the saved predictions:
 
 ```sh
 python followup/e4_v4/results/rebuild_from_raw.py --archive-root /path/to/archives --output raw_reconstruction_audit.json

@@ -127,8 +127,15 @@ new runs without modification.
   ```sh
   python followup/restore_weights.py --archive r5311_full.tar.gz --output /path/to/study
   ```
-* The raw archive indexes identify the input banks and per-item predictions
-  needed for full replay. Those archives are stored separately.
+* The [raw archives release](https://github.com/Shengda21/zigzag/releases/tag/followup-raw-archives-v1)
+  contains the 79 original input and run archives. The
+  [archive manifest](https://github.com/Shengda21/zigzag/releases/download/followup-raw-archives-v1/raw-archive-manifest.json)
+  records the original filenames, SHA-256 digests and ordered parts.
+  The restore command assembles each archive and verifies its original digest.
+
+  ```sh
+  python followup/restore_raw_archives.py --archive r5311_full.tar.gz --output /path/to/archives
+  ```
 
 ## 7. Contributors and third-party assets
 

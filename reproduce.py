@@ -47,10 +47,10 @@ STEPS = {
                         "ZZ_PYTHIA_H0_OUT": str(RES / "pythia_h0_bars_55.json")}),
     "summary": (False, [PY, str(ROOT / "paper_scripts" / "summarise_forget3.py")], {}),
     "numbers": (False, [PY, str(ROOT / "paper_scripts" / "fill_pythia_numbers.py"),
-                        str(ROOT / "cloud_return_round5/analysis_r5/pythia_runs/pythia-1.4b.robust.json"),
+                        str(ROOT / "followup/global_endpoint_audit/pythia-1.4b.corrected.robust.json"),
                         str(ROOT / "paper_sec4/pythia_h0_bars_55.json"), str(RES / "pythia_numbers.tex")], {}),
     "figures": (False, [PY, str(ROOT / "paper_scripts" / "make_figures.py")],
-                {"ZZ_PYTHIA_ROBUST": str(ROOT / "cloud_return_round5/analysis_r5/pythia_runs/pythia-1.4b.robust.json"),
+                {"ZZ_PYTHIA_ROBUST": str(ROOT / "followup/global_endpoint_audit/pythia-1.4b.corrected.robust.json"),
                  "ZZ_PYTHIA_H0_JSON": str(ROOT / "paper_sec4/pythia_h0_bars_55.json")}),
 }
 ORDER = ["tests", "forget3", "forget3_x2", "grokking", "pythia55", "pythia33", "mv_counts", "theta_sweep", "grok_tier2", "pythia_h0_bars", "summary", "numbers", "figures"]

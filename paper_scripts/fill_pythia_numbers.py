@@ -3,16 +3,16 @@
 
   python fill_pythia_numbers.py <robust.json> <h0_bars.json> [<out.tex>]
 
-Defaults reproduce the round-4 (33-checkpoint) values; for round 5 pass the 55-checkpoint files.
+Defaults use the corrected 55-checkpoint Pythia reference and its H0 bars.
 """
 import json
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
-V5 = HERE.parent          # repository root (mirrors the zigzag_v5 layout)
-rob_path = Path(sys.argv[1]) if len(sys.argv) > 1 else V5 / 'cloud_return_round4' / 'analysis_r4' / 'pythia_runs' / 'pythia-1.4b.robust.json'
-hb_path = Path(sys.argv[2]) if len(sys.argv) > 2 else V5 / 'paper_sec4' / 'pythia_h0_bars.json'
+ROOT = HERE.parent
+rob_path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / 'followup/global_endpoint_audit/pythia-1.4b.corrected.robust.json'
+hb_path = Path(sys.argv[2]) if len(sys.argv) > 2 else ROOT / 'paper_sec4/pythia_h0_bars_55.json'
 out_path = Path(sys.argv[3]) if len(sys.argv) > 3 else HERE / 'pythia_numbers.tex'
 
 r = json.loads(rob_path.read_text(encoding='utf8'))

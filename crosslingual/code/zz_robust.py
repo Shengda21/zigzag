@@ -226,12 +226,16 @@ def make_classifier(cx):
 
 
 def e_tot(cx, masks_by_theta, order):
-    tot = 0.0
-    for th, masks in masks_by_theta.items():
-        seq = [masks[i] for i in order]
-        for k in (0, 1):
-            tot += float(cx.endpoints(seq, k=k, bridge='union').sum())
-    return tot / len(masks_by_theta)
+    """Count both endpoints of each interval once, including outer endpoints."""
+    total = 0
+    for masks in masks_by_theta.values():
+        sequence = [masks[i] for i in order]
+        for degree in (0, 1):
+            dimensions, arrows = cx.diagram(sequence, k=degree, bridge='union')
+            # Each interval contributes one more node dimension than arrow rank.
+            intervals = sum(dimensions) - sum(CW.rank(columns) for _, _, columns in arrows)
+            total += 2 * intervals
+    return total / len(masks_by_theta)
 
 
 def temporal_test(cx, masks_by_theta, n_perm, seed):

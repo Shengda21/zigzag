@@ -45,10 +45,18 @@ python verify_against_archived.py        # exact comparison with the shipped res
 python compare_replication.py            # H800 vs RTX 3090 agreement on Pythia checkpoint 76000
 ```
 
-All homology is computed exactly over F₂ (Gaussian elimination on bit vectors); zigzag barcodes use the rank formula on
-the run-length-compressed node sequence. Bootstrap (B = 1000) and permutation (1000) seeds are fixed, so
-`verify_against_archived.py` reports identity for its archived original-study outputs. The later analyses in `followup/`
-have separate commands and dependencies in `followup/README.md`; they are not run by `reproduce.py`.
+Homology is computed exactly over F₂, and zigzag barcodes use the rank
+formula on the run-length-compressed node sequence. Bootstrap and temporal
+permutation seeds are fixed. The temporal test counts the two endpoints of
+each interval once. The [endpoint audit](followup/global_endpoint_audit/REPORT.md)
+contains the corrected references for the six forgetting runs and the
+55-checkpoint Pythia run. For Pythia, the observed statistic is 53.1 and the
+permutation median is 167.1. All seven permutation p-values remain 1/1001.
+
+`verify_against_archived.py` uses the corrected references for those seven
+temporal tests. Where only a legacy temporal statistic is available, it
+compares the other archived fields and labels the legacy statistic. See the
+[follow-up guide](followup/README.md) for the separate reproduction commands.
 
 ## 3. Experiment and analysis guide
 

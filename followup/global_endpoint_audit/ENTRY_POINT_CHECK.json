@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "entry_point_fixtures": 4,
+  "corrected_records": 7,
+  "legacy_observed_null_median_and_p_reproduced": true,
+  "original_archives_modified": false
+}

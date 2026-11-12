@@ -1,11 +1,12 @@
 """Compare freshly computed results (results/) with the archived outputs shipped in the repository.
-All randomness is seeded (bootstrap seed 20260924/20260925, permutation seed +1), so the comparison is exact."""
+Compare temporal statistics against the corrected references where available."""
 from __future__ import annotations
 import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
 RES = ROOT / "results"
+ENDPOINT_AUDIT = ROOT / "followup/global_endpoint_audit"
 PAIRS = [
     ("forget3_confirm2_SFT", RES / "forget3_confirm2_SFT", ROOT / "cloud_return_round4/analysis_r4/forget3_confirm2_SFT"),
     ("forget3_confirm2_X2", RES / "forget3_confirm2_X2", ROOT / "cloud_return_round4/analysis_r4/forget3_confirm2_X2"),
@@ -27,8 +28,19 @@ def main():
                 print(f"{name}/{f.name}: no archived counterpart")
                 continue
             a, b = json.loads(f.read_text(encoding="utf8")), json.loads(g.read_text(encoding="utf8"))
-            diffs = [k for k in KEYS if k in a and k in b and a[k] != b[k]]
-            print(f"{name}/{f.name}: {'IDENTICAL on ' + ','.join(k for k in KEYS if k in a) if not diffs else 'DIFFERS in ' + ','.join(diffs)}")
+            corrected = ENDPOINT_AUDIT / f.name.replace(".robust.json", ".corrected.robust.json")
+            legacy_temporal = "temporal_S3" in a and "temporal_S3" in b
+            if name in {"forget3_confirm2_SFT", "pythia_runs_55"}:
+                reference = json.loads(corrected.read_text(encoding="utf8"))
+                b["temporal_S3"] = reference["temporal_S3"]
+                legacy_temporal = False
+            keys = [key for key in KEYS if key in a and key in b
+                    and (key != "temporal_S3" or not legacy_temporal)]
+            differences = [key for key in keys if a[key] != b[key]]
+            status = ("DIFFERS in " + ",".join(differences) if differences
+                      else "IDENTICAL on " + ",".join(keys))
+            note = " (archived temporal_S3 uses the legacy statistic)" if legacy_temporal else ""
+            print(f"{name}/{f.name}: {status}{note}")
     for name, new, old in [("pythia_h0_bars_55", RES / "pythia_h0_bars_55.json", ROOT / "paper_sec4/pythia_h0_bars_55.json")]:
         if new.exists():
             a, b = json.loads(new.read_text(encoding="utf8")), json.loads(old.read_text(encoding="utf8"))
